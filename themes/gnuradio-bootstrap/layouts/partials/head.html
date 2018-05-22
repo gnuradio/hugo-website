@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
+
+    {{ partial "base/metas" . }}
+
+    {{ partial "base/favicon" . }}
+    <link rel="icon" href="/assets/favicon.ico">
+
+    <link href={{ "/assets/css/bootstrap.min.css" | relURL }} rel="stylesheet">
+    <link href={{ "/assets/css/styles.css" | relURL }} rel="stylesheet">
+    <link href={{ "/assets/css/fontawesome-all.css" | relURL }} rel="stylesheet">
+  </head>
+  <body>
+    {{ partial "base/header" . }}

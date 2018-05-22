@@ -1,0 +1,95 @@
+  <div class="container-fluid marketing latest_news">
+    <div class="container marketing latest_news">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center gr_heading"><strong>Latest News</strong></h2>
+        </div>
+      </div>
+
+      <div class="row">
+          {{ range first 4 (where .Data.Pages "Type" "news").Reverse }}
+            <div class="col-lg-4 news_tile">
+              <div class="news_image">
+                <a href="{{ .URL }}">
+                  <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" width="220">
+                </a>
+              </div>
+              <div class="news_title">
+                <h3>{{ .Title }}</h3>
+              </div>
+              <div class="news_body">
+                  <p>{{ .Date.Format "2006-01-02" }}</p>
+              </div>
+            </div>
+         {{ end }}
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid marketing bg_gray">
+    <div class="container marketing bg_gray">
+        <h2 class="text-center gr_heading learn_more"><strong>Latest Blog</strong></h2>
+        {{ range $index, $element := first 4 (where .Data.Pages "Type" "blogs").Reverse }}
+        {{ if eq (mod $index 2) 0 }}
+
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+
+                {% if "external" in row.item.type %}
+                  <a href="{{ row['item'].url }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
+                {% else %}
+                  <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}" class="blog_link"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
+                {% endif %}
+
+                <h5>by {{ row.item.author }}</h5>
+                <p class="lead">{{ row.item.description }}</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <div class="vc_container">
+
+                  {% if "external" in row.item.type %}
+                    <a href="{{ row['item'].url }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
+                  {% else %}
+                    <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
+                  {% endif %}
+
+                </div>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+
+          {{ else }}
+
+            <div class="row featurette">
+              <div class="col-md-7">
+
+                {% if "external" in row.item.type %}
+                  <a href="{{ row['item'].url }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
+                {% else %}
+                  <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}" class="blog_link"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
+                {% endif %}
+
+                <h5>by {{ row.item.author }}</h5>
+                <p class="lead">{{ row.item.description }}</p>
+              </div>
+              <div class="col-md-5">
+                <div class="vc_container">
+
+                  {% if "external" in row.item.type %}
+                    <a href="{{ row['item'].url }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
+                  {% else %}
+                    <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
+                  {% endif %}
+
+                </div>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            {% endif %}
+
+        {{ end }}
+
+      {{ end }}
+    </div>
+  </div>

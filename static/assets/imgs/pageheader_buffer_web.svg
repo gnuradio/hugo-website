@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="82.9mm" width="156mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 554.25068 293.75389" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs>
+<marker id="a" refY="0" refX="0" orient="auto" overflow="visible">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="b" refY="0" refX="0" overflow="visible" orient="auto">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(-98.1 -74.1)">
+<g transform="translate(-1.01e3 -423)">
+<g transform="matrix(.786 0 0 .786 1.12e3 459)">
+<rect opacity=".5" stroke-dasharray="3.34786225, 6.69572451" transform="rotate(-60)" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="373" x="15.2" stroke-width="3.35" fill="#808080"/>
+<rect ry="6.7" rx="6.7" transform="rotate(-30)" height="94.7" width="70.3" stroke="#000" y="273" x="288" stroke-width="7.33" fill="#fff"/>
+<g fill="#808080" stroke="#000" stroke-width="3.35">
+<g>
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" y="50.3" x="473"/>
+<rect ry="6.7" rx="6.7" transform="rotate(30)" height="94.7" width="70.3" y="-236" x="523"/>
+<rect transform="rotate(60)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-508" x="423"/>
+<rect ry="6.7" rx="6.7" transform="rotate(90)" height="94.7" width="70.3" y="-694" x="200"/>
+<rect transform="rotate(120)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-743" x="-85.5"/>
+<rect ry="6.7" rx="6.7" transform="rotate(150)" height="94.7" width="70.3" y="-643" x="-358"/>
+</g>
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786224, 6.69572449" rx="6.7" transform="rotate(210)" height="94.7" width="70.3" y="-135" x="-593"/>
+<rect transform="scale(-1)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-421" x="-544"/>
+<rect opacity=".5" stroke-dasharray="3.34786225, 6.69572451" transform="rotate(240)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="138" x="-493"/>
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786224, 6.69572449" rx="6.7" transform="rotate(-90)" height="94.7" width="70.3" y="323" x="-271"/>
+</g>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="45px" line-height="108.00000429%" y="129.61566" x="116.70317" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="129.61566" x="116.70317">Producer</tspan></text>
+<path marker-end="url(#a)" d="m303 117h132" stroke="#000" stroke-width="5" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="45px" line-height="108.00000429%" y="395.02536" x="25.521273" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="395.02536" x="25.521273"><tspan y="395.02536" x="25.521273">Consumer</tspan></tspan></text>
+<path marker-end="url(#b)" d="m509 382h-254" stroke="#000" stroke-width="5" fill="none"/>
+</g>
+<g opacity=".6" transform="matrix(.279 0 0 .279 1.21e3 594)">
+<g transform="translate(0 21.2)">
+<g>
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="353.79077" x="12.857142">page 0</tspan></text>
+</g>
+<g transform="translate(233)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" fill="#000000"><tspan x="12.857142" y="353.79077">page 1</tspan></text>
+</g>
+<g transform="translate(-.551)">
+<g opacity=".55" transform="translate(466)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="353.79077" x="12.857142">page 0</tspan></text>
+</g>
+<g opacity=".55" transform="translate(698)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" fill="#000000"><tspan x="12.857142" y="353.79077">page 1</tspan></text>
+</g>
+</g>
+<rect opacity="1" fill-opacity=".789" rx="5" ry="5" height="81.1" width="251" stroke="#000" y="368" x="461" stroke-width="3" fill="#fff"/>
+</g>
+<g transform="translate(0 -174)">
+<g>
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" fill="#000000"><tspan x="12.857142" y="353.79077">page 0</tspan></text>
+</g>
+<g transform="translate(233)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="353.79077" x="12.857142">page 1</tspan></text>
+</g>
+<rect opacity="1" fill-opacity=".789" rx="5" ry="5" height="81.1" width="251" stroke="#000" y="368" x="206" stroke-width="3" fill="#fff"/>
+</g>
+<g transform="translate(0 216)">
+<g>
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="353.79077" x="12.857142">page 0</tspan></text>
+</g>
+<g transform="translate(233)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" fill="#000000"><tspan x="12.857142" y="353.79077">page 1</tspan></text>
+</g>
+<g transform="translate(-.551)">
+<g opacity=".55" transform="translate(466)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="353.79077" x="12.857142">page 0</tspan></text>
+</g>
+<g opacity=".55" transform="translate(698)">
+<rect opacity="1" rx="9.98" ry="13.7" height="125" width="229" stroke="#000" y="327" x="8.45" stroke-width="3.17" fill="#fff"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="353.79077" x="12.857142" font-family="Roboto" fill="#000000"><tspan x="12.857142" y="353.79077">page 1</tspan></text>
+</g>
+</g>
+<rect opacity="1" fill-opacity=".789" rx="5" ry="5" height="81.1" width="251" stroke="#000" y="368" x="251" stroke-width="3" fill="#fff"/>
+</g>
+</g>
+<image xlink:href="data:image/png;base64,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 " height="72.2" width="468" y="605" x="1.11e3" preserveAspectRatio="none"/>
+</g>
+</g>
+</svg>
