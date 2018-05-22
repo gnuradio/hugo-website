@@ -1,0 +1,11 @@
+{
+    "name": "gr-website-hugo",
+    "version": "1.0.0",
+    "description": "GNU Radio Website generator",
+    "main": "Gulpfile.js",
+    "author": "GNU Radio Project",
+    "license": "MIT",
+    "dependencies": {
+        "hugulp": ">2.0.0"
+    }
+}
