@@ -7,7 +7,7 @@
       </div>
 
       <div class="row">
-          {{ range first 4 (where .Data.Pages "Type" "news").Reverse }}
+          {{ range first 4 (where .Pages "Type" "news").Reverse }}
             <div class="col-lg-4 news_tile">
               <div class="news_image">
                 <a href="{{ .URL }}">
@@ -30,29 +30,27 @@
   <div class="container-fluid marketing bg_gray">
     <div class="container marketing bg_gray">
         <h2 class="text-center gr_heading learn_more"><strong>Latest Blog</strong></h2>
-        {{ range $index, $element := first 4 (where .Data.Pages "Type" "blogs").Reverse }}
+        {{ range $index, $element := first 4 (where .Pages "Type" "blogs").Reverse }}
         {{ if eq (mod $index 2) 0 }}
-
             <div class="row featurette">
-              <div class="col-md-7 order-md-2">
+                <div class="col-md-7 order-md-2">
+                {{ if (not (isset .Params "externalurl")) }}
+                  <a href="{{ $element.Permalink }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ $element.Title }} </h4></a>
+                {{ else }}
+                  <a href="{{ $element.externalurl }}" class="blog_link"><h4 class="featurette-heading">{{ $element.Title }} </h4></a>
+                {{ end }}
 
-                {% if "external" in row.item.type %}
-                  <a href="{{ row['item'].url }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
-                {% else %}
-                  <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}" class="blog_link"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
-                {% endif %}
-
-                <h5>by {{ row.item.author }}</h5>
-                <p class="lead">{{ row.item.description }}</p>
+                <h5>by {{ $element.Author }}</h5>
+                <p class="lead">{{ $element.Description }}</p>
               </div>
               <div class="col-md-5 order-md-1">
                 <div class="vc_container">
 
-                  {% if "external" in row.item.type %}
-                    <a href="{{ row['item'].url }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
-                  {% else %}
-                    <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
-                  {% endif %}
+                  {{ if (not (isset .Params "externalurl")) }}
+                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $element.Thumbnail }}"" alt="{{ $element.Title }}"></a>
+                  {{ else }}
+                    <a href="{{ $element.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $element.Thumbnail }}"" alt="{{ $element.Title }}"></a>
+                  {{ end }}
 
                 </div>
               </div>
@@ -64,32 +62,30 @@
             <div class="row featurette">
               <div class="col-md-7">
 
-                {% if "external" in row.item.type %}
-                  <a href="{{ row['item'].url }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
-                {% else %}
-                  <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}" class="blog_link"><h4 class="featurette-heading">{{ row.item.title }} </h4></a>
-                {% endif %}
+                {{ if (not (isset .Params "externalurl")) }}
+                  <a href="{{ $element.Permalink }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ $element.Title }} </h4></a>
+                {{ else }}
+                  <a href="{{ $element.externalurl }}" class="blog_link"><h4 class="featurette-heading">{{ $element.Title }} </h4></a>
+                {{ end }}
 
-                <h5>by {{ row.item.author }}</h5>
-                <p class="lead">{{ row.item.description }}</p>
+                <h5>by {{ $element.Author }}</h5>
+                <p class="lead">{{ $element.Description }}</p>
               </div>
               <div class="col-md-5">
                 <div class="vc_container">
 
-                  {% if "external" in row.item.type %}
-                    <a href="{{ row['item'].url }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
-                  {% else %}
-                    <a href="{{ url_for('get_blog', blogtitle=row['item'].full_title) }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ row.item.thumbnail }}"" alt="{{ row.item.title }}"></a>
-                  {% endif %}
+                  {{ if (not (isset .Params "externalurl")) }}
+                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $element.Thumbnail }}"" alt="{{ $element.Title }}"></a>
+                  {{ else }}
+                    <a href="{{ $element.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $element.thumbnail }}"" alt="{{ $element.title }}"></a>
+                  {{ end }}
 
                 </div>
               </div>
             </div>
             <hr class="featurette-divider">
-            {% endif %}
+            {{ end }}
 
         {{ end }}
-
-      {{ end }}
     </div>
   </div>
