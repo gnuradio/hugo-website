@@ -1,0 +1,45 @@
+{{ partial "head" . }}
+<div class="container-fluid bbheader">
+    <div class="about_header_img">
+        <div class="container">
+            <span class="bbtitle">{{ .Title }}</span>
+        </div>
+    </div>
+</div>
+<main role="main">
+    <div class="container-fluid marketing bg_gray">
+        <div class="container marketing bg_gray learn_more_padding">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <p>The GNU Radio Project is led by the following people:</p>
+                    <h2>Project &amp; Foundation Officers</h2>
+                    <p>
+                    {{ range .Site.Data.leads.officers }}
+                        <strong>{{ .title }}:</strong> {{ .name }}
+                        {{ if isset . "email"}}(<a href="mailto:{{ .email }}" target="_blank" rel="noopener">E-Mail</a>){{ end }}
+                        {{ if isset . "twitter"}}(<a href="https://twitter.com/{{ .twitter }}" target="_blank" rel="noopener">Twitter</a>){{ end }}
+                        {{ if isset . "website"}}(<a href="{{ .website }}" target="_blank" rel="noopener">Website</a>){{ end }}
+                    <br>
+                    {{ end }}
+                    </p>
+                    <h2>Packaging</h2>
+                    <p>
+                    {{ range .Site.Data.leads.packaging }}
+                    <strong>{{ .target }}:</strong> {{ .name }}<br>
+                    {{ end }}
+                    </p>
+                    <h2>Technical Advisors</h2>
+                    <p>Our technical advisors are people who have made significant contributions to the project and who continue to provide their time and resources in support of GNU Radio.</p>
+                    <ul>
+                        {{ range .Site.Data.leads.advisors }}
+                        <li>{{ .name }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ partial "subfoot" . }}
+</main>
+
+{{ partial "foot" .}}

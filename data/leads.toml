@@ -1,0 +1,63 @@
+[[officers]]
+    title = "Project Lead, Foundation President"
+    name = "Ben Hilburn"
+    email = "bhilburn@gnuradio.org"
+    twitter = "@bhilburn"
+    website = "http://hokietux.net/"
+[[officers]]
+    title = "Community Manager, PyBOMBS Maintainer, Foundation Officer"
+    name = "Martin Braun"
+    email = "mbraun@gnuradio.org"
+    twitter = "@braun_noise"
+[[officers]]
+    title = "GNU Radio Maintainer & Officer"
+    name = "Marcus Müller"
+    email = "mmueller@gnuradio.org"
+[[officers]]
+    title = "VOLK Maintainer & Officer"
+    name = "Nathan West"
+[[officers]]
+    title = "DevOps Admin & Officer"
+    name = "Andrej Rode"
+    email = "arode@gnuradio.org"
+    twitter = "@noc0lour"
+[[officers]]
+    title = "Officer"
+    name = "Bastian Bloessl"
+    twitter = "@bastibl"
+    website= "https://www.bastibl.net"
+[[officers]]
+    title = "Officer"
+    name = "Derek Kozel"
+[[officers]]
+    title = "Officer"
+    name = "Nate Temple"
+[[officers]]
+    title = "Officer"
+    name = "Philip Balister"
+[[officers]]
+    title = "Documentation, Wiki, CGRAN Maintainer & Officer"
+    name = "Marc Lichtman"
+[[officers]]
+    title = "GNU Radio in Education Advocate & Officer"
+    name = "Richard Prestage"
+
+[[packaging]]
+    target = "Debian/Ubuntu"
+    name = "Maitland Bottoms"
+[[packaging]]
+    target = "macOS"
+    name = "Michael Dickens"
+[[packaging]]
+    target = "Archlinux"
+    name = "Kyle Keen"
+[[packaging]]
+    target = "Gentoo"
+    name = "Rick Farina"
+
+[[advisors]]
+    name = "Jonathan Corgan"
+[[advisors]]
+    name = "Matt Ettus"
+[[advisors]]
+    name = "Tim O'Shea"

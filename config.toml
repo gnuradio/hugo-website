@@ -5,11 +5,18 @@ theme = "gnuradio-bootstrap"
 description = "GNU Radio Project"
 permalink = "https://www.gnuradio.org/"
 copyright = "The GNU Radio Foundation, Inc. All rights reserved."
+assetDir = "assets/"
 
 
 [params]
     navbarBgColorClass = "navbar-dark bg-dark"
     twitter = "gnuradio"
+
+[params.carousel]
+    enable = true
+
+[params.defaults]
+    imgurl = "imgs/fosphor.jpg"
 
 [menu]
   [[menu.main]]
