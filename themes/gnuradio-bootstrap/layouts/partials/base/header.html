@@ -2,7 +2,8 @@
     <div class="container">
 
         <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-            <img class="logo" src="{{ "assets/imgs/gnuradio_logo_glyphs_as_paths.svg" | relURL }}" alt="GNU Radio" width="" height="">
+            {{ $grlogo := resources.Get "imgs/gnuradio_logo_glyphs_as_paths.svg" }}
+            <img class="logo" src="{{ $grlogo.Permalink }}" alt="GNU Radio" width="" height="">
         </a>
 
   <button class="navbar-toggler"

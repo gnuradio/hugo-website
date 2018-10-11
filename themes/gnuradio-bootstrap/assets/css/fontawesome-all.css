@@ -2833,8 +2833,13 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: normal;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  {{ $fabrands400eot := resources.Get "webfonts/fa-brands-400.eot" }}
+  {{ $fabrands400woff2 := resources.Get "webfonts/fa-brands-400.woff2" }}
+  {{ $fabrands400woff := resources.Get "webfonts/fa-brands-400.woff" }}
+  {{ $fabrands400ttf := resources.Get "webfonts/fa-brands-400.ttf" }}
+  {{ $fabrands400svg := resources.Get "webfonts/fa-brands-400.svg" }}
+  src: url("{{ $fabrands400eot.Permalink }}");
+  src: url("{{ $fabrands400eot.Permalink }}#iefix") format("embedded-opentype"), url("{{ $fabrands400woff2.Permalink }}") format("woff2"), url("{{ $fabrands400woff.Permalink }}") format("woff"), url("{{ $fabrands400ttf.Permalink }}") format("truetype"), url("{{ $fabrands400svg.Permalink }}#fontawesome") format("svg"); }
 
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
@@ -2842,8 +2847,13 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  src: url("../webfonts/fa-regular-400.eot");
-  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  {{ $faregular400eot := resources.Get "webfonts/fa-regular-400.eot" }}
+  {{ $faregular400woff2 := resources.Get "webfonts/fa-regular-400.woff2" }}
+  {{ $faregular400woff := resources.Get "webfonts/fa-regular-400.woff" }}
+  {{ $faregular400ttf := resources.Get "webfonts/fa-regular-400.ttf" }}
+  {{ $faregular400svg := resources.Get "webfonts/fa-regular-400.svg" }}
+  src: url("{{ $faregular400eot.Permalink }}");
+  src: url("{{ $faregular400eot.Permalink }}#iefix") format("embedded-opentype"), url("{{ $faregular400woff2.Permalink }}") format("woff2"), url("{{ $faregular400woff.Permalink }}") format("woff"), url("{{ $faregular400ttf.Permalink }}") format("truetype"), url("{{ $faregular400svg.Permalink }}#fontawesome") format("svg"); }
 
 .far {
   font-family: 'Font Awesome 5 Free';
@@ -2852,9 +2862,13 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
-  src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
-
+  {{ $fasolid900eot := resources.Get "webfonts/fa-solid-900.eot" }}
+  {{ $fasolid900woff2 := resources.Get "webfonts/fa-solid-900.woff2" }}
+  {{ $fasolid900woff := resources.Get "webfonts/fa-solid-900.woff" }}
+  {{ $fasolid900ttf := resources.Get "webfonts/fa-solid-900.ttf" }}
+  {{ $fasolid900svg := resources.Get "webfonts/fa-solid-900.svg" }}
+  src: url("{{ $fasolid900eot.Permalink }}");
+  src: url("{{ $fasolid900eot.Permalink }}#iefix") format("embedded-opentype"), url("{{ $fasolid900woff2.Permalink }}") format("woff2"), url("{{ $fasolid900woff.Permalink }}") format("woff"), url("{{ $fasolid900ttf.Permalink }}") format("truetype"), url("{{ $fasolid900svg.Permalink }}#fontawesome") format("svg"); }
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';

@@ -1,7 +1,11 @@
 
-<script src="{{ "/assets/js/jquery-3.3.1.slim.min.js" | relURL }}"></script>
-<script src="{{ "/assets/js/popper.min.js" | relURL }}"></script>
-<script src="{{ "/assets/js/bootstrap.min.js" | relURL }}"></script>
+{{ $jquery := resources.Get "js/jquery-3.3.1.slim.min.js" | minify | fingerprint }}
+{{ $bootstrap := resources.Get "js/bootstrap.min.js" | minify | fingerprint }}
+{{ $popper := resources.Get "js/popper.min.js" | minify | fingerprint }}
+
+<script src="{{ $jquery.Permalink }}"></script>
+<script src="{{ $popper.Permalink | relURL }}"></script>
+<script src="{{ $bootstrap.Permalink | relURL }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
 
 <script>
