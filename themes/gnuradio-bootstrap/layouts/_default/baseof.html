@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    {{ partial "head" . }}
+    </head>
+    <body>
+        {{ partial "base/header" . }}
+        <!-- Title & Background image -->
+        {{ block "header" . }}
+        <div class="container-fluid bbheader">
+            <div class="about_header_img">
+                <div class="container">
+                    <span class="bbtitle">{{ .Title }}</span>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        <!-- Main Content -->
+        {{ block "main" . }}
+        {{ end }}
+        {{ block "footer" . }}
+        {{ end }}
+        {{ partial "foot" . }}
+    </body>
+</html>

@@ -73,7 +73,7 @@ code {
   left: 20px;
   top: 9px;
   {{ $btnicon := resources.Get "imgs/btn-icon.png"}}
-  background: url("{{ $btnicon.Permalink }}");
+  background: url("{{ $btnicon.RelPermalink }}");
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -94,11 +94,11 @@ code {
 }
 
 
-.gr_heading {
+.gr_heading h2 {
   font-weight: bold;
-line-height: 30px;
-color: #72706f;
-padding-bottom: 20px;
+  line-height: 30px;
+  color: #72706f;
+  padding-bottom: 20px;
 }
 
 
@@ -245,7 +245,7 @@ height: 325px;
     left: 20px;
     top: 9px;
     {{ $btnicon := resources.Get "imgs/btn-icon.png"}}
-    background: url("{{ $btnicon.Permalink }}");
+    background: url("{{ $btnicon.RelPermalink }}");
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -258,11 +258,11 @@ height: 325px;
     background: #ff6905;
     border-color: #ff6905;
     {{ $btniconhover := resources.Get "imgs/btn-icon-hover.png"}}
-    background: url("{{ $btniconhover.Permalink }}");
+    background: url("{{ $btniconhover.RelPermalink }}");
 }
 
 .btn-tiles:hover > .grbtnicon {
-background: url("{{ $btniconhover.Permalink }}");
+background: url("{{ $btniconhover.RelPermalink }}");
 }
 .btn-tiles-links {
 
@@ -624,7 +624,7 @@ text-decoration: none;
 
 .bbimg {
   {{ $bannerblog := resources.Get "imgs/banner_blog.jpg"}}
-  background: url("{{ $bannerblog.Permalink }}");
+  background: url("{{ $bannerblog.RelPermalink }}");
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -649,7 +649,7 @@ margin: auto;
 
 .events_img {
   {{ $bannerevents := resources.Get "imgs/banner_events.jpg"}}
-  background: url("{{ $bannerevents.Permalink }}");
+  background: url("{{ $bannerevents.RelPermalink }}");
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -660,7 +660,7 @@ margin: auto;
 
 .news_header_img {
   {{ $bannernews := resources.Get "imgs/banner_news.jpg"}}
-  background: url("{{ $bannernews.Permalink }}");
+  background: url("{{ $bannernews.RelPermalink }}");
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -670,7 +670,7 @@ margin: auto;
 .about_header_img {
 
   {{ $aboutheader := resources.Get "imgs/gnu.jpg"}}
-  background: url("{{ $aboutheader.Permalink }}");
+  background: url("{{ $aboutheader.RelPermalink }}");
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -689,6 +689,18 @@ margin: auto;
     font-weight: bold;
     line-height: 30px;
     width: 75%;
+}
+
+.about h2 {
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+  padding: 100px 60px 20px 60px;
+  border-bottom: #ff6905 6px solid;
+  font-weight: bold;
+  line-height: 30px;
+  width: 75%;
+  text-align: center
 }
 
 

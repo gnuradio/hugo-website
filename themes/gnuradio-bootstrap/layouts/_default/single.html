@@ -1,17 +1,8 @@
-{{ partial "head" . }}
-<div class="container-fluid bbheader">
-    <div class="about_header_img">
-        <div class="container">
-            <span class="bbtitle">{{ .Title }}</span>
-        </div>
-    </div>
-</div>
+{{ define "main" }}
 <main role="main">
     <div class="container-fluid marketing bg_gray">
         <div class="container marketing bg_gray learn_more_padding">
-
             <div class="row ">
-
                 <div class="col-lg-12">
                     {{ .Content }}
                 </div>
@@ -19,4 +10,4 @@
         </div>
     </div>
 </main>
-{{ partial "foot" . }}
+{{ end }}
