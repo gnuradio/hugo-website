@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-    {{ partial "head" . }}
+        {{ partial "head" . }}
+        {{ block "head" . }}
+        <!-- Extra head tags (e.g. for redirects) -->
+        {{ end }}
     </head>
     <body>
         {{ partial "base/header" . }}

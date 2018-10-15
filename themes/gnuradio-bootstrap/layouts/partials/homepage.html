@@ -19,8 +19,8 @@
             <div class="col-lg-4 news_tile">
               <div class="news_image">
                   <a href="{{ .URL }}">
-                  {{ $thumbnail := resources.Get .Params.thumbnail }}
-                  <img src="{{ $thumbnail.Permalink }}" alt={{ .Title }} width="220">
+                      {{ $thumbnail := (.Resources.GetMatch "thumbnail*") | default (resources.Get $.Site.Params.defaults.thumbnail) }}
+                  <img src="{{ $thumbnail.RelPermalink }}" alt={{ .Title }} width="220">
                 </a>
               </div>
               <div class="news_title">
@@ -39,7 +39,7 @@
   <div class="container-fluid marketing bg_gray">
     <div class="container marketing bg_gray">
         <h2 class="text-center gr_heading learn_more"><strong>Latest Blog</strong></h2>
-        {{ range $index, $element := first 4 (where .Pages "Type" "blogs").Reverse }}
+        {{ range $index, $element := first 4 (where .Pages "Type" "blog").Reverse }}
         {{ if eq (mod $index 2) 0 }}
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
@@ -49,17 +49,18 @@
                   <a href="{{ $element.Params.externalurl }}" class="blog_link"><h4 class="featurette-heading">{{ $element.Title }} </h4></a>
                 {{ end }}
 
+                  {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
+                  {{ printf "%s" $default_thumbnail }}
                 <h5>by {{ $element.Params.author }}</h5>
                 <p class="lead">{{ $element.Summary }}</p>
               </div>
               <div class="col-md-5 order-md-1">
-                <div class="vc_container">
-
-                  {{ $thumbnail := resources.Get .Params.thumbnail }}
+                  <div class="vc_container">
+                      {{ $thumbnail := $element.Resources.GetMatch "thumbnail*" | default (resources.Get $.Site.Params.defaults.thumbnail) }}
                   {{ if (not (isset .Params "externalurl")) }}
-                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.Permalink }}" alt="{{ $element.Title }}"></a>
+                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ $element.Title }}"></a>
                   {{ else }}
-                    <a href="{{ $element.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.Permalink }}" alt="{{ $element.Title }}"></a>
+                    <a href="{{ $element.Params.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ $element.Title }}"></a>
                   {{ end }}
 
                 </div>
@@ -84,11 +85,11 @@
               <div class="col-md-5">
                 <div class="vc_container">
 
-                  {{ $thumbnail := resources.Get .Params.thumbnail }}
+                    {{ $thumbnail := $element.Resources.GetMatch "thumbnail*" | default (resources.Get $.Site.Params.defaults.thumbnail) }}
                   {{ if (not (isset .Params "externalurl")) }}
-                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.Permalink }}" alt="{{ $element.Title }}"></a>
+                    <a href="{{ $element.Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ $element.Title }}"></a>
                   {{ else }}
-                    <a href="{{ $element.Params.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.Permalink }}" alt="{{ $element.title }}"></a>
+                    <a href="{{ $element.Params.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ $element.title }}"></a>
                   {{ end }}
 
                 </div>
