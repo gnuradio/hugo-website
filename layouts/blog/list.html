@@ -1,3 +1,12 @@
+{{ define "header" }}
+<div class="container-fluid bbheader">
+    <div class="bbimg">
+        <div class="container">
+            <span class="bbtitle">{{ .Title }}</span>
+        </div>
+    </div>
+</div>
+{{ end }}
 {{ define "main" }}
 <main role="main">
 
@@ -9,11 +18,8 @@
             {{ range .Pages }}
             <div class="row featurette">
                 <div class="col-md-7">
-                    {{ if isset .Params "externalurl" }}
-                    <a href="{{ .Params.externalurl }}" class="blog_link" target="_blank">
-                    {{ else }}
-                    <a href="{{ .RelPermalink }}" class="blog_link">
-                    {{ end }}
+                    {{ $url := .Params.externalurl | default .RelPermalink }}
+                    <a href="{{ $url }}" class="blog_link" target="_blank">
                         <h5 class="featurette-heading">{{ .Title }}</h5></a>
                     <h6>by {{ .Params.author }}</h6>
                     <p class="lead">{{ .Summary }}</p>
@@ -21,8 +27,8 @@
           <div class="col-md-5">
             <div class="vc_container">
                 <div class="img_container">
-                    {{ $img := resources.Get .Params.thumbnail | default $.Site.Data.defaults.imgurl }}
-                    <a href="{{ .Params.RelPermalink }}" target="_blank"><img class="featurette-image img-fluid mx-auto vc_image" src={{ $img.RelPermalink }} alt="{{ .Title }}" target="_blank"></a>
+                    {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get $.Site.Params.defaults.thumbnail) }}
+                    <a href="{{ $url }}" target="_blank"><img class="featurette-image img-fluid mx-auto vc_image" src={{ $thumbnail.RelPermalink }} alt="{{ .Title }}" target="_blank"></a>
 
                 </div>
                 <div class="badges-container">
