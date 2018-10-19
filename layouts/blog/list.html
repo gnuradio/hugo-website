@@ -27,7 +27,8 @@
           <div class="col-md-5">
             <div class="vc_container">
                 <div class="img_container">
-                    {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get $.Site.Params.defaults.thumbnail) }}
+                    {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" .Params.thumbnail)) }}
+                    {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get $default_thumbnail) }}
                     <a href="{{ $url }}" target="_blank"><img class="featurette-image img-fluid mx-auto vc_image" src={{ $thumbnail.RelPermalink }} alt="{{ .Title }}" target="_blank"></a>
 
                 </div>

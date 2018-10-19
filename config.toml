@@ -17,9 +17,11 @@ assetDir = "assets/"
 
 [params.defaults]
     imgurl = "imgs/fosphor.jpg"
+    thumbnail = "imgs/gr_web.svg"
 [params.thumbnails]
     default = "imgs/gr_web.svg"
     gsoc = "imgs/gsoc.png"
+    conference = "imgs/conference_web.svg"
 
 [menu]
   [[menu.main]]
