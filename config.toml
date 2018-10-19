@@ -22,6 +22,9 @@ assetDir = "assets/"
     default = "imgs/gr_web.svg"
     gsoc = "imgs/gsoc.png"
     conference = "imgs/conference_web.svg"
+    gr_release = "imgs/gr_release_web.svg"
+    volk_release = "imgs/volk_release_web.svg"
+    pybombs_release = "imgs/pybombs_release_web.svg"
 
 [menu]
   [[menu.main]]
