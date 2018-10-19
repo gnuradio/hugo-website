@@ -13,6 +13,12 @@ def handle_thumbnail(root, thumbnail):
         return "gsoc"
     elif thumbnail.endswith("conference_web.svg"):
         return "conference"
+    elif thumbnail.endswith("gr_release_web.svg"):
+        return "gr_release"
+    elif thumbnail.endswith("volk_release_web.svg"):
+        return "volk_release"
+    elif thumbnail.endswith("pybombs_release_web.svg"):
+        return "pybombs_release"
     else:
         extension = thumbnail.split(".")[-1]
         urlretrieve(
@@ -20,7 +26,7 @@ def handle_thumbnail(root, thumbnail):
             Path(root, "thumbnail." + extension))
         return None
 
-def convert_blog(directory):
+def convert(what, directory):
     for root, dirs, files in os.walk(directory):
         if "index.yml" in files:
             with open(Path(root, "index.yml"), "r") as f:
@@ -38,8 +44,8 @@ def convert_blog(directory):
                         metadata.get("url")))
                     new_file.write("sponsored: \"{}\"\n".format(
                         metadata.get("sponsored")))
-                    new_file.write("aliases: [\"blog/{}\"]\n".format(
-                        metadata.get("full_title")))
+                    new_file.write("aliases: [\"{}/{}\"]\n".format(
+                        what, metadata.get("full_title")))
                     new_file.write("---\n")
                     new_file.write("{}\n".format(
                         metadata.get("description")))
@@ -51,7 +57,6 @@ def convert_blog(directory):
                     article_text = article_file.read()
                 with open(Path(root, "index.md"), "w") as new_file:
                     new_file.write("---\n")
-                    new_file.write("---\n")
                     new_file.write("title: \"{}\"\n".format(
                         metadata.get("title")))
                     new_file.write("author: \"{}\"\n".format(
@@ -60,8 +65,8 @@ def convert_blog(directory):
                         metadata.get("date")))
                     new_file.write("sponsored: \"{}\"\n".format(
                         metadata.get("sponsored")))
-                    new_file.write("aliases: [\"blog/{}\"]\n".format(
-                        metadata.get("full_title")))
+                    new_file.write("aliases: [\"{}/{}\"]\n".format(
+                        what, metadata.get("full_title")))
                     thumbnail = handle_thumbnail(root, metadata.get("thumbnail"))
                     if thumbnail is not None:
                         new_file.write("thumbnail: \"{}\"\n".format(
@@ -70,6 +75,12 @@ def convert_blog(directory):
                     new_file.write(article_text)
                     new_file.truncate()
                 os.remove(Path(root, "index.yml"))
+
+def convert_blog(directory):
+    convert("blog", directory)
+
+def convert_news(directory):
+    convert("news", directory)
 
 
 def parse_args():
@@ -84,6 +95,8 @@ def main():
     args = parse_args()
     if args.type == "blog":
         convert_blog(args.directory)
+    elif args.type == "news":
+        convert_news(args.directory)
 
     return True
 
