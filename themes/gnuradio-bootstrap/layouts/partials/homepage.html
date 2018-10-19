@@ -15,7 +15,7 @@
       </div>
 
       <div class="row">
-          {{ range first 4 (where .Pages "Type" "news").Reverse }}
+          {{ range first 3 (where .Pages "Type" "news") }}
             <div class="col-lg-4 news_tile">
               <div class="news_image">
                   <a href="{{ .URL }}">
