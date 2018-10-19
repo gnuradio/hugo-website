@@ -40,7 +40,7 @@
   <div class="container-fluid marketing bg_gray">
     <div class="container marketing bg_gray">
         <h2 class="text-center gr_heading learn_more"><strong>Latest Blog</strong></h2>
-        {{ range $index, $element := first 4 (where .Pages "Type" "blog").Reverse }}
+        {{ range $index, $element := first 4 (where .Pages "Type" "blog") }}
         {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
         {{ if eq (mod $index 2) 0 }}
             <div class="row featurette">
