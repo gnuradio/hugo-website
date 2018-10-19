@@ -2,7 +2,6 @@
 title: "Website Update: Goodbye Wordpress!"
 author: "Andrej Rode"
 date: 2018-05-09T12:18:12+02:00
-thumbnail: "imgs/gr_web.svg"
 draft: false
 ---
 
