@@ -13,7 +13,12 @@
   </button>
   <div class="collapse navbar-collapse" id="gr-navbar">
       <ul class="nav navbar-nav mr-auto">
-          {{ $currentNode := . }} {{ range .Site.Menus.main }}
+          {{ $currentNode := . }}
+          {{/* I'm sure the Go pros will know how to do this non-pathetically */}}
+          {{ if eq .Section "grcon18" }}
+
+          {{ $menu := .Site.Menus.grcon18 }}
+          {{ range $menu }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dd_{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
@@ -32,6 +37,32 @@
               </a>
           </li>
           {{ end }}
+          {{ end }}{{/* end range */}}
+
+          {{ else }}
+
+          {{ $menu := .Site.Menus.main }}
+          {{ range $menu }}
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dd_{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+              <div class="dropdown-menu" aria-labelledby="dd_{{ .Identifier }}">
+                  {{ range .Children }}
+                  <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                  {{ end }}
+  </div>
+          </li>
+          {{ else }}
+          <li class="nav-item">
+              <a class="nav-link menu-item" href="{{.URL}}">
+                  {{ .Pre }}
+                  <span class="text-capitalize no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}">{{ .Name }}</span>
+                  {{ .Post }}
+              </a>
+          </li>
+          {{ end }}
+          {{ end }}{{/* end range */}}
+
           {{ end }}
       </ul>
   </div>

@@ -66,7 +66,7 @@ assetDir = "assets/"
   [[menu.main]]
     identifier = "events_grcon_18"
     name = "GNU Radio Conference 2018"
-    url = "/grcon-2018/"
+    url = "/grcon18/"
     parent = "events"
     weight = -100
 
@@ -81,3 +81,21 @@ assetDir = "assets/"
     name = "getting started"
     url = "/getting-started/"
     weight = -100
+
+  [[menu.grcon18]]
+    name = "GRCon2018"
+    url = "/grcon18/"
+    weight = -100
+
+  [[menu.grcon18]]
+    identifier = "content"
+    name = "Content"
+    url = "/grcon18/content"
+    weight = 0
+
+  [[menu.grcon18]]
+    identifier = "content_pres"
+    name = "Presentations"
+    url = "/grcon18/presentations"
+    parent = "content"
+    weight = 0
