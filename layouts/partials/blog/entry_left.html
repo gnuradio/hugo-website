@@ -8,7 +8,11 @@
         {{ end }}
 
         <h5>by {{ .Params.author }}</h5>
-        <p class="lead">{{ .Summary }}</p>
+        <div class="lead">{{ .Summary | plainify | safeHTML }}
+            {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}"> Read more...</a>
+            {{ end }}
+        </div>
     </div>
     <div class="col-md-5">
         <div class="vc_container">
