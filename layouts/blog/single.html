@@ -3,6 +3,17 @@
 <meta http-equiv="Refresh" content="5; url={{ .Params.externalurl }}">
 {{ end }}
 {{ end }}
+
+{{ define "header" }}
+<div class="container-fluid bbheader">
+    <div class="bbimg">
+        <div class="container">
+            <span class="bbtitle">{{ .Title }}</span>
+        </div>
+    </div>
+</div>
+{{ end }}
+
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid marketing bg_gray">
