@@ -4,9 +4,6 @@ author: "Andrej Rode"
 date: 2018-05-09T12:18:12+02:00
 draft: false
 ---
-
-# Website Update: Goodbye Wordpress!
-
 Today we switched over from a static dump of our old Wordpress instance to a new website based on markdown files and rendered by a custom flask application.
 <!--more-->
 
