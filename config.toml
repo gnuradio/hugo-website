@@ -6,6 +6,7 @@ description = "GNU Radio Project"
 permalink = "https://www.gnuradio.org/"
 copyright = "The GNU Radio Foundation, Inc. All rights reserved."
 assetDir = "assets/"
+summaryLength = 20
 
 
 [params]

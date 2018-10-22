@@ -1,0 +1,31 @@
+{{ define "header" }}
+<div class="container-fluid bbheader">
+    <div class="news_header_img">
+        <div class="container">
+            <span class="bbtitle">{{ .Title }}</span>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ define "main" }}
+<main role="main">
+
+    <div class="container-fluid marketing bg_gray">
+        <div class="container marketing bg_gray learn_more_padding">
+            <div class="row ">
+                <div class="offset-lg-1 col-lg-9">
+                    {{ range $index, $element := .Pages }}
+                    {{ $element.Scratch.Set "default_thumbnail" (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
+                    {{ if eq (mod $index 2) 0 }}
+                    {{ partial "news/entry_left.html" $element }}
+                    {{ else }}
+                    {{ partial "news/entry_right.html" $element }}
+                    {{ end }}
+                    <hr class="featurette-divider">
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

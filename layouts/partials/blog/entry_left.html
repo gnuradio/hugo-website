@@ -1,5 +1,6 @@
 <div class="row featurette">
-    <div class="col-md-7 order-md-2">
+    <div class="col-md-7">
+
         {{ if (not (isset .Params "externalurl")) }}
         <a href="{{ .Permalink }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ .Title }} </h4></a>
         {{ else }}
@@ -9,8 +10,9 @@
         <h5>by {{ .Params.author }}</h5>
         <p class="lead">{{ .Summary }}</p>
     </div>
-    <div class="col-md-5 order-md-1">
+    <div class="col-md-5">
         <div class="vc_container">
+
             {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get (.Scratch.Get "default_thumbnail")) }}
             {{ if (not (isset .Params "externalurl")) }}
             <a href="{{ .Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
