@@ -14,7 +14,7 @@
         <div class="container marketing bg_gray learn_more_padding">
             <div class="row ">
                 <div class="offset-lg-1 col-lg-9">
-                    {{ range $index, $element := .Pages }}
+                    {{ range $index, $element := .Paginator.Pages }}
                     {{ $element.Scratch.Set "default_thumbnail" (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
                     {{ if eq (mod $index 2) 0 }}
                     {{ partial "news/entry_left.html" $element }}
@@ -23,6 +23,7 @@
                     {{ end }}
                     <hr class="featurette-divider">
                     {{ end }}
+                    {{ template "_internal/pagination.html" . }}
                 </div>
             </div>
         </div>
