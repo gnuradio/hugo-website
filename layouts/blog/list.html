@@ -15,30 +15,13 @@
 
     <div class="row ">
         <div class="offset-lg-1 col-lg-9">
-            {{ range .Pages }}
-            <div class="row featurette">
-                <div class="col-md-7">
-                    {{ $url := .Params.externalurl | default .RelPermalink }}
-                    <a href="{{ $url }}" class="blog_link" target="_blank">
-                        <h5 class="featurette-heading">{{ .Title }}</h5></a>
-                    <h6>by {{ .Params.author }}</h6>
-                    <p class="lead">{{ .Summary }}</p>
-                </div>
-          <div class="col-md-5">
-            <div class="vc_container">
-                <div class="img_container">
-                    {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" .Params.thumbnail)) }}
-                    {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get $default_thumbnail) }}
-                    <a href="{{ $url }}" target="_blank"><img class="featurette-image img-fluid mx-auto vc_image" src={{ $thumbnail.RelPermalink }} alt="{{ .Title }}" target="_blank"></a>
-
-                </div>
-                <div class="badges-container">
-
-
-              </div>
-            </div>
-          </div>
-            </div>
+            {{ range $index, $element := .Pages }}
+            {{ $element.Scratch.Set "default_thumbnail" (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
+            {{ if eq (mod $index 2) 0 }}
+            {{ partial "blog/entry_left.html" $element }}
+            {{ else }}
+            {{ partial "blog/entry_right.html" $element }}
+            {{ end }}
             <hr class="featurette-divider">
             {{ end }}
       </div>
