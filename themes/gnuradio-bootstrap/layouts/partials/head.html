@@ -7,7 +7,7 @@
     <link rel="icon" href="/assets/favicon.ico">
 
     {{ $styles := resources.Get "css/style.scss" | resources.ExecuteAsTemplate "css/style.scss" . | toCSS |  minify | fingerprint }}
-    {{ $bootstrap := resources.Get "css/bootstrap.min.css" |  minify | fingerprint }}
+    {{ $bootstrap := resources.Get "css/bootstrap.css" |  minify | fingerprint }}
     {{ $fontawesome := resources.Get "css/fontawesome-all.css" | resources.ExecuteAsTemplate "css/fontawesome-all.css" . |  minify | fingerprint }}
     <link href={{ $bootstrap.Permalink }} rel="stylesheet">
     <link href={{ $styles.Permalink }} rel="stylesheet">
