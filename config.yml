@@ -7,6 +7,9 @@ permalink: 'https://www.gnuradio.org/'
 copyright: 'The GNU Radio Foundation, Inc. All rights reserved.'
 assetDir: assets/
 summaryLength: 20
+taxonomies:
+  tag: tags
+preserveTaxonomyNames: true
 params:
   navbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio

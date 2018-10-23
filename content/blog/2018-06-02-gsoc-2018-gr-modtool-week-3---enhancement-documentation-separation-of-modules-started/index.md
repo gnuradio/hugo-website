@@ -6,6 +6,7 @@ externalurl: "https://grmodtool.wordpress.com/2018/06/02/week-3-enhancement-docu
 sponsored: "0"
 aliases: ["blog/gsoc-2018-gr-modtool-week-3---enhancement-documentation-separation-of-modules-started"]
 thumbnail: "gsoc"
+tags: ["gsoc"]
 ---
 The first major pull request!
 <!--more-->

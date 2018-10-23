@@ -4,6 +4,7 @@ author: "Felix Wunsch"
 date: "2018-02-13"
 sponsored: "0"
 aliases: ["blog/getting-ready-gsoc-2018"]
+tags: [ "gsoc" ]
 ---
 
 # Getting ready for GSoC 2018
