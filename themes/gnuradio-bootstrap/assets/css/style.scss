@@ -56,13 +56,6 @@ code {
     height: auto;
 }
 
-.body_padding {
-  padding-top:60px;
-}
-
-
-
-
 
 .gr_button_icon {
   content: '';
@@ -440,12 +433,13 @@ font-weight: bold;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-
-
-
 .nav-item {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item:hover {
+  background-color: #72706f;
 }
 
 
@@ -469,17 +463,6 @@ a:active, a:hover {
     outline: 0;
 }
 
-
-
-.carousel-padding {
-  margin-top: 35px;
-}
-
-
-
-
-
-
 .learn_more_padding {
   padding-bottom: 3rem;
   padding-top: 1rem;
@@ -497,7 +480,6 @@ a:active, a:hover {
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   color: #5a5a5a;
 }
 
@@ -549,8 +531,13 @@ body {
 /* Featurettes
 ------------------------- */
 
+.featurette {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5em 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -558,8 +545,6 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
-
-
 }
 
 
@@ -576,6 +561,7 @@ body {
 
   .featurette-heading {
     font-size: 40px;
+    font-weight: bold;
   }
 }
 
@@ -602,15 +588,30 @@ text-decoration: none;
 text-decoration: none;
 }
 
+.dont-break-out {
 
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
 
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 
+}
 
-
-
-
-
+.gr_article {
+  @extend .dont-break-out;
+  padding-left: 8.3333%;
+}
 
 /*  blog page
 ----------------------------------------------------------*/
@@ -622,62 +623,81 @@ text-decoration: none;
   height: 250px;
 }
 
-.bbimg {
-  {{ $bannerblog := resources.Get "imgs/banner_blog.jpg"}}
-  background: url("{{ $bannerblog.RelPermalink }}");
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    height: 250px;
-    width: 100%;
-}
 .bbheader {
   padding-right: 0px;
-padding-left: 0px;
+  padding-left: 0px;
+  position: relative;
+  height: 14em;
+  width: 100%;
+  background-color: #f2f1f1;
+  padding-bottom: 1.5rem;
 }
 
 .bbtitle {
   color: #fff;
-font-size: 3rem;
-font-weight: 500;
-position: relative;
-top: 100px;
-bottom: auto;
-margin: auto;
+  font-size: 1.9em;
+  font-weight: bold;
+  position: relative;
+  top: 2em;
+  padding-left: 8.333333%;
+  display:block;
+  font-family: 'Montserrat', sans-serif;
 }
 
+.header_text,
+.events_img,
+.blog_header_img,
+.about_header_img,
+.news_header_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -1em;
+}
+
+.blog_header_img {
+  {{ $bannerblog := resources.Get "imgs/banner_blog.jpg"}}
+  background: url("{{ $bannerblog.RelPermalink }}");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+}
 
 .events_img {
   {{ $bannerevents := resources.Get "imgs/banner_events.jpg"}}
   background: url("{{ $bannerevents.RelPermalink }}");
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    height: 250px;
-    width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
 }
 
 
 .news_header_img {
   {{ $bannernews := resources.Get "imgs/banner_news.jpg"}}
   background: url("{{ $bannernews.RelPermalink }}");
-    background-repeat: no-repeat;
+  filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    background-size: cover;
-    height: 250px;
-    width: 100%;
 }
-.about_header_img {
 
+.about_header_img {
   {{ $aboutheader := resources.Get "imgs/gnu.jpg"}}
   background: url("{{ $aboutheader.RelPermalink }}");
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    height: 250px;
+  filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
+
+.header_text{
+  color: #fff;
+  z-index: 10;
+  position: relative;
+}
 
 .about_title {
 

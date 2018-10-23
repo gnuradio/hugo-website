@@ -6,10 +6,9 @@
 
 {{ define "header" }}
 <div class="container-fluid bbheader">
-    <div class="bbimg">
-        <div class="container">
-            <span class="bbtitle">{{ .Title }}</span>
-        </div>
+    <div class="blog_header_img"></div>
+    <div class="container header_text">
+        <span class="bbtitle">{{ .Title }}</span>
     </div>
 </div>
 {{ end }}
@@ -18,7 +17,7 @@
 <main role="main">
     <div class="container-fluid marketing bg_gray">
         <div class="container marketing bg_gray learn_more_padding">
-            <div class="row ">
+            <div class="row gr_article">
                 <div class="col-lg-12">
                     {{ if isset .Params "externalurl" }}
                     <p>You are redirected to <a href="{{ .Params.externalurl }}">{{ .Params.externalurl }}</a> to view this external content.</p>
