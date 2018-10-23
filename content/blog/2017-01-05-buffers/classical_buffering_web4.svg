@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg11878" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="178mm" width="205mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 726.2489 631.39682" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<defs id="defs11880">
+<marker id="marker14228" refY="0" refX="0" overflow="visible" orient="auto">
+<path id="path14230" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<linearGradient id="linearGradient14000">
+<stop id="stop14002" stop-color="#fff" offset="0"/>
+<stop id="stop14004" stop-color="#999" offset="1"/>
+</linearGradient>
+<marker id="marker13918" refY="0" refX="0" overflow="visible" orient="auto">
+<path id="path13920" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="Arrow1Mend" refY="0" refX="0" orient="auto" overflow="visible">
+<path id="path7576" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<linearGradient id="linearGradient14006" y2="355" xlink:href="#linearGradient14000" gradientUnits="userSpaceOnUse" x2="150" gradientTransform="translate(.128 16)" y1="355" x1="99"/>
+<linearGradient id="linearGradient14016" y2="355" xlink:href="#linearGradient14000" gradientUnits="userSpaceOnUse" x2="150" gradientTransform="translate(-744 16)" y1="355" x1="99"/>
+</defs>
+<metadata id="metadata11883">
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g id="layer1" transform="translate(-8.92 -191)">
+<flowRoot id="flowRoot12428" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="22.5px" line-height="108.00000429%" font-family="&apos;DejaVu Sans&apos;" fill="#000000"><flowRegion id="flowRegion12430"><rect id="rect12432" height="253" width="224" y="198" x="48.5"/></flowRegion><flowPara id="flowPara12434"/></flowRoot>
+<flowRoot id="flowRoot12436" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="219px" line-height="108.00000429%" font-family="&apos;DejaVu Sans&apos;" fill="#000000"><flowRegion id="flowRegion12438"><rect id="rect12440" y="206" width="206" x="60.6" height="242"/></flowRegion><flowPara id="flowPara12442">Prdiaadafaf</flowPara></flowRoot>
+<g id="g12477" transform="translate(-.0000299)">
+<path id="path12471" d="m239 612a195 120 0 0 1 275 4.67 195 120 0 0 1 -6.67 170 195 120 0 0 1 -275 -3.57 195 120 0 0 1 4.89 -170" stroke="#000" stroke-width="5" fill="#e6e6e6"/>
+<text id="text12473" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="45px" line-height="108.00000429%" y="632.13873" x="257.41589" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan id="tspan12475" y="632.13873" x="257.41589">Buffer Pool</tspan></text>
+</g>
+<g stroke="#000" stroke-width="3.35" fill="#fff">
+<rect id="rect12516" rx="6.7" ry="6.7" height="94.7" width="70.3" y="654" x="301"/>
+<rect id="rect12518" rx="6.7" ry="6.7" height="94.7" width="70.3" y="672" x="260"/>
+<rect id="rect12520" rx="6.7" ry="6.7" height="94.7" width="70.3" y="678" x="322"/>
+<rect id="rect12522" rx="6.7" ry="6.7" height="94.7" width="70.3" y="642" x="384"/>
+<rect id="rect12524" rx="6.7" ry="6.7" height="94.7" width="70.3" y="660" x="404"/>
+<rect id="rect12526" rx="6.7" ry="6.7" height="94.7" width="70.3" y="636" x="342"/>
+<rect id="rect12528" rx="6.7" ry="6.7" height="94.7" width="70.3" y="666" x="363"/>
+<rect id="rect12530" rx="6.7" ry="6.7" height="94.7" width="70.3" y="648" x="280"/>
+</g>
+<g id="g12452" transform="translate(-12.8)">
+<rect id="rect12426" height="269" width="240" stroke="#000" y="194" x="24.2" stroke-width="5" fill="#e6e6e6"/>
+<flowRoot id="flowRoot12444" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" transform="translate(-.451)" line-height="108.00000429%" font-family="Roboto" fill="#000000"><flowRegion id="flowRegion12446"><rect id="rect12448" height="247" width="223" y="203" x="51.1"/></flowRegion><flowPara id="flowPara12450">Producer </flowPara></flowRoot>
+</g>
+<path id="path12532" marker-end="url(#Arrow1Mend)" d="m240 709c-223-84-128-275-128-275" stroke="#000" stroke-width="5" fill="none"/>
+<g>
+<rect id="rect13026" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="329" x="96.5" stroke-width="3.35" fill="url(#linearGradient14006)"/>
+<text id="text13892" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="274.54474" x="46.467018" font-family="Roboto" fill="#000000"><tspan id="tspan13894" x="46.467018" y="274.54474"/></text>
+<text id="text13896" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="527.08289" x="99.096474" font-family="Roboto" fill="#000000"><tspan id="tspan13898" x="99.096474" y="527.08289">Fetch Free Buffer</tspan><tspan id="tspan13900" x="99.096474" y="560.83289">from Pool</tspan></text>
+<rect id="rect13902" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="313" x="557" stroke-width="3.35" fill="#fff"/>
+</g>
+<g id="g12459" transform="translate(450)">
+<rect id="rect12461" height="269" width="240" stroke="#000" y="194" x="42.4" stroke-width="5" fill="#e6e6e6"/>
+<flowRoot id="flowRoot12463" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" transform="translate(6.84)" line-height="108.00000429%" font-family="Roboto" fill="#000000"><flowRegion id="flowRegion12465"><rect id="rect12467" height="247" width="223" y="203" x="51.1"/></flowRegion><flowPara id="flowPara12469">Consumer</flowPara></flowRoot>
+</g>
+<path id="path13910" marker-end="url(#marker13918)" d="m176 357c122-22.4 269-26 386 0" stroke="#000" stroke-width="5" fill="none"/>
+<g font-size="31.2px" font-family="Roboto" font-weight="bold" fill="#000000">
+<text id="text13958" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="108.00000429%" y="371.34097" x="268.58502"><tspan id="tspan13960" x="268.58502" y="371.34097">Call Consumer</tspan><tspan id="tspan13962" x="268.58502" y="405.09097">Function with</tspan><tspan id="tspan13964" x="268.58502" y="438.84097">Buffer handle</tspan></text>
+<text id="text14120" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="108.00000429%" y="278.58536" x="18.182747"><tspan id="tspan14122" x="18.182747" y="278.58536">Fill Buffer with</tspan><tspan id="tspan14124" x="18.182747" y="312.33536">Data</tspan></text>
+<text id="text14126" style="word-spacing:0px;letter-spacing:0px" line-height="108.00000429%" y="278.58536" x="505.07626" xml:space="preserve"><tspan id="tspan14130" y="278.58536" x="505.07626">Use data from</tspan><tspan id="tspan14134" y="312.33536" x="505.07626">Buffer</tspan></text>
+</g>
+<path id="path14226" marker-end="url(#marker14228)" d="m612 416c98 218-104 285-104 285" stroke="#000" stroke-width="5" fill="none"/>
+<g>
+<rect id="rect14014" transform="scale(-1,1)" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="329" x="-648" stroke-width="3.35" fill="url(#linearGradient14016)"/>
+<text id="text15342" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="527.08289" x="444.81076" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan id="tspan15346" y="527.08289" x="444.81076">Return Buffer</tspan><tspan id="tspan15350" y="560.83289" x="444.81076">to Pool</tspan></text>
+<g stroke="#000" stroke-width="3.35">
+<rect id="rect15352" rx="6.7" ry="6.7" height="94.7" width="70.3" y="572" x="55.9" fill="#fff"/>
+<rect id="rect15354" rx="6.7" ry="6.7" height="94.7" width="70.3" y="248" x="330" fill="#999"/>
+<rect id="rect15356" rx="6.7" ry="6.7" height="94.7" width="70.3" y="572" x="599" fill="#fff"/>
+</g>
+</g>
+</g>
+</svg>

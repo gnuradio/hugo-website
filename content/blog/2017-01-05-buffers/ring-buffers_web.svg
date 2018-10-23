@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="228mm" width="189mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 668.03747 808.11947">
+<defs>
+<marker id="a" refY="0" refX="0" overflow="visible" orient="auto">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="b" refY="0" refX="0" orient="auto" overflow="visible">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="c" refY="0" refX="0" overflow="visible" orient="auto">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="d" refY="0" refX="0" orient="auto" overflow="visible">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(-27.4 -48.6)">
+<g stroke="#000" stroke-width="3.35">
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786225, 6.69572451" rx="6.7" transform="rotate(-60)" height="94.7" width="70.3" y="373" x="15.2" fill="#808080"/>
+<rect opacity=".5" stroke-dasharray="3.34786225, 6.69572451" transform="rotate(-30)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="273" x="288" fill="#808080"/>
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" y="50.3" x="473" fill="#fff"/>
+</g>
+<g fill="#808080" stroke="#000" stroke-width="3.35">
+<g>
+<rect transform="rotate(30)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-236" x="523"/>
+<rect ry="6.7" rx="6.7" transform="rotate(60)" height="94.7" width="70.3" y="-508" x="423"/>
+<rect transform="rotate(90)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-694" x="200"/>
+<rect ry="6.7" rx="6.7" transform="rotate(120)" height="94.7" width="70.3" y="-743" x="-85.5"/>
+<rect transform="rotate(150)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-643" x="-358"/>
+<rect ry="6.7" rx="6.7" transform="scale(-1)" height="94.7" width="70.3" y="-421" x="-544"/>
+</g>
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786225, 6.69572451" rx="6.7" transform="rotate(240)" height="94.7" width="70.3" y="138" x="-493"/>
+<rect transform="rotate(210)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-135" x="-593"/>
+<rect opacity=".5" stroke-dasharray="3.34786224, 6.69572449" transform="rotate(-90)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="323" x="-271"/>
+</g>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="99.311081" x="116.70317" font-family="Roboto" fill="#000000"><tspan x="116.70317" y="99.311081">Producer</tspan></text>
+<path marker-end="url(#d)" d="m303 86.3h191" stroke="#000" stroke-width="5" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="395.02536" x="25.521273" font-family="Roboto" fill="#000000"><tspan x="25.521273" y="395.02536"><tspan y="395.02536" x="25.521273">Consumer</tspan></tspan></text>
+<path marker-end="url(#c)" d="m446 382h-191" stroke="#000" stroke-width="5" fill="none"/>
+<g transform="translate(0 434)">
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786225, 6.69572451" rx="6.7" transform="rotate(-60)" height="94.7" width="70.3" stroke="#000" y="373" x="15.2" stroke-width="3.35" fill="#808080"/>
+<rect transform="rotate(-30)" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="273" x="288" stroke-width="3.35" fill="#fff"/>
+<g fill="#808080" stroke="#000" stroke-width="3.35">
+<g>
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" y="50.3" x="473"/>
+<rect transform="rotate(30)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-236" x="523"/>
+<rect ry="6.7" rx="6.7" transform="rotate(60)" height="94.7" width="70.3" y="-508" x="423"/>
+<rect transform="rotate(90)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-694" x="200"/>
+<rect ry="6.7" rx="6.7" transform="rotate(120)" height="94.7" width="70.3" y="-743" x="-85.5"/>
+<rect transform="rotate(150)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-643" x="-358"/>
+</g>
+<rect opacity=".5" stroke-dasharray="3.34786224, 6.69572449" transform="rotate(210)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="-135" x="-593"/>
+<rect ry="6.7" rx="6.7" transform="scale(-1)" height="94.7" width="70.3" y="-421" x="-544"/>
+<rect opacity=".5" ry="6.7" stroke-dasharray="3.34786225, 6.69572451" rx="6.7" transform="rotate(240)" height="94.7" width="70.3" y="138" x="-493"/>
+<rect opacity=".5" stroke-dasharray="3.34786224, 6.69572449" transform="rotate(-90)" rx="6.7" ry="6.7" height="94.7" width="70.3" y="323" x="-271"/>
+</g>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="129.61566" x="116.70317" font-family="Roboto" fill="#000000"><tspan x="116.70317" y="129.61566">Producer</tspan></text>
+<path marker-end="url(#a)" d="m303 117h132" stroke="#000" stroke-width="5" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="395.02536" x="25.521273" font-family="Roboto" fill="#000000"><tspan x="25.521273" y="395.02536"><tspan y="395.02536" x="25.521273">Consumer</tspan></tspan></text>
+<path marker-end="url(#b)" d="m509 382h-254" stroke="#000" stroke-width="5" fill="none"/>
+</g>
+</g>
+</svg>

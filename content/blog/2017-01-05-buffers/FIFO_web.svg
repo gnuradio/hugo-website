@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="46.8mm" width="272mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 962.20241 165.80283">
+<defs>
+<marker id="a" refY="0" refX="0" overflow="visible" orient="auto">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+<marker id="b" refY="0" refX="0" orient="auto" overflow="visible">
+<path d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" transform="matrix(-.4 0 0 -.4 -4 0)" stroke="#000" stroke-width="1pt"/>
+</marker>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(189 -229)">
+<rect opacity=".5" stroke-dasharray="3.34800005, 6.6960001" rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="231" x="113" stroke-width="3.35" fill="#fff"/>
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" stroke="#000" y="231" x="187" stroke-width="3.35" fill="#fff"/>
+<g fill="#808080" stroke="#000" stroke-width="3.35">
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" y="231" x="261"/>
+<rect opacity=".5" stroke-dasharray="3.34786224, 6.69572449" rx="6.7" ry="6.7" height="94.7" width="70.3" y="231" x="408"/>
+<rect rx="6.7" ry="6.7" height="94.7" width="70.3" y="231" x="334"/>
+</g>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="286.50024" x="-190.55168" font-family="Roboto" fill="#000000"><tspan x="-190.55168" y="286.50024"><tspan y="286.50024" x="-190.55168">Consumer</tspan></tspan></text>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="45px" line-height="108.00000429%" y="286.50024" x="566.05255" font-family="Roboto" fill="#000000"><tspan x="566.05255" y="286.50024"><tspan y="286.50024" x="566.05255">Consumer</tspan></tspan></text>
+<path marker-end="url(#b)" d="m23.2 274h191" stroke="#000" stroke-width="5" fill="none"/>
+<path marker-end="url(#a)" d="m365 274h191" stroke="#000" stroke-width="5" fill="none"/>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="31.2px" line-height="108.00000429%" y="321.01175" x="28.284271" font-family="Roboto" fill="#000000"><tspan x="28.284271" y="321.01175">Write into</tspan><tspan x="28.284271" y="354.76175">first unused</tspan><tspan x="28.284271" y="388.51175">space</tspan></text>
+<text style="word-spacing:0px;letter-spacing:0px" font-weight="bold" font-size="31.2px" line-height="108.00000429%" y="321.01175" x="412.24377" font-family="Roboto" xml:space="preserve" fill="#000000"><tspan y="321.01175" x="412.24377">Read from</tspan><tspan y="354.76175" x="412.24377">first unread</tspan><tspan y="388.51175" x="412.24377">space</tspan></text>
+</g>
+</svg>
