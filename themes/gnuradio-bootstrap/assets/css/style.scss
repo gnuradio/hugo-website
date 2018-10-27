@@ -3,6 +3,7 @@
 $gr-orange: #ff6905;
 $gr-white: #fff;
 $gr-light-gray: #f2f1f1;
+$gr-blue: #007bff;
 $gr-dark-gray: #72706f;
 $gr-green: #0db200;
 
@@ -198,8 +199,8 @@ body {
 
 .btn-gr.disabled, .btn-gr:disabled {
   color: $gr-white;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: $gr-blue;
+  border-color: $gr-blue;
 }
 
 .btn-gr:not(:disabled):not(.disabled):active, .btn-gr:not(:disabled):not(.disabled).active,
@@ -239,7 +240,7 @@ body {
 }
 
 .btn-gr-inverse:focus, .btn-gr-inverse.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem $gr-blue;
 }
 
 .btn-gr-inverse.disabled, .btn-gr-inverse:disabled {
@@ -257,7 +258,7 @@ body {
 
 .btn-gr-inverse:not(:disabled):not(.disabled):active:focus, .btn-gr-inverse:not(:disabled):not(.disabled).active:focus,
 .show > .btn-gr-inverse.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem $gr-blue;
 }
 
 /* Custom nav-Item */
@@ -303,7 +304,7 @@ a:active, a:hover {
 /* Padding below the footer and lighter body text */
 
 body {
-  color: #5a5a5a;
+  color: $gr-dark-gray;
 }
 
 
@@ -323,7 +324,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #777;
+  background-color: $gr-dark-gray;
 }
 .carousel-item > img {
   position: absolute;
@@ -332,7 +333,6 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-
 
 
 /* Featurettes
@@ -368,32 +368,28 @@ body {
 
 
 .blog_link {
-  color: #5a5a5a;
+  color: $gr-dark-gray;
   text-decoration: none;
 }
 .blog_link:hover {
-  color: #5a5a5a;
+  color: $gr-dark-gray;
   text-decoration: none;
 }
 
 .dont-break-out {
-
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
-
   -ms-word-break: break-all;
   /* This is the dangerous one in WebKit, as it breaks things wherever */
   word-break: break-all;
   /* Instead use this non-standard one: */
   word-break: break-word;
-
   /* Adds a hyphen where the word breaks, if supported (No Blink) */
   -ms-hyphens: auto;
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-
 }
 
 .gr_article {
@@ -403,16 +399,6 @@ body {
 
 /*  blog page
 ----------------------------------------------------------*/
-.bbCarousel {
-
-}
-
-.bb_height {
-  height: 250px;
-}
-
-
-
 .about_title {
 
     margin: 0 auto;
@@ -436,10 +422,6 @@ body {
   width: 75%;
   text-align: center
 }
-
-
-
-
 
 .external {
     background-color: #217cbd;
