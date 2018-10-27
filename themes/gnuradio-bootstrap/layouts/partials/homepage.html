@@ -6,24 +6,22 @@
 
 
 <!-- Show the latest news entries -->
-<div class="container-fluid marketing latest_news">
-    <div class="container marketing latest_news">
+<div class="container-fluid latest_news">
+    <div class="container latest_news">
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="text-center gr_heading"><strong>Latest News</strong></h2>
+          <h2 class="text-center gr_heading py-4"><strong>Latest News</strong></h2>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row align-items-center">
           {{ range first 3 (where .Pages "Type" "news") }}
-            <div class="col-lg-4 news_tile">
-              <div class="news_image">
-                  <a href="{{ .URL }}">
-                      {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" .Params.thumbnail)) }}
-                      {{ $thumbnail := (.Resources.GetMatch "thumbnail*") | default (resources.Get $default_thumbnail) }}
-                  <img src="{{ $thumbnail.RelPermalink }}" alt={{ .Title }} width="220">
+          <div class="col-lg-4 news_item">
+              <a href="{{ .URL }}" class="text-center">
+                  {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" .Params.thumbnail)) }}
+                  {{ $thumbnail := (.Resources.GetMatch "thumbnail*") | default (resources.Get $default_thumbnail) }}
+                  <img class="m-2"src="{{ $thumbnail.RelPermalink }}" alt={{ .Title }} width="220">
                 </a>
-              </div>
               <div class="news_title">
                 <h3>{{ .Title }}</h3>
               </div>
@@ -37,9 +35,9 @@
   </div>
 
   <!-- Show the latest blog entries -->
-  <div class="container-fluid marketing bg_gray">
-    <div class="container marketing bg_gray">
-        <h2 class="text-center gr_heading learn_more"><strong>Latest Blog</strong></h2>
+  <div class="container-fluid latest_blog">
+    <div class="container latest_blog">
+        <h2 class="text-center gr_heading py-4"><strong>Latest Blog</strong></h2>
         {{ range $index, $element := first 4 (where .Pages "Type" "blog") }}
         {{ $element.Scratch.Set "default_thumbnail" (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
         {{ if eq (mod $index 2) 0 }}

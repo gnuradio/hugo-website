@@ -4,17 +4,18 @@
         {{ partial "head" . }}
         {{ block "head" . }}
         <!-- Extra head tags (e.g. for redirects) -->
+        {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
         {{ end }}
     </head>
     <body>
         {{ partial "base/header" . }}
         <!-- Title & Background image -->
         {{ block "header" . }}
-        <div class="container-fluid bbheader">
+        <div class="page-header">
             <div class="about_header_img"></div>
-            <div class="container header_text">
-                <span class="bbtitle">{{ .Title }}</span>
-            </div>
+            <h1 class="offset-md-1 col-md-10 pl-4 display-5">{{ .Title }}</h1>
         </div>
         {{ end }}
         <!-- Main Content -->

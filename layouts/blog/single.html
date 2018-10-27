@@ -5,18 +5,21 @@
 {{ end }}
 
 {{ define "header" }}
-<div class="container-fluid bbheader">
+<div class="page-header">
     <div class="blog_header_img"></div>
-    <div class="container header_text">
-        <span class="bbtitle">{{ .Title }}</span>
-    </div>
+    <div class="container header-text"><span class="header_title">{{ .Title }}</span></div>
 </div>
 {{ end }}
 
 {{ define "main" }}
 <main role="main">
-    <div class="container-fluid marketing bg_gray">
-        <div class="container marketing bg_gray learn_more_padding">
+    <div class="container-fluid bg_gray">
+        <div class="container bg_gray header_padding">
+            <div class="row gr_article">
+                <div class="col-md-12">
+                    by {{ .Params.Author }}
+                </div>
+            </div>
             <div class="row gr_article">
                 <div class="col-lg-12">
                     {{ if isset .Params "externalurl" }}

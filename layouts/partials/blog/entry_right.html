@@ -1,27 +1,24 @@
-<div class="row featurette">
-    <div class="col-md-7 order-md-2">
+<div class="row blog_item">
+    <div class="col-md-7 order-2">
         {{ if (not (isset .Params "externalurl")) }}
-        <a href="{{ .Permalink }}" class="blog_link" target="_blank"><h4 class="featurette-heading">{{ .Title }} </h4></a>
+        <a href="{{ .Permalink }}" class="blog_link" target="_blank"><h2 class="mt-2">{{ .Title }} </h2></a>
         {{ else }}
-        <a href="{{ .Params.externalurl }}" class="blog_link"><h4 class="featurette-heading">{{ .Title }} </h4></a>
+        <a href="{{ .Params.externalurl }}" class="blog_link"><h2 class="mt-2">{{ .Title }} </h2></a>
         {{ end }}
 
-        <h5>by {{ .Params.author }}</h5>
+        <h6>by {{ .Params.author }}</h6>
         <div class="lead">{{ .Summary | plainify | safeHTML }}
             {{ if .Truncated }}
             <a href="{{ .RelPermalink }}"> Read more...</a>
             {{ end }}
         </div>
     </div>
-    <div class="col-md-5 order-md-1">
-        <div class="vc_container">
+    <div class="col-md-5 order-1 blog_img">
             {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get (.Scratch.Get "default_thumbnail")) }}
             {{ if (not (isset .Params "externalurl")) }}
-            <a href="{{ .Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
+            <a href="{{ .Permalink }}"><img class="img-fluid mx-auto" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
             {{ else }}
-            <a href="{{ .Params.externalurl }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
+            <a href="{{ .Params.externalurl }}"><img class="img-fluid mx-auto" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
             {{ end }}
-
-        </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
-<div class="row featurette">
-    <div class="col-md-7">
-        <a href="{{ .Permalink }}" class="blog_link"><h5 class="featurette-heading">{{ .Title }} </h5></a>
+<div class="row featurette news_item">
+    <div class="col-md-7 order-2 order-md-1">
+        <a href="{{ .Permalink }}" class="blog_link"><h2 class="mt-2">{{ .Title }} </h2></a>
         <h6>by {{ .Params.author }}</h6>
         <div class="lead">{{ .Summary | plainify | safeHTML }}
             {{ if .Truncated }}
@@ -8,11 +8,8 @@
             {{ end }}
         </div>
     </div>
-    <div class="col-md-5">
-        <div class="vc_container">
-
+    <div class="col-md-5 news_img order-1 order-md-2">
             {{ $thumbnail := .Resources.GetMatch "thumbnail*" | default (resources.Get (.Scratch.Get "default_thumbnail")) }}
-            <a href="{{ .Permalink }}"><img class="featurette-image img-fluid mx-auto vc_image" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
-        </div>
+            <a href="{{ .Permalink }}"><img class="featurette-image img-fluid mx-auto" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}"></a>
     </div>
 </div>

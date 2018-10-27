@@ -1,4 +1,4 @@
-<footer class="footer text-white {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
+<footer class="footer sticky-bottom {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
   <div class="container text-center">
         <p>
           &copy; {{now.Format "2006"}} {{ with .Site.Copyright }}{{ . | markdownify}}{{ end }}
