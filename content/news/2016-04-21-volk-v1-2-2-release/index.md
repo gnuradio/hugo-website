@@ -2,7 +2,7 @@
 title: "VOLK v1.2.2 Release"
 author: "Nathan West"
 date: "2016-04-21"
-
+categories: ["release"]
 aliases: ["news/volk-v1-2-2-release"]
 thumbnail: "volk_release"
 ---

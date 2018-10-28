@@ -2,7 +2,7 @@
 title: "GNU Radio v3.7.10 Release"
 author: "Nathan West"
 date: "2016-07-05"
-
+categories: ["release"]
 aliases: ["news/gnu-radio-v3-7-10-release"]
 thumbnail: "gr_release"
 ---

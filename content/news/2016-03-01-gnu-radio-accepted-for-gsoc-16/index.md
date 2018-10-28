@@ -2,7 +2,7 @@
 title: "GNU Radio accepted for GSoC ’16!"
 author: "Martin Braun"
 date: "2016-03-01"
-
+categories: ["gsoc"]
 aliases: ["news/gnu-radio-accepted-for-gsoc-16"]
 thumbnail: "gsoc"
 ---

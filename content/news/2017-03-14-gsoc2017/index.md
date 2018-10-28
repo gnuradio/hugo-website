@@ -4,6 +4,7 @@ author: "Marcus Müller"
 date: "2017-03-14"
 
 aliases: ["news/gsoc2017"]
+categories: ["gsoc"]
 thumbnail: "gsoc"
 ---
 

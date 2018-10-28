@@ -4,6 +4,7 @@ author: "Ben Hilburn"
 date: "2017-05-17"
 sponsored: "None"
 aliases: ["news/gsoc-2017-accepted-projects"]
+categories: ["gsoc"]
 thumbnail: "gsoc"
 ---
 

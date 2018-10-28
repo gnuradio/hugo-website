@@ -1,0 +1,22 @@
+{{ define "header" }}
+<div class="page-header">
+    <div class="about_header_img"></div>
+    <h1 class="offset-lg-2 col-lg-8 display-5">Arcticles with {{ .Type }}: {{ .Title }}</h1>
+</div>
+{{ end }}
+{{ define "main" }}
+<main role="main">
+    <div class="container-fluid bg_gray">
+        <div class="row offset-lg-2 col-lg-8">
+            {{ .Content }}
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            </li>
+            {{ end }}
+        </ul>
+        </div>
+    </div>
+</main>
+{{ end }}

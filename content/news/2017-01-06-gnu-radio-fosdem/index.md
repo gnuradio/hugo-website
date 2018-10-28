@@ -2,7 +2,8 @@
 title: "GNU Radio at FOSDEM ’17, 4 & 5 February 2017"
 author: "Marcus Müller"
 date: "2017-01-06"
-sponsored: "None"
+sponsored: "0"
+categories: ["conference", "meetup"]
 aliases: ["news/gnu-radio-fosdem-17"]
 ---
 

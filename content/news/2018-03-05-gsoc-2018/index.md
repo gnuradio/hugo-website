@@ -3,6 +3,7 @@ title: "GSoC 2018: GNU Radio is in!"
 author: "Felix Wunsch"
 date: "2018-03-05"
 aliases: ["news/gsoc-2018"]
+categories: ["gsoc"]
 thumbnail: "gsoc"
 ---
 We are happy and excited to announce that we have been accepted by Google as a mentoring organization for the upcoming Google Summer of Code 2018! Same as in past years, we are looking forward to meeting students and hopefully passing on our love for FOSS! GSoC is a great opportunity for students, but equally important for GNU Radio as it helps us to find new and valuable contributors with fresh ideas that help us to further the project&#8217;s development.

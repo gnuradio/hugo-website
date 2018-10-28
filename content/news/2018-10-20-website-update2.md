@@ -2,6 +2,7 @@
 title: "Website Update: Goodbye Flask, Hello Hugo!"
 author: "Martin Braun"
 date: 2018-10-20T17:18:37-07:00
+categories: ["website"]
 draft: true
 ---
 Once again, we've done an overhaul of our website. All web content (that is,

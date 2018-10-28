@@ -9,6 +9,7 @@ assetDir: assets/
 summaryLength: 20
 taxonomies:
   tag: tags
+  category: categories
 preserveTaxonomyNames: true
 params:
   navbarBgColorClass: navbar-dark bg-dark
