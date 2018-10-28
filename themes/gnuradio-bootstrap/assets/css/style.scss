@@ -19,12 +19,18 @@ body {
 .footer {
   height: 100px;
   line-height: 100px;
+  background-color: $gr-white!important;
 }
 
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
-  color: $gr-white;
+  color: $gr-dark-gray;
+  background-color: $gr-white;
+}
+
+.subfooter {
+  background-color: $gr-white;
 }
 
 .subfooter img {
