@@ -1,10 +1,5 @@
 <main role="main">
-{{ partial "carousel" . }}
-<div class="homepage-content">
-    {{.Content}}
-</div>
-
-
+    {{ partial "carousel" . }}
 <!-- Show the latest news entries -->
 <div class="container-fluid latest_news">
     <div class="container latest_news">
@@ -50,3 +45,4 @@
     </div>
   </div>
 </main>
+{{ partial "subfoot.html" . }}

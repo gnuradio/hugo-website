@@ -9,9 +9,11 @@ $gr-green: #0db200;
 
 /* Sticky footer styles -------------------------------------------------- */
 
+html,
 body {
   font-family: "Montserrat",sans-serif;
   background-color: $gr-light-gray;
+  min-height: 100vh;
 }
 
 .footer {
@@ -25,11 +27,23 @@ body {
   color: $gr-white;
 }
 
+.subfooter img {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+}
+
 .logo {
   max-width: 250px;
   height: auto;
 }
 
+main {
+  min-height: 100%;
+}
 /* Page header image style ----------------------------------------------- */
 
 .page-header {
@@ -44,22 +58,29 @@ body {
   padding-right: 0.5rem!important;
 }
 
-.page-header h1 {
+.page-header{
+  h1, h2 {
   color: $gr-white;
   font-weight: bold;
   position: relative;
-  padding-top: 2em;
-  padding-bottom: 2em;
   display:block;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
   z-index: 10;
+  }
+  h1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  h2{
+    padding-bottom: 2rem;
+  }
 }
 
 .header-text {
   width: 100%;
   position: relative;
-  margin-top: -1em;
+  margin-top: -1rem;
   z-index: 10;
 }
 
@@ -147,8 +168,8 @@ body {
 .news_item .lead,
 .blog_item .lead {
   font-weight: lighter;
-  font-size:1em;
-  margin-bottom: 1.5em;
+  font-size:1rem;
+  margin-bottom: 1.5rem;
 }
 
 .news_img,
@@ -344,14 +365,14 @@ body {
 }
 
 .featurette-divider {
-  margin: 2em 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
@@ -392,25 +413,20 @@ body {
   hyphens: auto;
 }
 
+/* article style */
+
 .gr_article {
   @extend .dont-break-out;
-  padding-left: 8.3333%;
 }
 
-/*  blog page
+.gr_article {
+  h1, h2, h3, h4, h5, h6 {
+    padding-top: 1rem;
+  }
+}
+
+/* about  page
 ----------------------------------------------------------*/
-.about_title {
-
-    margin: 0 auto;
-    margin-bottom: 0px;
-    margin-bottom: 50px;
-    padding: 100px 60px 20px 60px;
-    border-bottom: $gr-orange 6px solid;
-    font-weight: bold;
-    line-height: 30px;
-    width: 75%;
-}
-
 .about h2 {
   margin: 0 auto;
   margin-bottom: 0px;
@@ -423,71 +439,58 @@ body {
   text-align: center
 }
 
-.external {
-    background-color: #217cbd;
+/* tags */
 
-}
-.marks-external {
-    font-size: 14px;
-    display: inline-block;
-    margin-right: 2px;
-    width: 79px;
-    border-right: 2px solid $gr-white;
-    border-bottom: 2px solid $gr-white;
-    color: $gr-white;
-    text-align: center;
-    line-height: 23px;
-    text-transform: capitalize;
-}
 .badges-container {
-
   width: auto;
   height: auto;
   margin: auto;
-  bottom: 35px;
-  position: absolute;
+  margin-bottom: 0.5rem;
   max-width: 100%;
   max-height: 100%;
   left: 0;
   right: 0;
 }
 
+.badge a,
+.badge a:hover{
+  color: $gr-white;
+  text-decoration: none;
+}
+
+/* images */
+
 .img_container{
   width: auto;
   height: auto;
+  border: $gr-dark-gray 0.5px solid;
+  padding: 0.7rem;
 
 }
 
-.sponsored{
-  background-color: $gr-green;
-}
-.marks-sponsored {
-      font-size: 14px;
-    display: inline-block;
-    margin-right: 2px;
-    width: 79px;
-    border-right: 2px solid $gr-white;
-    border-bottom: 2px solid $gr-white;
-    color: $gr-white;
-    text-align: center;
-    line-height: 23px;
-    text-transform: capitalize;
+.img_container figcaption{
+  margin-top: 0.5rem;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  text-align: center;
 }
 
 /* pagination */
 .pagination{
   @extend .dont-break-out;
+  width: 100%;
   .page-item{
     .page-link{
       background-color: $gr-light-gray;
       color: $gr-orange;
     }
     background-color: $gr-light-gray;
+    .page-link:hover,
     .page-link:focus{
-      box-shadow: 0 0 0 0.2rem $gr-orange
+      box-shadow: 0 0 0 0.1rem $gr-orange
     }
   }
-  .page-item:active > .page-link{
-      border-color: $gr-light-gray;
-  }
+}
+.page-item.active .page-link{
+  border-color: $gr-orange;
 }

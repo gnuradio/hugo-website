@@ -5,6 +5,14 @@
         {{ else }}
         <a href="{{ .Params.externalurl }}" class="blog_link"><h2 class="mt-2">{{ .Title }} </h2></a>
         {{ end }}
+        <div class="badges-container">
+            {{ range .Params.tags }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" "tags" $name) }}
+            <span class="badge badge-pill badge-primary"><a href="{{ .RelPermalink }}">{{ $name }}</a></span>
+            {{ end }}
+            {{ end }}
+        </div>
         <h6>by {{ .Params.author }}</h6>
         <div class="lead">{{ .Summary | plainify | safeHTML }}
             {{ if .Truncated }}

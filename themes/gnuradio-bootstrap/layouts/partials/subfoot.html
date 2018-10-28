@@ -1,26 +1,21 @@
-      <div class="container-fluid marketing latest_news subfooter">
-        <div class="container marketing latest_news">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="row">
-                  <div class="col-lg-4">
+      <div class="container-fluid subfooter py-4">
+          <div class="row offset-lg-1 col-lg-10">
+            <div class="col-md-2">
                       {{ $gnufooter := resources.Get "imgs/gnufooter.svg" }}
-                  <img src="{{ $gnufooter.RelPermalink }}" alt="Generic placeholder image" width="140">
-                </div>
-                <div class="col-lg-8">
+                  <img class="img-fluid mx-auto" src="{{ $gnufooter.RelPermalink }}" alt="Generic placeholder image" width="140">
+            </div>
+            <div class="col-md-4">
                   <h2>Contact Us</h2>
                   <p>
                     Mailing List: <a href="https://lists.gnu.org/mailman/listinfo/discuss-gnuradio" target="_blank">discuss-gnuradio</a><br>
                     IRC: #gnuradio on <a href="https://freenode.net" target="_blank">freenode.net</a><br>
                     Slack: <a href="http://slack.gnuradio.org" target="_blank">slack.gnuradio.org</a><br>
                   </p>
-                </div>
-              </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-md-1">
             </div>
 
-            <div class="col-lg-5 text-center">
+            <div class="col-md-5 text-center">
               <h2>Connect with Us</h2>
               <div style="font-size:3em; color:orange">
                 <a target="_blank" href="https://twitter.com/gnuradio"><i class="fab fa-twitter-square"></i></a>
@@ -29,6 +24,5 @@
                 <a target="_blank" href="https://github.com/gnuradio"><i class="fab fa-github-square"></i></a>
               </div>
             </div>
-          </div>
         </div>
       </div>

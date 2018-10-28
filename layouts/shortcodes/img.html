@@ -1,7 +1,7 @@
 {{ $img := $.Page.Resources.GetMatch (.Get 0)}}
-<!-- <div class="img_container"> -->
+<div class="img_container">
 <figure>
-	<img class="img-responsive" style="max-height: 100%; max-width: 100%; object-fit: contain" src="{{ $img.RelPermalink }}" alt="(.Get 1)" />
-	<!-- <figcaption>{{ (.Get 1) }}</figcaption> -->
+	<img class="img-responsive" style="max-height: 100%; max-width: 100%; object-fit: contain" src="{{ $img.RelPermalink }}" alt="{{(.Get 1)}}" />
+	<figcaption>{{ (.Get 1) | markdownify }}</figcaption>
 </figure>
-<!-- </div> -->
+</div>

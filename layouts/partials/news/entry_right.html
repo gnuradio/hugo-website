@@ -1,6 +1,14 @@
 <div class="row featurette news_item">
     <div class="col-md-7 order-2">
         <a href="{{ .RelPermalink }}" class="blog_link"><h2 class="mt-2">{{ .Title }}</h2></a>
+        <div class="badges-container">
+            {{ range .Params.categories }}
+            {{ $name := . }}
+            {{ with $.Site.GetPage (printf "/%s/%s" "categories" $name) }}
+            <span class="badge badge-pill badge-primary"><a href="{{ .RelPermalink }}">{{ $name }}</a></span>
+            {{ end }}
+            {{ end }}
+        </div>
         <h6>by {{ .Params.author }}</h6>
         <div class="lead">{{ .Summary | plainify | safeHTML }}
             {{ if .Truncated }}

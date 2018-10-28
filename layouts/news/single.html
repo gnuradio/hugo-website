@@ -2,18 +2,17 @@
 
 <div class="page-header">
     <div class="news_header_img"></div>
-    <div class="container header-text"><span class="header_title">{{ .Title }}</span></div>
+    <h1 class="offset-lg-2 col-lg-8 display-5">{{ .Title }}</h1>
 </div>
 {{ end }}
 {{ define "main" }}
 <main role="main">
-    <div class="container-fluid marketing bg_gray">
-        <div class="container marketing bg_gray learn_more_padding">
-            <div class="row gr_article">
-                <div class="col-lg-12">
+    <div class="container-fluid bg_gray">
+        <div class="row gr_article offset-lg-2 col-lg-8">
                     {{ .Content }}
-                </div>
-            </div>
+        </div>
+        <div class="row offset-lg-2 col-lg-8 mt-4">
+            {{ partial "content/next-prev-links" . }}
         </div>
     </div>
     {{ partial "subfoot" . }}
