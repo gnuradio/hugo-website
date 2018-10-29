@@ -295,9 +295,19 @@ main {
   padding-right: 10px;
 }
 
-.navbar-dark .navbar-nav .nav-item:hover {
+.navbar-nav .nav-item:hover {
   background-color: $gr-dark-gray;
 }
+
+.navbar-nav .nav-item:active {
+  background-color: $gr-dark-gray;
+}
+
+.navbar-nav .nav-item.dropdown.show:hover {
+  background-color: inherit;
+}
+
+
 
 a {
     color: $gr-orange;
@@ -435,13 +445,10 @@ body {
 ----------------------------------------------------------*/
 .about h2 {
   margin: 0 auto;
-  margin-bottom: 0px;
   margin-bottom: 50px;
-  padding: 100px 60px 20px 60px;
+  padding: 4rem 2rem 1rem 2rem;
   border-bottom: $gr-orange 6px solid;
   font-weight: bold;
-  line-height: 30px;
-  width: 75%;
   text-align: center
 }
 
