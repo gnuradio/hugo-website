@@ -1,14 +1,12 @@
 {{ define "main" }}
 <main role="main">
-    <div class="container-fluid marketing bg_gray">
-        <div class="container marketing bg_gray learn_more_padding">
-            <div class="row ">
-                <div class="col-lg-12">
+    <div class="container-fluid bg_gray">
+            <div class="row px-2">
+                <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
                     {{ .Content }}
                 </div>
             </div>
-        </div>
-        <ul>
+        <ul class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
     <!-- Ranges through content/post/*.md -->
             {{ range .Pages }}
             <li>
