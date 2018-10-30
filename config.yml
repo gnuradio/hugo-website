@@ -49,6 +49,10 @@ menu:
       name: News
       url: /news/
       weight: -108
+    - identifier: docs
+      name: Documentation
+      url: /docs/
+      weight: -107.5
     - identifier: events
       name: Events
       weight: -107
