@@ -17,16 +17,16 @@
           {{ $menu := (index $.Site.Menus .Section) | default $.Site.Menus.main }}
           {{ range $menu }}
           {{ if .HasChildren }}
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
               <a class="nav-link dropdown-toggle" href="#" id="dd_{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
               <div class="dropdown-menu" aria-labelledby="dd_{{ .Identifier }}">
                   {{ range .Children }}
-                  <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                  <a class="dropdown-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
                   {{ end }}
   </div>
           </li>
           {{ else }}
-          <li class="nav-item">
+          <li class="nav-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
               <a class="nav-link menu-item" href="{{.URL}}">
                   {{ .Pre }}
                   <span class="text-capitalize no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}">{{ .Name }}</span>
