@@ -21,6 +21,9 @@
         <!-- Main Content -->
         {{ block "main" . }}
         {{ end }}
+        {{ block "subfoot" . }}
+        {{ partial "subfoot" . }}
+        {{ end }}
         {{ block "footer" . }}
         {{ end }}
         {{ partial "foot" . }}
