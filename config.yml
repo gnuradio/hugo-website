@@ -1,6 +1,6 @@
 baseURL: 'https://www.gnuradio.org/'
 languageCode: en-us
-title: GNU Radio - Home Page
+title: "GNU Radio"
 theme: gnuradio-bootstrap
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
@@ -26,6 +26,13 @@ params:
     gr_release: imgs/gr_release_web.svg
     volk_release: imgs/volk_release_web.svg
     pybombs_release: imgs/pybombs_release_web.svg
+outputs:
+  home:
+    - html
+    - amp
+  section:
+    - html
+    - rss
 menu:
   main:
     - identifier: about
@@ -61,6 +68,11 @@ menu:
       url: /grcon18/
       parent: events
       weight: -100
+    - identifier: events_grcon
+      name: Previous GNU Radio Conferences
+      url: /events/grcon/
+      parent: events
+      weight: -95
     - identifier: events_other
       name: Other events
       url: /events/
