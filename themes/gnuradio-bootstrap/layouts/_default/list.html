@@ -1,13 +1,14 @@
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid bg_gray">
-            <div class="row px-2">
-                <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                    {{ .Content }}
-                </div>
+        <div class="row px-2">
+            {{ .Section }}
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                {{ .Content }}
             </div>
+        </div>
         <ul class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-    <!-- Ranges through content/post/*.md -->
+            <!-- Ranges through content/post/*.md -->
             {{ range .Pages }}
             <li>
                 <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
