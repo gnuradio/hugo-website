@@ -509,6 +509,40 @@ body {
   color: $gr-white;
 }
 
+/* GRCon sponsor styles */
+
+.sponsor_level > h3 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 200px;
+
+}
+
+.spon_title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.spon_img {
+  width: 200px;
+}
+
+.spon_body {
+  font-size: 1rem;
+  text-align: justify;
+
+}
+
+.spon_title a {
+  color: $gr-dark-gray;
+}
+
+.spon_title a:hover {
+  color: $gr-orange;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 /* pagination */
 .pagination{
   @extend .dont-break-out;
