@@ -9,7 +9,8 @@
     {{ $styles := resources.Get "css/style.scss" | resources.ExecuteAsTemplate "css/style.scss" . | toCSS |  minify | fingerprint }}
     {{ $bootstrap := resources.Get "css/bootstrap.css" |  minify | fingerprint }}
     {{ $fontawesome := resources.Get "css/fontawesome-all.css" | resources.ExecuteAsTemplate "css/fontawesome-all.css" . |  minify | fingerprint }}
+    {{ $montserrat := resources.Get "css/montserrat-regular.css" | resources.ExecuteAsTemplate "css/montserrat-regular.css" . | fingerprint }}
     <link href={{ $bootstrap.Permalink }} rel="stylesheet">
     <link href={{ $styles.Permalink }} rel="stylesheet">
     <link href={{ $fontawesome.Permalink }} rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href={{ $montserrat.Permalink }} rel="stylesheet">

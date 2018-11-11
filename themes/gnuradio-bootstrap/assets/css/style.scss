@@ -488,6 +488,27 @@ body {
   text-align: center;
 }
 
+/* panel */
+
+.panel{
+  border-style: solid;
+  border-color: $gr-dark-gray;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+.panel-heading {
+  background-color: $gr-dark-gray;
+  padding: 0.5rem;
+}
+
+.panel ol {
+  margin-top: 1rem;
+}
+
+.panel-heading a {
+  color: $gr-white;
+}
+
 /* pagination */
 .pagination{
   @extend .dont-break-out;
