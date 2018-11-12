@@ -12,14 +12,14 @@
             <div class="container">
                  {{ .Content }}
             </div>
-            <div class="panel-group" id="presentations">
+            <div id="presentations">
             {{ range $index, $day := (index .Params "conference-days") }}
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="mb-0">
                             <a data-toggle="collapse" data-parent="#presentations" href="#collapse{{ $index }}"> {{ $day }}</a> </h3>
                     </div>
-                    <div id="collapse{{ $index }}" class="panel-collapse collapse {{ if eq $index 0 }}show{{ end }}">
+                    <div id="collapse{{ $index }}" class="card-body collapse {{ if eq $index 0 }}show{{ end }}">
                 <ol>
                     {{ range (where $.Pages.ByWeight "Params.conference-day" $day) }}
                     <a href="{{ .RelPermalink }}"><li> {{ .Title }} </li></a>

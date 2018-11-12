@@ -509,22 +509,53 @@ body {
   color: $gr-white;
 }
 
+/* GRCon styles */
+.grcon h2 {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 4rem 2rem 1rem 2rem;
+  border-bottom: $gr-orange 6px solid;
+  font-weight: bold;
+  text-align: center
+}
+
 /* GRCon sponsor styles */
 
-.sponsor_level > h3 {
+.spon_level > h3 {
   text-align: center;
   font-weight: bold;
-  margin-top: 200px;
 
 }
+
+.spon_level {
+  margin-top: 2rem;
+}
+
+.spon_hr {
+  text-align: center;
+  border-bottom: #ff6905 6px solid;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
 
 .spon_title {
   font-size: 2rem;
   font-weight: 400;
 }
 
+.sponsor {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .spon_img {
-  width: 200px;
+  width: 100%;
+  min-width: 200px;
+  padding: 1rem;
 }
 
 .spon_body {
