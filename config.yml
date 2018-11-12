@@ -70,7 +70,7 @@ menu:
       weight: -100
     - identifier: events_grcon
       name: Previous GNU Radio Conferences
-      url: /events/grcon/
+      url: /grcon/
       parent: events
       weight: -95
     - identifier: events_other
