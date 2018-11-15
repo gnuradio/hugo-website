@@ -11,7 +11,7 @@
     <div class="container-fluid bg_gray">
         <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10 pb-2">
             {{ if .Params.youtube }}
-            <button type="button" class="btn gr-btn"><a href="{{ .Params.youtube }}" target="_blank"><i class="fab fa-youtube-square"></i></a></button>
+            <a type="button" class="btn gr-btn mr-1" href="{{ .Params.youtube }}" target="_blank"><i class="fab fa-youtube-square"></i></a>
             {{ end }}
             {{ if .Params.slides }}
             {{ $slides := .Resources.Match .Params.slides }}
