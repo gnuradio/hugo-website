@@ -1,0 +1,22 @@
+{{ define "header" }}
+<div class="page-header">
+    <div class="about_header_img"></div>
+    <h1 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">{{ .Title }}</h1>
+    <h2 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-6">by {{ range .Params.authors }} {{ . }} {{ end }}</h2>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<main role="main">
+    <div class="container-fluid bg_gray">
+        <div class="row gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            {{ .Content }}
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            {{ if .Params.youtube }}
+            <button type="button" class="btn gr-btn"><a href="{{ .Params.youtube }}" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }}
