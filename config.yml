@@ -13,6 +13,7 @@ taxonomies:
 preserveTaxonomyNames: true
 params:
   navbarBgColorClass: navbar-dark bg-dark
+  secondarynavbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio
   carousel:
     enable: true
@@ -65,7 +66,7 @@ menu:
       weight: -107
     - identifier: events_grcon_18
       name: GNU Radio Conference 2018
-      url: /grcon18/
+      url: /grcon/grcon18/
       parent: events
       weight: -100
     - identifier: events_grcon
@@ -81,16 +82,16 @@ menu:
     - name: getting started
       url: /getting-started/
       weight: -100
-  grcon18:
-    - name: GRCon2018
-      url: /grcon18/
+  grcon/grcon18:
+    - identifier: grcon18
+      name: GRCon18
+      url: /grcon/grcon18
+      weight: -200
+    - identifier: presentations
+      name: Presentations
+      url: /grcon/grcon18/presentations
       weight: -100
     - identifier: content
       name: Content
-      url: /grcon18/content
-      weight: 0
-    - identifier: content_pres
-      name: Presentations
-      url: /grcon18/presentations
-      parent: content
+      url: /grcon/grcon18/content
       weight: 0
