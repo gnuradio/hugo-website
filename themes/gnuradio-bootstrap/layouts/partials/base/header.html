@@ -1,41 +1,39 @@
 <nav class="navbar navbar-expand-md sticky-top site-navbar {{ .Site.Params.navbarBgColorClass | default .Site.Data.Defaults.navbarBgColorClass }}">
     <div class="container">
-
         <a class="navbar-brand" href="{{ .Site.BaseURL }}">
             {{ $grlogo := resources.Get "imgs/gnuradio_logo_glyphs_as_paths.svg" }}
             <img class="logo" src="{{ $grlogo.RelPermalink }}" alt="GNU Radio" width="" height="">
         </a>
-
-  <button class="navbar-toggler"
-  type="button" data-toggle="collapse" data-target="#gr-navbar" aria-controls="gr-navbar"
-          aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="gr-navbar">
-      <ul class="nav navbar-nav mr-auto">
-          {{ $currentNode := . }}
-          {{ $menu := (index $.Site.Menus .Section) | default $.Site.Menus.main }}
-          {{ range $menu }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
-              <a class="nav-link dropdown-toggle" href="#" id="dd_{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
-              <div class="dropdown-menu" aria-labelledby="dd_{{ .Identifier }}">
-                  {{ range .Children }}
-                  <a class="dropdown-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+        <button class="navbar-toggler"
+                type="button" data-toggle="collapse" data-target="#gr-navbar" aria-controls="gr-navbar"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="gr-navbar">
+            <ul class="nav navbar-nav mr-auto">
+                {{ $currentNode := . }}
+                {{ $menu := (index $.Site.Menus .Section) | default $.Site.Menus.main }}
+                {{ range $menu }}
+                {{ if .HasChildren }}
+                <li class="nav-item dropdown {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
+                    <a class="nav-link dropdown-toggle" href="#" id="dd_{{ .Identifier }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+                    <div class="dropdown-menu" aria-labelledby="dd_{{ .Identifier }}">
+                        {{ range .Children }}
+                        <a class="dropdown-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
                   {{ end }}
-  </div>
-          </li>
-          {{ else }}
-          <li class="nav-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
-              <a class="nav-link menu-item" href="{{.URL}}">
-                  {{ .Pre }}
-                  <span class="text-capitalize no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}">{{ .Name }}</span>
-                  {{ .Post }}
-              </a>
-          </li>
-          {{ end }}
-          {{ end }}{{/* end range */}}
-      </ul>
-  </div>
-  </div>
+                    </div>
+                </li>
+                {{ else }}
+                <li class="nav-item {{ if $currentNode.IsMenuCurrent .Menu . }}active{{ end }}">
+                    <a class="nav-link menu-item" href="{{.URL}}">
+                        {{ .Pre }}
+                        <span class="text-capitalize no-decoration {{ $.Site.Params.navbarLinkFgColorClass | default $.Site.Data.Defaults.navbarLinkFgColorClass }}">{{ .Name }}</span>
+                        {{ .Post }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ end }}{{/* end range */}}
+            </ul>
+        </div>
+    </div>
 </nav>
