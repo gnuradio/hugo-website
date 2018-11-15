@@ -1,6 +1,7 @@
 ---
 title: GNU Radio Conference 2018
-type: grcon
+type: grcon/grcon18
+section: grcon/grcon18
 layout: homepage
 aliases:
   - grcon-2018

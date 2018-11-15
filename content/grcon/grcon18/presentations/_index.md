@@ -1,5 +1,6 @@
 ---
-type: grcon/presentations
+type: grcon/grcon18
+layout: presentations
 title: "Presentations"
 conference-days:
   - Monday
