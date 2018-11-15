@@ -42,11 +42,6 @@ body {
 
 }
 
-.logo {
-  max-width: 250px;
-  height: auto;
-}
-
 main {
   min-height: 100%;
 }
@@ -137,6 +132,7 @@ main {
 }
 
 
+.bg-gray,
 .bg_gray {
     background: $gr-light-gray;
 }
@@ -290,6 +286,12 @@ main {
 
 /* Custom nav-Item */
 
+
+.navbar-brand {
+  width: 250px;
+  height: auto;
+}
+
 .nav-item {
   padding-left: 10px;
   padding-right: 10px;
@@ -306,9 +308,14 @@ main {
 .navbar-nav .nav-item.dropdown.show:hover {
   background-color: inherit;
 }
-
-
-
+@media (min-width: 768px) {
+  .navbar-secondary > .container {
+  padding-left: 265px;
+}
+  .navbar-secondary .navbar-nav {
+  margin-left: 1rem;
+}
+}
 a {
     color: $gr-orange;
     text-decoration: none;
