@@ -16,7 +16,7 @@
             {{ if .Params.slides }}
             {{ $slides := .Resources.Match .Params.slides }}
             {{ range $slides }}
-            <button type="button" class="btn gr-btn"><a href="{{ .RelPermalink }}" target="_blank"><i class="far fa-file-pdf"> Slides</i></a></button>
+            <a type="button" class="btn gr-btn" href="{{ .RelPermalink }}" target="_blank"><i class="far fa-file-pdf pr-1"></i>Slides</a>
             {{ end }}
             {{ end }}
         </div>
