@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "SatNOGs"
 authors: ["Manolis Surligas"]
 draft: true

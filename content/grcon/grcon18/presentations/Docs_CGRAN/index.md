@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Documentation Re-Org and CGRAN Update"
 authors: ["Marc Lichman"]
 draft: true

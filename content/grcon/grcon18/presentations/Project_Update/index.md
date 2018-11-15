@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "GNU Radio Project Update"
 authors: ["Ben Hilburn"]
 draft: true

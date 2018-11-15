@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Using GNU Radio to Introduce Digital Radio Concepts to Amateur Radio Hobbyists"
 authors: ["Kevin McQuiggin"]
 slides: "6-Kevin-McQuiggin-Introducing-Digital-Radio-Concepts.pdf"

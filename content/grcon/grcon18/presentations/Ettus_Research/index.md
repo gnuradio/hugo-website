@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Ettus Research and its Research"
 authors: ["Martin Braun"]
 slides: "5-Martin_Braun-Ettus_Research.pdf"

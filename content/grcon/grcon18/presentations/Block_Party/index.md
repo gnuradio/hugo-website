@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Open Source DVB-S2 and DVB-S2X for GNU Radio"
 authors: ["Michelle Thompson"]
 slides: "7-Michelle_Thompson-Block_Party.pdf"

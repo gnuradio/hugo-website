@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Analog Devices Radioverse, from chips to software, to HDL, to systems"
 slides: "9-Robin_Getz-RadioVerse.pdf"
 authors: ["Robin Getz"]

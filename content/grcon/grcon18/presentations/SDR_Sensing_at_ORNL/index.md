@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "Application of Software Radios for Sensing and Instrumentation at Oak Ridge National Laboratory"
 authors: ["James Humphries"]
 draft: true

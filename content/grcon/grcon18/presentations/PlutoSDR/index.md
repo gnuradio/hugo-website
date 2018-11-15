@@ -1,5 +1,6 @@
 ---
-type: "grcon/presentations"
+type: "grcon/grcon18"
+layout: "presentation"
 title: "ARM PlutoSDR With Custom Applications"
 authors: ["Michael Hennerich"]
 slides: "8-Michael_Hennerich.pdf"
