@@ -2,11 +2,11 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "GNU Radio Support for Real-time Video Streaming over a DSA Network"
-authors: ["Debashri Roy, Mainak Chatterjee, Tathagata Mukherjee, Eduardo Pasiliao"]
+authors: ["Debashri Roy", "Mainak Chatterjee", "Tathagata Mukherjee", "Eduardo Pasiliao"]
 slides: "Debashri_DSA.pdf"
 draft: true
 youtube: ""
-conference-day: "FIXME"
-weight: 5
+conference-day: "Thursday"
+weight: 8
 ---
 This talk is intended to present a real-time adaptation scheme for video encoding and channel selection that work in tandem to facilitate HD video streaming for secondary users in a dynamic spectrum access network. Out-of-band feedbacks on instantaneous pathloss of the signal between the transmitter and the receiver, the received signal strength indicator (RSSI) at the receiver, and the quality of the reconstructed video, are used to continuously determine the most apt encoding parameters. Similarly, the radio transmitter continuously adjusts the channel parameters (i.e., center frequency, and channel bandwidth) based on the transmission activities of the primary users who have prioritized rights on those channels. We considered the physical limitations of the encoder and the channel statistics to determine when to change the encoder parameters and when to switch to a new channel. We proposed a multi-level threshold based mechanism to find the optimal number of encoding bit rates. We also proposed a threshold based algorithm to find the best available channel between the transmitter-receiver pair. We validated our theoretical propositions on an indoor testbed using universal software radio peripherals (USRPs) and GNU Radio. Live video was captured, encoded using open source  H.264 software libraries, streamed using GStreamer, and transmitted over the 915 MHz ISM bands with omni-directional antennas. We used two B210s (by Ettus Research) for the transmitter and the receiver. Another B210 was programmed to sense  the energy levels on all the channels to detect the presence of primary transmissions. GNU Radio was used to build the initial flowchart of all the signal processing modules--both at the transmitter and the receiver. We used PSNR and SSIM to measure the video quality metrics. Experimental results show that (i) the video encoder and the USRP transmitter-receiver pair were able to adapt to the changing RF conditions, (ii) the adaptation schemes yielded better video quality than non-adaptive schemes, and (iii) the USRPs could switch the channels fast enough allowing uninterrupted HD video streaming even when the primary users preempted the secondary user's transmission.

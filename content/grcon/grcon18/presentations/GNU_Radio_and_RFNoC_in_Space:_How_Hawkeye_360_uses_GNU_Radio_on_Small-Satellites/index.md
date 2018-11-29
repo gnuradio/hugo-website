@@ -2,12 +2,12 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "GNU Radio and RFNoC in Space: How Hawkeye 360 uses GNU Radio on Small-Satellites"
-authors: ["Edward Kreinar, Dan CaJacob"]
+authors: ["Edward Kreinar", "Dan CaJacob"]
 slides: "11-EJ-GNURadio_in_Space.pdf"
 draft: true
 youtube: ""
-conference-day: "FIXME"
-weight: 5
+conference-day: "Wednesday"
+weight: 11
 ---
 Hawkeye 360 is launching a cluster of three small satellites to perform high-precision geolocation of RF emitters. In this talk, we'll discuss the architecture and use-cases of RFNoC and GNU Radio on a custom small-satellite payload with three AD9361 frontends and one Zynq 7045.
 
