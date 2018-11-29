@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Development of GNU Radio Blocks for Spectrum Sensing Based on the Analysis of the Autocorrelation of Samples"
 authors: ["HECTOR REYES-MONCAYO"]
-slides: "FIXME"
+slides: "6-Hector-Spectrum_Sensing.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"

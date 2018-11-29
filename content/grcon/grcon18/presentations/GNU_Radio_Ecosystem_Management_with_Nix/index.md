@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "GNU Radio Ecosystem Management with Nix"
 authors: ["Tom Bereknyei"]
-slides: "FIXME"
+slides: "7-GNURadio_ecosystem_management_with_Nix.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"

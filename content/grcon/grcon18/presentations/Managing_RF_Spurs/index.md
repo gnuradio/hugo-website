@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Managing RF Spurs"
 authors: ["Brian Avenell"]
-slides: "FIXME"
+slides: "10-Brian_Avenell-RF_Spurs.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"

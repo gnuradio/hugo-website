@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Army Signal Classification Challenge"
 authors: ["Army RCO Team (Mr. Bill Urrego)"]
-slides: "FIXME"
+slides: "4-Bill_Urrego-Army_Signal_Classification_Challenge.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"
