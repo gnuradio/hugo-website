@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Advances in Machine Learning for Sensing and Communications Systems"
 authors: ["Tim O'Shea, Nathan West, Ben Hilburn"]
-slides: "FIXME"
+slides: ""
 draft: true
 youtube: ""
 conference-day: "FIXME"

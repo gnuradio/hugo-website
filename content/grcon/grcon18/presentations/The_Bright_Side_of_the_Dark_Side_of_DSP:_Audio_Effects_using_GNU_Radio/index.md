@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "The Bright Side of the Dark Side of DSP: Audio Effects using GNU Radio"
 authors: ["Ashish Chaudhari"]
-slides: "FIXME"
+slides: "2-Ashish_Chaudhari_audio_effects.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"

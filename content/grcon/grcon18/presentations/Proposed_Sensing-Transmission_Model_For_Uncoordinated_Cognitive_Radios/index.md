@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Proposed Sensing-Transmission Model For Uncoordinated Cognitive Radios"
 authors: ["NAVPREET KAUR N/A, Dr. INDERDEEP KAUR AULAKH"]
-slides: "FIXME"
+slides: ""
 draft: true
 youtube: ""
 conference-day: "FIXME"

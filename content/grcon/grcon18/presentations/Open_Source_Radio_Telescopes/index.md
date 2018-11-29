@@ -3,7 +3,7 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Open Source Radio Telescopes"
 authors: ["Ellie White, Richard Prestage, Evan Smith"]
-slides: "FIXME"
+slides: "2-John_Makous-OSRT.pdf"
 draft: true
 youtube: ""
 conference-day: "FIXME"
