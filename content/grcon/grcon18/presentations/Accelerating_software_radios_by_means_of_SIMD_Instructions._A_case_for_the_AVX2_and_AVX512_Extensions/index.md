@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Accelerating software radios by means of SIMD Instructions. A case for the AVX2 and AVX512 Extensions"
 authors: ["Damian Miralles", "Jessica Iwamoto"]
 slides: "8-Jessica_Iwamoto-SIMD.pdf"
-draft: true
 youtube: ""
 conference-day: "Wednesday"
 weight: 8

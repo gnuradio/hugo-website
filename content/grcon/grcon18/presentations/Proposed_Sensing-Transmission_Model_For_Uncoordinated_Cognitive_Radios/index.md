@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Proposed Sensing-Transmission Model For Uncoordinated Cognitive Radios"
 authors: ["Navpreet Kaur N/A", "Dr. Inderdeep Kaur Aulakh"]
 slides: ""
-draft: true
 youtube: ""
 conference-day: "Thursday"
 weight: 3

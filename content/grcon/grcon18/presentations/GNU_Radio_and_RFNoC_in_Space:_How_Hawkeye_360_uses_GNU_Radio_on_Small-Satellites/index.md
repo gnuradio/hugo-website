@@ -4,7 +4,6 @@ layout: "presentation"
 title: "GNU Radio and RFNoC in Space: How Hawkeye 360 uses GNU Radio on Small-Satellites"
 authors: ["Edward Kreinar", "Dan CaJacob"]
 slides: "11-EJ-GNURadio_in_Space.pdf"
-draft: true
 youtube: ""
 conference-day: "Wednesday"
 weight: 11

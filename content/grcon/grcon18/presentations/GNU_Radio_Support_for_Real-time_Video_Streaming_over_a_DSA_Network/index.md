@@ -4,7 +4,6 @@ layout: "presentation"
 title: "GNU Radio Support for Real-time Video Streaming over a DSA Network"
 authors: ["Debashri Roy", "Mainak Chatterjee", "Tathagata Mukherjee", "Eduardo Pasiliao"]
 slides: "Debashri_DSA.pdf"
-draft: true
 youtube: ""
 conference-day: "Thursday"
 weight: 8

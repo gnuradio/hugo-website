@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Open Source Radio Telescopes"
 authors: ["Ellie White", "Richard Prestage", "Evan Smith"]
 slides: "2-John_Makous-OSRT.pdf"
-draft: true
 youtube: ""
 conference-day: "Wednesday"
 weight: 2

@@ -3,7 +3,6 @@ type: "grcon/grcon18"
 layout: "presentation"
 title: "Documentation Re-Org and CGRAN Update"
 authors: ["Marc Lichman"]
-draft: true
 slides: "3-Marc_Lichtman-docs-cgran.pdf"
 youtube: ""
 conference-day: "Monday"

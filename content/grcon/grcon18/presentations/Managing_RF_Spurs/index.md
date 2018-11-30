@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Managing RF Spurs"
 authors: ["Brian Avenell"]
 slides: "10-Brian_Avenell-RF_Spurs.pdf"
-draft: true
 youtube: ""
 conference-day: "Tuesday"
 weight: 10

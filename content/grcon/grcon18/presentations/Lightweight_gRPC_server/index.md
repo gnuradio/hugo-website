@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Communicating with satellites using Starcoder: a lightweight gRPC server for managing GNU Radio flowgraphs in production"
 authors: ["Reiichiro Nakano"]
 slides: "8-Reiichiro_Nakano_Communicating_with_satellites.pdf"
-draft: true
 youtube: ""
 conference-day: "Tuesday"
 weight: 9

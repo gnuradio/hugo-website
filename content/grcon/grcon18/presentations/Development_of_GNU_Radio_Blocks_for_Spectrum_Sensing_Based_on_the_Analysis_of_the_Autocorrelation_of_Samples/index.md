@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Development of GNU Radio Blocks for Spectrum Sensing Based on the Analysis of the Autocorrelation of Samples"
 authors: ["Hector Reyes-Moncayo"]
 slides: "6-Hector-Spectrum_Sensing.pdf"
-draft: true
 youtube: ""
 conference-day: "Tuesday"
 weight: 6

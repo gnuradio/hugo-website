@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Advances in Machine Learning for Sensing and Communications Systems"
 authors: ["Tim O'Shea", "Nathan West", "Ben Hilburn"]
 slides: ""
-draft: true
 youtube: ""
 conference-day: "Tuesday"
 weight: 2

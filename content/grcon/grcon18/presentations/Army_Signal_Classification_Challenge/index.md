@@ -4,7 +4,6 @@ layout: "presentation"
 title: "Army Signal Classification Challenge"
 authors: ["Army RCO Team (Mr. Bill Urrego)"]
 slides: "4-Bill_Urrego-Army_Signal_Classification_Challenge.pdf"
-draft: true
 youtube: ""
 conference-day: "Wednesday"
 weight: 4
