@@ -538,7 +538,7 @@ body {
 
 .spon_hr {
   text-align: center;
-  border-bottom: #ff6905 6px solid;
+  border-bottom: $gr-orange 6px solid;
   font-weight: bold;
   line-height: 30px;
   margin-left: auto;
@@ -597,4 +597,13 @@ body {
 }
 .page-item.active .page-link{
   border-color: $gr-orange;
+}
+
+.gr-btn{
+  background-color: $gr-orange;
+  color: $gr-white;
+}
+
+.gr-btn:hover{
+  color: $gr-dark-gray;
 }
