@@ -8,6 +8,7 @@
         </div>
         <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
             {{ $sponsors := .GetPage "sponsors/" }}
+            {{ if $sponsors }}
             {{ range $entry := sort $sponsors.Params.sponsors "weight" }}
             <div class="container spon_level">
             <h3> {{ $entry.level | title }} Sponsors</h3>
@@ -27,6 +28,7 @@
             </div>
             {{end }}
             </div>
+            {{ end }}
             {{ end }}
         </div>
     </div>
