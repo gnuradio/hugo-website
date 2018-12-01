@@ -2,7 +2,7 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "TumbleRF: RF Fuzzing Made Easy"
-authors: []
+authors: ["Matt Knight"]
 slides: "07-MattKnight-TumbleRF.pdf"
 youtube: ""
 conference-day: "Thursday"

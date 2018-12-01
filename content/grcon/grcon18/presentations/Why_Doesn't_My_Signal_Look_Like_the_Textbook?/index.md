@@ -2,7 +2,7 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "Why Doesn't My Signal Look Like the Textbook?"
-authors: []
+authors: ["Matt Ettus"]
 slides: ""
 youtube: ""
 conference-day: "Wednesday"

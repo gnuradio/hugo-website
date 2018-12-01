@@ -2,7 +2,7 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "Bringing Transmit Antenna Diversity to LPWANs: An Experimental Testbed Implementation"
-authors: []
+authors: ["Felix Wunsch"]
 slides: "06-Felix-Wunsch_lpwan_presentation_slides.pdf"
 youtube: ""
 conference-day: "Thursday"

@@ -2,7 +2,7 @@
 type: "grcon/grcon18"
 layout: "presentation"
 title: "Understanding Amplifers"
-authors: []
+authors: ["Robin Getz"]
 slides: "02-RobinGetz-RF_Amplifiers.pdf"
 youtube: ""
 conference-day: "Thursday"
