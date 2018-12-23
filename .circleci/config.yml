@@ -1,0 +1,19 @@
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: monachus/hugo:latest
+    steps:
+      - run: 'apt-get update'
+      - run: 'apt-get install openssh-client tree -y'
+      - run: 'eval $(ssh-agent -s)'
+      - run: 'echo "$PRIVKEY" | tr -d "\r" | ssh-add - > /dev/null'
+      - run: 'mkdir -p ~/.ssh'
+      - run: 'chmod 700 ~/.ssh'
+      - run: 'echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts"'
+      - run: 'chmod 644 ~/.ssh/known_hosts'
+      - checkout
+      - run: 'hugo version'
+      - run: 'hugo -b https://test.gnuradio.org/ --minify --noTimes'
+      - run: 'echo $(date +%Y.%m.%d)'
+      - run: 'tar cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/test.gnuradio.org/$(date +%Y.%m.%d); cd /data/static/test.gnuradio.org/$(date +%Y.%m.%d); tar --strip-components=1 xz; rm -I /data/static/test.gnuradio.org/live; ln -sf /data/static/test.gnuradio.org/$(date +%Y.%m.%d) /data/static/test.gnuradio.org/live;
