@@ -4,8 +4,6 @@ jobs:
     docker:
       - image: gnuradio/hugo:latest
     steps:
-      - run: 'apt-get update'
-      - run: 'apt-get install openssh-client tree -y'
       - run: 'eval $(ssh-agent -s)'
       - add_ssh_keys:
           fingerprints:
