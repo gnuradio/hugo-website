@@ -7,7 +7,9 @@ jobs:
       - run: 'apt-get update'
       - run: 'apt-get install openssh-client tree -y'
       - run: 'eval $(ssh-agent -s)'
-      - run: 'echo "$PRIVKEY" | tr -d "\r" | ssh-add - > /dev/null'
+      - add_ssh_keys:
+          fingerprints:
+            - "4c:3f:96:5d:63:cd:34:dd:7e:67:26:52:f9:80:a0:73"
       - run: 'mkdir -p ~/.ssh'
       - run: 'chmod 700 ~/.ssh'
       - run: 'echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts"'
