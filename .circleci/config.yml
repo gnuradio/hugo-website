@@ -2,7 +2,7 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: monachus/hugo:latest
+      - image: gnuradio/hugo:latest
     steps:
       - run: 'apt-get update'
       - run: 'apt-get install openssh-client tree -y'
