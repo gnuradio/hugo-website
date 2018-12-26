@@ -16,4 +16,4 @@ jobs:
       - run: 'hugo version'
       - run: 'hugo -b https://test.gnuradio.org/ --minify --noTimes'
       - run: 'echo $(date +%Y.%m.%d)'
-      - run: 'tar cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/test.gnuradio.org/$(date +%Y.%m.%d); cd /data/static/test.gnuradio.org/$(date +%Y.%m.%d); tar --strip-components=1 xz; rm -I /data/static/test.gnuradio.org/live; ln -sf /data/static/test.gnuradio.org/$(date +%Y.%m.%d) /data/static/test.gnuradio.org/live;
+      - run: 'tar cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/test.gnuradio.org/$(date +%Y.%m.%d); cd /data/static/test.gnuradio.org/$(date +%Y.%m.%d); tar --strip-components=1 xz; rm -I /data/static/test.gnuradio.org/live; ln -sf /data/static/test.gnuradio.org/$(date +%Y.%m.%d) /data/static/test.gnuradio.org/live;"'
