@@ -91,7 +91,3 @@ menu:
       name: Presentations
       url: /grcon/grcon18/presentations
       weight: -100
-    - identifier: content
-      name: Content
-      url: /grcon/grcon18/content
-      weight: 0
