@@ -80,7 +80,7 @@ menu:
       parent: events
       weight: -90
     - name: getting started
-      url: /getting-started/
+      url: https://wiki.gnuradio.org/index.php/WhatIsGR
       weight: -100
   grcon/grcon18:
     - identifier: grcon18
