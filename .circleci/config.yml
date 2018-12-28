@@ -14,6 +14,6 @@ jobs:
       - run: 'chmod 644 ~/.ssh/known_hosts'
       - checkout
       - run: 'hugo version'
-      - run: 'hugo -b https://test.gnuradio.org/ --minify --noTimes'
+      - run: 'hugo -b https://www.gnuradio.org/ --minify --noTimes'
       - run: 'echo $(date +%Y.%m.%d)'
-      - run: 'tar -cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/test.gnuradio.org/$(date +%Y.%m.%d); cd /data/static/test.gnuradio.org/$(date +%Y.%m.%d); tar --strip-components=1 -xz; rm -I /data/static/test.gnuradio.org/live; cd /data/static/test.gnuradio.org; ln -sf $(date +%Y.%m.%d) live;"'
+      - run: 'tar -cz public | ssh $SSH_USER@$SSH_HOST "mkdir -p /data/static/www.gnuradio.org/$(date +%Y.%m.%d); cd /data/static/www.gnuradio.org/$(date +%Y.%m.%d); tar --strip-components=1 -xz; rm -I /data/static/www.gnuradio.org/live; cd /data/static/www.gnuradio.org; ln -sf $(date +%Y.%m.%d) live;"'
