@@ -4,7 +4,7 @@ layout: "presentation"
 title: "GNU Radio Ecosystem Management with Nix"
 authors: ["Tom Bereknyei"]
 slides: "7-GNURadio_ecosystem_management_with_Nix.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=8r__XHs-BNY"
 conference-day: "Tuesday"
 weight: 7
 ---

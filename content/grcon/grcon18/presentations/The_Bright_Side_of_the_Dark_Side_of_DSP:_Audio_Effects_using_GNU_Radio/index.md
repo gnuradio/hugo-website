@@ -4,7 +4,7 @@ layout: "presentation"
 title: "The Bright Side of the Dark Side of DSP: Audio Effects using GNU Radio"
 authors: ["Ashish Chaudhari"]
 slides: "2-Ashish_Chaudhari_audio_effects.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=h8-Eg-kk0ko"
 conference-day: "Tuesday"
 weight: 2
 ---

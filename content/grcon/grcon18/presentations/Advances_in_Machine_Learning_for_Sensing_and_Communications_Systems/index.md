@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Advances in Machine Learning for Sensing and Communications Systems"
 authors: ["Tim O'Shea", "Nathan West", "Ben Hilburn"]
 slides: "deepsig_grcon18.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=pF74q_KHYyM"
 conference-day: "Tuesday"
 weight: 4
 ---
