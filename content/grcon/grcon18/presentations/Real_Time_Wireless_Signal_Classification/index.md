@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Experiences with using GNU Radio for Real-time Wireless Signal Classification"
 slides: "10-Christopher_Becker-Real-time-Wireless-Signal-Classification.pdf"
 authors: ["Christopher Becker", "Aniqua Baset", "Sneha Kasera", "Kurt Derr", "Samuel Ramirez"]
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=kW1y1wJvSac"
 conference-day: "Monday"
 weight: 10
 ---

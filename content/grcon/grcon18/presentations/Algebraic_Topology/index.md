@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Algebraic Topology for the Physical Layer"
 slides: "11-Rafael_Turner-Algebraic-Topology.pdf"
 authors: ["Rafael Turner"]
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=FC9k71SuxRo"
 conference-day: "Monday"
 weight: 11
 ---

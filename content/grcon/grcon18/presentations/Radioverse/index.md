@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Analog Devices Radioverse, from chips to software, to HDL, to systems"
 slides: "9-Robin_Getz-RadioVerse.pdf"
 authors: ["Robin Getz"]
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=7-KK_TaASK0"
 conference-day: "Monday"
 weight: 9
 ---

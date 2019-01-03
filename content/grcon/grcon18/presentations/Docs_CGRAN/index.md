@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Documentation Re-Org and CGRAN Update"
 authors: ["Marc Lichman"]
 slides: "3-Marc_Lichtman-docs-cgran.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=khyhWC_uZfA"
 conference-day: "Monday"
 weight: 3
 ---

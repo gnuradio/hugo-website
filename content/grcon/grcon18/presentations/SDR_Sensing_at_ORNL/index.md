@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Application of Software Radios for Sensing and Instrumentation at Oak Ridge National Laboratory"
 authors: ["James Humphries"]
 slides: "4-James-Humphries-SDR_Sensing_at_ORNL.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=O7vrELj06LY"
 conference-day: "Monday"
 weight: 4
 ---

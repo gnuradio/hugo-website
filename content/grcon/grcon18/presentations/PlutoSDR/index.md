@@ -4,7 +4,7 @@ layout: "presentation"
 title: "ARM PlutoSDR With Custom Applications"
 authors: ["Michael Hennerich"]
 slides: "8-Michael_Hennerich.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=HkZX2HhpRGM"
 conference-day: "Monday"
 weight: 8
 ---

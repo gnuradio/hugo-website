@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Ettus Research and its Research"
 authors: ["Martin Braun"]
 slides: "5-Martin_Braun-Ettus_Research.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=5ihBOHkHrDU"
 conference-day: "Monday"
 weight: 5
 ---

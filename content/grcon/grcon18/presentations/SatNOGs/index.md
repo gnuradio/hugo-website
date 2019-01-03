@@ -4,7 +4,7 @@ layout: "presentation"
 title: "SatNOGs"
 authors: ["Manolis Surligas"]
 slides: "1-Manolis-Surligas_satnogs.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=YKWhDqjgOKI"
 conference-day: "Monday"
 weight: 1
 ---
