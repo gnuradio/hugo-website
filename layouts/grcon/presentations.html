@@ -26,11 +26,11 @@
                         {{ if .Params.slides }}
                         {{ $slides := .Resources.Match .Params.slides}}
                         {{ range $slides}}
-                        <a target="_blank" href="{{ .RelPermalink }}"><i class="far fa-file-pdf"></i></a>
+                        <a target="_blank" href="{{ .RelPermalink }}"><i class="far fa-file-pdf mx-auto"></i></a>
                         {{ end }}
                         {{ end }}
                         {{ if .Params.youtube }}
-                        <a target="_blank" href="{{ .Params.youtube }}"><i class="fab fa-youtube-square"></i></a>
+                        <a target="_blank" href="{{ .Params.youtube }}"><i class="fab fa-youtube-square mx-auto"></i></a>
                         {{ end }}
 
                         <a href="{{ .RelPermalink }}"> {{ .Title }}</a>
