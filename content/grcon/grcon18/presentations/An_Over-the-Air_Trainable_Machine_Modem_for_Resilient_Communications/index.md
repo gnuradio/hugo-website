@@ -4,7 +4,7 @@ layout: "presentation"
 title: "An Over-the-Air Trainable Machine Modem for Resilient Communications"
 authors: ["Adam Anderson"]
 slides: "10-Adam_Anderson-Trainable_Machine_Modem.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=svRKqI-H2Mg"
 conference-day: "Wednesday"
 weight: 10
 ---

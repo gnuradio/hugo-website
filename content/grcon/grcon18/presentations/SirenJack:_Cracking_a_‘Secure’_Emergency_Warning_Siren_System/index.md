@@ -4,7 +4,7 @@ layout: "presentation"
 title: "SirenJack: Cracking a ‘Secure’ Emergency Warning Siren System"
 authors: ["Balint Seeber"]
 slides: ""
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=1bznf118C-Y"
 conference-day: "Wednesday"
 weight: 9
 ---
