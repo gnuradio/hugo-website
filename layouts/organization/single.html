@@ -1,31 +1,41 @@
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid bg_gray">
-            <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                    <p>The GNU Radio Project is led by the following people:</p>
-                    <h2>Project &amp; Foundation Officers</h2>
-                    <p>
-                    {{ range .Site.Data.leads.officers }}
-                        <strong>{{ .title }}:</strong> {{ .name }}
-                        {{ if isset . "email"}}(<a href="mailto:{{ .email }}" target="_blank" rel="noopener">E-Mail</a>){{ end }}
-                        {{ if isset . "twitter"}}(<a href="https://twitter.com/{{ .twitter }}" target="_blank" rel="noopener">Twitter</a>){{ end }}
-                        {{ if isset . "website"}}(<a href="{{ .website }}" target="_blank" rel="noopener">Website</a>){{ end }}
-                    <br>
-                    {{ end }}
-                    </p>
-                    <h2>Packaging</h2>
-                    <p>
-                    {{ range .Site.Data.leads.packaging }}
-                    <strong>{{ .target }}:</strong> {{ .name }}<br>
-                    {{ end }}
-                    </p>
-                    <h2>Technical Advisors</h2>
-                    <p>Our technical advisors are people who have made significant contributions to the project and who continue to provide their time and resources in support of GNU Radio.</p>
-                    <ul>
-                        {{ range .Site.Data.leads.advisors }}
-                        <li>{{ .name }}</li>
-                        {{ end }}
-                    </ul>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            The GNU Radio Project is led by the following people:
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <h2>Project &amp; Foundation Officers</h2>
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <p>
+            {{ range .Site.Data.leads.officers }}
+            <strong>{{ .title }}:</strong> {{ .name }}
+            {{ if isset . "email"}}(<a href="mailto:{{ .email }}" target="_blank" rel="noopener">E-Mail</a>){{ end }}
+            {{ if isset . "twitter"}}(<a href="https://twitter.com/{{ .twitter }}" target="_blank" rel="noopener">Twitter</a>){{ end }}
+            {{ if isset . "website"}}(<a href="{{ .website }}" target="_blank" rel="noopener">Website</a>){{ end }}
+            <br>
+            {{ end }}
+            </p>
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <h2>Packaging</h2>
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <p>
+            {{ range .Site.Data.leads.packaging }}
+            <strong>{{ .target }}:</strong> {{ .name }}<br>
+            {{ end }}
+            </p>
+        </div>
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <h2>Technical Advisors</h2>
+            Our technical advisors are people who have made significant contributions to the project and who continue to provide their time and resources in support of GNU Radio.
+            <ul>
+                {{ range .Site.Data.leads.advisors }}
+                <li>{{ .name }}</li>
+                {{ end }}
+            </ul>
         </div>
     </div>
 </main>
