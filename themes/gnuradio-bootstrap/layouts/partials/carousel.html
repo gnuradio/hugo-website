@@ -22,7 +22,7 @@
           <img class="slide" src="{{ $imgurl.Permalink | relURL }}" alt="{{ $element.title }}">
           <div class="container">
               <div class="carousel-caption">
-                  <h1>{{ .title }}</h1>
+                  <h2>{{ .title }}</h2>
                   <p>{{ .description | safeHTML }}</p>
                   <p><a class="btn btn-lg btn-gr" href={{ .url | relURL }} role="button" target="_blank">Learn More</a></p>
               </div>
