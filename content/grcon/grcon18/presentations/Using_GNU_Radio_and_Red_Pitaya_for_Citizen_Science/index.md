@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Using GNU Radio and Red Pitaya for Citizen Science"
 authors: ["Robert McGwier"]
 slides: "10-Rob_McGwier-CitizenScience_RedPitaya.pdf"
-youtube: ""
+youtube: "https://www.youtube.com/watch?v=g8Hosry-j1g"
 conference-day: "Thursday"
 weight: 10
 ---
