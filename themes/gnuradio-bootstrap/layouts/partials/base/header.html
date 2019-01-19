@@ -2,7 +2,13 @@
     <div class="container">
         <a class="navbar-brand" href="{{ .Site.BaseURL }}">
             {{ $grlogo := resources.Get "imgs/gnuradio_logo_glyphs_as_paths.svg" }}
+            {{ if .IsHome }}
+            <h1>
+            {{ end }}
             <img class="logo" src="{{ $grlogo.RelPermalink }}" alt="GNU Radio" width="100%" height="">
+            {{ if .IsHome }}
+            </h1>
+            {{ end }}
         </a>
         <button class="navbar-toggler"
                 type="button" data-toggle="collapse" data-target="#gr-navbar" aria-controls="gr-navbar"
