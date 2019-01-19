@@ -18,7 +18,7 @@
 <meta property="og:site_name" content="{{ .Site.Title }}"/>
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ .Site.LanguageCode }}"/>
-{{ $grlogo := resources.Get "imgs/gr_web.svg" }}
+{{ $grlogo := resources.Get "imgs/gnuradio_logo_icon-square.png" }}
 <meta property="og:image" content="{{ $grlogo.Permalink }}"/>
 
 {{ if ne .Site.Params.twitter "" }}
@@ -29,7 +29,6 @@
 <meta name="twitter:description" content="{{ .Description }}" />
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:domain" content="{{ .Site.BaseURL }}"/>
-<meta name="twitter:image" content="{{ $grlogo.Permalink }}"/>
 {{ end }}
 
 {{ if not .IsPage }}
