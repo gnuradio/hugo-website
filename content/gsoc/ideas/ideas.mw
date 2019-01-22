@@ -1,0 +1,262 @@
+== Ideas ==
+
+=== Hardware in the Loop: Cycle-accurate Verilog Design Simulation Integration ===
+
+Hardware accelerators are necessary or at least desirable in many SDR systems.
+
+A typical development workflow for FPGA-accelerated DSP system looks like this:
+
+* Write down the system specification, formulate the algorithm mathematically
+* Implement the algorithm in Matlab, Python to make a Proof of Concept
+* Write extensive test cases to make sure you've got everything right
+* Iterate.
+* Implement the same algorithm in a HDL, e.g. Verilog, and synthesize
+* Write extensive (System)Verilog test benches, which mostly duplicate code from the software test cases in a less friendly development environment
+* Run the test benches in simulation and the FPGA to prove functionality
+* Iterate.
+
+However, with [Verilator](https://www.veripool.org/wiki/verilator), there's a relatively mature tool to turn Verilog modules into compilable C++ code that offers a cycle-accurate simulator of the module.
+
+The goal would be to use integrate verilator into the GNU Radio in a way that allows for rapid prototyping of small, well-defined Verilog modules; the idea is that you can, in the end, just drop your Verilog code file name in a GNU Radio block, and behind the scenes, the C++ code is generated, necessary "adapters" from native (GNU Radio) data types to simulated signals are added, and all is then executed at flow graph run time to process digital signals from within a flow graph.
+
+==== Prerequisites ====
+
+* workable C++ proficiency
+* basic idea of FPGA development
+* Ability to read and write "hello world" verilog modules
+
+==== Outcome ====
+
+* Adapter code to call Verilator-generated Code of modules with fixed interface from within a GNU Radio block's work routine
+* Integration of verilator into either build infrastructure or runtime infrastructure (might require further dependencies, e.g. llvm)
+* Examples and software test cases for fundamental blocks, e.g. a FIFO and a integer squarer
+
+==== Mentor ====
+
+Marcus Müller
+
+
+=== Qt5 GUI Integrations ===
+
+Idea: Wrap the Qt GUI sinks to appear in QtCreator, including the GUI aspects of their parameterization
+
+==== Prerequisites ====
+
+* C++, Python proficiency
+* Qt experienced
+
+==== Outcome ====
+
+* Qt GUI Sinks usable as widgets in QtCreator (not necessarily already showing an "empty" GUI, just placeholders)
+* Possible to import generate Qt GUI description file (UIC) into GRC
+* Interface to map placeholders from GUI design to Qt GUI sinks in Flow graph
+* Integration of that into GRC-generated Python code
+
+==== Mentor ====
+
+Marcus Müller, Sebastian <i>GRC-Man</i> Koslowski
+
+=== Block header parsing tool ===
+
+Rough ideas:
+* Python-based tool
+* Can extract info from block headers (and maybe, if it has to, also from the .cc file)
+** Analyse factory signature ("make function"), analyze getters/setters
+** Analyse I/O signature
+
+Utilities:
+* Auto-generate YAML files for GRC (would require another tool, also part of this project)
+* Facilitate inclusion of GNU Radio with other tools/frameworks
+
+There is some code in gr_modtool which does this, which can be reused and
+extended.
+
+===== Prerequisites =====
+
+* Strong knowledge of Python, including Py3k idiosyncrasies
+* Some text parsing experience
+* Some understanding of GNU Radio block structure
+
+===== Outcome =====
+
+* A tool, written in Python, merged into the GNU Radio source tree, which can turn a block definition into some kind of abstract representation (the design which of is also part of this project)
+* Another tool, which takes the abstract representation, and produces YAML files for GRC.
+* An API into calling this which can be used by other tools (external to GNU Radio).
+* Make gr_modtool use this tool instead of its builtin code.
+
+===== Mentor(s) =====
+
+Martin Braun, Nicolas Cuervo
+
+=== GRC: View-Only Mode (Secure) ===
+
+When a flowgraph from an untrusted source is opened if GRC, arbitrary Python code can be executed. This poses a potential security risk. Storing the all evaluated values of all parameters within a flow graph (.grc) file would allow us to open such flow graphs without compromising security. No code would be have to executed to draw the flow graph and block parameters can be viewed safely. Only if the flow graph is modified the user would have to choose to trust the flow graph thus enabling normal eval operations.
+
+===== Prerequisites =====
+
+GRC is implemented using Python. So, Python should be known pretty well.
+
+===== Outcome =====
+
+Safely view other people's flowgraphs without putting your PC at risk.
+
+===== Mentor(s) =====
+
+Sebastian Koslowski
+
+
+=== Extending and Updating gr-radar ===
+
+[gr-radar](https://github.com/kit-cel/gr-radar/) was a great and successful GSoC project that provided a few methods of radar in GNU Radio. This module is heavily used by academics, researchers, cybersecurity folks, and hobbyists. This project would work to improve upon the concepts already in there as well as add more radar techniques.
+
+There are uncountable methods and techniques that could be added to this project, such as:
+
+* SAR / InSAR methods
+* Better passive radar support
+* Speed camera applications
+* Multi-antenna radar techniques
+
+===== Prerequisites =====
+
+Signal processing and some radar basics are required. Code is written in C++ with some Python on the side, so the student must be able to handle these languages at the least.
+
+===== Outcome =====
+
+Based on the student's interest, a subset of the radar techniques listed above (or others) are chosen as milestones for this project. All code must be merged back into gr-radar by the end of the summer.
+
+===== Mentor(s) =====
+
+Stefan Wunsch, Martin Braun
+
+
+
+=== QT Widgets Improvements ===
+
+The gr-qtgui in-tree component provides some QT widgets for signal visualization. This component needs some improvement to become more useful.<br />
+This project is cleanly divided into several sub-projects:
+
+* Add new widgets
+** Compass display (e.g. for direction-finding applications)
+** MPEG display (e.g. for video demod output)
+** Matrix sink (e.g. for radar Doppler/range plane visualization, or 2D-equalizer taps visualization)
+
+* Improve current widgets
+** Better code structure to make the current widgets more manageable, extensible and remove code duplication between widgets
+** More Control Panels on other widgets (follow lead on the frequency sink)
+** Improve UI, make more intuitive, more power to mouse users
+** Set trigger point with mouse
+
+* Integration / Support for QT Creator
+** QML design
+** Allow to build full GUI applications from, say, GRC
+
+===== Prerequisites =====
+
+Familiarity with QT is essential. Widgets are written in C+'', so some C''+ knowledge is also required. Python skills are highly useful.
+
+===== Mentor(s) =====
+
+Tim O'Shea
+
+=== Android ===
+
+One effort of the past years was to improve Android support for GNU Radio. We're getting to a point where we've figured out '''how''' to do it, so the next step is to make it more accessible to users and developers.
+
+The Android ecosystem is an entirely different beast from the rest of GNU Radio. To make writing Android/GR apps easy, the following needs to happen (and shall be part of this project):
+
+* Improve support for development environment
+** Create Dockers for easy start of development
+* Visualization classes for PSD, spectrogram and oscilloscope
+** Easy reuse in other apps, like the gr-qtgui widgets, but for Android SDKs
+* Interactivity concepts
+** Gestures and config for radio params (e.g., freq, gain, bandwidth)
+** Create an example FM receiver app that allows easy channel selection etc. through motions and gestures
+
+===== Prerequisites =====
+
+* Some Android experience
+* Enjoy writing GUI widgets
+* C++/Java experience
+
+===== Mentor(s) =====
+
+Ben Hilburn
+
+=== Filter Design Tool Enhancements ===
+
+GNU Radio provides many tools to design and use digital filters. Using these tools requires both some expertise in these areas as well as an understanding of the performance on the given platform. One example is the selection between FIR (convolution-based) and FFT (fast convolution-based) filters for different resampling rates. Another example is doing stages of filter decomposition when doing large down-sampling. Included in this is the polyphase filterbanks, which again are provided as primitive blocks that need tweaking to work.
+
+This project is to improve our uses of these tools and blocks to make it more obvious to the users as well as automate some of the decisions for optimally using them. Some pointers:
+
+* When used in GRC, we want to save the results of the tool in a local file or for use in actual blocks.
+* It still currently runs on PyQWT, which is obsolete and needs to be updated to QT4/QT5
+** See https://github.com/trondeau/gnuradio/tree/filter/design_tool_newgui
+* Add more support for filter design concepts and other filters.
+** Cascaded filters
+** Better support for creating PFB filters
+
+===== Prerequisites =====
+
+Strong DSP background required. Python and QT knowledge highly useful (at least one of those is a must).
+
+===== Mentor(s) =====
+
+Marcus Leech
+
+=== Implement SigMF functionality for GNU Radio ===
+
+SigMF is the "Signal Metadata Format" that was defined during the 2017 DARPA Hackfest in Brussels. Its purpose is to annotate raw binary dumps of signals with metadata, thus giving meaning to a raw mass of samples.<br />
+SigMF is specified and has a minimal reference [implementation](https://github.com/gnuradio/sigmf).
+
+GNU Radio needs its own implementation of SigMF that ties into the block structure. The following things need to be written:
+
+* Source and Sink blocks for SigMF (similar to the current metadata blocks)
+* Converters for files generated with the current metadata file formats
+* Static analysis tools using SigMF
+
+===== Prerequisites =====
+
+Basic understanding of how to write GNU Radio blocks is required. Also, the student needs to explain that she or he has understood the concepts of SigMF, although SigMF is a very simple, JSON-based file format.<br />
+Depending on the precise path that the student and the mentor define, experience in GUI development would also be useful.
+
+===== Outcome =====
+
+The source and sink blocks are by the far the most important outcomes of this project. We estimate it would take about a third of the active coding time to implement those, and have them merged around the midterms.<br />
+This leaves plenty of time for further development. The next most important task are the converters, so existing metadata files will continue to be useful. After that, the student should define own tasks based on their interests. A very relevant problem is the ability to effectively visualize metadata in combination with signals.
+
+===== Mentor(s) =====
+
+Bastian Bloessl
+
+=== Statistical Toolbox for GRC ===
+
+A statistical toolbox for GRC would enable GUI-based statistical analysis. Currently, such analysis can be done by writing an independent program (e.g., with Scipy), but there is no actual integration with GNU Radio. By developing the statistical toolbox, we provide blocks for probability distribution fitting, hypothesis testing, extracting statistical parameters for one-dimensional as well as multi-dimensional data. This would significantly expand GNU Radio users' ability to perform datascience analysis and modeling on signal data.
+
+===== Prerequisites =====
+
+Understanding of existing GNU Radio tools (e.g., GRC), GNU Radio Out-of-Tree Modules, and statistics / datascience modeling.
+
+===== Outcome =====
+
+An OOT module that provides statistical analysis capabilities for GNU Radio.
+
+===== Mentor(s) =====
+
+Ben Hilburn
+
+=== Standardized High Throughput FEC Codes ===
+
+Channel coding is essential to modern communications. Also, it is computationally very heavy. As of now, there exist implementations in GNU Radio which are too slow to be integrated into high throughput applications. GNU Radio would benefit from integration of standardized decoders for Turbo and LDPC codes. These codes would only support a certain subset of the whole code class but would be well optimized. 
+
+
+===== Prerequisites =====
+
+Understanding of ''gr-fec'' API. Knowledge on channel coding. Understanding of C++.
+
+===== Outcome =====
+
+Standardized Codes, e.g. LTE Turbo Codes, 5G Polar Codes, 5G LDPC Codes, CCITT Convolutional Codes etc. are available in ''gr-fec''. The prefered goal is to find a highly optimized implementation and integrate these into GNU Radio.
+
+===== Mentor(s) =====
+
+Johannes Demel

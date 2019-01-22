@@ -1,0 +1,32 @@
+{{ define "header" }}
+<div class="page-header">
+    <div class="about_header_img"></div>
+    <h1 class="offset-lg-2 col-lg-8 display-5">{{ .Title }}</h1>
+</div>
+{{ end }}
+{{ define "main" }}
+<main role="main" >
+ <div class="container-fluid  bg_gray">
+    <div class="row px-2">
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <div class="container">
+                {{ .Content }}
+            </div>
+            <div id="ideas" class="mb-2">
+            {{ range .Pages }}
+                <div class="card">  <!--{{ .Title }}--> 
+                    <div class="card-header">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#ideas" href="#collapse{{ .Params.Hash }}"> {{ .Params.Title }}</a> </h3>
+                    </div>
+                    <div id="collapse{{ .Params.Hash }}"
+                         class="card-body collapse">{{ .Content }}
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+      </div>
+  </div>
+ </div>
+</main>
+{{ end }}
