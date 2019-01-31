@@ -3,7 +3,7 @@
 ## Install Prequisites
 
 To render the GNU Radio website a recent (https://gohugo.io)[hugo] installation in the extended mode is required.
-If you already have a go environment setup and you are familiar with `go get`. The easiest way to get `hugo` in the required version: `go get ---tags extended -u github.com/gohugoio/hugo/`.
+If you already have a go environment setup and you are familiar with `go get`. The easiest way to get `hugo` in the required version: `go get --tags extended -u github.com/gohugoio/hugo/`.
 
 
 ## Run local development version
