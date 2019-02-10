@@ -10,7 +10,7 @@ aliases:
 
 # About the Conference
 
-GRCon is the annual GNU Radio conference, first held in 2011. It has grown in size every year, and we expect 2017 to be our biggest conference, yet. With a stellar program and engaging events, our attendees report an extremely high satisfaction level year after year. In the GRCon16 Attendee Survey, 53% of conference attendees rated the conference as an overall five-out-of-five, and 42% rated it as a four-out-of-five.
+GRCon is the annual GNU Radio conference, first held in 2011. With a stellar program and engaging events, our attendees report an extremely high satisfaction level year after year. In the GRCon16 Attendee Survey, 53% of conference attendees rated the conference as an overall five-out-of-five, and 42% rated it as a four-out-of-five.
 
 GRCon19 will continue many of the successful program aspects from previous years, and add some new items, as well.
 

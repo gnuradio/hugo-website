@@ -12,7 +12,7 @@ aliases:
 
 There are two levels of student registration. All students are required to submit a resume / CV, which will be provided to our student sponsors, and proof of student status, which will not be shared with anyone.
 
-## Student Presenters: $99
+## Student Presenters
 
 Students presenting a talk or poster at GRCon17 can register with this ticket type. In order to register as a Student Presenter, you must do the following:
 
@@ -21,7 +21,7 @@ Students presenting a talk or poster at GRCon17 can register with this ticket ty
 * E-Mail proof of your student status to `grcon@gnuradio.org`
 * Purchase your “Student Presenter” registration on pretix
 
-## Student Attendee: $399
+## Student Attendee
 
 This ticket type is available to all students. In order to register as a Student Presenter, you must do the following:
 
