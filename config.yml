@@ -65,9 +65,9 @@ menu:
     - identifier: events
       name: Events
       weight: 50
-    - identifier: events_grcon_18
-      name: GNU Radio Conference 2018
-      url: /grcon/grcon18/
+    - identifier: events_grcon_19
+      name: GNU Radio Conference 2019
+      url: /grcon/grcon19/
       parent: events
       weight: 51
     - identifier: events_grcon
@@ -92,3 +92,24 @@ menu:
       name: Presentations
       url: /grcon/grcon18/presentations
       weight: 20
+  grcon/grcon19:
+    - identifier: grcon19
+      name: GRCon19
+      url: /grcon/grcon19
+      weight: 10
+    - identifier: about
+      name: About
+      url: /grcon/grcon19/about
+      weight: 20
+    - identifier: students
+      name: Students
+      url: /grcon/grcon19/students
+      weight: 40
+    - identifier: submit
+      name: Submit
+      url: /grcon/grcon19/submit
+      weight: 50
+    - identifier: sponsors
+      name: Sponsors
+      url: /grcon/grcon19/sponsors
+      weight: 60
