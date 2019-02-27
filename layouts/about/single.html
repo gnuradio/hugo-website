@@ -1,19 +1,19 @@
 {{ define "header" }}
-<div class="page-header">
+<div class="container-fluid page-header">
     <div class="blog_header_img"></div>
-    <div class="container header_text">
-        <span class="header_title">News</span>
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">
+            <h1>{{ .Title }}</h1>
+        </div>
     </div>
 </div>
 {{ end }}
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid bg_gray">
-        <div class="container center bg_gray gr_heading about">
-            <div class="row ">
-                <div class="col-lg-12">
-                    {{ .Content }}
-                </div>
+        <div class="row ">
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                {{ .Content }}
             </div>
         </div>
     </div>

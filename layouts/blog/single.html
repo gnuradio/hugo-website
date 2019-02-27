@@ -7,20 +7,26 @@
 {{ define "header" }}
 <div class="page-header">
     <div class="blog_header_img"></div>
-    <h1 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">{{ .Title }}</h1>
-    <h2 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-6">by {{ .Params.Author }}</h2>
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">
+            <h1 >{{ .Title }}</h1>
+            <h2>by {{ .Params.Author }}</h2>
+        </div>
+    </div>
 </div>
 {{ end }}
 
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid bg_gray">
-        <div class="row gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-            {{ if isset .Params "externalurl" }}
-            <p>You are redirected to <a href="{{ .Params.externalurl }}">{{ .Params.externalurl }}</a> to view this external content.</p>
-            {{ else }}
-            {{ .Content }}
-            {{ end }}
+        <div class="row">
+            <div class="gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                {{ if isset .Params "externalurl" }}
+                <p>You are redirected to <a href="{{ .Params.externalurl }}">{{ .Params.externalurl }}</a> to view this external content.</p>
+                {{ else }}
+                {{ .Content }}
+                {{ end }}
+            </div>
         </div>
     </div>
     {{ partial "content/next-prev-links" . }}

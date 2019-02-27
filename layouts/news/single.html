@@ -1,18 +1,26 @@
 {{ define "header" }}
 
-<div class="page-header">
+<div class="container-fluid page-header">
     <div class="news_header_img"></div>
-    <h1 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">{{ .Title }}</h1>
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
 </div>
 {{ end }}
 {{ define "main" }}
 <main role="main">
     <div class="container-fluid bg_gray">
-        <div class="row gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                    {{ .Content }}
+        <div class="row">
+            <div class="gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                {{ .Content }}
+            </div>
         </div>
-        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10 mt-4">
-            {{ partial "content/next-prev-links" . }}
+        <div class="row">
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 mt-4">
+                {{ partial "content/next-prev-links" . }}
+            </div>
         </div>
     </div>
 </main>
