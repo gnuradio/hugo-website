@@ -61,7 +61,7 @@ menu:
     - identifier: docs
       name: Documentation
       url: /docs/
-      weight: 40 
+      weight: 40
     - identifier: events
       name: Events
       weight: 50
@@ -83,6 +83,15 @@ menu:
     - name: getting started
       url: https://wiki.gnuradio.org/index.php/WhatIsGR
       weight: 60
+  grcon/grcon17:
+    - identifier: grcon17
+      name: GRCon17
+      url: /grcon/grcon17
+      weight: 10
+    - identifier: presentations
+      name: Presentations
+      url: /grcon/grcon17/presentations
+      weight: 20
   grcon/grcon18:
     - identifier: grcon18
       name: GRCon18

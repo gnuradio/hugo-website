@@ -1,0 +1,29 @@
+{{ define "header" }}
+<div class="page-header">
+    <div class="about_header_img"></div>
+    <h1 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-5">{{ .Title }}</h1>
+    <h2 class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 display-6">by {{ delimit .Params.authors ", " }}</h2>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<main role="main">
+    <div class="container-fluid bg_gray">
+        <div class="row offset-lg-2 col-lg-8 offset-md-1 col-md-10 pb-2">
+            {{ if .Params.youtube }}
+            <a type="button" class="btn gr-btn mr-1" href="{{ .Params.youtube }}" target="_blank"><i class="fab fa-youtube-square"></i></a>
+            {{ end }}
+            {{ if .Params.slides }}
+            {{ $slides := .Resources.Match .Params.slides }}
+            {{ range $slides }}
+            <a type="button" class="btn gr-btn" href="{{ .RelPermalink }}" target="_blank"><i class="far fa-file-pdf pr-1"></i>Slides</a>
+            {{ end }}
+            {{ end }}
+        </div>
+
+        <div class="row gr_article offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            {{ .Content }}
+        </div>
+    </div>
+</main>
+{{ end }}

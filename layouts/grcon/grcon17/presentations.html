@@ -1,0 +1,47 @@
+{{ define "header" }}
+<div class="page-header">
+    <div class="about_header_img"></div>
+    <h1 class="offset-lg-2 col-lg-8 display-5">{{ .Title }}</h1>
+</div>
+{{ end }}
+{{ define "main" }}
+<main role="main">
+ <div class="container-fluid  bg_gray">
+    <div class="row px-2">
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            <div class="container">
+                 {{ .Content }}
+            </div>
+            <div id="presentations" class="mb-2">
+            {{ range $index, $day := (index .Params "conference-days") }}
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#presentations" href="#collapse{{ $index }}"> {{ $day }}</a> </h3>
+                    </div>
+                    <div id="collapse{{ $index }}" class="card-body collapse {{ if eq $index 0 }}show{{ end }}">
+                <ul class="list-group list-group-flush">
+                    {{ range (where $.Pages.ByWeight "Params.conference-day" $day) }}
+                    <li class="list-group-item">
+                        {{ if .Params.slides }}
+                        {{ $slides := .Resources.Match .Params.slides}}
+                        {{ range $slides}}
+                        <a target="_blank" href="{{ .RelPermalink }}"><i class="far fa-file-pdf pr-1 pr-1"></i></a>
+                        {{ end }}
+                        {{ end }}
+                        {{ if .Params.youtube }}
+                        <a target="_blank" href="{{ .Params.youtube }}"><i class="fab fa-youtube-square pr-1"></i></a>
+                        {{ end }}
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+      </div>
+  </div>
+ </div>
+</main>
+{{ end }}
