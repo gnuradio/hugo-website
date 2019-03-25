@@ -15,3 +15,5 @@ GRCon is the annual conference for the GNU Radio project & community, and has es
 GRCon19 will be held September 16-20, 2019 at the Marriot at the Space & Rocket Center in Huntsville, Alabama.
 
 With an annual program that has broad appeal, GRCon attracts people new to Software Radio just looking to learn more, folks that want to keep their finger on the pulse & direction of the industry, and seasoned developers ready to show off their latest work.
+
+Registration is open now! Get your tickets [here](https://tickets.gnuradio.org/grcon19/).
