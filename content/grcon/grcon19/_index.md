@@ -1,5 +1,6 @@
 ---
 title: "GNU Radio Conference 2019"
+description: "GRCon is the annual conference for the GNU Radio project & community, and has established itself as one of the premier industry events for Software Radio."
 type: grcon/grcon19
 section: grcon/grcon19
 layout: homepage
