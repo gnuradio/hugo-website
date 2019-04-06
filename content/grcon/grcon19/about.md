@@ -42,7 +42,7 @@ Every year, vendors, students, and hobbyists show off some of their latest devel
 
 ## Social Events
 
-We are proud to continue GRCon’s tradition of high-quality social events, which provide an opportunity to network & get to know others in the community. Turnout at GRCon socials is very high year after year, and we look forward to once again offering a fun and unique experience. Planned social events for 2019 include a Monday night social at the hotel featureing an "Art Battle", and Thursday night Biergarten in the Davidson Saturn V hall, under a massive Saturn V rocket.
+We are proud to continue GRCon’s tradition of high-quality social events, which provide an opportunity to network & get to know others in the community. Turnout at GRCon socials is very high year after year, and we look forward to once again offering a fun and unique experience. Planned social events for 2019 include a Monday night social at the hotel, and Thursday night Biergarten in the Davidson Saturn V hall, under a massive Saturn V rocket.
 
 ## Amateur Radio License Exam
 
