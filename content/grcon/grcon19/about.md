@@ -12,7 +12,7 @@ aliases:
 
 GRCon is the annual GNU Radio conference, first held in 2011. With a stellar program and engaging events, our attendees report an extremely high satisfaction level year after year. In the GRCon16 Attendee Survey, 53% of conference attendees rated the conference as an overall five-out-of-five, and 42% rated it as a four-out-of-five.
 
-GRCon19 will continue many of the successful program aspects from previous years, and add some new items, as well.
+GRCon19 will be held in [Huntsville, Alabama](https://www.gnuradio.org/grcon/grcon19/huntsville/). and will continue many of the successful program aspects from previous years, and add some new items, as well.
 
 ## Conference Program
 
@@ -42,11 +42,11 @@ Every year, vendors, students, and hobbyists show off some of their latest devel
 
 ## Social Events
 
-We are proud to continue GRCon’s tradition of high-quality social events, which provide an opportunity to network & get to know others in the community. Turnout at GRCon socials is very high year after year, and we look forward to once again offering a fun and unique experience.
+We are proud to continue GRCon’s tradition of high-quality social events, which provide an opportunity to network & get to know others in the community. Turnout at GRCon socials is very high year after year, and we look forward to once again offering a fun and unique experience. Planned social events for 2019 include a Monday night social at the hotel featureing an "Art Battle", and Thursday night Biergarten in the Davidson Saturn V hall, under a massive Saturn V rocket.
 
 ## Amateur Radio License Exam
 
-New this year, there will be a HAM radio license study and exam session, to be followed by hands-on demos using low-cost hardware and GNU Radio. If you are already licensed, this is a great opportunity to meet fellow HAMs and learn about the use of GNU Radio for amateur radio! For more information, check out the GRCon17 HAM Radio Exam page.
+New this year, there will be a HAM radio license study and exam session, to be followed by hands-on demos using low-cost hardware and GNU Radio. If you are already licensed, this is a great opportunity to meet fellow HAMs and learn about the use of GNU Radio for amateur radio! Exams will be conducted by [CAVEC](http://www.cavechamexam.com/about.html). The test fee and identification requirements are detailed [here](http://www.cavechamexam.com/huntsville-exam-site-info.html) in "What you need to bring to the exam session".
 
 ## Special Interest Focus Groups
 
