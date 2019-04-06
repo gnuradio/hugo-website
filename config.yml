@@ -122,3 +122,7 @@ menu:
       name: Sponsors
       url: /grcon/grcon19/sponsors
       weight: 60
+    - identifier: coc
+      name: Code of Conduct
+      url: /grcon/grcon19/coc
+      weight: 70
