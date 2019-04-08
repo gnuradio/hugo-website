@@ -110,6 +110,10 @@ menu:
       name: About
       url: /grcon/grcon19/about
       weight: 20
+    - identifier: schedule
+      name: Schedule
+      url: https://openconf.org/GRCon19/modules/request.php?module=oc_program&action=program.php&p=program
+      weight: 25
     - identifier: students
       name: Students
       url: /grcon/grcon19/students
