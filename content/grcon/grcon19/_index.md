@@ -17,6 +17,8 @@ GRCon19 will be held September 16-20, 2019 at the Marriot at the Space & Rocket 
 
 With an annual program that has broad appeal, GRCon attracts people new to Software Radio just looking to learn more, folks that want to keep their finger on the pulse & direction of the industry, and seasoned developers ready to show off their latest work.
 
-Registration is open now! Get your tickets [here](https://tickets.gnuradio.org/grcon19/).
+Registration is open now!
+
+<a class="btn btn-secondary" href="https://tickets.gnuradio.org/grcon19/">Register here</a>
 
 [GRCon19 refund Policy](refunds)
