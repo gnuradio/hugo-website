@@ -22,6 +22,8 @@ We invite developers and users from the GNU Radio Community to present your proj
 
 You may make one or more submissions under the following categories for presentation at GRCon. In addition to submitting a presentation, you may submit a paper to the Technical Proceedings of GRCon19. **You do not need to submit a paper to the Proceedings in order to present at GRCon.**
 
+We request that papers are formatted according to this [LibreOffice Template](/grcon_format_libreoffice.odt) or [LaTeX class](/grcon.tar.gz).
+
 **Talks** are 20-30 minutes long, including 5 minutes reserved for questions. Each presentation should be a slide-deck that can be shared publicly (PDF) after the conference. For presentations that are technical in nature, talks that present real-world development / testing will be favored over simulation-only work.
 
 **Tutorials** are 40 minutes long, and should have an educational or “How-To” approach. If slides are used, they should be publicly shareable (PDF) after the conference. Demonstrations or “real-time examples” are welcome!
