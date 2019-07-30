@@ -1,0 +1,33 @@
+{{ define "main" }}
+<main role="main">
+    <div class="container-fluid bg_gray">
+        <div class="row px-2">
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 grcon">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+            {{ range $entry := sort .Params.sponsors "weight" }}
+            <div class="container spon_level">
+            <h3> {{ $entry.level | title }} Sponsors</h3>
+            <div class="spon_hr"></div>
+            {{ range $entry.entries }}
+            <div class="row sponsor">
+                {{ $logo := $.Resources.GetMatch .logo }}
+                <div class="col-lg-4 text-center spon_img">
+                    <a href="{{ .url }}" target="_blank"><img src="{{ $logo.RelPermalink }}" class="spon_img"></a>
+                </div>
+                <div class="col-lg-8">
+                    <h4 class="spon_title"><a href="{{ .url }}" target="_blank">{{ .name }}</a></h4>
+                    <p class="spon_body">
+                        {{ .description | markdownify }}
+                    </p>
+                </div>
+            </div>
+            {{end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }}
