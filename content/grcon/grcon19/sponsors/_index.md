@@ -32,19 +32,19 @@ sponsors:
         url: "http://deepsig.io"
         logo: "deepsig.png"
         description: "DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig's engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."
-  - level: silver
-    weight: 4
     entries:
       - name: "Skysafe"
         url: "https://www.skysafe.io"
         logo: "skysafe.svg"
         description: "SkySafe provides world-class drone defense and airspace control solutions. Founded in 2015 in San Diego, CA, our team consists of drone experts from MIT, UC San Diego, the Air Force Research Lab, and more. Our industry and intellectual experience includes leaders from the fields of security research, RF engineering, academia, and the military. We are a collection of diverse, capable, and hard working professionals who enjoy attacking the hardest challenges--we also have a lot of fun."
+  - level: silver
+    weight: 4
       - name: "Sandia National Laboratories"
         url: "http://www.sandia.gov"
         logo: "sandiaNL.png"
         description: "Sandia National Laboratories is a multimission laboratory operated by National Technology and Engineering Solutions of Sandia LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration. Sandia Labs has major research and development responsibilities in nuclear deterrence, global security, defense, energy technologies and economic competitiveness, with main facilities in Albuquerque, New Mexico, and Livermore, California."
       - name: "Apogee"
-        url: "https://apogee-ar.com"
+        url: "http://apogee-ar.com"
         logo: "apogee.png"
         description: "Apogee is a world class supplier of FPGA Servers, FMC ADCs/DACs, and Heterogeneous Computing Platforms. Apogee also develops advanced FPGA based Digital Signal Processing applications for government and commercial users. Some of our firmware IP includes 10 GbE Ethernet, Packet Switches, High Channel Count Digital Down Converters, Demodulators, Fast Filter Banks, JESD204B, and Precise Time Stamping. Along with our DSP capability Apogee has significant experience with RF design and wideband RF signal processing."
   - level: bronze 
