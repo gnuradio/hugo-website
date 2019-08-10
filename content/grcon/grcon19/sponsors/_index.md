@@ -25,7 +25,7 @@ sponsors:
         url: "http://www.analog.com"
         logo: "Analog_Devices_Logo.svg"
         description: "About Analog Devices \nAnalog Devices (Nasdaq: ADI) is the leading global high-performance analog technology company dedicated to solving the toughest engineering challenges. We enable our customers to interpret the world around us by intelligently bridging the physical and digital with unmatched technologies that sense, measure, power, connect and interpret. Visit [www.analog.com](http://www.analog.com)."
-  - level: gold 
+  - level: gold
     weight: 3
     entries:
       - name: "DeepSig"
@@ -39,6 +39,7 @@ sponsors:
         description: "SkySafe provides world-class drone defense and airspace control solutions. Founded in 2015 in San Diego, CA, our team consists of drone experts from MIT, UC San Diego, the Air Force Research Lab, and more. Our industry and intellectual experience includes leaders from the fields of security research, RF engineering, academia, and the military. We are a collection of diverse, capable, and hard working professionals who enjoy attacking the hardest challenges--we also have a lot of fun."
   - level: silver
     weight: 4
+    entries:
       - name: "Sandia National Laboratories"
         url: "http://www.sandia.gov"
         logo: "sandiaNL.png"
@@ -47,7 +48,7 @@ sponsors:
         url: "http://apogee-ar.com"
         logo: "apogee.png"
         description: "Apogee is a world class supplier of FPGA Servers, FMC ADCs/DACs, and Heterogeneous Computing Platforms. Apogee also develops advanced FPGA based Digital Signal Processing applications for government and commercial users. Some of our firmware IP includes 10 GbE Ethernet, Packet Switches, High Channel Count Digital Down Converters, Demodulators, Fast Filter Banks, JESD204B, and Precise Time Stamping. Along with our DSP capability Apogee has significant experience with RF design and wideband RF signal processing."
-  - level: bronze 
+  - level: bronze
     weight: 5
     entries:
       - name: "Perspecta Labs"
@@ -66,4 +67,3 @@ sponsors:
 # Sponsors
 
 Our sponsors are a critical part of making GRCon successful. With a range of sponsor packages to choose from, you can pick the level that fits your goals and budget. Sponsorship space is limited, so get in touch soon. Email `grcon@gnuradio.org`.
-
