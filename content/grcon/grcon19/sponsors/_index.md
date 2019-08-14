@@ -13,7 +13,7 @@ sponsors:
       - name: "Ettus Research"
         url: "https://www.ettus.com/"
         logo: "ettus.svg"
-        description: "Ettus Research™, a National Instruments (NI) company since 2010, is the world’s leading supplier of software defined radio platforms, including the Universal Software Radio Peripheral (USRP™) family of products. By supporting a wide variety of development environments on an expansive portfolio of high performance RF hardware, the USRP platform is the SDR platform of choice for thousands of engineers, scientists and students worldwide for algorithm development, exploration, prototyping and deployment for next generation wireless technologies across a wide variety of applications."
+        description: "Ettus Research™, a National Instruments (NI) brand since 2010, is the world’s leading supplier of software defined radio platforms, including the Universal Software Radio Peripheral (USRP™) family of products. By supporting a wide variety of development environments on an expansive portfolio of high performance RF hardware, the USRP platform is the SDR platform of choice for thousands of engineers, scientists and students worldwide for algorithm development, exploration, prototyping and deployment for next generation wireless technologies across a wide variety of applications."
   - level: platinum
     weight: 2
     entries:
@@ -48,6 +48,10 @@ sponsors:
         url: "http://apogee-ar.com"
         logo: "apogee.png"
         description: "Apogee is a world class supplier of FPGA Servers, FMC ADCs/DACs, and Heterogeneous Computing Platforms. Apogee also develops advanced FPGA based Digital Signal Processing applications for government and commercial users. Some of our firmware IP includes 10 GbE Ethernet, Packet Switches, High Channel Count Digital Down Converters, Demodulators, Fast Filter Banks, JESD204B, and Precise Time Stamping. Along with our DSP capability Apogee has significant experience with RF design and wideband RF signal processing."
+      - name: "Millennium Space Systems"
+        url: "https://www.millennium-space.com"
+        logo: "mssabc.png"
+        description: "Millennium Space Systems, A Boeing Company is an industry pace-setter and leader in the design & development of advanced small-to-medium class satellites ranging from 20 kg to over 4,000 kg. Our focus is on delivering to our customers bleeding edge performance space systems and components, significantly faster and more affordably, with the bottom line tenet that it has to work as designed. As part of our vertically integrated satellite design & development infrastructure, we are developing next generation RF capabilities (i.e., user apps and supporting waveforms) on smaller, lower power, lower cost, space-ruggedized SDR platforms. As a proud sponsor of GRCon17, Millennium Space Systems strives to foster cooperation and help to bring together the software defined radio and the satellite communities."
   - level: bronze
     weight: 5
     entries:
