@@ -25,7 +25,7 @@
     title = "Officer"
     name = "Bastian Bloessl"
     twitter = "@bastibl"
-    website= "https://www.bastibl.net"
+    website = "https://www.bastibl.net"
 [[officers]]
     title = "Officer"
     name = "Derek Kozel"
@@ -38,9 +38,10 @@
 [[officers]]
     title = "Documentation, Wiki, CGRAN Maintainer & Officer"
     name = "Marc Lichtman"
+    website = "https://www.cs.umd.edu/people/sdr"
 [[officers]]
-    title = "GNU Radio in Education Advocate & Officer"
-    name = "Richard Prestage"
+    title = "Officer"
+    name = "Josh Morman"
 
 [[packaging]]
     target = "Debian/Ubuntu"
