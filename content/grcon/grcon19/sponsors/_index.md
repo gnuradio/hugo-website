@@ -32,7 +32,6 @@ sponsors:
         url: "http://deepsig.io"
         logo: "deepsig.png"
         description: "DeepSig is pioneering the use of deep learning for signal processing and radio systems, developing fundamentally new methodologies for the design and optimization of wireless communications. Our approach uses AI to learn optimized models directly from data rather than manually designing specialized algorithms, creating communications systems that excel in complex environments and are optimized end-to-end. By creating new tools, algorithms, and approaches for signal processing systems, DeepSig is able to achieve unparalleled results in system performance. DeepSig's engineers have published many of the seminal scientific papers in this area, and are the technical leaders in building real-world practical systems with this technology."
-    entries:
       - name: "Skysafe"
         url: "https://www.skysafe.io"
         logo: "skysafe.svg"
@@ -52,6 +51,10 @@ sponsors:
         url: "https://www.millennium-space.com"
         logo: "mssabc.png"
         description: "Millennium Space Systems, A Boeing Company is an industry pace-setter and leader in the design & development of advanced small-to-medium class satellites ranging from 20 kg to over 4,000 kg. Our focus is on delivering to our customers bleeding edge performance space systems and components, significantly faster and more affordably, with the bottom line tenet that it has to work as designed. As part of our vertically integrated satellite design & development infrastructure, we are developing next generation RF capabilities (i.e., user apps and supporting waveforms) on smaller, lower power, lower cost, space-ruggedized SDR platforms. As a proud sponsor of GRCon19, Millennium Space Systems strives to foster cooperation and help to bring together the software defined radio and the satellite communities."
+      - name: "Great Scott Gadgets"
+        url: "https://greatscottgadgets.com"
+        logo: "gsglogo.png"
+        description: "Great Scott Gadgets makes open source hardware for innovative people. We design and produce tools like HackRF, Ubertooth, and GreatFET, and we strive to provide education to the community- both online and through industry events. Most importantly, we support the community by releasing all of our hardware, software, and educational content under open source licenses. Visit https://greatscottgadgets.com/ and follow @GSGlabs on Twitter to learn more."
   - level: bronze
     weight: 5
     entries:
