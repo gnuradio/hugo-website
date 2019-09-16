@@ -1,0 +1,11 @@
+---
+type: "grcon/grcon19"
+layout: "presentation"
+title: "Striving For Sdr Performance Portability In The Era of Heterogeneous Socs"
+slides: "noslides"
+authors: ['Jeffrey Vetter', 'Mehmet Belviranli', 'Seyong Lee', 'Roberto Gioiosa', 'Abdel-Kareem Moadi']
+youtube: "novideo"
+conference-day: Monday
+weight: 8
+---
+Future heterogeneous DSSoCs will be extraordinarily complex in terms of processors, memory hierarchies, and interconnection networks. To manage this complexity, architects, system software designers, and application developers need design and programming technologies to be flexible, accurate, efficient, and productive. Recently, our team has started to explore the mapping of GnuRadio to various heterogeneous SoCs in order to understand how programming technologies can support this goal of making this SDR framework performance portable. Using our software stack, we are porting several SDR applications to GPUs from NVIDIA, AMD, and ARM, and to NVIDIA Xavier SoCs, Qualcomm Snapdragon, and Xilinx Zynq devices. Our current approach uses a directive-based programming model and a new intelligent runtime scheduler to port and execute the workflows. The initial directive-based approach uses OpenACC as it is a portable, open programming model for heterogeneous systems. This compiler generates tasks that are then queued and scheduled by our intelligent runtime scheduler. Initial performance results appear promising; however, more automation will further broad deployment. Also, we have developed a host of tools to examine and profile SDR workflows and modules. Specifically, these analysis tools enable automated characterization of the behavioral and computational features of GNU Radio blocks and workflows. The static tools in GNR-tools help developers to create ontologies and queries to classify GNR modules based on custom scenarios. The dynamic toolset provides automated profiling capabilities of GNR workflows and presents detailed statistics on how components in a given software defined radio application perform. GNR-tools also produces graph-based representation of the analyzed data and provides powerful visualization options to filter and display the information obtained from the static and dynamic tools. Our software is available as open source software and will be made available to the community.
