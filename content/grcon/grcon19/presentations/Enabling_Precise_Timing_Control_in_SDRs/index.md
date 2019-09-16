@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Enabling Precise Timing Control in SDRs"
 slides: "noslides"
 authors: ['Srikanth Pagadarai']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

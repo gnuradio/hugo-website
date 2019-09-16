@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Multichannel phase coherent transceiver system with GNU Radio interface"
 slides: "noslides"
 authors: ['Michael Hennerich']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

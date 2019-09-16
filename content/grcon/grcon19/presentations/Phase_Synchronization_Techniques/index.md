@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Phase Synchronization Techniques"
 slides: "noslides"
 authors: ['Dan Baker']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

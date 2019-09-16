@@ -4,7 +4,7 @@ layout: "presentation"
 title: "UAS Community Testbed Architecture for Advanced Wireless Research with Open-Source SDRs"
 slides: "noslides"
 authors: ['Vuk Marojevic', 'Ismail Guvenc', 'Rudra Dutta', 'Mihail Sichitiu']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

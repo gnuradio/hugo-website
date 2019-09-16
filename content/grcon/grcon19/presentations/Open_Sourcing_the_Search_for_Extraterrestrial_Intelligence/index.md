@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Open Sourcing the Search for Extraterrestrial Intelligence"
 slides: "noslides"
 authors: ['Steve Croft', 'Andrew Siemion', 'Ben Hilburn']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

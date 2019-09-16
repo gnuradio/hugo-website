@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Spectrum Monitoring Network: Tradeoffs, Results, and Future Directions"
 slides: "noslides"
 authors: ['Peter Mathys', 'Todd Schumann', 'Jeff Wepman', 'Mike Cotton']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

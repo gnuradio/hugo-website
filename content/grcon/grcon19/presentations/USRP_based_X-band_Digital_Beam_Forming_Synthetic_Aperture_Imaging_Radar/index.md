@@ -4,7 +4,7 @@ layout: "presentation"
 title: "USRP based X-band Digital Beam Forming Synthetic Aperture Imaging Radar"
 slides: "noslides"
 authors: ['Peter Stenger', 'Michael Blue', 'Marius Urdareanu', 'Grant Steans', 'Nathan Henry', 'Tyree Lewis']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

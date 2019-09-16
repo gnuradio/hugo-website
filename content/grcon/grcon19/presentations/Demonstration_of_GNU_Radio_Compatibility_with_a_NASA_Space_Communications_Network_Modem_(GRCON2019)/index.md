@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Demonstration of GNU Radio Compatibility with a NASA Space Communications Network Modem (GRCON2019)"
 slides: "noslides"
 authors: ['David Miller']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

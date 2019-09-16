@@ -4,7 +4,7 @@ layout: "presentation"
 title: "GNU Radio Enhancements for Space-Based Research"
 slides: "noslides"
 authors: ['Michael Piscopo']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

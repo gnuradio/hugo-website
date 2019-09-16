@@ -4,7 +4,7 @@ layout: "presentation"
 title: "UHD Streaming with DPDK: Raising the Throughput Ceiling with Drivers in User Space"
 slides: "noslides"
 authors: ['Alex Williams']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

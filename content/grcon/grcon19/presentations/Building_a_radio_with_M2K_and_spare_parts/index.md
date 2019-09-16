@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Building a radio with M2K and spare parts"
 slides: "noslides"
 authors: ['Adrian Suciu']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

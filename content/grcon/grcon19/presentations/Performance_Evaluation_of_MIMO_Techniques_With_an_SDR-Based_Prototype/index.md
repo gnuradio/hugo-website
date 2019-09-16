@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Performance Evaluation of MIMO Techniques With an SDR-Based Prototype"
 slides: "noslides"
 authors: ['Evariste Some', 'Kevin K Gifford']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Mega Hertz, Mega Samples, Mega bits, Mega Confusing"
-slides: "noslides"
+slides: "Robin Getz - MHz_MSPS_MWTF.pdf"
 authors: ['Robin Getz']
-youtube: "novideo"
+youtube: ""
 conference-day: Monday
 weight: 8
 ---

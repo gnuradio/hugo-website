@@ -4,7 +4,7 @@ layout: "presentation"
 title: "MetaSat: Metadata for Good"
 slides: "noslides"
 authors: ['Daina Bouquin']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

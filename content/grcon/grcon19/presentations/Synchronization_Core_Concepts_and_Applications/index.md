@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Synchronization: Core Concepts and Applications"
 slides: "noslides"
 authors: ['Daniel Jepson']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

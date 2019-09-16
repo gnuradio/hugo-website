@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Multi-Vehicle Map Fusion Using GNU Radio"
 slides: "noslides"
 authors: ['Akin Sisbot', 'Augusto Vega', 'Arun Paidimarri', 'John-David Wellman', 'Alper Buyuktosunoglu', 'Pradip Bose', 'David Trilla']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

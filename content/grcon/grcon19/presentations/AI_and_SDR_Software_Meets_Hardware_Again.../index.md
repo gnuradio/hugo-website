@@ -4,7 +4,7 @@ layout: "presentation"
 title: "AI and SDR: Software Meets Hardware Again..."
 slides: "noslides"
 authors: ['Manuel Uhm', 'Jason Vidmar']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Open Source Licensing"
 slides: "noslides"
 authors: ['Ben Hilburn']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

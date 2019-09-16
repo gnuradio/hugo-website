@@ -4,7 +4,7 @@ layout: "presentation"
 title: "gr-iio: Nuances, Hidden Features, and New Stuff"
 slides: "noslides"
 authors: ['Travis Collins']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

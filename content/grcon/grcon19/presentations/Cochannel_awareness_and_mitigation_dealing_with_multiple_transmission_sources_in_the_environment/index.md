@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Cochannel awareness and mitigation: dealing with multiple transmission sources in the environment"
 slides: "noslides"
 authors: ['Joe Liberti', 'Joshua Morman', 'Garrett Vanhoy', 'Robert Miller']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

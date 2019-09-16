@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Striving for SDR Performance Portability in the Era of Heterogeneous SoCs"
-slides: "noslides"
+slides: "Striving for SDR Performance Portability.pptx"
 authors: ['Jeffrey Vetter', 'Mehmet Belviranli', 'Seyong Lee', 'Roberto Gioiosa', 'Abdel-Kareem Moadi']
-youtube: "novideo"
+youtube: ""
 conference-day: Monday
 weight: 8
 ---

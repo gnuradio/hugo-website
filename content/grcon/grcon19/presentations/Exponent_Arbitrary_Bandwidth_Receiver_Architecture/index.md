@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Exponent: Arbitrary Bandwidth Receiver Architecture"
 slides: "noslides"
 authors: ['Jake Gunther', 'Dana Sorensen', 'Colton Lindstrom']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

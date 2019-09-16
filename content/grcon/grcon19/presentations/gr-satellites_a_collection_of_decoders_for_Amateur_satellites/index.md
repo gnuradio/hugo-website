@@ -4,7 +4,7 @@ layout: "presentation"
 title: "gr-satellites: a collection of decoders for Amateur satellites"
 slides: "noslides"
 authors: ['Daniel Est\xc3\xa9vez']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

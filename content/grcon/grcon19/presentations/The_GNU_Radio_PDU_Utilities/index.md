@@ -4,7 +4,7 @@ layout: "presentation"
 title: "The GNU Radio PDU Utilities"
 slides: "noslides"
 authors: ['Jacob Gilbert']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

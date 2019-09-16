@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Intro to SDR and Space-Based Signals"
 slides: "noslides"
 authors: ['Michael Piscopo']
-youtube: "novideo"
+youtube: ""
 conference-day: Tuesday
 weight: 8
 ---

@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Fixing the E310 Bottleneck: Implementing a High-Rate Heterogeneous FPGA DMA Transport"
-slides: "noslides"
+slides: "EJ Kreinar - GRCon2019-HE360-Heterogenous-DMAs-Kreinar-Metzger-CaJacob.pdf"
 authors: ['Edward Kreinar', 'Lorin Metzger', 'Dan CaJacob']
-youtube: "novideo"
+youtube: ""
 conference-day: Monday
 weight: 8
 ---

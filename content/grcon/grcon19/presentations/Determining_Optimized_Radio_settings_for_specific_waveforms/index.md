@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Determining Optimized Radio settings for specific waveforms"
-slides: "noslides"
+slides: "Determining Optimized Radio settings for specific waveforms_GRCon2019.pdf"
 authors: ['Robin Getz']
-youtube: "novideo"
+youtube: ""
 conference-day: Monday
 weight: 8
 ---

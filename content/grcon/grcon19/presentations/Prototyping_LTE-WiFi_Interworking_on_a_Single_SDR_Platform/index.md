@@ -4,7 +4,7 @@ layout: "presentation"
 title: "Prototyping LTE-WiFi Interworking on a Single SDR Platform"
 slides: "noslides"
 authors: ['Walter Nitzold', 'Clemens Felber', 'Vincent Kotzsch']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---

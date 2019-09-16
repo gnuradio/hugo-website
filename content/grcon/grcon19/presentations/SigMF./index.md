@@ -4,7 +4,7 @@ layout: "presentation"
 title: "SigMF."
 slides: "noslides"
 authors: ['Ben Hilburn']
-youtube: "novideo"
+youtube: ""
 conference-day: Wednesday
 weight: 8
 ---

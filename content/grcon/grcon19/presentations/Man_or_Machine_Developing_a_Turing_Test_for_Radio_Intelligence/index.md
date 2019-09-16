@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Man or Machine?: Developing a Turing Test for Radio Intelligence"
-slides: "noslides"
+slides: "Developing a Turing Test for Radio Intelligence.pdf"
 authors: ['Adam Anderson']
-youtube: "novideo"
+youtube: ""
 conference-day: Monday
 weight: 8
 ---

@@ -4,7 +4,7 @@ layout: "presentation"
 title: "VLBI with GNU Radio and White Rabbit"
 slides: "noslides"
 authors: ['Paul Boven']
-youtube: "novideo"
+youtube: ""
 conference-day: Thursday
 weight: 8
 ---
