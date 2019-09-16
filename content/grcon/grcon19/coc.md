@@ -26,6 +26,6 @@ Thank you for your help in making GRCon a success and pleasant for all the peopl
 
 E-mail: coc@gnuradio.org
 
-Phone (during the event only): TBA
+Phone: (540) 739-2413
 
 Or ask any staff member during the event to help you locate a team member.
