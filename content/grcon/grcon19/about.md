@@ -55,3 +55,9 @@ One of the most exciting aspects of GRCon is the gathering of so many active use
 ## Developers’ Summit
 
 A highlight of every year is the annual Developers’ Summit, which provides an opportunity for developers to organize, users to get hands-on help, and provide time for practitioners to work together & “talk shop”. This event is a great way to meet the core developers of the project, find out how you can get involved, and influence where the project is headed.
+
+## Badge
+
+SkySafe supported the development and production of this year's badge, a 1-8 GHz Vivaldi PCB antenna.
+
+A performance report can be found here: [Report](/grcon/grcon19/GRCon19_Antenna_Badge_Measurement_Report.pdf)
