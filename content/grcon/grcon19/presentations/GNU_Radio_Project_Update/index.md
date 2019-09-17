@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "GNU Radio Project Update"
-slides: ""
+slides: "Ben Hilburn - GNU Radio Update 2019.pdf"
 authors: ['Ben Hilburn']
 youtube: ""
 conference-day: Monday 

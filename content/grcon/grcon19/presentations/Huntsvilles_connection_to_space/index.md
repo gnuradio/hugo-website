@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Huntsville's Connection to Space"
-slides: ""
+slides: "Huntsvilles Connection to Space.pdf"
 authors: ['']
 youtube: ""
 conference-day: Monday 
