@@ -114,14 +114,14 @@ menu:
       name: Schedule
       url: https://openconf.org/GRCon19/modules/request.php?module=oc_program&action=program.php&p=program
       weight: 25
+    - identifier: presentations 
+      name: Presentations
+      url: /grcon/grcon19/presentations
+      weight: 30
     - identifier: students
       name: Students
       url: /grcon/grcon19/students
       weight: 40
-    - identifier: submit
-      name: Submit
-      url: /grcon/grcon19/submit
-      weight: 50
     - identifier: sponsors
       name: Sponsors
       url: /grcon/grcon19/sponsors
