@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "The Future of Digital RFICs"
-slides: ""
+slides: "Robin Getz - The Future of Digital RFICs.pdf"
 authors: ['Robin Getz']
 youtube: ""
 conference-day: Tuesday

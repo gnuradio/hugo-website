@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "GNU Radio Enhancements for Space-Based Research"
-slides: ""
+slides: "Mike Piscopo - Enhancements for space-based research.pdf"
 authors: ['Michael Piscopo']
 youtube: ""
 conference-day: Tuesday

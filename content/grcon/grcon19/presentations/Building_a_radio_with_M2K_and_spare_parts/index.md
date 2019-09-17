@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Building a radio with M2K and spare parts"
-slides: ""
+slides: "Adrian Suciu - Building a radio with m2k and spare parts.pdf"
 authors: ['Adrian Suciu']
 youtube: ""
 conference-day: Tuesday

@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "A decade of gr-specest -- Free Spectral Estimation!"
-slides: ""
+slides: "Martin Braun - gr-specest.pdf"
 authors: ['Martin Braun']
 youtube: ""
 conference-day: Tuesday

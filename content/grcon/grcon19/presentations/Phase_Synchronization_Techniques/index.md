@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Phase Synchronization Techniques"
-slides: ""
+slides: "Dan Baker - Phase Synchronization Techniques.pdf"
 authors: ['Dan Baker']
 youtube: ""
 conference-day: Tuesday

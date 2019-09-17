@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Spectrum Monitoring Network: Tradeoffs, Results, and Future Directions"
-slides: "noslides"
+slides: "Peter Mathys - Spectrum Monitoring.pdf"
 authors: ['Peter Mathys', 'Todd Schumann', 'Jeff Wepman', 'Mike Cotton']
 youtube: ""
 conference-day: Tuesday

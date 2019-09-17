@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Open Source Licensing"
-slides: ""
+slides: "Ben Hilburn - Open Source Licensing.pdf"
 authors: ['Ben Hilburn']
 youtube: ""
 conference-day: Tuesday

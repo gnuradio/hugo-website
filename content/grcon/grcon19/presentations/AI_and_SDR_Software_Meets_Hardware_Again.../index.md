@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "AI and SDR: Software Meets Hardware Again..."
-slides: ""
+slides: "Jason Vidmar - AI and SDR.pdf"
 authors: ['Manuel Uhm', 'Jason Vidmar']
 youtube: ""
 conference-day: Tuesday
-weight: 8
+weight: 9
 ---
 Over the course of the last 30 years, SDR has become the de facto industry standard for the implementation of waveforms for communications, both military and commercial. During that time, the desire for waveforms to be fully realized in software running on general purpose processors (GPPs) had to be tempered against size, weight and power (SWaP) restrictions that required compute intensive portions of the waveform software to be run on hardware such as field programmable gate arrays (FPGAs) or hardened IP accelerators. 
 
