@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "AI and SDR: Software Meets Hardware Again..."
-slides: "noslides"
+slides: ""
 authors: ['Manuel Uhm', 'Jason Vidmar']
 youtube: ""
 conference-day: Tuesday
