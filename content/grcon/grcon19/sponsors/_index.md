@@ -55,6 +55,10 @@ sponsors:
         url: "https://greatscottgadgets.com"
         logo: "gsglogo.png"
         description: "Great Scott Gadgets makes open source hardware for innovative people. We design and produce tools like HackRF, Ubertooth, and GreatFET, and we strive to provide education to the community- both online and through industry events. Most importantly, we support the community by releasing all of our hardware, software, and educational content under open source licenses. Visit https://greatscottgadgets.com/ and follow @GSGlabs on Twitter to learn more."
+      - name: "Xilinx"
+        url: "https://www.xilinx.com"
+        logo: "xilinx.png"
+        description: "Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."
   - level: bronze
     weight: 5
     entries:
