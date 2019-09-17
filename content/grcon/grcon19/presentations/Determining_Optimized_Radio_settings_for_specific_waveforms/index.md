@@ -6,7 +6,7 @@ slides: "Determining Optimized Radio settings for specific waveforms_GRCon2019.p
 authors: ['Robin Getz']
 youtube: ""
 conference-day: Monday
-weight: 8
+weight: 9
 ---
 In the book The Martian, Andy Weir wrote "I’m going to have to science the shit out of this." While most RF designs aren't the life and death Mr Weir was writing about in his book; people involved in RF receiver design have the same sort overwhelming odds of not receiving things as Mark Watney did on the surface of Mars.
 
