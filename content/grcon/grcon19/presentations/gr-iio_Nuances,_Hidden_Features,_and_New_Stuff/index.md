@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "gr-iio: Nuances, Hidden Features, and New Stuff"
-slides: "noslides"
+slides: "Travis Collins - gr_iio.pdf"
 authors: ['Travis Collins']
 youtube: ""
 conference-day: Wednesday
-weight: 8
+weight: 3 
 ---
 In this presentation, we will discuss the current out-of-tree module gr-iio which enables data streaming and control of any device with an Industrial Input/Output (IIO) kernel driver. The module not only supports SDRs like ADALM-PLUTO and USRP-E310 today but also provides access to hundreds of sensor devices and even gigasample converters using the standard kernel framework.
  

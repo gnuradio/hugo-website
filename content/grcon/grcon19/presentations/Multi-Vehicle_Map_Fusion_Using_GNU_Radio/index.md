@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Multi-Vehicle Map Fusion Using GNU Radio"
-slides: "noslides"
+slides: ""
 authors: ['Akin Sisbot', 'Augusto Vega', 'Arun Paidimarri', 'John-David Wellman', 'Alper Buyuktosunoglu', 'Pradip Bose', 'David Trilla']
 youtube: ""
 conference-day: Wednesday
-weight: 8
+weight: 5
 ---
 In this paper, we present a representative open-source application for fully/semi autonomous vehicles operating as a collaborative swarm using GNU Radio. This application is the driver of our PROJECT-NAME* project, focusing on system-on-a-chip (SoC) development. 
 The PROJECT-NAME* Reference Application (ERA) incorporates local sensing, creation of occupancy grid maps, vehicle-to-vehicle (V2V) communication of grid maps between neighboring vehicles using a GNU Radio implementation of dedicated short-range communications (DSRC), and map fusion to create a joint higher accurate grid map. 

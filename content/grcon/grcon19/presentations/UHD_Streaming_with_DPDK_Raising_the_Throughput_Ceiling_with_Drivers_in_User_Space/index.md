@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "UHD Streaming with DPDK: Raising the Throughput Ceiling with Drivers in User Space"
-slides: "noslides"
+slides: "Alex Williams - Streaming with DPDK.pdf"
 authors: ['Alex Williams']
 youtube: ""
 conference-day: Wednesday
-weight: 8
+weight: 10
 ---
 Software latency is the biggest impediment to high-speed streaming from a computer, and expensive kernel interactions are the primary source. System calls and buffer copying add to processing time, and the kernel's scheduler can cause large latency spikes. Consequently, engineers have compensated by adding large buffers to the other side. Is there another way?
 
