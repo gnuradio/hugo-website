@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Open Sourcing the Search for Extraterrestrial Intelligence"
-slides: "noslides"
+slides: "Steve Croft - seti.pdf"
 authors: ['Steve Croft', 'Andrew Siemion', 'Ben Hilburn']
 youtube: ""
 conference-day: Wednesday

@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Multi-Vehicle Map Fusion Using GNU Radio"
-slides: ""
+slides: "Augusto Vega - Multi-Vehicle Map Fusion.pdf"
 authors: ['Akin Sisbot', 'Augusto Vega', 'Arun Paidimarri', 'John-David Wellman', 'Alper Buyuktosunoglu', 'Pradip Bose', 'David Trilla']
 youtube: ""
 conference-day: Wednesday
