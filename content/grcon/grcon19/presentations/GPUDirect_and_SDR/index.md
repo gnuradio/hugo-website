@@ -2,8 +2,8 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "GPUDirect + SDR: How to Move One Billion Samples per Second over PCIe"
-slides: ""
-authors: ['Ben Hilburn']
+slides: "EpiqSolutions - John Orlando - GPUDirect.pdf"
+authors: ['John Orlando']
 youtube: ""
 conference-day: Wednesday
 weight: 7 

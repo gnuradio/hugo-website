@@ -1,8 +1,8 @@
 ---
 type: "grcon/grcon19"
 layout: "presentation"
-title: "SigMF"
-slides: ""
+title: "SigMF."
+slides: "Ben Hilburn - SigMF.pdf"
 authors: ['Ben Hilburn']
 youtube: ""
 conference-day: Wednesday

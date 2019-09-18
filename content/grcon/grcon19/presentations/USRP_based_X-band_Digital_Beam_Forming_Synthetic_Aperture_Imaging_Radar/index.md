@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "USRP based X-band Digital Beam Forming Synthetic Aperture Imaging Radar"
-slides: "noslides"
+slides: "Peter Stenger - Synthetic Aperture Imaging Radar.pdf"
 authors: ['Peter Stenger', 'Michael Blue', 'Marius Urdareanu', 'Grant Steans', 'Nathan Henry', 'Tyree Lewis']
 youtube: ""
 conference-day: Wednesday
