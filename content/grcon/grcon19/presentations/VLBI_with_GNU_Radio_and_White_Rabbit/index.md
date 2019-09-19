@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "VLBI with GNU Radio and White Rabbit"
-slides: "noslides"
+slides: "Paul Boven - VLBI with GNU Radio.pdf"
 authors: ['Paul Boven']
 youtube: ""
 conference-day: Thursday
