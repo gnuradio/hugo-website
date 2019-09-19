@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Prototyping LTE-WiFi Interworking on a Single SDR Platform"
-slides: "noslides"
+slides: "Walter Nitzold - Prototyping LTE-WiFi Interworking on a Single SDR Platform.pdf"
 authors: ['Walter Nitzold', 'Clemens Felber', 'Vincent Kotzsch']
 youtube: ""
 conference-day: Thursday
-weight: 8
+weight: 11
 ---
 New use cases and requirements of future communication systems have driven the focus of research towards the coordination and coexistence of heterogeneous wireless technologies such as LTE, WiFi as well as 5G. 
 We present a prototyping system focused on the joint real-time prototyping of LTE and WiFi. The system consists of real-time FPGA implementations of WiFi and LTE PHY layers using NI Application Frameworks. These run on the FPGAs of an USRP-2974 and an attached USRP-2953. A complete setup for joint prototyping would consist of a USRP-2974 and USRP-2953 as LTE eNB and WiFi AP while a second USRP-2974 and USRP-2953 are used as LTE UE and WiFi STA. 

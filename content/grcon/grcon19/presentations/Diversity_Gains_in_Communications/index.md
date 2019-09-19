@@ -2,9 +2,9 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Diversity Gains in Communications"
-slides: "noslides"
+slides: ""
 authors: ['Matt Ettus']
 youtube: ""
 conference-day: Thursday
-weight: 8
+weight: 5 
 ---

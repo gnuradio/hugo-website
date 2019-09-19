@@ -6,7 +6,7 @@ slides: "noslides"
 authors: ['Paul Boven']
 youtube: ""
 conference-day: Thursday
-weight: 8
+weight: 6
 ---
 Very Long Baseline Interferometry (VLBI) is a technique in radio astronomy that allows for unprecedented resolution by phasing up participating radio telescopes all over the world. This phasing up requires very stable atomic clocks at each observatory, in order to coherently combine the signals. The Joint Institute for VLBI ERIC (JIVE) in Dwingeloo, the Netherlands processes the data for the European VLBI Network (EVN). As part of the European 'ASTERICS' research project, we have contributed to investigations on the suitability of the open 'White Rabbit' standard for the distribution of highly stable time and frequency reference signals.
 

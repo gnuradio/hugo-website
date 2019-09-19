@@ -2,11 +2,11 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Enabling Precise Timing Control in SDRs"
-slides: "noslides"
+slides: "Srikanth Pagadarai - Enabling Precise Timing Control.pdf"
 authors: ['Srikanth Pagadarai']
 youtube: ""
 conference-day: Thursday
-weight: 8
+weight: 4
 ---
 The necessity to estimate loopback timing delay of a waveform arises as a pre-requisite in a variety of signal processing applications namely, power amplifier digital predistortion, radar and radio frequency identification (RFID). In this presentation, we will present the architectural details that need to be considered for implementing a loopback timing delay estimation algorithm in the FPGA of an SDR. 
 
