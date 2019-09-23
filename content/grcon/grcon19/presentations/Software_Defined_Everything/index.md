@@ -2,7 +2,7 @@
 type: "grcon/grcon19"
 layout: "presentation"
 title: "Software Defined Everything"
-slides: ""
+slides: "Mark Shuttleworth - Software-Defined Everything.pdf"
 authors: ['Mark Shuttleworth']
 youtube: ""
 conference-day: Tuesday
