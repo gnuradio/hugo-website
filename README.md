@@ -2,7 +2,7 @@
 
 ## Install Prequisites
 
-To render the GNU Radio website a recent (https://gohugo.io)[hugo] installation in the extended mode is required.
+To render the GNU Radio website a recent [hugo](https://gohugo.io) installation in the extended mode is required.
 If you are a masochist and you are familiar with `go get`. The easiest way to get `hugo` in the required version: `go get --tags extended -u github.com/gohugoio/hugo/`.
 Your distro version of hugo is likely not the extended one, so go to:
 
