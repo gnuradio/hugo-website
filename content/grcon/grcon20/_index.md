@@ -19,7 +19,7 @@ implementation, and theory that has been practically applied in a useful way.
 GRCon attendees come from a large variety of backgrounds, including industry,
 academia, government, and hobbyists.
 
-GRCon19 will be held September 14-18, 2020 in [Charlotte, North Carolina](charlotte).
+GRCon20 will be held September 14-18, 2020 in [Charlotte, North Carolina](charlotte).
 
 With an annual program that has broad appeal, GRCon attracts people new to
 Software Radio just looking to learn more, experts that want to keep their finger
