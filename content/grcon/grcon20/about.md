@@ -73,7 +73,7 @@ planned social events as they are confirmed!
 
 ## Amateur Radio License Exam
 
-As in previous years, we exptec to have a HAM radio license study and exam
+As in previous years, we expect to have a HAM radio license study and exam
 session, to be followed by hands-on demos using low-cost hardware and GNU Radio.
 If you are already licensed, this is a great opportunity to meet fellow HAMs and
 learn about the use of GNU Radio for amateur radio!
