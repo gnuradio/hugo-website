@@ -1,6 +1,6 @@
 ---
 title: "GNU Radio Conference 2020"
-date: 2018-10-21T15:36:54-07:00
+date: 2019-11-22
 type: grcon/grcon20
 layout: single
 aliases:
@@ -9,13 +9,10 @@ aliases:
 ---
 
 # Call for Submissions
-
-GNU Radio Conference celebrates and showcases the substantial and remarkable
-progress of the world's best open source digital signal processing framework
-for software-defined radios. In addition to presenting GNU Radio’s vibrant
-theoretical and practical presence in academia, industry, the military, and
-among amateurs and hobbyists, GNU Radio Conference 2020 celebrates a decade of
-community events.
+GRCon 2020 celebrates and showcases the substantial and remarkable progress of
+GNU Radio over the past 19 years. We invite developers and users from the GNU
+Radio community to present your projects, presentations, papers, posters, and
+problems at GNU Radio Conference 2020.
 
 We invite developers and users from the GNU Radio Community to present your
 projects, presentations, papers, posters, and problems at GNU Radio Conference
@@ -32,28 +29,32 @@ paper to the Proceedings in order to present at GRCon.**
 We request that papers are formatted according to this [LibreOffice
 Template](/grcon_format_libreoffice.odt) or [LaTeX class](/grcon.tar.gz).
 
-**Talks** are 20-30 minutes long, including 5 minutes reserved for questions.
-Each presentation should be a slide-deck that can be shared publicly (PDF)
-after the conference. For presentations that are technical in nature, talks
-that present real-world development / testing will be favored over
-simulation-only work.
+**Talks** are 30 minutes long, including 5 minutes reserved for audience
+questions. Each presentation should be a slide-deck that can be shared publicly
+(PDF) after the conference. Real-world results using GNU Radio and hardware
+will be favored over simulation-only work.
 
-**Tutorials** are 40 minutes long, and should have an educational or “How-To”
-approach. If slides are used, they should be publicly shareable (PDF) after the
-conference. Demonstrations or “real-time examples” are welcome!
+**Papers** can be submitted with or without a talk.  Authors are encouraged to
+attend the conference, but it is not a requirement for paper acceptance.
+Detailed real-world results using GNU Radio are encouraged.
+
+**Workshops** are 1–4 hours long, and should have an educational or “How-To”
+approach, with a large hands on portion. If slides are used, they should be
+publicly shareable (PDF) after the conference.
+
+**Lightning Talks** are very concise (4-5 minutes), talks on topics of high
+interest to GNU Radio users and developers, and provide a chance for new
+presenters to share their use cases, projects or demos.
 
 **Posters** can display any type of material that you believe is interesting to
 the community, and while most posters are technical, they don’t have to be.
-There is no poster template, so you can create whatever layout you would like.
-Poster easels will be provided.
 
 To submit your content for the conference, visit our dedicated conference
 [submission site](https://pretalx.gnuradio.org/grcon20/cfp).
+
 ## Dates
 
-First round closes **1 July 2020**. If accepted, your content will be
-immediately scheduled.  Final round closes **1 September 2020**. Space
-permitting.
+First round closes **1 July 2020**.  Final round closes **1 September 2020**.
 
 If you have questions or need assistance with the submission system, or have
 content that doesn't quite fit and you want to talk it over, please write
