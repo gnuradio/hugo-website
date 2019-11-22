@@ -65,9 +65,9 @@ menu:
     - identifier: events
       name: Events
       weight: 50
-    - identifier: events_grcon_19
-      name: GNU Radio Conference 2019
-      url: /grcon/grcon19/
+    - identifier: events_grcon_20
+      name: GNU Radio Conference 2020
+      url: /grcon/grcon20/
       parent: events
       weight: 51
     - identifier: events_grcon
@@ -129,4 +129,33 @@ menu:
     - identifier: coc
       name: Code of Conduct
       url: /grcon/grcon19/coc
+      weight: 70
+  grcon/grcon20:
+    - identifier: grcon20
+      name: GRCon19
+      url: /grcon/grcon20
+      weight: 10
+    - identifier: about
+      name: About
+      url: /grcon/grcon20/about
+      weight: 20
+    - identifier: schedule
+      name: Schedule
+      url: https://pretalx.gnuradio.org/grcon20
+      weight: 25
+    - identifier: presentations 
+      name: Presentations
+      url: /grcon/grcon20/presentations
+      weight: 30
+    - identifier: students
+      name: Students
+      url: /grcon/grcon20/students
+      weight: 40
+    - identifier: sponsors
+      name: Sponsors
+      url: /grcon/grcon20/sponsors
+      weight: 60
+    - identifier: coc
+      name: Code of Conduct
+      url: /grcon/grcon20/coc
       weight: 70
