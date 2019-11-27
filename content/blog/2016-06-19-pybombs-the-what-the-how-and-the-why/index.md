@@ -25,9 +25,9 @@ Doesn&#8217;t matter. Just install PyBOMBS and let it do all the work.
 ## How does it work?
 
 <br />
-> <b>NOTE: THIS SECTION IS DEPRECATED</b>
-> 
-> An updated usage guide can be found in the [PyBOMBS README](https://github.com/gnuradio/pybombs#pybombs).
+<b>NOTE: THIS SECTION IS DEPRECATED</b>
+
+An updated usage guide can be found in the [PyBOMBS README](https://github.com/gnuradio/pybombs#pybombs).
 
 <br />
 Here&#8217;s a couple of commands that will set you up in no time:
