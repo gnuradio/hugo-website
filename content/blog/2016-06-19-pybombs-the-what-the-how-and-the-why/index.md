@@ -1,12 +1,12 @@
 ---
-title: "PyBOMBS – The What, the How and the Why"
+title: "PyBOMBS ? The What, the How and the Why"
 author: "Martin Braun"
 date: "2016-06-19"
 sponsored: "0"
 aliases: ["blog/pybombs-the-what-the-how-and-the-why"]
 ---
 
-# PyBOMBS – The What, the How and the Why
+# PyBOMBS ? The What, the How and the Why
 
 For a few years now, GNU Radio has had its own &#8220;package manager&#8221;, PyBOMBS. Nearly a year ago, development was started to completely rewrite PyBOMBS, and we switched over to the new version a few months ago. Finally, the dust is settling for version 2 of PyBOMBS, it&#8217;s becoming more and more stable, and more widely adopted. Soon, we will be releasing PyBOMBS 2.1.0. As such, this is a great time to formally introduce the world to the new PyBOMBS.
 
@@ -24,14 +24,18 @@ Doesn&#8217;t matter. Just install PyBOMBS and let it do all the work.
 
 ## How does it work?
 
+<br />
+<b>NOTE: THIS SECTION IS DEPRECATED</b>
+
+An updated usage guide can be found in the [PyBOMBS README](https://github.com/gnuradio/pybombs#pybombs).
+
+<br />
 Here&#8217;s a couple of commands that will set you up in no time:
 
-<code><br />
-$ sudo pip install pybombs<br />
-$ pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git<br />
-$ mkdir prefix/<br />
-$ pybombs prefix init -a default prefix/default/ -R gnuradio-default<br />
-</code>
+    $ sudo pip install pybombs
+    $ pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
+    $ mkdir prefix/
+    $ pybombs prefix init -a default prefix/default/ -R gnuradio-default
 
 The first command actually installs PyBOMBS onto your computer (you have to start somewhere). Then, PyBOMBS needs to be initialized with a list of recipes (a recipe is a file that tells PyBOMBS about specific packages, but more of that later). We will pick the default GNU Radio recipe list to start with. Next, we create a directory called prefix which we will use to store all the installations. Finally, we tell PyBOMBS to install GNU Radio and gr-osmosdr and all their dependencies into the directory prefix/default. That&#8217;s it!
 
