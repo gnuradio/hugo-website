@@ -132,21 +132,25 @@ menu:
       weight: 70
   grcon/grcon20:
     - identifier: grcon20
-      name: GRCon19
+      name: GRCon20
       url: /grcon/grcon20
       weight: 10
     - identifier: about
       name: About
       url: /grcon/grcon20/about
       weight: 20
-    - identifier: schedule
-      name: Schedule
-      url: https://pretalx.gnuradio.org/grcon20
-      weight: 25
-    - identifier: presentations 
+    #- identifier: schedule
+      #name: Schedule
+      #url: https://pretalx.gnuradio.org/grcon20
+      #weight: 25
+    - identifier: presentations
       name: Presentations
       url: /grcon/grcon20/presentations
       weight: 30
+    - identifier: submit
+      name: Submit
+      url: /grcon/grcon20/submit
+      weight: 35
     - identifier: students
       name: Students
       url: /grcon/grcon20/students
