@@ -26,6 +26,8 @@ Software Radio just looking to learn more, experts that want to keep their finge
 on the pulse & direction of the industry, and seasoned developers ready to show
 off their latest work.
 
+[Call for Participation is now open!](submit)
+
 Registration is open soon! All registrations include access to the range of workshops and tutorials being run.
 
 <a class="btn btn-secondary" href="https://tickets.gnuradio.org/grcon20/">Register here</a>

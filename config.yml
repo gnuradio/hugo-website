@@ -143,12 +143,12 @@ menu:
       #name: Schedule
       #url: https://pretalx.gnuradio.org/grcon20
       #weight: 25
-    - identifier: presentations
-      name: Presentations
-      url: /grcon/grcon20/presentations
-      weight: 30
+    #- identifier: presentations
+      #name: Presentations
+      #url: /grcon/grcon20/presentations
+      #weight: 30
     - identifier: submit
-      name: Submit
+      name: CfP
       url: /grcon/grcon20/submit
       weight: 35
     - identifier: students
