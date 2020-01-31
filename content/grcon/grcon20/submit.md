@@ -20,6 +20,8 @@ projects, presentations, papers, posters, and problems at GNU Radio Conference
 2020. Submit your talks, demos, and code! Please share this Call for All with
 anyone you think needs to read it.
 
+**[PDF Version of CfP](/grcon/grcon20/C4A_green.pdf)**
+
 ## Submitting
 
 You may make one or more submissions under the following categories for
