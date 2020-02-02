@@ -26,20 +26,20 @@ new version.
 This website uses the Hugo static site generator. Its documentation can be
 found here: https://gohugo.io/documentation/
 
-### How to add a news item
+### How to add a news or blog article
 
-If you have Hugo running, simply run
+If you have Hugo installed in a reachable path, simply run
 
     hugo new content/news/2018-XX-XX-short-title.md
 
-and it will create a template for new. Alternatively, copy an old news item (if
-you don't have Hugo running) and modify it accordingly.
+or
+
+    hugo new content/blog/2018-XX-XX-short-title.md
+
+and it will create a template for a new article on the news or blog page. Alternatively, copy an old news or blog item (if you don't have Hugo running) and modify it accordingly.
 
 Before submitting a pull request, make sure to remove the `draft: true` line
 from the file.
-
-### How to add a blog article
-
 
 ### How to add a topic to the splash screen on the greeting page (the carousel)
 
@@ -50,5 +50,3 @@ give you different content.
 
 To add one of those, or to change the order, go to `data/carousel` and add
 another TOML file. The order is determined by the weight.
-
-
