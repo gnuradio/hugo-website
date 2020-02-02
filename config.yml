@@ -4,7 +4,7 @@ title: "GNU Radio"
 theme: gnuradio-bootstrap
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
-copyright: 'The GNU Radio Foundation, Inc. All rights reserved.'
+copyright: 'GNU Radio project. All rights reserved.'
 enableRobotsTXT: true
 assetDir: assets/
 summaryLength: 20
@@ -114,7 +114,7 @@ menu:
       name: Schedule
       url: https://openconf.org/GRCon19/modules/request.php?module=oc_program&action=program.php&p=program
       weight: 25
-    - identifier: presentations 
+    - identifier: presentations
       name: Presentations
       url: /grcon/grcon19/presentations
       weight: 30
