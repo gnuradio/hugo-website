@@ -4,52 +4,29 @@ date: 2019-11-19
 type: grcon/grcon20
 layout: single
 aliases:
-  - grcon-2020/huntsville
-  - grcon20/huntsville
+  - grcon-2020/charlotte
+  - grcon20/charlotte
 ---
 
 # Introduction
 
 [Charlotte, South Carolina](https://www.charlottesgotalot.com/) is the epicentre for technology and finance in the southeastern US – and as such, is blessed with many attractions and a breathtaking skyline.
 
-## Conference Hotels
+## Conference Hotel
 
-* The conference venue is the [Renaissance Charlotte Suites Hotel](https://www.marriott.com/hotels/travel/cltbr-renaissance-charlotte-suites-hotel/), located in the SouthPark district in Charlotte.
+The conference venue is the [Charlotte Airport Hotel](https://www3.hilton.com/en/hotels/north-carolina/charlotte-airport-hotel-CLTACHH/index.html), located in the SouthPark district in Charlotte.
 
-## Travel To and From Charlotte
+    2800 Coliseum Centre Dr.  
+    Charlotte, North Carolina  
+    28217, USA 
 
-### By plane
+### Conference Rates
 
-* Charlotte Douglas International (CLT) is the 11th busiest airport in the US, and served  by all major US airlines as well as many international airlines with direct flights form many European hubs. 
+GRCon has arranged for a conference rate at the Charlotte Airport Hotel. It covers arriving as early as Monday the 14th and departing up to Saturday the 19th.
 
-### By train
+**Regular Conference Rate [Booking Link](https://secure3.hilton.com/en_US/hi/reservation/book.htm?inputModule=HOTEL&ctyhocn=CLTACHH&spec_plan=GNUA&arrival=20200914&departure=20200919&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT)**  
 
-* Amtrak has a station with direct connectivity from NYC and other east coast metropoles.
+A special rate for US Government attendees is also available.
 
-## Transit within Charlotte
+**Government Rate [Booking Link](https://secure3.hilton.com/en_US/hi/reservation/book.htm?inputModule=HOTEL&ctyhocn=CLTACHH&spec_plan=GNUG&arrival=20200914&departure=20200919&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT)**
 
-Charlotte has a well-established rail network, which takes you within ca. 20 minutes from the airport to the venue.
-
-## Things to see and do near the Conference Hotel
-
-TBA
-
-## XXday evening social event
-
-TBA
-
-## "Don't Miss" things to do a little further away
-
-TBA
-
-## Our favorite local restaurants near the hotel
-
-TBA
-
-## Meal Delivery to the Hotel
-
-TBA
-
-## Things to do before or after the conference (come early and stay late!)
-
-TBA
