@@ -14,9 +14,6 @@
     name = "Marcus Müller"
     email = "mmueller@gnuradio.org"
 [[officers]]
-    title = "VOLK Maintainer & Officer"
-    name = "Nathan West"
-[[officers]]
     title = "DevOps Admin & Officer"
     name = "Andrej Rode"
     email = "arode@gnuradio.org"
