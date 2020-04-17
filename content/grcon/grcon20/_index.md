@@ -9,7 +9,7 @@ aliases:
   - grcon20
 ---
 
-## 10th Annual GRCon
+## 10th Annual GNU Radio Conference
 
 GRCon is the annual conference for the GNU Radio project & community, and has
 established itself as one of the premier industry events for Software Radio. It
