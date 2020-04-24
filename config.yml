@@ -83,6 +83,10 @@ menu:
     - name: getting started
       url: https://tutorials.gnuradio.org
       weight: 60
+    - identifier: get_involved
+      name: Get Involved
+      url: https://wiki.gnuradio.org/index.php/HowToGetInvolved
+      weight: 70
   grcon/grcon17:
     - identifier: grcon17
       name: GRCon17
