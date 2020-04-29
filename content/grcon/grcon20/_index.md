@@ -19,7 +19,8 @@ implementation, and theory that has been practically applied in a useful way.
 GRCon attendees come from a large variety of backgrounds, including industry,
 academia, government, and hobbyists.
 
-GRCon20 will be held starting September 14, 2020 online as a virtual event.
+GRCon20 will be held starting September 14, 2020 online as a virtual event. The organizing team is hard at
+work to create a fun and interactive experience.
 
 With an annual program that has broad appeal, GRCon attracts people new to
 Software Radio just looking to learn more, experts that want to keep their finger

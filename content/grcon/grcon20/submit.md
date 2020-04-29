@@ -13,13 +13,10 @@ aliases:
 GRCon 2020 celebrates and showcases the substantial and remarkable progress of
 GNU Radio over the past two decades. We invite developers and users from the GNU
 Radio community to present projects, presentations, papers, posters, and
-problems at GNU Radio Conference 2020.
+problems. Submit your talks, demos, and code today!
 
-Submit your talks, demos, and code!
-
-This year GRCon is a virtual event. The organizing team is hard at
-work to create a fun and interactive experience where all participants 
-are fully supported.
+GRCon20 will be held starting September 14, 2020 online as a virtual event. The organizing team is hard at
+work to create a fun and interactive experience.
 
 ## Submitting
 
@@ -55,7 +52,7 @@ presenters to share their use cases, projects or demos.
 the community, and while most posters are technical, they don’t have to be. 
 
 To submit your content for the conference, visit our dedicated conference
-[submission site)(https://www.openconf.org/GRCon20/author/submit.php)
+[submission site](https://www.openconf.org/GRCon20/author/submit.php)
 
 ## Dates
 
