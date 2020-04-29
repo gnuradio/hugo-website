@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020"
+title: "GNU Radio Conference 2021"
 date: 2019-11-22
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/register
-  - grcon20/register
+  - grcon-2021/register
+  - grcon21/register
 ---
 
 # Registration

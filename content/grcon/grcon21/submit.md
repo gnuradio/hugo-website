@@ -1,32 +1,29 @@
 ---
 title: "Call for Participation"
 date: 2019-11-22
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/submit
-  - grcon20/submit
+  - grcon-2021/submit
+  - grcon21/submit
 ---
 
-# >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon20/cfp) <<
+# >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon21/cfp) <<
 
-GRCon 2020 celebrates and showcases the substantial and remarkable progress of
+GRCon 2021 celebrates and showcases the substantial and remarkable progress of
 GNU Radio over the past two decades. We invite developers and users from the GNU
 Radio community to present your projects, presentations, papers, posters, and
-problems at GNU Radio Conference 2020.
+problems at GNU Radio Conference 2021.
 
 We invite developers and users from the GNU Radio Community to present your
 projects, presentations, papers, posters, and problems at GNU Radio Conference
-2020. Submit your talks, demos, and code! Please share this Call for All with
-anyone you think needs to read it.
-
-**[PDF Version of CfP](/grcon/grcon20/C4A_green.pdf)**
+2021. Submit your talks, demos, and code!
 
 ## Submitting
 
 You may make one or more submissions under the following categories for
 presentation at GRCon. In addition to submitting a presentation, you may submit
-a paper to the Technical Proceedings of GRCon20. You do not need to submit a
+a paper to the Technical Proceedings of GRCon21. You do not need to submit a
 paper to the Proceedings in order to present at GRCon.
 
 We request that papers are formatted according to this [LibreOffice
@@ -56,18 +53,18 @@ presenters to share their use cases, projects or demos.
 the community, and while most posters are technical, they don’t have to be.
 
 To submit your content for the conference, visit our dedicated conference
-[submission site](https://pretalx.gnuradio.org/grcon20/cfp).
+[submission site](https://pretalx.gnuradio.org/grcon21/cfp).
 
 ## Dates
 
-First round closes **17 April 2020**.  Final round closes **1 September 2020**.
+First round closes **1 May 2021**.  Final round closes **1 September 2021**.
 
-All contributions submitted by 17 April 2020 will get a final decisions of
-acceptance by **29 June 2020**.
+All contributions submitted by 1 May 2021 will get a final decisions of
+acceptance by **14 May 2021**.
 
-All contributions submitted between 17 April and 1 September will be
+All contributions submitted between 1 May and 1 September will be
 accepted/rejected on a rolling basis. We do not guarantee a notification
-deadline for submissions after 17 April. Submissions for presentations may close
+deadline for submissions after 1 May. Submissions for presentations may close
 sooner than 1 September if all available speaker slots are taken.
 
 If you have questions or need assistance with the submission system, or have

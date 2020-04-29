@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020 – Charlotte"
+title: "GNU Radio Conference 2021 – Charlotte"
 date: 2019-11-19
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/charlotte
-  - grcon20/charlotte
+  - grcon-2021/charlotte
+  - grcon21/charlotte
 ---
 
 # Introduction
@@ -22,11 +22,11 @@ The conference venue is the [Charlotte Airport Hotel](https://www3.hilton.com/en
 
 ### Conference Rates
 
-GRCon has arranged for a conference rate at the Charlotte Airport Hotel. It covers arriving as early as Monday the 14th and departing up to Saturday the 19th.
+GRCon has arranged for a conference rate at the Charlotte Airport Hotel. It covers arriving as early as Sunday the 19th and departing up to Saturday the 25th.
 
-**Regular Conference Rate [Booking Link](https://secure3.hilton.com/en_US/hi/reservation/book.htm?inputModule=HOTEL&ctyhocn=CLTACHH&spec_plan=GNUA&arrival=20200914&departure=20200919&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT)**
+**Regular Conference Rate [Booking Link]()**
 
 A special rate for US Government attendees is also available.
 
-**Government Rate [Booking Link](https://secure3.hilton.com/en_US/hi/reservation/book.htm?inputModule=HOTEL&ctyhocn=CLTACHH&spec_plan=GNUG&arrival=20200914&departure=20200919&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT)**
+**Government Rate [Booking Link]()**
 

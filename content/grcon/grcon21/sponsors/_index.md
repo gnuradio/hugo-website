@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020"
+title: "GNU Radio Conference 2021"
 date: 2019-11-22 
-type: grcon/grcon20
+type: grcon/grcon21
 layout: sponsors
 aliases:
-  - grcon-2020/sponsors
-  - grcon20/sponsors
+  - grcon-2021/sponsors
+  - grcon21/sponsors
 sponsors:
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020"
+title: "GNU Radio Conference 2021"
 date: 2019-11-19
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/about
-  - grcon20/about
+  - grcon-2021/about
+  - grcon21/about
 ---
 
 # About the Conference
@@ -16,7 +16,7 @@ level year after year. In the GRCon16 Attendee Survey, 53% of conference
 attendees rated the conference as an overall five-out-of-five, and 42% rated it
 as a four-out-of-five.
 
-GRCon20 will be held in [Charlotte, North Carolina](https://www.gnuradio.org/grcon/grcon20/charlotte/) and will continue
+GRCon21 will be held in [Charlotte, North Carolina](https://www.gnuradio.org/grcon/grcon21/charlotte/) and will continue
 many of the successful program aspects from previous years, and add some new
 items, as well.
 
@@ -24,7 +24,7 @@ items, as well.
 
 Packed with valuable content, the GRCon technical program is one of the best in the industry. With a great balance of cutting-edge research, new technology demonstrations, and shared insights from academia, industry, government, and the hobbyist community, GRCon is one of the best venues to learn and stay informed about the field of software radio. The GRCon program is recognized for its focus on practical design and implementation, and its content reflects the concept of “theory put into practice”.
 
-To see last year’s technical program, check out the [GRCon19’s Presentations](/grcon/grcon19/presentations/).
+To see last year’s technical program, check out the [GRCon20’s Presentations](/grcon/grcon20/presentations/).
 
 ## Tutorials & Walkthroughs
 
@@ -77,12 +77,6 @@ As in previous years, we expect to have a HAM radio license study and exam
 session, to be followed by hands-on demos using low-cost hardware and GNU Radio.
 If you are already licensed, this is a great opportunity to meet fellow HAMs and
 learn about the use of GNU Radio for amateur radio!
-
-<!-- Exams will be conducted by -->
-<!-- [CAVEC](http://www.cavechamexam.com/about.html). The test fee and identification -->
-<!-- requirements are detailed -->
-<!-- [here](http://www.cavechamexam.com/huntsville-exam-site-info.html) in "What you -->
-<!-- need to bring to the exam session". -->
 
 ## Special Interest Focus Groups
 

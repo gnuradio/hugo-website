@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020"
+title: "GNU Radio Conference 2021"
 date: 2019-11-22
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/students
-  - grcon20/students
+  - grcon-2021/students
+  - grcon21/students
 ---
 
 # Student Registration
@@ -16,7 +16,7 @@ of student status, which will not be shared with anyone.
 
 ## Student Presenters
 
-Students presenting a talk or poster at GRCon20 can register with this ticket
+Students presenting a talk or poster at GRCon21 can register with this ticket
 type. In order to register as a Student Presenter, you must do the following:
 
 * Submit your presentation abstract according to the Call for Presentations and Papers
@@ -44,5 +44,5 @@ Proof of enrollment may be submitted any time prior to 31 July.
 
 Your “proof of student status” may take one of the following forms:
 
-* An official confirmation of enrollment for the Fall academic period of 2020 from your university registrar.
-* A registration transcript from your university showing course enrollment for the Fall academic period of 2020.
+* An official confirmation of enrollment for the Fall academic period of 2021 from your university registrar.
+* A registration transcript from your university showing course enrollment for the Fall academic period of 2021.

@@ -1,5 +1,5 @@
 ---
-type: grcon/grcon20
+type: grcon/grcon21
 layout: presentations
 title: "Presentations"
 conference-days:
@@ -10,4 +10,4 @@ conference-days:
   - Friday
 ---
 
-Here you can find information about presentations held at the GRCon 2020. Slides are linked where available. Video recordings will be added after the conference.
+Here you can find information about presentations held at the GRCon 2021. Slides are linked where available. Video recordings will be added after the conference.

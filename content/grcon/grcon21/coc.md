@@ -1,11 +1,11 @@
 ---
-title: "GNU Radio Conference 2020"
+title: "GNU Radio Conference 2021"
 date: 2020-01-14T22:44:56-08:00
-type: grcon/grcon20
+type: grcon/grcon21
 layout: single
 aliases:
-  - grcon-2020/coc
-  - grcon20/coc
+  - grcon-2021/coc
+  - grcon21/coc
 ---
 
 # Our Code of Conduct
