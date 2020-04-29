@@ -16,10 +16,6 @@ level year after year. In the GRCon16 Attendee Survey, 53% of conference
 attendees rated the conference as an overall five-out-of-five, and 42% rated it
 as a four-out-of-five.
 
-GRCon20 will be held in [Charlotte, North Carolina](https://www.gnuradio.org/grcon/grcon20/charlotte/) and will continue
-many of the successful program aspects from previous years, and add some new
-items, as well.
-
 ## Conference Program
 
 Packed with valuable content, the GRCon technical program is one of the best in the industry. With a great balance of cutting-edge research, new technology demonstrations, and shared insights from academia, industry, government, and the hobbyist community, GRCon is one of the best venues to learn and stay informed about the field of software radio. The GRCon program is recognized for its focus on practical design and implementation, and its content reflects the concept of “theory put into practice”.
