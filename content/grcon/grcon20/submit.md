@@ -8,8 +8,7 @@ aliases:
   - grcon20/submit
 ---
 
-# >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon20/cfp) <<
-
+# >>  [Click here to submit a proposal!](https://www.openconf.org/GRCon20/author/submit.php) <<
 GRCon 2020 celebrates and showcases the substantial and remarkable progress of
 GNU Radio over the past two decades. We invite developers and users from the GNU
 Radio community to present projects, presentations, papers, posters, and
