@@ -23,8 +23,11 @@ GRCon20 will be held starting September 14, 2020 online as a virtual event. The 
 work to create a fun and interactive experience. 
 
 Our keynote speakers include:
+
 Becky Schoenfeld W1BXY, managing editor of QST magazine 
+
 Oona Räisänen [ windytan ] hacker of signals and computer programmer 
+
 Jim St. Leger, Director Open Source, Intel
 
 With an annual program that has broad appeal, GRCon attracts people new to
