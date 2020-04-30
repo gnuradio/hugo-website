@@ -18,7 +18,12 @@ as a four-out-of-five.
 
 ## Conference Program
 
-Packed with valuable content, the GRCon technical program is one of the best in the industry. With a great balance of cutting-edge research, new technology demonstrations, and shared insights from academia, industry, government, and the hobbyist community, GRCon is one of the best venues to learn and stay informed about the field of software radio. The GRCon program is recognized for its focus on practical design and implementation, and its content reflects the concept of “theory put into practice”.
+Packed with valuable content, the GRCon technical program is one of the best in the industry. 
+With a great balance of cutting-edge research, new technology demonstrations, 
+and shared insights from academia, industry, government, and the hobbyist community, 
+GRCon is one of the best venues to learn and stay informed about the field of software radio. 
+The GRCon program is recognized for its focus on practical design and implementation, 
+and its content reflects the concept of “theory put into practice”.
 
 To see last year’s technical program, check out the [GRCon19’s Presentations](/grcon/grcon19/presentations/).
 
