@@ -25,4 +25,4 @@ GNU Radio is present
 * on Github: [gnuradio organization](https://github.com/gnuradio)
 * on Twitter: [@gnuradio](https://twitter.com/gnuradio)
 * on Youtube: [GNU Radio Project Channel](http://www.youtube.com/c/GNURadioProject)
-* on LinkedIn: [GNU Radio Group](https://www.linkedin.com/groups/1852751)
+* on LinkedIn: [GNU Radio Group](https://www.linkedin.com/groups/1852751), [Company Page](https://www.linkedin.com/company/gnuradio)
