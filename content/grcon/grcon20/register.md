@@ -10,8 +10,8 @@ aliases:
 
 # Registration
 
-Registration for GNU Radio conference will open soon.
+Registration is available now!
 
-Pricing info.
+[Register Here](https://tickets.gnuradio.org/grcon20/)
 
-Embed Pretix form.
+[Refund Policy](refunds)---
