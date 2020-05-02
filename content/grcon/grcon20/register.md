@@ -14,4 +14,3 @@ Registration is available now!
 
 [Register Here](https://tickets.gnuradio.org/grcon20/)
 
-[Refund Policy](refunds)---
