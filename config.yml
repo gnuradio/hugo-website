@@ -172,6 +172,11 @@ menu:
       name: Code of Conduct
       url: /grcon/grcon20/coc
       weight: 70
+      sponsors:
+        - identifier: perspectalabs
+          name: Perspecta Labs
+          url: /grcon/grcon20/perspectalabs
+          weight: 100
   grcon/grcon21:
     - identifier: grcon21
       name: GRCon21

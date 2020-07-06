@@ -2,15 +2,15 @@
 
 ## Install Prequisites
 
-To render the GNU Radio website a recent [hugo](https://gohugo.io) installation in the extended mode is required.
-If you are a masochist and you are familiar with `go get`. The easiest way to get `hugo` in the required version: `go get --tags extended -u github.com/gohugoio/hugo/`.
-Your distro version of hugo is likely not the extended one, so go to:
+To render the GNU Radio website a recent [hugo](https://gohugo.io) installation in the "extended" mode is required.  To install hugo on your system choose from one of the following options:
 
-https://github.com/gohugoio/hugo/releases
+1. If you already have `go get` set up, the easiest way to get `hugo` in the required version is: `go get --tags extended -u github.com/gohugoio/hugo/`.
+2. Download and install hugo [from one of their releases](https://github.com/gohugoio/hugo/releases), make sure to download the "hugo_extended_XXXX" file for your OS.  The latest version should work, at the time of writing this it is 0.73.  Either install it, or unpack and put the binary in your path.  On Ubuntu this process can be done with:
+   * `cd ~/Downloads`
+   * `wget https://github.com/gohugoio/hugo/releases/download/v0.73.0/hugo_extended_0.73.0_Linux-64bit.deb`
+   * `sudo dpkg -i hugo_extended_0.73.0_Linux-64bit.deb`
 
-And download hugo_extended_0.53 for your operating system. Unpack and put
-the binary in your path. Any other approach will make you angry and refuse
-to work on the website!
+Avoid using the hugo packaged by your distro, their version of hugo is likely not the "extended" variant.
 
 ## Run local development version
 
