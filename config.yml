@@ -70,16 +70,21 @@ menu:
       url: /grcon/grcon20/
       parent: events
       weight: 51
+    - identifier: events_grcon_21
+      name: GNU Radio Conference 2021
+      url: /grcon/grcon21/
+      parent: events
+      weight: 52
     - identifier: events_grcon
       name: Previous GNU Radio Conferences
       url: /grcon/
       parent: events
-      weight: 52
+      weight: 53
     - identifier: events_other
       name: Other events
       url: /events/
       parent: events
-      weight: 53
+      weight: 54
     - name: getting started
       url: https://tutorials.gnuradio.org
       weight: 60
@@ -166,4 +171,37 @@ menu:
     - identifier: coc
       name: Code of Conduct
       url: /grcon/grcon20/coc
+      weight: 70
+  grcon/grcon21:
+    - identifier: grcon21
+      name: GRCon21
+      url: /grcon/grcon21
+      weight: 10
+    - identifier: about
+      name: About
+      url: /grcon/grcon21/about
+      weight: 20
+    #- identifier: schedule
+      #name: Schedule
+      #url: https://pretalx.gnuradio.org/grcon20
+      #weight: 25
+    #- identifier: presentations
+      #name: Presentations
+      #url: /grcon/grcon20/presentations
+      #weight: 30
+    - identifier: submit
+      name: CfP
+      url: /grcon/grcon21/submit
+      weight: 35
+    - identifier: students
+      name: Students
+      url: /grcon/grcon21/students
+      weight: 40
+    - identifier: sponsors
+      name: Sponsors
+      url: /grcon/grcon21/sponsors
+      weight: 60
+    - identifier: coc
+      name: Code of Conduct
+      url: /grcon/grcon21/coc
       weight: 70
