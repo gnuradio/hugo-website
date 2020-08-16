@@ -51,6 +51,11 @@ With an attendee list that includes some of the most recognized leaders in the
 Software Radio industry, the GRCon keynotes offer an
 opportunity to get the latest insights on a wide variety of topics.
 
+Monday:
+Video Decoding Adventures
+
+Oona Räisänen, a programmer interested in signals and sound waves, shares her video decoding adventures. Find out more about Oona at https://oona.windytan.com/
+
 Tuesday:
 Keeping Ham Radio Alive and Well: ARRL’s Education Initiatives 
 
