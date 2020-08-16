@@ -1,0 +1,47 @@
+{{ define "header" }}
+<div class="container-fluid bg_white pt-4 pb-4">
+    {{/* Create title row with sponsor image and name, below the sponsor name create buttons with the sponsor level etc pp */}}
+    <div class="row px-2">
+        <div class="offset-lg-2 col-lg-2 offset-md-1 col-md-3">
+            {{ $logo := $.Resources.GetMatch "logo.*" }}
+            <img src="{{ $logo.RelPermalink }}" class="img" style="width:auto; height:100%">
+        </div>
+        <div class="offset-lg-1 col-lg-4 offset-md-1 col-md-5">
+            <div class="row mx-auto">
+                    <h1>{{ .Title }}</h1>
+            </div>
+            <div class="row mx-auto">
+                Sponsor status
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<main role="main">
+    <div class="container-fluid bg_white">
+        {{/* Insert sponsor text with embedded short codes for more images and media */}}
+        <div class="row px-2 bg_white">
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 grcon bg_white py-2">
+                <h2>Description</h2>
+                {{ .Content }}
+            </div>
+        </div>
+        {{/* */}}
+        {{ if .Params.files }}
+        <div class="row px-2">
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 grcon bg_white">
+                <h2> Files </h2>
+                <ul>
+                    {{ range .Params.files }}
+                    {{ $file := $.Resources.GetMatch . }}
+                    <li><a href="{{ $file.RelPermalink }}"> {{ . }} </a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</main>
+{{ end }}
