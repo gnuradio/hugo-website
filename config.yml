@@ -148,10 +148,10 @@ menu:
       name: About
       url: /grcon/grcon20/about
       weight: 20
-    #- identifier: schedule
-      #name: Schedule
-      #url: https://pretalx.gnuradio.org/grcon20
-      #weight: 25
+    - identifier: schedule
+      name: Schedule
+      url: https://www.openconf.org/GRCon20/modules/request.php?module=oc_program&action=program.php&p=program
+      weight: 25
     #- identifier: presentations
       #name: Presentations
       #url: /grcon/grcon20/presentations
