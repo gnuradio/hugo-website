@@ -44,14 +44,14 @@ sponsors:
         logo: "sandiaNL.png"
         description: "Sandia National Laboratories is a multimission laboratory operated by National Technology and Engineering Solutions of Sandia LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration. Sandia Labs has major research and development responsibilities in nuclear deterrence, global security, defense, energy technologies and economic competitiveness, with main facilities in Albuquerque, New Mexico, and Livermore, California."
       - name: "Xilinx"
-        url: "xilinx"
+        url: "https://www.xilinx.com"
         logo: "xilinx.png"
         description: "Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."
   - level: patron
     weight: 3
     entries:
       - name: "RL Marlow Consulting"
-        url: "rlmarlow"
+        url: "http://rlmarlow.com"
         logo: "rlmconsulting.png"
         description: "RL Marlow Consulting LLC provides FPGA and USRP design services and expertise. Founded in 2017 by Ryan Marlow. Ryan has worked directly with Ettus Research and a number of their customers. Some examples of work Ryan has done for his clients: wrapped proprietary ip cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers' needs, devised multi-USRP schemes, using UHD, to have multiple devices work in parallel for more complex tasks, and much more. Outside of the USRP space, Ryan has worked on more general FPGA projects and even custom EDA tools for FPGA that has given him a deep understanding of the inner workings of FPGA."
       - name: "AirIn Technologies, Inc"
@@ -62,7 +62,7 @@ sponsors:
     weight: 4
     entries:
       - name: "Microwave Journal"
-        url: "microwavejournal"
+        url: "https://www.microwavejournal.com"
         logo: "microwave_journal_logo.svg"
         description: "Microwave Journal provides leading-edge technical content for RF, microwave and wireless engineers worldwide. MWJ the magazine reaches 50,000 qualified subscribers with practical design application articles for working engineers. Microwave Journal delivers the latest news, events, webinars, whitepapers, videos and newsletters to RF/microwave professionals. EDI CON China and USA events bring industry and engineers together for information exchange and education. For over 60 years, Microwave Journal has been THE resource for engineers who are developing infrastructure for the next-generation of wireless and defense technologies."
 ---
