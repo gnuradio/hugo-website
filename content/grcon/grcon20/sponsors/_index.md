@@ -54,6 +54,10 @@ sponsors:
         url: "rlmarlow"
         logo: "rlmconsulting.png"
         description: "RL Marlow Consulting LLC provides FPGA and USRP design services and expertise. Founded in 2017 by Ryan Marlow. Ryan has worked directly with Ettus Research and a number of their customers. Some examples of work Ryan has done for his clients: wrapped proprietary ip cores into the RFNoC framework to run on a USRP device, developed custom RFNoC blocks that meet customers' needs, devised multi-USRP schemes, using UHD, to have multiple devices work in parallel for more complex tasks, and much more. Outside of the USRP space, Ryan has worked on more general FPGA projects and even custom EDA tools for FPGA that has given him a deep understanding of the inner workings of FPGA."
+      - name: "AirIn Technologies, Inc"
+        url: "https://www.airintech.com/"
+        logo: "airin_technologies.png"
+        description: "Since 2005, AirIn Technologies Inc. has been providing engineering expertise in the areas of research, design, simulation, analysis, test and verification, and rapid prototype development supporting implementation and deployment of real-time communication and sensor systems for new and existing satellite and tactical payload/subsystems. Our experts are always current on the latest trends and bleeding edge technologies to provide you with the most cost effective solution to your wireless problems to include: Launch Support, Custom Software Defined Radio Solutions, Antenna & Phased Array Design and Analysis, Signal Processing and Geolocation, Mobility and Remote Web Applications."
   - level: media
     weight: 4
     entries:
