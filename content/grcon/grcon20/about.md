@@ -45,7 +45,7 @@ contribution to any field impacting Software Radio. The TP is available at
 pubs.gnuradio.org, which is indexed by Google Scholar. Submissions go through a
 strict peer-review process from area experts using the standard EDAS system.
 
-## Keynotes & Panel Sessions
+## Keynotes
 
 With an attendee list that includes some of the most recognized leaders in the
 Software Radio industry, the GRCon keynotes offer an
@@ -67,7 +67,7 @@ Becky R. Schoenfeld, W1BXY, is Manager of the Publications and Editorial Departm
 ## Vendor Exhibition & Demo Space
 
 With the continued rise of GNU Radio in the commercial, academic, and government
-sectors, the vendor booths offer a unique opportunity to see the latest Software
+sectors, the vendor exhibits offer a unique opportunity to see the latest Software
 Radio technology from some of the field’s leaders.
 
 ## Technology Showcase & Poster Session
@@ -75,15 +75,6 @@ Radio technology from some of the field’s leaders.
 Every year, vendors, students, and hobbyists show off some of their latest
 developments in the poster area. Meet the developers and researchers creating
 next-generation Software Radio technologies.
-
-## Social Events
-
-We are proud to continue GRCon’s tradition of high-quality social events, which
-provide an opportunity to network & get to know others in the community. Turnout
-at GRCon socials is very high year after year, and we look forward to once again
-offering a fun and unique experience. We'll publish more information on the
-planned social events as they are confirmed!
-
 
 ## Special Interest Focus Groups
 
