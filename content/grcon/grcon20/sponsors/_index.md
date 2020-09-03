@@ -26,12 +26,10 @@ sponsors:
         url: "https://cnftech.com/"
         logo: "cnf_technologies.png"
         description: "At CNF Technologies, our mission is to protect and secure our customer’s critical assets through customized research and development, integration, and operation of full-spectrum solutions. Our engineering teams provide an unbiased, non-proprietary approach to our research programs and are actively involved in the open source community. As a small, family owned business, we are able to provide a strong foundation that ensures the success and progress of each team member. We are also proud to support our community by encouraging the development of the future workforce with a wide array of scholarships and mentoring programs each year."
-      - name: "Syncopated Engineering"
-        url: "https://www.syncopatedengr.com"
-        logo: "syncopated_engineering.png"
-        description: "Syncopated Engineering is a creative solution provider of software applications and embedded systems for wireless communications, signal processing, and machine learning.  Our CIELOTM Cognitive Radio product line includes our Mockingbird RF signal and traffic emulator which emulates multiple “radio personalities” in a small device and integrates with GNU Radio providing the ability to create complex RF scenes for testing signal processing applications such as dynamic spectrum sharing and EW.
-        
-        “Embrace the Offbeat”™"
+      - name: "SETI Institute"
+        url: "https://www.seti.org/"
+        logo: "seti_institute.png"
+        description: "The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501 (c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond."
   - level: supporter
     weight: 2
     entries:
@@ -39,10 +37,20 @@ sponsors:
         url: "https://www.perspectalabs.com/"
         logo: "perspecta_labs.png"
         description: "Perspecta Labs delivers the future—across cybersecurity, mobility, analytics and networking—to government and commercial customers worldwide. We develop and deliver innovative solutions that work at scale and in complex, real-world environments—making an impact in defense, communications, energy, transportation, finance and health care. Our culture celebrates collaboration and teamwork built on deep expertise, industry leadership, enthusiastic and knowledgeable colleagues, and a rich network of university relationships. From smart cities to smart phones, intelligent battlefields to autonomous systems, Perspecta Labs’ 200+ scientists, engineers and analysts are solving tomorrow’s problems, today."
+      - name: "Raytheon BBN"
+        url: "https://www.raytheonintelligenceandspace.com"
+        logo: "raytheon_bbn.png"
+        description: "BBN has been providing advanced technology research and development—especially development — for over 70 years. From the ARPANET, to the first email, to the first stereo digital mammography system, through the first metro network protected by quantum cryptography, BBN has consistently transitioned advanced research to produce innovative solutions for our customers. Today, BBN’s innovations allow for leading-edge networking solutions, speech understanding in any language or format, and lifesaving shooter detection systems. BBN scientists and engineers continue to take risks and challenge conventions to create new and fundamentally better solutions."
       - name: "Sandia National Laboratories"
         url: "http://www.sandia.gov"
         logo: "sandiaNL.png"
         description: "Sandia National Laboratories is a multimission laboratory operated by National Technology and Engineering Solutions of Sandia LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration. Sandia Labs has major research and development responsibilities in nuclear deterrence, global security, defense, energy technologies and economic competitiveness, with main facilities in Albuquerque, New Mexico, and Livermore, California."
+      - name: "Syncopated Engineering"
+        url: "https://www.syncopatedengr.com"
+        logo: "syncopated_engineering.png"
+        description: "Syncopated Engineering is a creative solution provider of software applications and embedded systems for wireless communications, signal processing, and machine learning.  Our CIELOTM Cognitive Radio product line includes our Mockingbird RF signal and traffic emulator which emulates multiple “radio personalities” in a small device and integrates with GNU Radio providing the ability to create complex RF scenes for testing signal processing applications such as dynamic spectrum sharing and EW.
+        
+        “Embrace the Offbeat”™"
       - name: "Xilinx"
         url: "https://www.xilinx.com"
         logo: "xilinx.png"
