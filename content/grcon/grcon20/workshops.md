@@ -52,6 +52,15 @@ But in this workshop, we use GNU Radio to go hands on with beamforming! Put away
 
 [Register](https://tickets.gnuradio.org/workshops20)
 
+## Introduction to GRC Development for OpenCPI
+OpenCPI
+
+This workshop will present how the integration of OpenCPI as an infrastructure for GNU Radio will enable GNU Radio applications to both exploit the hardware of an embedded heterogeneous processing system, as well as be easily ported to multiple hardware configurations.  OpenCPI is an open-source software framework for developing and executing component-based applications on heterogeneous embedded systems. The latest OpenCPI integration with GNU Radio provides an open infrastructure for supporting heterogeneous processing.
+
+During the workshop, the attendee will have hands-on experience and initial familiarity with the tasks of taking a GNU Radio application, such as a Zigbee based application, developed using GRC to build, and execute on multiple dissimilar embedded hardware platforms.  The breadth of hardware platforms that OpenCPI supports includes multiple processor architectures (e.g. general, multi-core, manycore processors, GPUs), different FPGA architectures and FPGA toolchains, and connected devices such as transceivers.  The attendee will become familiar with how the integration of OpenCPI as an infrastructure for GNU Radio will allow GR blocks to have alternative implementations, such as C++ or VHDL, ready to run on CPUs or with different FPGA vendors and configurations. The OpenCPI framework selects the appropriate implementation of every block to be used depending on the available hardware and can execute an application across multiple, different Software-Defined Radios.
+
+The relationship between the OpenCPI framework and GNU Radio will be discussed.  At the conclusion of the Workshop, each attendee will have the chance to execute the demonstrated GR application on at least two very different hardware systems.  The GR application developer will have utilized the OpenCPI infrastructure that supports heterogeneous processing and a breadth of hardware and toolchains, in order to avoid the limitations of vendor-specific hardware and tool-chain solutions.  At the end of the workshop, there will be a demonstration of testing the GR application code using the CNF Continuous Integration (CI) Test infrastructure.
+
 ## Supporting New Hardware Using the OpenCPI Support Project Process
 **OpenCPI**
 
@@ -68,3 +77,10 @@ Ettus Research's RFNoC (RF Network-on-Chip) software framework is designed to de
 
 [Register](https://tickets.gnuradio.org/workshops20)
 
+## Networked GNURadio: NS3 meets GNU Radio
+### Delivering a full-stack shared-code live, virtual constructive simulation framework
+Bishal Thapa (Ph.D.), Guevara Noubir (Ph.D.), and Colin Funai (Ph.D.)
+
+Although GNU Radio has brought customizable open wireless modems, in the form of  SDRs, to the research community, often times testing higher layer protocols, such as novel Medium Access and Networking protocols, while maintaining clear layers of abstraction, remains out of reach for many SDR developers. As a result, full-stack development of novel wireless networking solutions often turn to network simulators (e.g., NS3) as the tool of choice. NS3 is a discrete event simulator, meaning that the system's state is sampled at quantized time steps, that is widely used by the academic community. NS3 can simulate all layers of the OSI stack, some at a higher fidelity than others. Specifically, it supports a variety of communication models, mobility models, energy harvesting models, and channel models but at a significantly lower fidelity and with less realistic assumptions. E.g. NS3 has native support for underwater acoustic networks (UAN).  Although NS3 can be used to simulate channel level aberrations and noise, real world testing remains a much needed step in validating any protocol due to the complexity in accurately modeling the wireless channel. To bridge this gap, we present NS3-GNU Radio shim, as a means of seamlessly linking higher layer NS3 efforts with GNU Radio based SDR development effort. Our work will not only allow live, virtual, constructive simulation with a seamless real world validation capability, but also enable a comprehensive view into how any proposed changes will coexist with incumbent protocols and systems. This would be most relevant to ongoing 5G/xG and undersea acoustic network research effort.
+
+[Register](https://tickets.gnuradio.org/workshops20)
