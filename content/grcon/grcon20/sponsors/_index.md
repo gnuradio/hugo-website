@@ -18,10 +18,10 @@ sponsors:
         url: "https://epiqsolutions.com/"
         logo: "epiq.png"
         description: "Epiq Solutions develops cutting edge RF tools that provide situational awareness and detailed insight into RF environments to identify and take action against wireless threats. With more than a decade serving government-focused industries, Epiq Solutions understands how important speed, cost, and performance are for defense and security applications. Our radically small, state-of-the-art SDR transceiver modules and turnkey RF sensing tools lead the way in size, weight, and low-power consumption. Whether the need is to develop mission-critical defense communications for the battlefield or to protect sensitive information, Epiq Solutions is the trusted RF solution provider. "
-      - name: "Ettus Research"
+      - name: "Ettus Research / NI"
         url: "https://www.ettus.com/"
         logo: "ettus.svg"
-        description: "Ettus Research™, a National Instruments (NI) brand since 2010, is the world’s leading supplier of software defined radio platforms, including the Universal Software Radio Peripheral (USRP™) family of products. By supporting a wide variety of development environments on an expansive portfolio of high performance RF hardware, the USRP platform is the SDR platform of choice for thousands of engineers, scientists and students worldwide for algorithm development, exploration, prototyping and deployment for next generation wireless technologies across a wide variety of applications."
+        description: "Ettus Research, an NI brand, is the world’s leading supplier of software-defined radio platforms, combining ease of use and a robust open-source software community. From wireless research to deployment, we empower you with the SDR tools, systems, and support you need to bring the next generation of wireless technology to life. It’s time. Let’s Engineer Ambitiously™."
       - name: "CNF Technologies"
         url: "https://cnftech.com/"
         logo: "cnf_technologies.png"
@@ -30,6 +30,10 @@ sponsors:
         url: "https://www.seti.org/"
         logo: "seti_institute.png"
         description: "The SETI Institute’s mission is to explore, understand, and explain the origin and nature of life in the universe and the evolution of intelligence. Founded in 1984, the SETI Institute, a 501 (c)(3) nonprofit scientific research institute headquartered in Mountain View, California, employs more than 130 scientists, educators, and administrative staff. Work at the SETI Institute is anchored by three centers: the Carl Sagan Center for the Study of Life in the Universe (research), the Center for Education and the Center for Outreach. The SETI Institute operates the Allen Telescope Array, a 42-element radio array consisting of 6-meter dishes, at the Hat Creek Radio Observatory. The SETI Institute is a key research contractor to NASA and the National Science Foundation, and collaborates with industry partners throughout Silicon Valley and beyond."
+      - name: "Xilinx"
+        url: "https://www.xilinx.com"
+        logo: "xilinx.png"
+        description: "Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."
   - level: supporter
     weight: 2
     entries:
@@ -48,13 +52,9 @@ sponsors:
       - name: "Syncopated Engineering"
         url: "https://www.syncopatedengr.com"
         logo: "syncopated_engineering.png"
-        description: "Syncopated Engineering is a creative solution provider of software applications and embedded systems for wireless communications, signal processing, and machine learning.  Our CIELOTM Cognitive Radio product line includes our Mockingbird RF signal and traffic emulator which emulates multiple “radio personalities” in a small device and integrates with GNU Radio providing the ability to create complex RF scenes for testing signal processing applications such as dynamic spectrum sharing and EW.
+        description: "Syncopated Engineering is a creative solution provider of software applications and embedded systems for wireless communications, signal processing, and machine learning.  Our CIELO™ Cognitive Radio product line includes our Mockingbird RF signal and traffic emulator which emulates multiple “radio personalities” in a small device and integrates with GNU Radio providing the ability to create complex RF scenes for testing signal processing applications such as dynamic spectrum sharing and EW.
         
         “Embrace the Offbeat”™"
-      - name: "Xilinx"
-        url: "https://www.xilinx.com"
-        logo: "xilinx.png"
-        description: "Xilinx is the inventor of the FPGA, programmable SoCs, and now, the Adaptive Compute Acceleration Platform (ACAP). Our highly-flexible programmable silicon, enabled by a suite of advanced software and tools, enables rapid innovation across a wide span of industries and technologies, including high performance Software Defined Radio applications (from Direct RF integration to real-time Signal Processing and Machine Learning)."
   - level: patron
     weight: 3
     entries:
