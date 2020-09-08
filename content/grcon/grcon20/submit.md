@@ -56,7 +56,7 @@ To submit your content for the conference, visit our dedicated conference
 
 ## Dates
 
-Final deadline is  **1 September 2020**.
+Final deadline was **1 September 2020**.
 
 If you have questions or need assistance with the submission system, or have
 content that doesn't quite fit and you want to talk it over, please write

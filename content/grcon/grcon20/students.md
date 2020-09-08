@@ -14,24 +14,15 @@ There are two levels of student registration. All students are required to
 submit a resume / CV, which will be provided to our student sponsors, and proof
 of student status, which will not be shared with anyone.
 
-## Student Presenters
+## Registering
 
-Students presenting a talk or poster at GRCon20 can register with this ticket
-type. In order to register as a Student Presenter, you must do the following:
+In order to register as a Student, you must do the following:
 
 * Submit your presentation abstract according to the Call for Presentations and Papers
 * E-Mail your resume / CV to `grcon@gnuradio.org`
 * E-Mail proof of your student status to `grcon@gnuradio.org`
-* Purchase your “Student Presenter” registration on pretix
-
-## Student Attendee
-
-This ticket type is available to all students. In order to register as a
-Student Presenter, you must do the following:
-
-* E-Mail your resume / CV to `grcon@gnuradio.org`
-* E-Mail proof of your student status to `grcon@gnuradio.org`
-* Purchase your “Student Attendee” registration on pretix
+* Register with the free Student ticket at [tickets.gnuradio.org](https://tickets.gnuradio.org/grcon20)
+* Once confirmed, use the voucher code on your ticket to register for workshops: [here](https://tickets.gnuradio.org)
 
 ## Student Status
 

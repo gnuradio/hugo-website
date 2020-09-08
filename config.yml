@@ -156,9 +156,9 @@ menu:
       #name: Presentations
       #url: /grcon/grcon20/presentations
       #weight: 30
-    - identifier: submit
-      name: CfP
-      url: /grcon/grcon20/submit
+    - identifier: workshops
+      name: Workshops
+      url: /grcon/grcon20/workshops
       weight: 35
     - identifier: students
       name: Students
