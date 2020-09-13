@@ -33,8 +33,18 @@ off their latest work.
 
 ### Registration
 
-Registration is still open. The main talk track and discussion rooms are free and workshops are available with a Full registration. 
+Free Registration is still open. The main talk track and discussion rooms are free. The workshops are sold out.
 
 [Register Here](https://tickets.gnuradio.org/grcon20/)
 
 [Refund Policy](refunds)
+
+### Participation Guide 
+
+The Participation Guide can be found [here](https://docs.google.com/document/d/e/2PACX-1vQtKfY1-ZT7bhYlkbQlOIKlv026qGr9ZbZlpoWx4Sjou8dOOZ4K2GvAMhCXVu0vIPYvq2z5KsvGIj36/pub).
+
+To sign up to the chats, go to [chat.gnuradio.org](https://chat.gnuradio.org),
+select a user name and register. Afterwards, meet the GRCon community on the
+[+grcon community page](https://chat.gnuradio.org/#/group/+grcon:gnuradio.org).
+To ease this all, there's a [Video
+tutorial](https://www.youtube.com/watch?v=9ZUWmGQrbBQ).

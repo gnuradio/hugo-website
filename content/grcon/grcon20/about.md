@@ -18,6 +18,8 @@ as a four-out-of-five.
 
 ## Conference Program
 
+A program can be found in [tabular form here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRzQRVelQmDWWUJJRgzFe0OxdVntA5X191hM3zhGgjKIpgMB9KOllXRmFwbryoGJpYIKiNNF4rQv_hw/pubhtml?gid=2121812992&single=true).
+
 Packed with valuable content, the GRCon technical program is one of the best in the industry. 
 With a great balance of cutting-edge research, new technology demonstrations, 
 and shared insights from academia, industry, government, and the hobbyist community, 
