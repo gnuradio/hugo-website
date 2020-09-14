@@ -19,7 +19,7 @@ implementation, and theory that has been practically applied in a useful way.
 GRCon attendees come from a large variety of backgrounds, including industry,
 academia, government, and hobbyists.
 
-GRCon20 will be held starting September 14, 2020 online as a virtual event. The organizing team is hard at
+GRCon20 is running this week, starting September 14th, online as a virtual event. The organizing team is hard at
 work to create a fun and interactive experience. 
 
 Our keynote speakers include: Becky Schoenfeld W1BXY, managing editor of QST magazine, 
@@ -31,6 +31,15 @@ Software Radio just looking to learn more, experts that want to keep their finge
 on the pulse & direction of the industry, and seasoned developers ready to show
 off their latest work.
 
+### Participation Guide 
+
+The Participation Guide can be found [here](https://docs.google.com/document/d/e/2PACX-1vQtKfY1-ZT7bhYlkbQlOIKlv026qGr9ZbZlpoWx4Sjou8dOOZ4K2GvAMhCXVu0vIPYvq2z5KsvGIj36/pub).
+
+An important part of the conference is the discussions between participants and presenters.
+The conference chat is at [chat.gnuradio.org](https://chat.gnuradio.org). There you can
+select a user name and meet the GRCon community on the
+[+grcon community page](https://chat.gnuradio.org/#/group/+grcon:gnuradio.org).
+
 ### Registration
 
 Free Registration is still open. The main talk track and discussion rooms are free. The workshops are sold out.
@@ -39,12 +48,3 @@ Free Registration is still open. The main talk track and discussion rooms are fr
 
 [Refund Policy](refunds)
 
-### Participation Guide 
-
-The Participation Guide can be found [here](https://docs.google.com/document/d/e/2PACX-1vQtKfY1-ZT7bhYlkbQlOIKlv026qGr9ZbZlpoWx4Sjou8dOOZ4K2GvAMhCXVu0vIPYvq2z5KsvGIj36/pub).
-
-To sign up to the chats, go to [chat.gnuradio.org](https://chat.gnuradio.org),
-select a user name and register. Afterwards, meet the GRCon community on the
-[+grcon community page](https://chat.gnuradio.org/#/group/+grcon:gnuradio.org).
-To ease this all, there's a [Video
-tutorial](https://www.youtube.com/watch?v=9ZUWmGQrbBQ).
