@@ -5,6 +5,7 @@ theme: gnuradio-bootstrap
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
 copyright: 'GNU Radio project. All rights reserved.'
+disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
 summaryLength: 20
