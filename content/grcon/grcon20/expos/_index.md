@@ -6,6 +6,7 @@ layout: expos
 aliases:
   - grcon-2020/expos
   - grcon20/expos
+  - expo
 sponsors:
   - level: expo 
     weight: 1 

@@ -161,9 +161,9 @@ menu:
       name: Workshops
       url: /grcon/grcon20/workshops
       weight: 35
-    - identifier: students
-      name: Students
-      url: /grcon/grcon20/students
+    - identifier: expos
+      name: Expos
+      url: /grcon/grcon20/expos
       weight: 40
     - identifier: sponsors
       name: Sponsors
