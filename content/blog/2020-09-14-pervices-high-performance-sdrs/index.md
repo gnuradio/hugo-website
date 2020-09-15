@@ -1,0 +1,34 @@
+---
+title: "The Power & Evolution of High Performance SDRs"
+author: "Per Vices"
+date: "2020-09-14"
+sponsored: "1"
+aliases: ["blog/pervices-high-performance-sdrs"]
+---
+
+The Power & Evolution of High Performance SDRs
+
+
+Software Defined Radios (SDRs) have been evolving since their inception to provide communication and signal processing abilities to serve multiple fields and needs from amateur radio to mission critical wireless systems. SDRs transmit and receive radio data and convert between the analog and digital domains quickly, accurately, over multiple bands, and have functionality implemented in software as opposed to hardware. 
+
+SDRs can easily be integrated into existing or new systems, replace multiple separate products, and can have their application be modified through changes to the FPGA or through software on a host computer. These modifications are required for adapting to changes in technology and not becoming obsolete. Having a product that is an all-in-one, powerful, longer-term investment allows you to amortize the costs over a longer period of time, as the life span of the system is typically much longer than traditional, hardware-only solutions. With a SDR you would only deal with one vendor for upgrades/repairs, have all components compiled in one fully integrated boxed platform, saving valuable space, and providing a more simplified, user friendly interface and front end. One of the key components that have made the SDR a technological powerhouse is the FPGA (field programmable gate array); which have allowed for the systems to take on new roles, receive updates, and adjust performance parameters for unique environments and situations. Additionally, having the system incorporate signal filtering, frequency mixing, signal amplification, modulation/demodulation, and other forms of digital signal processing (DSP), ensures that the platform is being fully utilized and meets all requirements associated with different wireless applications. 
+
+The following are some of the applications/fields SDRs are used in and the unique and overarching benefits.
+
+In **low-latency** applications, you can have all the necessary modulation and demodulation performed on the FPGA to reduce overall system latency as well as make adjustments between latency and reliability based on what fits best for the given requirement and strategy in the case of high frequency trading. 
+
+For **radar** applications, SDRs have a configurable radio front-end which makes it possible for the same platform to be used for different radar applications as it can operate on various bands on the radio spectrum. For example, airport surveillance radar operate on the S-band while marine operates on X-band. One SDR platform for a maritime airport can be used to monitor both. The overall reduction in complexity allows for savings on space, costs, time-to-market and reduction in supply chain hurdles. Smaller, more efficient platforms allow for SDRs to be installed in more environments as they are more compact, easier to use and service than traditional, hardware-focused options.  
+
+In **GNSS** applications, SDRs can receive signals on various frequencies from multiple satellite constellations, meaning a single device can access different navigation systems, and be updated to connect to new satellites that are launched in the future. Additionally, there are multiple demodulation protocols, used to extract the original information-bearing signal from a carrier wave. These include: PPL (phase-locked loop), a control system that generates an output signal whose phase is related to the phase of an input signal, and by using DSP to for algorithm processing. 
+
+For **test and measurement**, SDRs are able to mimic base stations and do stress tests for a range of scenarios, helping system integrators and engineers see where breaking points are, and optimize design and placement of their systems. 
+
+For **MRIs**, gr-MRI has been developed as a low-cost option by combining commercially available SDRs and GNU Radio to provide tools for system calibration, multi-radio synchronization, MR signal processing and image reconstruction. The gr-MRI software can be used to develop high-fidelity, low-cost custom MRI spectrometers using commercially available options without the need for heavy R&D. A critical component of this is timing, and the SDR must have phase coherency and synchronization with a PPS being a nice feature, which is the simplest form of synchronization over multiple systems. Phase coherency and synchronization ensures that the RF pulses and signal acquisition that are being processed are in sync with one another; there is no lag that can distort or give inaccurate image results.
+
+In **spectrum monitoring and recording**, the benefits of SDRs include features such as high channel counts, high bandwidth, low-latency, and reduction in SWaP (size, weight, and power). High bandwidth allows for capturing a lot of data and streaming to a disk for further processing. Having multiple independent channels allows for transmitting and receiving multiple signals in a range of frequencies, while connection points are optimized to provide the lowest latency transmission possible. Overall, the platform is designed to be as compact, lightweight, and powerful as possible. For example, Per Vices Cyan unit boasts 16 channels and is a 3U 19” rackmount configuration, replacing what would normally be 4-5 full racks of equipment. 
+
+Costs and configurations for SDR platforms can vary greatly depending on RF performance, number of channels, bandwidth, backhaul and other defining features, with the market providing options at all price points and specifications. SDRs are primarily coded in C++ and Python, with complexity dependent on it’s intended use and integration. GNU Radio is a free software development toolkit which provides signal processing blocks to be used in conjunction with software-defined radios and signal-processing systems. The combination of GNU Radio and these COTS SDRs make them the ideal solution for use by hobbyists, researchers, and for mission critical wireless systems. 
+
+SDRs are a truly adaptable, comprehensive and evolving solution to signal and mission critical wireless systems. As the wireless communications landscape is expanding and demands made for communication technologies are more complex and pressing, there will be many new applications that SDRs can be used for, like 5G, electronic warfare, spectrum analysis, and more that are being uncovered. Having a solid understanding of GNU Radio and having an SDR platform that can adapt to future applications is a worthwhile investment for all SDR users from amateur hobbyist to large organizations focused on mission critical applications. 
+
+Contact solutions@pervices.com to start a conversation.
