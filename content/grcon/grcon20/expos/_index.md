@@ -19,6 +19,10 @@ sponsors:
         url: "epiqsolutions"
         logo: "epiq.png"
         description: ""
+      - name: "OpenCPI"
+        url: "opencpi"
+        logo: "opencpi.png"
+        description: ""
 ---
 
 # Virtual Exhibition Hall 

@@ -1,0 +1,68 @@
+---
+title: "OpenCPI"
+date: 2020-07-06
+type: grcon/grcon20
+layout: expo
+color: 0071BC 
+aliases:
+  - grcon20/OpenCPI
+  - grcon20/opencpi
+---
+
+<p>
+<a class="btn btn-lrg" style="color:#fff; background-color:#0071BC; border-color:#0071BC; font-weight: 700; border-radius: 0; text-transform: uppercase; padding: 0 40px; margin-top: 1px; height: 57px; line-height: 56px; font-size: 22px;" href="https://chat.gnuradio.org/#/room/#opencpi:gnuradio.org">CHAT WITH US AT GRCON</a> 
+</p>
+
+<br></br>
+
+Open Component Portability Infrastructure (OpenCPI) is a development and runtime framework that embraces: 
+
+<ul>
+	<li>Open source software and gateware</li>
+	<li>Component-based development (CBD) </li>
+	<li>Heterogeneous embedded computing </li>
+</ul>
+
+OpenCPI has been designed to specifically support embedded systems with diverse hardware.  Diverse hardware includes multiple different processor types such as general purpose processors, FPGAs and GPUs. The most important type of embedded system that OpenCPI is used with is Software Defined Radio (SDR), but any system with diverse technologies is appropriate. SDRs commonly contain a mix of general purpose processors (GPPs) and FPGAs, both of which perform computing tasks for SDR applications. These systems also include transceivers, ADC/DAC, and other devices which are interconnected with different interconnect technologies. 
+
+The OpenCPI framework includes: 
+
+<ul>
+  <li>A runtime environment for executing components and moving data, including a set of runtime libraries (software and FPGA IP code), command line utilities and “drivers” for different platforms, devices, and interconnects</li>
+  <li>A set of tools, specifications, documentation, examples and tests for developing components and applications that use them </li>
+  <li>A framework and methodology for component-based development mixing processor types and diverse interconnect technologies and targeting embedded applications </li>
+</ul>
+
+OpenCPI has three distinct development processes:
+
+<ul>
+	<li>Component: Development of Components to be used by applications</li>
+	<li>Platform: Develop support for OpenCPI on new hardware</li>
+	<li>Applications:  Develop applications using components and targeting supported platforms</li>
+	<li>Components are authored in the language commonly used to target the type of processor being used. Thus implementations of components for GPPs are written in C or C++,  for FPGAs are written in VHDL or Verilog, and for GPUs are written in the OpenCL dialect of C. OpenCPI has an existing library of components for SDR. Application development is assembling components into applications that are ready to ready to run on diverse hardware.</li>
+</ul>
+
+<h2 style="border-bottom: #0071BC 6px solid !important"> Relevance to GNU Radio</h2>
+
+Software-Defined Radio (SDR) applications developed using GNU Radio are typically based on embedded heterogeneous systems with a variety of processors, FPGAs and transceivers. But the ability of a GNU Radio based SDR application to target a variety of different heterogeneous system configurations is limited and requires significant configuration-specific development work. Until now, the existing method for GNU Radio to support various hardware configurations is through specific software and toolsets that support specific vendors’ hardware. 
+
+OpenCPI’s integration with GNU Radio provides an open infrastructure for supporting heterogeneous processing on a variety of hardware platforms including multiple processor architectures (e.g. general, multi-core, GPUs), different FPGA architectures, toolchains, simulators, as well as connected devices such as transceivers. OpenCPI integrated with GNU Radio allows GRC to use alternative implementations, such as C++ or VHDL, ready to run on CPUs or with different FPGA vendors and configurations. Depending on the available hardware, the OpenCPI framework can use the appropriate implementation of every block and can execute an application across multiple different Software-Defined Radios.
+
+The GNU Radio application developer can use the OpenCPI infrastructure to avoid the limitations of vendor-specific hardware and toolchain solutions. OpenCPI eases the repurposing, redeployment, and reuse of an application deployed on new embedded heterogeneous platforms. 
+
+<b>Integration of OpenCPI with GNU Radio will enable applications to exploit all the hardware as well as be easily deployed to diverse hardware and facilitate technology insertion.</b>
+
+<br></br>
+
+
+<div class="row px-2">
+    <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 grcon bg_white py-2">
+        <h2 style="border-bottom: #0071BC 6px solid !important">Links for More Info</h2>
+        <ul>
+          <li><a href="https://opencpi.gitlab.io/grcon2020/Overview.pdf">OpenCPI Overview</a></li>
+          <li><a href="https://opencpi.gitlab.io/grcon2020/Applications.pdf">Application Development</a></li>
+          <li><a href="https://opencpi.gitlab.io/grcon2020/Component.pdf">Component Development</a></li>
+          <li><a href="https://opencpi.gitlab.io/grcon2020/Platform.pdf">Platform Development</a></li>
+        </ul>
+    </div>
+</div>
