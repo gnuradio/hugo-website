@@ -14,6 +14,10 @@ sponsors:
         url: "ni"
         logo: "ni_ettus.png"
         description: ""
+      - name: "Epiq Solutions"
+        url: "epiqsolutions"
+        logo: "epiq.png"
+        description: ""
 ---
 
 # Virtual Exhibition Hall 
