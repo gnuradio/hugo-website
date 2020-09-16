@@ -16,14 +16,10 @@ Throughout the week a wide variety of workshops will be run alongside the main-t
 
 Decoding interplanetary spacecraft is not as hard as you may think! The protocols are relatively well-documented and not very complex. This Workshop shows how to build a GNU Radio flowgraph to decode deep space telemetry signals from the ground up, starting just from a signal recording and using mainly standard blocks. Some basics of the CCSDS protocols will be explained. The level is suitable for GNU Radio beginners. The material is based on some work the author did with ESA's spacecrafts SolarOrbiter and BepiColombo earlier this year.
 
-[Register](https://tickets.gnuradio.org/workshops20)
-
 ## Writing GNU Radio Blocks
 **Wylie Standage-Beier**
 
 This workshop is a beginners introduction to writing GNU Radio blocks, graphs, and systems.This is a guided hands on introduction to writing GNU Radio blocks and systems. In this workshop the participants go from simple python simulation of phase shift keyed signal in white noise to a functioning communications system using GNU Radio architecture and runtime. GNU Radio exerence is not required but Python experience is recommended.
-
-[Register](https://tickets.gnuradio.org/workshops20)
 
 ## Python for the Rest of Us
 **Mark Thoren, Analog Devices**
@@ -39,8 +35,6 @@ The SETI Institute's Allen Telescope Array, located in remote Northern Californi
 
 This workshop will give a detailed introduction to the ATA signal path, data formats, control and monitoring software, and hooks into the GNU Radio system. We'll provide datasets from the array and walk participants through the process of visualizing spectrograms and identifying interesting signals, including from the Voyager 1 spacecraft. We'll also explore GNU Radio flowgraphs that can ingest data from the array for processing in the GNU Radio infrastructure.
 
-[Register](https://tickets.gnuradio.org/workshops20)
-
 ## Phased Array Beamforming: Understanding and Prototyping
 **Jon Kraft, Analog Devices**
 
@@ -49,8 +43,6 @@ In this workshop, we will demystify phased array and equip the audience with a p
 Phased array beamforming for communication and radar systems is becoming of greater importance to our world. 5G, satellite, airborne, and military applications all are taking advantage of analog and digital phased array technology. But the fundamental aspects of how to these systems work is hard to get a grasp on. It can feel like just a lot of math and angles to work through!
 
 But in this workshop, we use GNU Radio to go hands on with beamforming! Put away your arcsin calculator! Instead, we will control the beam, “see” the beam, and make measurements on that beam. We will go through together step by step, and then correlate our measurements to the math and theory of phased array beamformers (so get back out that arcsin calculator!). At the end, we put it all together to develop our very own monopulse tracking algorithm and "lock" into our RF source as it moves around. In all, this workshop covers steering angle, beam width, null locations, beam tapering, grating lobes, beam squint, and monopulse tracking.
-
-[Register](https://tickets.gnuradio.org/workshops20)
 
 ## Introduction to GRC Development for OpenCPI
 OpenCPI
@@ -68,14 +60,10 @@ This workshop will present how the integration of OpenCPI as an infrastructure f
 
 During the workshop, the attendee will have hands-on experience and initial familiarity with the tasks of taking a GNU Radio application, such as a Zigbee based application, developed using GRC to build, and execute on multiple dissimilar embedded hardware platforms.  The breadth of hardware platforms that OpenCPI supports includes multiple processor architectures (e.g. general, multi-core, manycore processors, GPUs), different FPGA architectures and FPGA toolchains, and connected devices such as transceivers.  The attendee will become familiar with how the integration of OpenCPI as an infrastructure for GNU Radio will allow GR blocks to have alternative implementations, such as C++ or VHDL, ready to run on CPUs or with different FPGA vendors and configurations. The OpenCPI framework selects the appropriate implementation of every block to be used depending on the available hardware and can execute an application across multiple, different Software-Defined Radios.
 
-[Register](https://tickets.gnuradio.org/workshops20)
-
 ## FPGA Programming on the USRP using the RFNoC Framework
 **Neel Pandeya, Ettus Research and NI**
 
 Ettus Research's RFNoC (RF Network-on-Chip) software framework is designed to decrease the development time for experienced FPGA engineers seeking to integrate IP into the USRP FPGA signal processing chain. RFNoC is the framework for USRP devices that use Xilinx 7-series and Zynq FPGAs (E310, E312, E320, X300, X310, N300, N310, N320, N321). RFNoC is built around a packetized network infrastructure in the FPGA that handles the transport of control and sample data between the host CPU and the radio. Users target their custom algorithms to the FPGA in the form of Computation Engines (CE), which are processing blocks that attach to this network. CEs act as independent nodes on the network that can receive and transmit data to any other node (e.g., another CE, the radio block, or the host CPU). Users can create modular, FPGA-accelerated SDR applications by chaining CEs into a flow graph. RFNoC is supported in UHD and GNU Radio. In this workshop, we will present an interactive hands-on tutorial on RFNoC, including a discussion on its design and capabilities, demonstrations of several existing examples, and a walk-through on implementing a user-defined CE and integrating the CE into GNU Radio. A discussion of the changes and updates in the newest version of RFNoC will also be included.
-
-[Register](https://tickets.gnuradio.org/workshops20)
 
 ## Networked GNURadio: NS3 meets GNU Radio
 ### Delivering a full-stack shared-code live, virtual constructive simulation framework
@@ -83,4 +71,9 @@ Bishal Thapa (Ph.D.), Guevara Noubir (Ph.D.), and Colin Funai (Ph.D.)
 
 Although GNU Radio has brought customizable open wireless modems, in the form of  SDRs, to the research community, often times testing higher layer protocols, such as novel Medium Access and Networking protocols, while maintaining clear layers of abstraction, remains out of reach for many SDR developers. As a result, full-stack development of novel wireless networking solutions often turn to network simulators (e.g., NS3) as the tool of choice. NS3 is a discrete event simulator, meaning that the system's state is sampled at quantized time steps, that is widely used by the academic community. NS3 can simulate all layers of the OSI stack, some at a higher fidelity than others. Specifically, it supports a variety of communication models, mobility models, energy harvesting models, and channel models but at a significantly lower fidelity and with less realistic assumptions. E.g. NS3 has native support for underwater acoustic networks (UAN).  Although NS3 can be used to simulate channel level aberrations and noise, real world testing remains a much needed step in validating any protocol due to the complexity in accurately modeling the wireless channel. To bridge this gap, we present NS3-GNU Radio shim, as a means of seamlessly linking higher layer NS3 efforts with GNU Radio based SDR development effort. Our work will not only allow live, virtual, constructive simulation with a seamless real world validation capability, but also enable a comprehensive view into how any proposed changes will coexist with incumbent protocols and systems. This would be most relevant to ongoing 5G/xG and undersea acoustic network research effort.
 
-[Register](https://tickets.gnuradio.org/workshops20)
+## Introduction to the ADALM-PLUTO SDR
+Dr. Travis Collins and Robin Getz, Analog Devices
+
+This workshop will provide a thorough and practical introduction to the AD9361, the ADALM-PLUTO SDR, and other IIO based hardware and the open-source software toolchain (IIO utils and IIO-Scope). We will examine the hardware and architecture of the PLUTO software-defined radio in addition to discussing topics such as how to get started using a new PLUTOSDR device, how to install and configure the open-source software toolchain, programming the PLUTO using the libIIO API from Python, C or C++, and other tools using PLUTO SDR. Other hardware capable of running the IIO framework will be discussed, such as the Ettus E310, the Epiq SideKiq Z2, and Analog Device's RF SOM. Several exercises will be performed on the ADALM-PLUTO SDR, such as implementing an FM transmitter and receiver. Various demonstrations of other wireless systems will be shown. For those interested in MATLAB or Simulink the Pluto Hardware support package will be shown.
+
+Attendees should come away with a solid foundation and practical understanding of how to configure, program, and use the Pluto SDR and other IIO based hardware to implement a wide range of wireless systems.
