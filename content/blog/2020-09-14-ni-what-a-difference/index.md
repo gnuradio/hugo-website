@@ -46,6 +46,6 @@ This year, we are proud to contribute to the great body of technical content at 
 
 To learn more about the great sessions visit: https://www.ettus.com/event/grcon/
 
-Reach out to Haydn Nelson, haydn.nelson@ni.com, and we’ll set you up with one of our SDR experts to talk about how we can help you with your wireless application. 
+Reach out to Haydn Nelson, [haydn.nelson@ni.com](mailto:haydn.nelson@ni.com), and we’ll set you up with one of our SDR experts to talk about how we can help you with your wireless application. 
 
-Reach out to Sales at sales@ettus.com. 
+Reach out to Sales at [sales@ettus.com](mailto:sales@ettus.com). 
