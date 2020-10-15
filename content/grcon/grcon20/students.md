@@ -10,10 +10,7 @@ aliases:
 
 # Student Registration
 
-There are two levels of student registration. All students are required to
-submit a resume / CV, which will be provided to our student sponsors, and proof
-of student status, which will not be shared with anyone. This year Sandia National
-Labs and NI (formerly National Instruments) are our Student Sponsors.
+All students are required to submit a resume / CV, which will be provided to our student sponsors, and proof of student status, which will not be shared with anyone. This year Sandia National Labs and NI (formerly National Instruments) are our Student Sponsors.
 
 ## Registering
 

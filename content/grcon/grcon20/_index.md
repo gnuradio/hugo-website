@@ -19,12 +19,10 @@ implementation, and theory that has been practically applied in a useful way.
 GRCon attendees come from a large variety of backgrounds, including industry,
 academia, government, and hobbyists.
 
-GRCon20 is running this week, starting September 14th, online as a virtual event. The organizing team is hard at
-work to create a fun and interactive experience. 
+GRCon20 ran September 14-18 as a virtual event. The organizing team focused on creating a fun and interactive experience. 
 
-Our keynote speakers include: Becky Schoenfeld W1BXY, managing editor of QST magazine, 
-Oona Räisänen [ windytan ] hacker of signals and computer programmer, 
-and Jim St. Leger, Director Open Source, Intel. 
+Our keynote speakers included: Becky Schoenfeld W1BXY, managing editor of QST magazine, 
+and Oona Räisänen [ windytan ] hacker of signals and computer programmer. 
 
 With an annual program that has broad appeal, GRCon attracts people new to
 Software Radio just looking to learn more, experts that want to keep their finger
@@ -39,12 +37,4 @@ An important part of the conference is the discussions between participants and 
 The conference chat is at [chat.gnuradio.org](https://chat.gnuradio.org). There you can
 select a user name and meet the GRCon community on the
 [+grcon community page](https://chat.gnuradio.org/#/group/+grcon:gnuradio.org).
-
-### Registration
-
-Free Registration is still open. The main talk track and discussion rooms are free. The workshops are sold out.
-
-[Register Here](https://tickets.gnuradio.org/grcon20/)
-
-[Refund Policy](refunds)
 
