@@ -18,6 +18,8 @@ as a four-out-of-five.
 
 ## Conference Program
 
+A program can be found in [tabular form here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRzQRVelQmDWWUJJRgzFe0OxdVntA5X191hM3zhGgjKIpgMB9KOllXRmFwbryoGJpYIKiNNF4rQv_hw/pubhtml?gid=2121812992&single=true).
+
 Packed with valuable content, the GRCon technical program is one of the best in the industry. 
 With a great balance of cutting-edge research, new technology demonstrations, 
 and shared insights from academia, industry, government, and the hobbyist community, 
@@ -45,17 +47,29 @@ contribution to any field impacting Software Radio. The TP is available at
 pubs.gnuradio.org, which is indexed by Google Scholar. Submissions go through a
 strict peer-review process from area experts using the standard EDAS system.
 
-## Keynotes & Panel Sessions
+## Keynotes
 
 With an attendee list that includes some of the most recognized leaders in the
-Software Radio industry, the GRCon keynotes and panel sessions offer an
-opportunity to get the latest insights on opportunities, challenges, and the
-direction of the industry.
+Software Radio industry, the GRCon keynotes offer an
+opportunity to get the latest insights on a wide variety of topics.
+
+Monday:
+Video Decoding Adventures
+
+Oona Räisänen, a programmer interested in signals and sound waves, shares her video decoding adventures. Find out more about Oona at https://oona.windytan.com/
+
+Tuesday:
+Keeping Ham Radio Alive and Well: ARRL’s Education Initiatives 
+
+Becky Schoenfeld, W1BXY, Manager of ARRL’s Publications and Editorial Department, discusses how changes in the ham radio hobby and service led ARRL, the national association for Amateur Radio in the US, to survey recent licensees regarding their motivations, interests, and needs. Survey responses indicated a need for education in language that new amateurs could understand, on topics that they weren’t finding anywhere. In response to that need, ARRL has launched two education initiatives – On the Air magazine and the ARRL Learning Network – that will be discussed in this session.
+
+Becky R. Schoenfeld, W1BXY, is Manager of the Publications and Editorial Department at ARRL, the national association for Amateur Radio. In 2017, she was one of the members of an ARRL staff working group that conducted research into an as-yet-unserved segment of ARRL membership -- people new to amateur radio. The results of this research led to the 2020 launch of ARRL’s newest magazine, On the Air, a bimonthly targeted specifically to new and inactive amateur radio licensees. She is Editorial Director of On the Air as well as ARRL’s membership journal QST. This fall, she will celebrate 30 years in the publishing industry.
+
 
 ## Vendor Exhibition & Demo Space
 
 With the continued rise of GNU Radio in the commercial, academic, and government
-sectors, the vendor booths offer a unique opportunity to see the latest Software
+sectors, the vendor exhibits offer a unique opportunity to see the latest Software
 Radio technology from some of the field’s leaders.
 
 ## Technology Showcase & Poster Session
@@ -63,27 +77,6 @@ Radio technology from some of the field’s leaders.
 Every year, vendors, students, and hobbyists show off some of their latest
 developments in the poster area. Meet the developers and researchers creating
 next-generation Software Radio technologies.
-
-## Social Events
-
-We are proud to continue GRCon’s tradition of high-quality social events, which
-provide an opportunity to network & get to know others in the community. Turnout
-at GRCon socials is very high year after year, and we look forward to once again
-offering a fun and unique experience. We'll publish more information on the
-planned social events as they are confirmed!
-
-## Amateur Radio License Exam
-
-As in previous years, we expect to have a HAM radio license study and exam
-session, to be followed by hands-on demos using low-cost hardware and GNU Radio.
-If you are already licensed, this is a great opportunity to meet fellow HAMs and
-learn about the use of GNU Radio for amateur radio!
-
-<!-- Exams will be conducted by -->
-<!-- [CAVEC](http://www.cavechamexam.com/about.html). The test fee and identification -->
-<!-- requirements are detailed -->
-<!-- [here](http://www.cavechamexam.com/huntsville-exam-site-info.html) in "What you -->
-<!-- need to bring to the exam session". -->
 
 ## Special Interest Focus Groups
 

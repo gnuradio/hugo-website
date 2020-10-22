@@ -5,6 +5,7 @@ theme: gnuradio-bootstrap
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
 copyright: 'GNU Radio project. All rights reserved.'
+disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
 summaryLength: 20
@@ -28,6 +29,7 @@ params:
     gr_release: imgs/gr_release_web.svg
     volk_release: imgs/volk_release_web.svg
     pybombs_release: imgs/pybombs_release_web.svg
+    hamradio: imgs/hamradio.svg
 outputs:
   home:
     - html
@@ -148,21 +150,21 @@ menu:
       name: About
       url: /grcon/grcon20/about
       weight: 20
-    #- identifier: schedule
-      #name: Schedule
-      #url: https://pretalx.gnuradio.org/grcon20
-      #weight: 25
+    - identifier: schedule
+      name: Schedule
+      url: https://www.openconf.org/GRCon20/modules/request.php?module=oc_program&action=program.php&p=program
+      weight: 25
     #- identifier: presentations
       #name: Presentations
       #url: /grcon/grcon20/presentations
       #weight: 30
-    - identifier: submit
-      name: CfP
-      url: /grcon/grcon20/submit
+    - identifier: workshops
+      name: Workshops
+      url: /grcon/grcon20/workshops
       weight: 35
-    - identifier: students
-      name: Students
-      url: /grcon/grcon20/students
+    - identifier: expos
+      name: Expos
+      url: /grcon/grcon20/expos
       weight: 40
     - identifier: sponsors
       name: Sponsors

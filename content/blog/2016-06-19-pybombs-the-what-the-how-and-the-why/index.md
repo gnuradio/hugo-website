@@ -30,49 +30,6 @@ Doesn&#8217;t matter. Just install PyBOMBS and let it do all the work.
 An updated usage guide can be found in the [PyBOMBS README](https://github.com/gnuradio/pybombs#pybombs).
 
 <br />
-Here&#8217;s a couple of commands that will set you up in no time:
-
-    $ sudo pip install pybombs
-    $ pybombs recipes add gr-recipes git+https://github.com/gnuradio/gr-recipes.git
-    $ mkdir prefix/
-    $ pybombs prefix init -a default prefix/default/ -R gnuradio-default
-
-The first command actually installs PyBOMBS onto your computer (you have to start somewhere). Then, PyBOMBS needs to be initialized with a list of recipes (a recipe is a file that tells PyBOMBS about specific packages, but more of that later). We will pick the default GNU Radio recipe list to start with. Next, we create a directory called prefix which we will use to store all the installations. Finally, we tell PyBOMBS to install GNU Radio and gr-osmosdr and all their dependencies into the directory prefix/default. That&#8217;s it!
-
-The final command will take a while to execute, and you&#8217;ll see it chugging along while it&#8217;s working. In this step, it does the following:
-
-- Determine all required dependencies
-- Install packages into your system which are required to build the software, such as compilers, Boost, SWIG, etc. (For this step, it may ask you for a password)
-- Download all source packages
-- Configure, build and install them
-
-You may have noticed that PyBOMBS didn&#8217;t install GNU Radio into a system directory (such as /usr/local). PyBOMBS can do that, but it&#8217;s highly recommended not to (we consider this advanced usage of PyBOMBS, and won&#8217;t talk about it in this article). Using custom prefixes allows you to more easily uninstall versions and have multiple versions installed alongside each other. Installing to a system prefix may seem convenient, but it&#8217;s easy to screw up your installation, which can be painful to fix. If you screw up your installation to a custom directory, you only need to delete that directory.
-
-So how can you run software that was installed into a custom prefix? Not a problem, simply open your terminal, head to your prefix directory and run a script called setup_env.sh:``
-
-<code>$ cd prefix/default<br />
-$ source ./setup_env.sh<br />
-</code>
-
-Now, you can run applications such as GNU Radio Companion:
-
-<code>$ gnuradio-companion<br />
-</code>
-
-You can now add more software packages to this prefix. To add the gr-radar package, you simply call
-
-<code>$ pybombs install gr-radar<br />
-</code>
-
-If you want to install it into a different prefix than the default one, you specify it with the -p switch. Remember we initialized the prefix above with the -a switch, and called it &#8220;default&#8221;. Now let&#8217;s create another prefix, just for gr-radar development, and install gr-radar into that:
-
-<code>$ pybombs prefix init -a radar ~/prefix/radar<br />
-$ pybombs -p radar install gr-radar<br />
-</code>
-
-The new prefix does not yet have GNU Radio installed, but since it&#8217;s a dependency of gr-radar, PyBOMBS will automatically pull it in and build it as well.
-
-If you ran these commands, you&#8217;d have two independent prefixes in ~/prefix, one in ~/prefix/default, and one in ~/prefix/radar. Note that every prefix can quickly grow up to several gigabytes in size, since every prefix will pull in everything it needs, even if it&#8217;s already available in a different prefix.
 
 ### And how does PyBOMBS know what to do?
 
