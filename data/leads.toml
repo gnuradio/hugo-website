@@ -33,12 +33,18 @@
     title = "Officer"
     name = "Philip Balister"
 [[officers]]
-    title = "Documentation, Wiki, CGRAN Maintainer & Officer"
+    title = "Co-Documentation and CGRAN Officer"
     name = "Marc Lichtman"
     website = "https://www.cs.umd.edu/people/sdr"
 [[officers]]
     title = "Officer"
     name = "Josh Morman"
+[[officers]]
+    title = "Co-Documentation and Wiki Officer"
+    name = "Barry Duggan"
+[[officers]]
+    title = "Officer"
+    name = "Samantha Palazzolo"
 
 [[packaging]]
     target = "Debian/Ubuntu"
