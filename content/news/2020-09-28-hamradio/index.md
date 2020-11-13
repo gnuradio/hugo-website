@@ -8,6 +8,7 @@ thumbnail: "hamradio"
 summary: "For those interested in using GNU Radio in amateur radio applications, we have created an On-line video meeting: …"
 ---
 For those interested in using GNU Radio in amateur radio applications, we have created an On-line video meeting:
+
 * A host will present a topic with a demonstration
 * We will limit the session to one hour
 * The details can be seen [here](https://wiki.gnuradio.org/index.php/Talk:HamRadio)
