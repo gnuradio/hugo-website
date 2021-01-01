@@ -1,67 +1,75 @@
 [[officers]]
-    title = "Project Lead, Project President"
+    title = "<President>"
+    name = "Derek Kozel"
+[[officers]]
+    title = "<Vice President>"
+    name = "Martin Braun"
+    email = "mbraun@gnuradio.org"
+    twitter = "@braun_noise"        
+[[officers]]
+    title = "<Vice President>"
+    name = "Marc Lichtman"
+    website = "https://www.cs.umd.edu/people/sdr"
+[[officers]]
+    title = ""
+    name = "Andrej Rode"
+    email = "arode@gnuradio.org"
+    twitter = "@noc0lour"
+[[officers]]
+    title = ""
+    name = "Barry Duggan"
+    email = "duggabe@dcsmail.net"
+[[officers]]
+    title = ""
+    name = "Bastian Bloessl"
+    twitter = "@bastibl"
+    website = "https://www.bastibl.net"
+[[officers]]
+    title = ""
     name = "Ben Hilburn"
     email = "bhilburn@gnuradio.org"
     twitter = "@bhilburn"
     website = "http://hokietux.net/"
 [[officers]]
-    title = "Community Manager, PyBOMBS Maintainer, Project Officer"
-    name = "Martin Braun"
-    email = "mbraun@gnuradio.org"
-    twitter = "@braun_noise"
+    title = ""
+    name = "Johannes Demel"
 [[officers]]
-    title = "GNU Radio Maintainer & Officer"
+    title = ""
+    name = "Josh Morman"
+    twitter = "@_mormj"
+[[officers]]
+    title = ""
     name = "Marcus Müller"
     email = "mmueller@gnuradio.org"
+    twitter = "@dEnergy_dTime"
 [[officers]]
-    title = "DevOps Admin & Officer"
-    name = "Andrej Rode"
-    email = "arode@gnuradio.org"
-    twitter = "@noc0lour"
-[[officers]]
-    title = "Officer"
-    name = "Bastian Bloessl"
-    twitter = "@bastibl"
-    website = "https://www.bastibl.net"
-[[officers]]
-    title = "Officer"
-    name = "Derek Kozel"
-[[officers]]
-    title = "Officer"
+    title = ""
     name = "Nate Temple"
 [[officers]]
-    title = "Officer"
+    title = ""
     name = "Philip Balister"
 [[officers]]
-    title = "Co-Documentation and CGRAN Officer"
-    name = "Marc Lichtman"
-    website = "https://www.cs.umd.edu/people/sdr"
-[[officers]]
-    title = "Officer"
-    name = "Josh Morman"
-[[officers]]
-    title = "Co-Documentation and Wiki Officer"
-    name = "Barry Duggan"
-[[officers]]
-    title = "Officer"
+    title = ""
     name = "Samantha Palazzolo"
+    
+[[tech]]
+    title = "GNU Radio Code Maintainer"
+    name = "Marcus Müller"
+[[tech]]
+    title = "GNU Radio 4.0 Runtime Lead"
+    name = "Basti Blössl and Josh Morman"
+[[tech]]
+    title = "Documentation Lead"
+    name = "Barry Duggan"
+[[tech]]
+    title = "Infrastructure Maintainer"
+    name = "Andrej Rode"
+[[tech]]
+    title = "CI/CD Maintainer"
+    name = "Andrej Rode"
+[[tech]]
+    title = "VOLK Maintainer"
+    name = "Johannes Demel and Michael Dickens"
 
-[[packaging]]
-    target = "Debian/Ubuntu"
-    name = "Maitland Bottoms"
-[[packaging]]
-    target = "macOS"
-    name = "Michael Dickens"
-[[packaging]]
-    target = "Archlinux"
-    name = "Kyle Keen"
-[[packaging]]
-    target = "Gentoo"
-    name = "Rick Farina"
 
-[[advisors]]
-    name = "Jonathan Corgan"
-[[advisors]]
-    name = "Matt Ettus"
-[[advisors]]
-    name = "Tim O'Shea"
+
