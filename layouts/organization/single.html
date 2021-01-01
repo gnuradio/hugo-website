@@ -3,14 +3,30 @@
     <div class="container-fluid bg_gray">
         <div class="row">
             <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                The GNU Radio Project is led by the following people:
+                The GNU Radio Project is organized under the <a href="https://github.com/gnuradio/gr-governance/blob/main/aoa.md">Articles of Association stated here</a>
             </div>
+            
             <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                <h2>Project Officers</h2>
+                <h2>Project Leads (a.k.a. the General Assembly)</h2>
             </div>
             <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
                 <p>
                     {{ range .Site.Data.leads.officers }}
+                    {{ .name }} <b>{{ .title }}</b>&nbsp;
+                    {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/about/twitter_icon.png"></a>{{ end }}
+                    {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/about/website_icon.webp"></a>{{ end }}
+                    {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/about/email_icon.png"></a>{{ end }}
+                    <br>
+                    {{ end }}
+                </p>
+            </div>
+
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                <h2>Roles</h2>
+            </div>
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                <p>
+                    {{ range .Site.Data.leads.tech }}
                     <strong>{{ .title }}:</strong> {{ .name }}
                     {{ if isset . "email"}}(<a href="mailto:{{ .email }}" target="_blank" rel="noopener">E-Mail</a>){{ end }}
                     {{ if isset . "twitter"}}(<a href="https://twitter.com/{{ .twitter }}" target="_blank" rel="noopener">Twitter</a>){{ end }}
@@ -19,26 +35,13 @@
                     {{ end }}
                 </p>
             </div>
-            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                <h2>Packaging</h2>
-            </div>
-            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                <p>
-                    {{ range .Site.Data.leads.packaging }}
-                    <strong>{{ .target }}:</strong> {{ .name }}<br>
-                    {{ end }}
-                </p>
-            </div>
-            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-                <h2>Technical Advisors</h2>
-                Our technical advisors are people who have made significant contributions to the project and who continue to provide their time and resources in support of GNU Radio.
-                <ul>
-                    {{ range .Site.Data.leads.advisors }}
-                    <li>{{ .name }}</li>
-                    {{ end }}
-                </ul>
-            </div>
+            
         </div>
     </div>
 </main>
 {{ end }}
+
+
+
+
+
