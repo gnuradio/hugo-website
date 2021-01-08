@@ -1,6 +1,6 @@
 ---
 title: "Call for Participation"
-date: 2019-11-22
+date: 2021-01-11
 type: grcon/grcon21
 layout: single
 aliases:
@@ -8,16 +8,16 @@ aliases:
   - grcon21/submit
 ---
 
-# >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon21/cfp) <<
+<!-- # >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon21/cfp) << -->
 
 GRCon 2021 celebrates and showcases the substantial and remarkable progress of
-GNU Radio over the past two decades. We invite developers and users from the GNU
-Radio community to present your projects, presentations, papers, posters, and
-problems at GNU Radio Conference 2021.
+GNU Radio and its usage in a diverse field of applications and industries.
 
-We invite developers and users from the GNU Radio Community to present your
+We invite developers and users from across the GNU Radio Community to present your
 projects, presentations, papers, posters, and problems at GNU Radio Conference
 2021. Submit your talks, demos, and code!
+
+**The Proposal Submission site will open up _March_ and the link will be posted here.**
 
 ## Submitting
 
@@ -26,20 +26,20 @@ presentation at GRCon. In addition to submitting a presentation, you may submit
 a paper to the Technical Proceedings of GRCon21. You do not need to submit a
 paper to the Proceedings in order to present at GRCon.
 
-We request that papers are formatted according to this [LibreOffice
-Template](/grcon_format_libreoffice.odt) or [LaTeX class](/grcon.tar.gz).
-
 **Talks** are 30 minutes long, including 5 minutes reserved for audience
 questions. Each presentation should be a slide-deck that can be shared publicly
 (PDF) after the conference. Real-world results using GNU Radio and hardware
 will be favored over simulation-only work.
 
-Talks will be recorded and published on the GNU Radio YouTube channel after the
+Talks will be live-streamed, as well as recorded and published on the GNU Radio YouTube channel after the
 conference.
 
 **Papers** can be submitted with or without a talk.  Authors are encouraged to
 attend the conference, but it is not a requirement for paper acceptance.
 Detailed real-world results using GNU Radio are encouraged.
+
+We request that papers are formatted according to this [LibreOffice
+Template](/grcon_format_libreoffice.odt) or [LaTeX class](/grcon.tar.gz).
 
 **Workshops** are 1–4 hours long, and should have an educational or “How-To”
 approach, with a large hands on portion. If slides are used, they should be
@@ -53,18 +53,21 @@ presenters to share their use cases, projects or demos.
 the community, and while most posters are technical, they don’t have to be.
 
 To submit your content for the conference, visit our dedicated conference
-[submission site](https://pretalx.gnuradio.org/grcon21/cfp).
+submission site when it opens in _March 2021_.
+<!-- [submission site](https://pretalx.gnuradio.org/grcon21/cfp). -->
 
 ## Dates
 
-First round closes **1 May 2021**.  Final round closes **1 September 2021**.
+First round closes **9 June 2021**.
 
-All contributions submitted by 1 May 2021 will get a final decisions of
-acceptance by **14 May 2021**.
+Final round closes **1 September 2021**.
 
-All contributions submitted between 1 May and 1 September will be
+All contributions submitted by 9 June 2021 will get a final decisions of
+acceptance by **22 June 2021**.
+
+All contributions submitted between 9 June and 1 September will be
 accepted/rejected on a rolling basis. We do not guarantee a notification
-deadline for submissions after 1 May. Submissions for presentations may close
+deadline for submissions after 9 June. Submissions for presentations may close
 sooner than 1 September if all available speaker slots are taken.
 
 If you have questions or need assistance with the submission system, or have
