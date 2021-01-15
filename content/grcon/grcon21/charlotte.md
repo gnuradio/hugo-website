@@ -22,11 +22,5 @@ The conference venue is the [Charlotte Airport Hotel](https://www3.hilton.com/en
 
 ### Conference Rates
 
-GRCon has arranged for a conference rate at the Charlotte Airport Hotel. It covers arriving as early as Sunday the 19th and departing up to Saturday the 25th.
-
-**Regular Conference Rate [Booking Link]()**
-
-A special rate for US Government attendees is also available.
-
-**Government Rate [Booking Link]()**
+GRCon has arranged for a conference rate at the Charlotte Airport Hotel. A special rate for US Government attendees will also available. The booking information for the hotel will be announced at the same time as the decision of whether GRCon21 will be able to run in-person is made. We expect this decision to be in April.
 

@@ -16,7 +16,7 @@ level year after year. In the GRCon16 Attendee Survey, 53% of conference
 attendees rated the conference as an overall five-out-of-five, and 42% rated it
 as a four-out-of-five.
 
-GRCon21 will be held in [Charlotte, North Carolina](https://www.gnuradio.org/grcon/grcon21/charlotte/) and will continue
+GRCon21 will be held in [Charlotte, North Carolina](https://www.gnuradio.org/grcon/grcon21/charlotte/) if possible and will continue
 many of the successful program aspects from previous years, and add some new
 items, as well.
 
