@@ -40,7 +40,7 @@ Find out more about Charlotte and the conference venue [here](charlotte). Additi
 
 We invite developers and users from across the GNU Radio Community to present your projects, presentations, papers, posters, and problems at GNU Radio Conference 2021, so start thinking about what great work you would like to present at this year’s conference.
 
-For full information visit the [CfP page](submit).
+For full information visit the [CfP page](https://events.gnuradio.org/event/8/abstracts/).
 
 ## Registration
 

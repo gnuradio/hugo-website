@@ -8,7 +8,7 @@ aliases:
   - grcon21/submit
 ---
 
-<!-- # >>  [Click here to submit a proposal!](https://pretalx.gnuradio.org/grcon21/cfp) << -->
+# >>  [Click here to submit a proposal!](https://events.gnuradio.org/event/8/abstracts/) <<
 
 GRCon 2021 celebrates and showcases the substantial and remarkable progress of
 GNU Radio and its usage in a diverse field of applications and industries.
@@ -54,7 +54,7 @@ the community, and while most posters are technical, they don’t have to be.
 
 To submit your content for the conference, visit our dedicated conference
 submission site when it opens in _March 2021_.
-<!-- [submission site](https://pretalx.gnuradio.org/grcon21/cfp). -->
+[submission site](https://events.gnuradio.org/event/8/abstracts/).
 
 ## Dates
 

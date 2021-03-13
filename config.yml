@@ -193,7 +193,7 @@ menu:
       #weight: 30
     - identifier: submit
       name: CfP
-      url: /grcon/grcon21/submit
+      url: https://events.gnuradio.org/event/8/abstracts/
       weight: 35
     - identifier: students
       name: Students
