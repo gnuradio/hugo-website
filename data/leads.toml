@@ -53,8 +53,11 @@
     name = "Samantha Palazzolo"
     
 [[tech]]
-    title = "GNU Radio Code Maintainer"
-    name = "Marcus Müller"
+    title = "GNU Radio Code Maintainer for Master Branch"
+    name = "Josh Morman"
+[[tech]]
+    title = "GNU Radio Code Maintainer for Stable Branches"
+    name = "Jeff Long"
 [[tech]]
     title = "GNU Radio 4.0 Runtime Lead"
     name = "Basti Blössl and Josh Morman"
