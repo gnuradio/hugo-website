@@ -51,7 +51,10 @@
 [[officers]]
     title = ""
     name = "Samantha Palazzolo"
-    
+[[officers]]
+    title = ""
+     name = "Jeff Long"
+
 [[tech]]
     title = "GNU Radio Code Maintainer for Master Branch"
     name = "Josh Morman"
