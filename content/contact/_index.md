@@ -6,9 +6,9 @@ title = "Contact Us"
 
 The GNU Radio project can be reached
 
-* via Email using the GNU Radio discussion mailing list `discuss-gnuradio@gnu.org`, to which you can sign up [here](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio), 
+* via Email using the GNU Radio discussion mailing list `discuss-gnuradio@gnu.org`, to which you can sign up [here](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio),
 * via Matrix on our Matrix homeserver, e.g. using [chat.gnuradio.org](https://chat.gnuradio.org), or
-* via IRC in #gnuradio on [freenode.net](https://freenode.net).
+* via IRC in #gnuradio on [libera.chat](https://libera.chat).
 
 # Bug Reports
 
