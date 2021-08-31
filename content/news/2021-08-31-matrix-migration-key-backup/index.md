@@ -4,6 +4,7 @@ author: "Marcus Müller"
 date: "2021-08-31"
 categories: ["website"]
 summary: "For you to be able to read your old private chats later on, you have to enable secure key backups"
+aliases: ["/matrixbackup"]
 ---
 
 TL; DR: Go to Settings -> Security & privacy -> Secure Backup and click on the large "Set up" button, as shown in the video below.
