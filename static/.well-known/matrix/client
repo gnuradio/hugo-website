@@ -1,1 +1,8 @@
-{ "m.homeserver": { "base_url": "https://gnuradio.matrix.ungleich.cloud" } }
+{
+    "m.homeserver": {
+        "base_url": "https://gnuradio.ems.host"
+    },
+    "m.identity_server": {
+        "base_url": "https://vector.im"
+    }
+}

@@ -1,1 +1,3 @@
-{ "m.server": "gnuradio.matrix.ungleich.cloud:443" }
+{
+    "m.server": "gnuradio.ems.host:443"
+}
