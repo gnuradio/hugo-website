@@ -54,6 +54,9 @@
 [[officers]]
     title = ""
      name = "Jeff Long"
+[[officers]]
+    title = ""
+    name = "Jacob Gilbert"
 
 [[tech]]
     title = "GNU Radio Code Maintainer for Master Branch"
