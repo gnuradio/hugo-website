@@ -13,4 +13,4 @@ Another area being explored is the marriage of artificial intelligence applicati
 
 We invite all GRCon21 attendees to attend the presentation by our own CEO John Ferguson on GPUs in Software Defined Radio on September 23rd at 1400. John will be joined by Adam Thompson of NVIDIA, and together they will explore the architecture and implementations of GPU enabled SDRs.
 
-{{< figure src="deepwave.jpg" caption="Deepwave Digital Logo" width="100%" >}}
+{{< figure src="deepwave.jpg" caption="Deepwave Digital Logo" width="10%" >}}
