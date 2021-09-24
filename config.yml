@@ -87,9 +87,14 @@ menu:
       url: /events/
       parent: events
       weight: 54
-    - name: getting started
-      url: https://tutorials.gnuradio.org
+    - name: Getting Started
       weight: 60
+    - name: Installing GNU Radio
+      url: https://wiki.gnuradio.org/index.php/InstallingGR
+      weight: 61
+    - name: Tutorials
+      url: https://wiki.gnuradio.org/index.php/Tutorials
+      weight: 62
     - identifier: get_involved
       name: Get Involved
       url: https://wiki.gnuradio.org/index.php/HowToGetInvolved
