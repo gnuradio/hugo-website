@@ -1,8 +1,7 @@
 ---
 title: "Job Posting: Tutorials Improvements through NumFOCUS Grant"
 author: "GNU Radio Board"
-date: 2021-11-30T17:18:37-07:00
-categories: []
+date: "2021-11-30"
 ---
 GNU Radio has recently won a small grant from NumFOCUS to help improve GNU Radio’s tutorials, as they play a major role in helping new users get through the steep learning curve.  We are looking to hire two part-time contractors to perform the work; one GNU Radio expert and one technical writer who does not need previous GNU Radio experience. It is anticipated that this work will be performed during Q1 of 2022. Please email jobs@gnuradio.org if you are interested in either of these part-time positions:
 
