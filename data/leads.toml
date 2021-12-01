@@ -9,16 +9,12 @@
 [[officers]]
     title = "<Vice President>"
     name = "Marc Lichtman"
-    website = "https://www.cs.umd.edu/people/sdr"
+    website = "https://www.pysdr.org"
 [[officers]]
     title = ""
     name = "Andrej Rode"
     email = "arode@gnuradio.org"
     twitter = "@noc0lour"
-[[officers]]
-    title = ""
-    name = "Barry Duggan"
-    email = "duggabe@dcsmail.net"
 [[officers]]
     title = ""
     name = "Bastian Bloessl"
@@ -69,7 +65,7 @@
     name = "Basti Blössl and Josh Morman"
 [[tech]]
     title = "Documentation Lead"
-    name = "Barry Duggan"
+    name = "Marc Lichtman"
 [[tech]]
     title = "Infrastructure Maintainer"
     name = "Andrej Rode"
