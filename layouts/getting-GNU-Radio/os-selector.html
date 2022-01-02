@@ -6,84 +6,84 @@
 {{ end }}
 {{ define "main" }}
 <main role="main">
- <div class="container-fluid  bg_gray">
-     <div class="row px-2">
-         <div class="offset-lg-2">
-             {{ .Content }}
-         </div>
-         <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
-             <div class="row">
-                {{ range $index, $os := (index .Params "operating-systems") }}
-                 {{ range (where $.Pages.ByWeight "Params.operating-system" $os) }}
-                 <div class="col">
-                     <div class="card">
-                         <a class="card-img-top" data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}">
-                             {{ with .Params.fa_icon }}
-                             <p style="padding: 1em;"><i class="fab {{ . }} fa-10x fa-fw"></i></p>
-                             {{ end }}
-                             {{ with .Params.logo }}
-                             <img  src="{{$os}}/{{ . }}" alt="Logo of {{.Params.title}}" />
-                             {{ end }}
-                         </a>
-                         <div class="card-body">
-                             <h5 class="card-title">
-                                 <a data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}">
-                                     <emph>{{ .Params.title }}</emph>
-                                 </a>
-                             </h5>
-                             <p class="card-text">
-                                 {{ with .Params.longtitle }}
-                                 {{ . }}
-                                 {{ else }}
-                                 &nbsp;
-                                 {{ end }}
-                             </p>
-                         </div>
-                     </div>
-                 </div>
+    <div class="container-fluid  bg_gray">
+        <div class="row px-2">
+            <div class="offset-lg-2">
+                {{ .Content }}
+            </div>
+            <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
+                <div class="row">
+                    {{ range $index, $os := (index .Params "operating-systems") }}
+                    {{ range (where $.Pages.ByWeight "Params.operating-system" $os) }}
+                    <div class="col">
+                        <div class="card">
+                            <a class="card-img-top" data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}">
+                                {{ with .Params.fa_icon }}
+                                <p style="padding: 1em;"><i class="fab {{ . }} fa-10x fa-fw"></i></p>
+                                {{ end }}
+                                {{ with .Params.logo }}
+                                <img  src="{{$os}}/{{ . }}" alt="Logo of {{.Params.title}}" />
+                                {{ end }}
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}">
+                                        <emph>{{ .Params.title }}</emph>
+                                    </a>
+                                </h5>
+                                <p class="card-text">
+                                    {{ with .Params.longtitle }}
+                                    {{ . }}
+                                    {{ else }}
+                                    &nbsp;
+                                    {{ end }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     {{ end }}
-                 {{ end }}
-             </div>
-             <div id="os-choices" class="mb-2">
-                 {{ range $index, $os := (index .Params "operating-systems") }}
-                 {{ range (where $.Pages.ByWeight "Params.operating-system" $os) }}
-                 <div class="card">
-                     <div class="card-header">
-                         <h3 class="mb-0">
-                             <a data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}"> {{ .Title }}</a>
-                         </h3>
-                     </div>
-                     <div id="collapse{{ $index }}" class="card-body collapse">
-                         <ul class="list-group list-group-flush">
-                             {{ with .Params.downloadlinks }}
-                             {{ $downloadlist := . }}
-                             <li class="list-group-item">
-                                 <ul class="list-group">
-                                     {{ range $index, $dlmap := (index $downloadlist) }}
-                                     {{ range $key, $val := . }}
-                                     <a target="_blank" href="{{ $val }}">
-                                         <li class="list-group-item{{ if not $index }} active{{ end }}">
-                                             <i class="fas fa-download re pr-1"></i>
-                                             Download {{ $key }} installer
-                                             {{ if not $index }} (Recommended){{ end }}
-                                         </li>
-                                     </a>
-                                     {{ end }}
-                                     {{ end }}
-                                 </ul>
-                             </li>
-                             {{ end }}
-                             <li class="list-group-item">
-                                 {{ .Content }}
-                             </li>
-                             {{ end }}
-                         </ul>
-                     </div>
-                 </div>
-                 {{ end }}
-             </div>
-         </div>
-     </div>
- </div>
+                    {{ end }}
+                </div>
+                <div id="os-choices" class="mb-2">
+                    {{ range $index, $os := (index .Params "operating-systems") }}
+                    {{ range (where $.Pages.ByWeight "Params.operating-system" $os) }}
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#os-choices" href="#collapse{{ $index }}"> {{ .Title }}</a>
+                            </h3>
+                        </div>
+                        <div id="collapse{{ $index }}" class="card-body collapse">
+                            <ul class="list-group list-group-flush">
+                                {{ with .Params.downloadlinks }}
+                                {{ $downloadlist := . }}
+                                <li class="list-group-item">
+                                    <ul class="list-group">
+                                        {{ range $index, $dlmap := (index $downloadlist) }}
+                                        {{ range $key, $val := . }}
+                                        <a target="_blank" href="{{ $val }}">
+                                            <li class="list-group-item{{ if not $index }} active{{ end }}">
+                                                <i class="fas fa-download re pr-1"></i>
+                                                Download {{ $key }} installer
+                                                {{ if not $index }} (Recommended){{ end }}
+                                            </li>
+                                        </a>
+                                        {{ end }}
+                                        {{ end }}
+                                    </ul>
+                                </li>
+                                {{ end }}
+                                <li class="list-group-item">
+                                    {{ .Content }}
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 {{ end }}
