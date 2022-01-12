@@ -14,10 +14,11 @@ SigMF has seen specification improvement, greater adoption, and will likely cont
 
 Thursday January 13th at Noon Eastern US
 
-[Zoom](https://seti.zoom.us/j/86182140744)
+Join via [Zoom](https://seti.zoom.us/j/86182140744)  
+Meeting ID: 861 8214 0744
 
 
-Additional information about the specification can be found at [sigmf.org][http://sigmf.org]. For discussions or questions please join the [#sigmf:gnuradio.org](https://matrix.to/#/#sigmf:gnuradio.org) room on the Matrix chat server.
+Additional information about the specification can be found at [sigmf.org](http://sigmf.org). For discussions or questions please join the [#sigmf:gnuradio.org](https://matrix.to/#/#sigmf:gnuradio.org) room on the Matrix chat server.
 
 At the GNU Radio Conference in 2021 Ben Hilburn, Jacob Gilbert, and Kyle Logue presented the state of work in-progress for the 1.0.0 specification release which was finalized on January 7th, 2022. Their talk can be viewed on YouTube.
 
