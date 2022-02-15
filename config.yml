@@ -105,7 +105,7 @@ menu:
       weight: 62
     - identifier: get_involved
       name: Get Involved
-      url: https://wiki.gnuradio.org/index.php/HowToGetInvolved
+      url: /get-involved/
       weight: 70
   grcon/grcon17:
     - identifier: grcon17
