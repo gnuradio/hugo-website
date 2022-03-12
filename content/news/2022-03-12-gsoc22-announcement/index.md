@@ -16,7 +16,7 @@ Our [ideas list has](https://wiki.gnuradio.org/index.php/GSoCIdeas) been updated
 for this year’s GSoC installment, and we are eagerly awaiting your project
 proposals! This year we have ideas ranging from GPU acceleration to WASM
 porting, and there are ideas on both ends of the difficulty spectrum.
-Application opens on April 1, and lasts until April 19, but students are
+Application opens on April 4, and lasts until April 19, but students are
 strongly encouraged to get in touch with the community ahead of time. We’re
 happy to give you feedback on your proposal or answer questions that you may
 have.
