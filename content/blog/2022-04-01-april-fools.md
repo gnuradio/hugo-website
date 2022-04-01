@@ -10,7 +10,7 @@ Canoe Radio will continue to be the leading free & open-source SDR toolkit, and 
 new features that will be included in all future releases of Canoe Radio:
 
 1. Sink blocks will no longer be allowed within Canoe Radio
-2. Support for complex data types has been dropped, in order to simplify signal processing and lessen the learning curve
+2. All data types must float
 
 Feel free to join us on [Matrix](https://chat.gnuradio.org) to discuss these new changes, and
 we look forward to seeing everyone at our [annual conference](https://events.gnuradio.org/event/18/) in September!
