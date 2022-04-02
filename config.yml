@@ -1,10 +1,10 @@
 baseURL: 'https://www.gnuradio.org/'
 languageCode: en-us
-title: "Canoe Radio"
+title: "GNU Radio"
 theme: gnuradio-bootstrap
-description: Canoe Radio Project
+description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
-copyright: 'Canoe Radio project. All rights reserved.'
+copyright: 'GNU Radio project. All rights reserved.'
 disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
@@ -43,7 +43,7 @@ menu:
       name: About
       weight: 10
     - identifier: about_GR
-      name: Canoe Radio
+      name: GNU Radio
       url: /about/
       parent: about
       weight: 11
@@ -68,22 +68,22 @@ menu:
       name: Events
       weight: 50
     - identifier: events_grcon_22
-      name: Canoe Radio Conference 2022
+      name: GNU Radio Conference 2022
       url: https://events.gnuradio.org/e/grcon22
       parent: events
       weight: 51
     - identifier: events_grcon_21
-      name: Canoe Radio Conference 2021
+      name: GNU Radio Conference 2021
       url: /grcon/grcon21/
       parent: events
       weight: 52
     - identifier: events_grcon_20
-      name: Canoe Radio Conference 2020
+      name: GNU Radio Conference 2020
       url: /grcon/grcon20/
       parent: events
       weight: 53
     - identifier: events_grcon
-      name: Previous Canoe Radio Conferences
+      name: Previous GNU Radio Conferences
       url: /grcon/
       parent: events
       weight: 54
@@ -95,7 +95,7 @@ menu:
     - identifier: getting_started
       name: Getting Started
       weight: 60
-    - name: Installing Canoe Radio
+    - name: Installing GNU Radio
       url: https://wiki.gnuradio.org/index.php/InstallingGR
       parent: getting_started
       weight: 61
