@@ -4,7 +4,7 @@ MAINTAINER Andrej Rode <mail@andrejro.de>
 
 ENV security_updates_as_of 2018-12-26
 RUN apk update && apk add py-pygments && apk add git && apk add bash && apk add openssh-client && apk add libstdc++ && rm -rf /var/cache/apk/*
-ENV HUGO_VERSION 0.53
+ENV HUGO_VERSION 0.101.0
 ENV HUGO_BINARY hugo_extended_${HUGO_VERSION}_linux-64bit
 ENV HUGO_ARCHIVE https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY}.tar.gz
 ADD ${HUGO_ARCHIVE} /usr/local/
