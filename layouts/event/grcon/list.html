@@ -8,14 +8,9 @@
         </div>
         <ul class="offset-lg-2 col-lg-8 offset-md-1 col-md-10">
             <!-- Ranges through content/post/*.md -->
-            {{ range .Sections}}
+            {{ range sort .Sections "Title" "desc"}}
             <li>
                 <a href="{{.Permalink}}">{{ .Title }}</a>
-            </li>
-            {{ end }}
-            {{ range .Pages }}
-            <li>
-                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
             </li>
             {{ end }}
         </ul>

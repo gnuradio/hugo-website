@@ -10,9 +10,9 @@
       </div>
 
       <div class="row align-items-center">
-          {{ range first 3 (where .Pages "Type" "news") }}
+          {{ range first 3 (where .Site.RegularPages "Type" "news") }}
           <div class="col-lg-4 news_item">
-              <a href="{{ .URL }}" class="text-center">
+              <a href="{{ .Permalink }}" class="text-center">
                   {{ $default_thumbnail := (index $.Site.Params.thumbnails (default "default" .Params.thumbnail)) }}
                   {{ $thumbnail := (.Resources.GetMatch "thumbnail*") | default (resources.Get $default_thumbnail) }}
                   <img class="m-2"src="{{ $thumbnail.RelPermalink }}" alt={{ .Title }} width="220">
@@ -33,7 +33,7 @@
   <div class="container-fluid latest_blog">
     <div class="container latest_blog">
         <h2 class="text-center gr_heading py-4"><strong>Latest Blog</strong></h2>
-        {{ range $index, $element := first 4 (where .Pages "Type" "blog") }}
+        {{ range $index, $element := first 4 (where .Site.RegularPages "Type" "blog") }}
         {{ $element.Scratch.Set "default_thumbnail" (index $.Site.Params.thumbnails (default "default" $element.Params.thumbnail)) }}
         {{ if eq (mod $index 2) 0 }}
         {{ partial "blog/entry_left.html" $element }}
