@@ -1,4 +1,4 @@
 +++
 type = "organization"
-title = "Leadership Organization"
+title = "Leadership and Governance"
 +++

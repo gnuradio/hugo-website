@@ -48,7 +48,7 @@ menu:
       parent: about
       weight: 11
     - identifier: about_org
-      name: Leadership
+      name: Leadership and Governance
       url: /about/organization/
       parent: about
       weight: 12
