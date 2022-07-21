@@ -30,11 +30,14 @@
     title = ""
     name = "Johannes Demel"
 [[officers]]
-    title = "<Chief Architect>"
+    title = "<Co-Maintainer>"
     name = "Josh Morman"
     twitter = "@_mormj"
 [[officers]]
-    title = ""
+    title = "<Co-Maintainer>"
+    name = "Jeff Long"
+[[officers]]
+    title = "<Architect>"
     name = "Marcus Müller"
     email = "mmueller@gnuradio.org"
     twitter = "@dEnergy_dTime"
@@ -47,9 +50,6 @@
 [[officers]]
     title = ""
     name = "Samantha Palazzolo"
-[[officers]]
-    title = ""
-     name = "Jeff Long"
 [[officers]]
     title = ""
     name = "Jacob Gilbert"

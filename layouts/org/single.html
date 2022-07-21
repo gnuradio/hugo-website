@@ -2,15 +2,7 @@
 <main role="main">
     <div class="container-fluid bg_gray">
 
-        <h1>Teams and Working Groups</h1>
-        
-        <h5>
-            Reach out to the lead of any team if you are interested in helping with the effort!
-            <br>
-            The GNU Radio Project is organized under the <a href="https://github.com/gnuradio/gr-governance/blob/main/aoa.md">Articles of Association stated here</a>
-        </h5>
-        
-        
+        <h1>Teams:</h1>
 
         <ul class="flex-container">
             <li class="flex-item flex-item-leads">
@@ -19,9 +11,9 @@
                     <p style="line-height: 1.4;">
                         {{ range .Site.Data.leads.officers }}
                         {{ .name }} <b>{{ .title }}</b>&nbsp;
-                        {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/org/twitter_icon.png"></a>{{ end }}
-                        {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/org/website_icon.webp"></a>{{ end }}
-                        {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/org/email_icon.png"></a>{{ end }}
+                        {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/about/twitter_icon.png"></a>{{ end }}
+                        {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/about/website_icon.webp"></a>{{ end }}
+                        {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/about/email_icon.png"></a>{{ end }}
                         <br>
                         {{ end }}
                     </p>
@@ -113,7 +105,9 @@
             </li>                
         </ul>
         <br>
-
+        <h5>
+            The GNU Radio Project is organized under the <a href="https://github.com/gnuradio/gr-governance/blob/main/aoa.md">Articles of Association stated here</a>
+        </h5>
 
     </div>
 </main>
