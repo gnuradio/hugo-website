@@ -1,5 +1,5 @@
 +++
-title = "Getting Involved"
+title = "Community"
 aliases = ["get_involved", "getting involved", "get involved"]
 +++
 

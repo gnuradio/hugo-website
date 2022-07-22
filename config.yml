@@ -41,17 +41,8 @@ menu:
   main:
     - identifier: about
       name: About
-      weight: 10
-    - identifier: about_GR
-      name: GNU Radio
       url: /about/
-      parent: about
-      weight: 11
-    - identifier: about_org
-      name: Leadership
-      url: /about/organization/
-      parent: about
-      weight: 12
+      weight: 10
     - identifier: blog
       name: Blog
       url: /blog/
@@ -92,21 +83,24 @@ menu:
       url: /events/
       parent: events
       weight: 55
-    - identifier: getting_started
-      name: Getting Started
-      weight: 60
-    - name: Installing GNU Radio
+    - name: Installing
       url: https://wiki.gnuradio.org/index.php/InstallingGR
-      parent: getting_started
-      weight: 61
+      weight: 60
     - name: Tutorials
       url: https://wiki.gnuradio.org/index.php/Tutorials
-      parent: getting_started
-      weight: 62
-    - identifier: get_involved
-      name: Get Involved
-      url: /get-involved/
       weight: 70
+    - identifier: get_involved
+      name: Community
+      url: /community/
+      weight: 80
+    - identifier: about_org
+      name: Leadership
+      url: /org/organization/
+      weight: 90
+    - identifier: donate
+      name: Donate
+      url: https://donorbox.org/gnuradio
+      weight: 100
   grcon/grcon17:
     - identifier: grcon17
       name: GRCon17

@@ -2,15 +2,7 @@
 <main role="main">
     <div class="container-fluid bg_gray">
 
-        <h1>Teams and Working Groups</h1>
-        
-        <h5>
-            Reach out to the lead of any team if you are interested in helping with the effort!
-            <br>
-            The GNU Radio Project is organized under the <a href="https://github.com/gnuradio/gr-governance/blob/main/aoa.md">Articles of Association stated here</a>
-        </h5>
-        
-        
+        <h1>Teams:</h1>
 
         <ul class="flex-container">
             <li class="flex-item flex-item-leads">
@@ -19,9 +11,9 @@
                     <p style="line-height: 1.4;">
                         {{ range .Site.Data.leads.officers }}
                         {{ .name }} <b>{{ .title }}</b>&nbsp;
-                        {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/org/twitter_icon.png"></a>{{ end }}
-                        {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/org/website_icon.webp"></a>{{ end }}
-                        {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/org/email_icon.png"></a>{{ end }}
+                        {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/about/twitter_icon.png"></a>{{ end }}
+                        {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/about/website_icon.webp"></a>{{ end }}
+                        {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/about/email_icon.png"></a>{{ end }}
                         <br>
                         {{ end }}
                     </p>
@@ -29,23 +21,23 @@
             </li>
             <li class="flex-item">
                 <h1>GR 4.0 Dev</h1>
-                    <div style="text-align: left;">
-                    <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
-                    Josh Morman<br><br>
-                    <b>Members:</b><br>
-                    Bastian Bloessl<br>
-                    Marcus Müller<br>
-                    </div>
-                    </p>
+                <div style="text-align: left;">
+                <p style="line-height: 1.4;">
+                Lead:<br>
+                Josh Morman<br><br>
+                Members:<br>
+                Bastian Bloessl<br>
+                Marcus Müller<br>
+                </div>
+                </p>
             </li>
             <li class="flex-item">
                 <h1>GRC</h1>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
+                    Lead:<br>
                     Håkon Vågsether - grc@gnuradio.org<br><br>
-                    <b>Members:</b><br>
+                    Members:<br>
                     Derek Kozel<br>
                     </div>
                     </p>
@@ -54,9 +46,9 @@
                 <h1>Documentation</h1>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
+                    Lead:<br>
                     Marc Lichtman - docs@gnuradio.org<br><br>
-                    <b>Members:</b><br>
+                    Members:<br>
                     Barry Duggan<br>
                     </div>
                     </p>
@@ -65,9 +57,9 @@
                 <h1>GRCon</h1>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
+                    Lead:<br>
                     Samantha Palazzolo - grcon@gnuradio.org<br><br>
-                    <b>Members:</b><br>
+                    Members:<br>
                     Josh Morman<br>
                     Marc Lichtman<br>
                     Barry Duggan<br>
@@ -77,26 +69,25 @@
             </li>
             <li class="flex-item">
                 <h1 style="margin-bottom: 0px;">SigMF</h1>
-                <h4><a href="https://github.com/gnuradio/SigMF">(Signal Metadata Standard)</a></h4>
+                <h4>(Signal Metadata Standard)</h4>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
+                    Lead:<br>
                     Jacob Gilbert - sigmf@gnuradio.org<br><br>
-                    <b>Members:</b><br>
+                    Members:<br>
                     Marc Lichtman<br>
                     </div>
                     </p>
             </li>
             <li class="flex-item">
                 <h1 style="margin-bottom: 0px;">VOLK</h1>
-                <h4><a href="https://www.libvolk.org/">(SIMD Optimization)</a></h4>
+                <h4>(SIMD Optimization)</h4>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Co-Leads:</b><br>
-                    Johannes Demel - volk@gnuradio.org<br>
-                    Michael Dickens - volk@gnuradio.org<br><br>
-                    <b>Members:</b><br>
-                    <br>
+                    Lead:<br>
+                    Johannes Demel - volk@gnuradio.org<br><br>
+                    Members:<br>
+                    Michael Dickens<br>
                     </div>
                     </p>
             </li>
@@ -105,16 +96,18 @@
                 <h4>and CI/CD</h4>
                 <div style="text-align: left;">
                     <p style="line-height: 1.4;">
-                    <b>Lead:</b><br>
+                    Lead:<br>
                     Andrej Rode - admin@gnuradio.org<br><br>
-                    <b>Members:</b><br>
+                    Members:<br>
                     Marc Lichtman<br>
                     </div>
                     </p>
             </li>                
         </ul>
         <br>
-
+        <h5>
+            The GNU Radio Project is organized under the <a href="https://github.com/gnuradio/gr-governance/blob/main/aoa.md">Articles of Association stated here</a>
+        </h5>
 
     </div>
 </main>
