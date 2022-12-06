@@ -50,7 +50,8 @@ Note: Matrix representations of signals should also be more representable using 
 
 
 The initial benchmarking of this buffer structure can be seen here - note that the y axis is in *operations per second*, **not** *streaming throughput*:
-![Proposed API Buffer Performance](buffer_benchmarks.png "Proposed Buffer API operations per second")
+<!-- ![Proposed API Buffer Performance](buffer_benchmarks.png "Proposed Buffer API operations per second") -->
+<img src="buffer_benchmarks.png" alt="Proposed API Buffer Performance" width="800"/>
 
 
 Getting to this point, though, requires much more information to be provided to the block at compile time through templating.  This may appear cumbersome at first, but much of this code could become part of the yml->c++ code generation step and get right to the work method as quickly as before
@@ -73,7 +74,8 @@ One of the concerns about current GNU Radio block design is the sheer number of 
 
 Also proposed is a realignment of the entities in the API to be cleaner an more intuitive as seen below:
 
-![Separation of Concerns](separation_of_concerns.png "Separation of Concerns")
+<!-- ![Separation of Concerns](separation_of_concerns.png "Separation of Concerns") -->
+<img src="separation_of_concerns.png" alt="Separation of Concerns" width="800"/>
 
 Just to give a rough idea of some of the proposed mechanisms, below is a snapshot of what a type safe block and port construct could look like in practice:
 ```c++
@@ -112,6 +114,7 @@ We want to make sure that the proposed changes still push closer to the goal of 
 
 ## Feedback Requested
 Please reach out to us with any feedback positive or negative.  There are several ways to stay engaged
+
 1. `#architecture` on chat.gnuradio.org
 2. architecture@gnuradio.org to reach the architecture leads directly
 3. gnuradio-scheduler@groups.io to reach a broader group of interested people
