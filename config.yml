@@ -101,6 +101,10 @@ menu:
       name: Donate
       url: https://donorbox.org/gnuradio
       weight: 100
+    - identifier: gsoc
+      name: GSoC '23
+      url: /gsoc/
+      weight: 110
   grcon/grcon17:
     - identifier: grcon17
       name: GRCon17
