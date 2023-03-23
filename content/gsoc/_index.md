@@ -3,7 +3,7 @@ title = "Google Summer of Code 2023"
 aliases = ["gsoc"]
 +++
 
-[Google Summer of Code](https://summerofcode.withgoogle.com/) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 10 - 22 week programming project under the guidance of mentors. GNU Radio has participated in GSoC since 2012 with a high success rate. We are applying for GSoC 2023, so stay tuned!
+[Google Summer of Code](https://summerofcode.withgoogle.com/) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 10 - 22 week programming project under the guidance of mentors. GNU Radio has participated in GSoC since 2012 with a high success rate. We are currently accepting applications!
 
 ## Interested?
 
