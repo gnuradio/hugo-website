@@ -47,7 +47,7 @@ involved in the FOSS SDR ecosystem.
 <p class="col-sm-12 text-justify">
 Ticket prices will increase this year as we get closer to the event to account for increased costs of late registration. The prices increase on August 18th, and again on Septh 4th for very late registration.  Early registration significantly helps our ability to make financial commitments so please register early if you can.
 New this year is the option for single day tickets.
-For detaled registration information including ticket prices please see the registration information page
+For detailed registration information including ticket prices please see the registration information page
 </p>
 <div class="card-body">
 <a href="https://events.gnuradio.org/event/21/page/99-registration-info" class="btn btn-primary">
@@ -91,11 +91,11 @@ Standard Registration cost, should also consider this option.
 Student Registration
 </dt>
 <dd class="col-sm-9 text-justify">
-Heavily subsidized. Applies to students currently in enrolled in a university program (or secondary school). 
+Heavily subsidized. Applies to students currently enrolled in a university program (or secondary school). 
 In exchange for subsidizing your ticket, your CV will be shared with our student sponsors. 
 If you are a student and present something at the conference, you can even get a free voucher.
 Please read <a href="https://events.gnuradio.org/event/21/page/100-student-registration">
-the Student Regsitration Guide</a> before selecting Student Registration.
+the Student Registration Guide</a> before selecting Student Registration.
 </dd>
 <dt class="col-sm-3">
 ✨Patron Supporter Registration✨
