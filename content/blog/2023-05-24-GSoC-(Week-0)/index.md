@@ -11,7 +11,7 @@ I am Rahul Balaji, a new contributor to GNU Radio. I have been selected to under
 
 ### so what's the project about ?
 
-Over time, we have come to realize that GRC has some usecases outside GNU Radio, and that it has somehat become it's own standalone application. Different orgs also have mainatined their own forks of GRC.
+Over time, we have come to realise that GRC has some use-cases outside GNU Radio, and that it has somewhat become it's own standalone application. Different orgs also have maintained their own forks of GRC.
 
 That brings us to mainly 3 objectives that must be achieved by this project :
 
@@ -19,7 +19,7 @@ That brings us to mainly 3 objectives that must be achieved by this project :
 2. Make GRC more modular, especially the block templates.
 3. To allow templating with Jinja.
 
-Testing and bugfixes will also be conducted throught this project to ensure that the program works as intended.
+Testing and bug-fixes will also be conducted throughout this project to ensure that the program works as intended.
 
 ### About extracting GRC from GR
 
