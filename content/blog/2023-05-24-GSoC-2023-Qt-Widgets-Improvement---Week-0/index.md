@@ -2,7 +2,7 @@
 title: "GSoC 2023 Qt Widgets Improvement Week-0 [Communuity Bonding]"
 author: "Rohit Bisht"
 date: 2023-05-30T23:06:48+05:30
-draft: true
+categories: ["GSoC", "QTgui"]
 ---
 Hello everyone!
 
