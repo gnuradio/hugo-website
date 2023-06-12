@@ -1,5 +1,5 @@
 ---
-title: "GSoC: week-0"
+title: "GSoC Standalone GRC: week-1"
 author: "Rahul Balaji"
 date: "2023-06-05"
 categories: ["GSoC", "GRC"]
