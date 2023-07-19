@@ -41,20 +41,48 @@ menu:
   main:
     - identifier: about
       name: About
-      url: /about/
       weight: 10
+    - identifier: about_gr
+      name: About GNU Radio
+      url: /about/
+      parent: about
+      weight: 10
+    - identifier: about_org
+      name: Leadership
+      url: /org/organization/
+      parent: about
+      weight: 20
+#        
+    - identifier: articles
+      name: News
+      weight: 20
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 20
+      weight: 10
+      parent: articles
     - identifier: news
       name: News
       url: /news/
-      weight: 30
+      weight: 20
+      parent: articles
+#
     - identifier: docs
       name: Documentation
-      url: /docs/
       weight: 40
+    - name: Installation
+      url: https://wiki.gnuradio.org/index.php/InstallingGR
+      weight: 10
+      parent: docs
+    - name: 📖 Tutorials
+      url: https://wiki.gnuradio.org/index.php/Tutorials
+      weight: 20
+      parent: docs
+    - name: Block Documentation
+      url: https://wiki.gnuradio.org/index.php?title=Category:Block_Docs
+      weight: 30
+      parent: docs
+#
     - identifier: events
       name: Events
       weight: 50
@@ -83,28 +111,30 @@ menu:
       url: /events/
       parent: events
       weight: 55
-    - name: Installing
-      url: https://wiki.gnuradio.org/index.php/InstallingGR
-      weight: 60
-    - name: Tutorials
-      url: https://wiki.gnuradio.org/index.php/Tutorials
-      weight: 70
+#
     - identifier: get_involved
-      name: Community
-      url: /community/
+      name: Community & Contact
       weight: 80
-    - identifier: about_org
-      name: Leadership
-      url: /org/organization/
+    - identifier: contact
+      name: Contact the Community
+      url: /community/
+      weight: 10
+      parent: get_involved
+    - identifier: source
+      name: Work on the Source Code
+      url: https://github.com/gnuradio/gnuradio
+      weight: 20
+      parent: get_involved
+    - identifier: gsoc
+      name: "GSoC '23"
+      url: /gsoc/
       weight: 90
+      parent: get_involved
+#
     - identifier: donate
       name: Donate
       url: https://donorbox.org/gnuradio
       weight: 100
-    - identifier: gsoc
-      name: GSoC '23
-      url: /gsoc/
-      weight: 110
   grcon/grcon17:
     - identifier: grcon17
       name: GRCon17
