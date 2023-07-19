@@ -112,24 +112,24 @@ menu:
       parent: events
       weight: 55
 #
-    - identifier: get_involved
-      name: Community & Contact
+    - identifier: community
+      name: Community
       weight: 80
     - identifier: contact
-      name: Contact the Community
+      name: Get in Touch & Get Involved
       url: /community/
       weight: 10
-      parent: get_involved
+      parent: community
     - identifier: source
       name: Work on the Source Code
       url: https://github.com/gnuradio/gnuradio
       weight: 20
-      parent: get_involved
+      parent: community
     - identifier: gsoc
       name: "GSoC '23"
       url: /gsoc/
       weight: 90
-      parent: get_involved
+      parent: community
 #
     - identifier: donate
       name: Donate
