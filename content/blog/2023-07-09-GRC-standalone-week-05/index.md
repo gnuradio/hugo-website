@@ -1,11 +1,11 @@
 ---
 title: "GSoC Standalone GRC : week-5"
 author: "Rahul Balaji"
-date: "2023-07-9"
+date: "2023-07-09"
 categories: ["GSoC", "GRC"]
 ---
 
-hello,
+Hello,
 
 Week 5 of GSoC has mainly been spent on coding and fixing bugs that were present on just translating options.py, and analysing the code in core/platform.py.
 
@@ -31,6 +31,4 @@ Now that options.py is ported, we can now focus on creating the workflow manager
 
 Now, it's a matter of defining ```workflows.load_workflow_description``` to load the .yml file.
 
-So that will mainly be the focus of this coming week, along with syncing with gnuradio. Almost all the latest changes made to GRC is uploaded in my repo, so we can start by porting it to a new repo made in the GNU radio org.
-
-That's all for the updates for week-5.
+So that will mainly be the focus of this coming week, along with syncing with GNU Radio. Almost all the latest changes made to GRC is uploaded in my repo, so we can start by porting it to a new repo made in the GNU radio org.
