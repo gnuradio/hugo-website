@@ -1,7 +1,7 @@
 ---
 title: "GSoC Standalone GRC : week-4"
 author: "Rahul Balaji"
-date: "2023-06-31"
+date: "2023-06-30"
 categories: ["GSoC", "GRC"]
 ---
 
