@@ -7,11 +7,11 @@ categories: ["GSoC", "GRC"]
 
 hello,
 
-So the main focus of this week was to construct a Workflow Manager module, that will manage all the parameters fetched from a .yml file provided by the user.
+So the main focus of this week was to construct a Workflow Manager module that will manage all the parameters fetched from a .yml file provided by the user.
 
-### so what does it actually do ?
+### so what does it actually do?
 
-The main function of the workflow manager is to read from a .yml file, defined like so,
+The main function of the workflow manager is to read from a .yml file, defined like this:
 
 ```
 workflow:
@@ -49,11 +49,11 @@ give a brief description here
 	entrypoint: gnuradio_companion.workflows.top_block:Generator
 ```
 
-The above given template is an example placeholder for what it should look like, the workflow manager will now take information from this file, and manage it on top level, so that other files can take this info and then use them to define workflows.
+The above-given template is an example of what it should look like. The workflow manager will now take information from this file and manage it at the top level, so that other files can take this information and then use it to define workflows.
 
-So, the workflow manager is defined as such with a function to load the .workflow.yml files and then to store the parameters and other data which will be used in files like options.py, where the parameters will be dynamically replaced based on the workflow chosen.
+So, the workflow manager is defined as such, with a function to load the .workflow.yml files and then store the parameters and other data that will be used in files like options.py, where the parameters will be dynamically replaced based on the workflow chosen.
 
-### what's next ?
+### what's next?
 
 The workflow manager can now read and access the .yml files, now, we need to find a suitable method to store this data properly in runtime so that files like options.py can retrieve it.
 
