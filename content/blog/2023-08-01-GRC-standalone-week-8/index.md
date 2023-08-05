@@ -5,7 +5,7 @@ date: "2023-08-01"
 categories: ["GSoC", "GRC"]
 ---
 
-hello,
+Hello,
 
 So this week, the focus was to make .yml files for different workflows with which we could test the module and to fix any errors in the 
 implementation of code.
