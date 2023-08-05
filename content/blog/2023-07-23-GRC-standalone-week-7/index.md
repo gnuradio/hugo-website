@@ -5,7 +5,7 @@ date: "2023-07-23"
 categories: ["GSoC", "GRC"]
 ---
 
-hello,
+Hello,
 
 So the main focus of this week was to store the information during runtime so that it is accessible in a proper format.
 
