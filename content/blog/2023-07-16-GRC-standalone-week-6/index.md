@@ -5,7 +5,7 @@ date: "2023-07-16"
 categories: ["GSoC", "GRC"]
 ---
 
-hello,
+Hello,
 
 So the main focus of this week was to construct a Workflow Manager module that will manage all the parameters fetched from a .yml file provided by the user.
 
