@@ -7,9 +7,10 @@ categories: ["GSoC", "GRC"]
 
 hello,
 
-So the main focus of this week was to store the information during runtime so that the info is accessible in a proper format.
+So the main focus of this week was to store the information during runtime so that it is accessible in a proper format.
 
-So the workflow manager was set to store information with chainmaps, where we store each parameters with the corresponding workflow id, like so.
+So the workflow manager was set to store information with chainmaps, where we store each parameter with the corresponding workflow id,
+like so.
 
 ```
 class WorkflowManager(Element):
@@ -38,10 +39,12 @@ class WorkflowManager(Element):
 	param_list = param_list.new_child(new_param)
 ```
 
-The chain-map param_list is how we plan to access the parameters and add/replace the parameters in other files like options.py, and thus controlling the workflow.
+The chain-map param_list is how we plan to access the parameters and add or replace the parameters in other files like options.py, thus
+controlling the workflow.
 
-### what's next ?
+### what's next?
 
-The next set of steps is to make sure the system works as intended, and to fix a few errors in the code. To make a .yml file and test the module to ensure that it is correctly storing data will be the focus.
+The next set of steps is to make sure the system works as intended and to fix a few errors in the code. Making a .yml file and testing the 
+module to ensure that it is correctly storing data will be the focus.
 
 That brings us to an end to the updates for week 7.
