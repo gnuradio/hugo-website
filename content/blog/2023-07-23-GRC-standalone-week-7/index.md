@@ -42,7 +42,7 @@ class WorkflowManager(Element):
 The chain-map param_list is how we plan to access the parameters and add or replace the parameters in other files like options.py, thus
 controlling the workflow.
 
-### what's next?
+### What's next?
 
 The next set of steps is to make sure the system works as intended and to fix a few errors in the code. Making a .yml file and testing the 
 module to ensure that it is correctly storing data will be the focus.

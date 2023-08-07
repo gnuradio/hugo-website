@@ -9,7 +9,7 @@ Hello,
 
 So the main focus of this week was to construct a Workflow Manager module that will manage all the parameters fetched from a .yml file provided by the user.
 
-### so what does it actually do?
+### What does it actually do?
 
 The main function of the workflow manager is to read from a .yml file, defined like this:
 
@@ -53,7 +53,7 @@ The above-given template is an example of what it should look like. The workflow
 
 So, the workflow manager is defined as such, with a function to load the .workflow.yml files and then store the parameters and other data that will be used in files like options.py, where the parameters will be dynamically replaced based on the workflow chosen.
 
-### what's next?
+### What's next?
 
 The workflow manager can now read and access the .yml files, now, we need to find a suitable method to store this data properly in runtime so that files like options.py can retrieve it.
 
