@@ -5,9 +5,9 @@ date: 2023-08-24T05:34:25+05:30
 categories: ["GSoC", "QTgui"]
 ---
 
-{{<figure src="https://summerofcode.withgoogle.com/assets/media/logo.svg" width="800px">}}
-
 *As the summer draws to a close, I am thrilled to present the culmination of my efforts in the GSoC 2023 project focused on enhancing the Qt Widgets for GNU Radio. This journey has been a rewarding experience, and I am excited to share the progress and achievements made over the course of this project.*
+
+{{<figure src="https://summerofcode.withgoogle.com/assets/media/logo.svg" width="800px">}}
 
 #### Basic Info
 
