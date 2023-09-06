@@ -1,6 +1,7 @@
 [[officers]]
     title = "<President>"
-    name = "Derek Kozel"
+    name = "Josh Morman"
+    twitter = "@_mormj"
 [[officers]]
     title = "<Vice President>"
     name = "Martin Braun"
@@ -10,6 +11,9 @@
     title = "<Vice President>"
     name = "Marc Lichtman"
     website = "https://www.pysdr.org"
+[[officers]]
+    title = "<SETI PI>"
+    name = "Derek Kozel"
 [[officers]]
     title = ""
     name = "Andrej Rode"
@@ -31,10 +35,6 @@
     name = "Johannes Demel"
 [[officers]]
     title = "<Co-Maintainer>"
-    name = "Josh Morman"
-    twitter = "@_mormj"
-[[officers]]
-    title = "<Co-Maintainer>"
     name = "Jeff Long"
 [[officers]]
     title = "<Architect>"
@@ -53,6 +53,15 @@
 [[officers]]
     title = ""
     name = "Jacob Gilbert"
+[[officers]]
+    title = ""
+    name = "Jean-Michel Friedt"
+[[officers]]
+    title = ""
+    name = "Ben McCall"
+[[officers]]
+    title = ""
+    name = "John Sallay"
 
 [[tech]]
     title = "GNU Radio Code Maintainer for Master Branch"
