@@ -34,7 +34,7 @@
     title = ""
     name = "Johannes Demel"
 [[officers]]
-    title = "<Co-Maintainer>"
+    title = "<Maintainer>"
     name = "Jeff Long"
 [[officers]]
     title = "<Architect>"
@@ -64,10 +64,7 @@
     name = "John Sallay"
 
 [[tech]]
-    title = "GNU Radio Code Maintainer for Master Branch"
-    name = "Josh Morman"
-[[tech]]
-    title = "GNU Radio Code Maintainer for Stable Branches"
+    title = "GNU Radio Maintainer (3.X)"
     name = "Jeff Long"
 [[tech]]
     title = "GNU Radio 4.0 Runtime Lead"
