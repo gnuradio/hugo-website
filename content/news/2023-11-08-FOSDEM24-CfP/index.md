@@ -112,5 +112,5 @@ Organizer's Contacts
 - Amateur Radio Program Committee:
   [Bastien Cabay, ON4BCY <on4bcy@uba.be>](mailto:on4bcy@uba.be), [Marc Balmer, HB9SSB <marc@msys.ch>](mailto:marc@msys.ch)
 - Software-Defined Radio Program Committee:
-  [Marcus Müller <mmueller@gnuradio.org>](mailto:mmuller@gnuradio.org)
+  [Marcus Müller <mmueller@gnuradio.org>](mailto:mmueller@gnuradio.org)
 
