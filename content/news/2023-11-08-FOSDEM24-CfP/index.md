@@ -44,9 +44,7 @@ Content and Shape of Presentations
 ----------------------------------
 
 Please aim for your talk to be 20 to 25 minutes long, which leaves enough time
-for questions & answers within a 30 minute slot. Should you definitely need
-more time, we can combine time slots; but please reach out to us before
-submitting your overlength talk proposal!
+for questions & answers within a 30 minute slot.
 
 The final schedule will be available through Pretalx and the official FOSDEM
 website. Notice that the reference time will be Brussels local time (CET).
