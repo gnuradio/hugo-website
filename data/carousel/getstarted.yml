@@ -1,4 +1,5 @@
-# weight: -50
-# title: "GNU Radio is a Free & Open-Source Toolkit for Software Radio"
-# description: ""
-# url: "https://wiki.gnuradio.org/index.php/Guided_Tutorials"
+weight: -50
+title: "Learn how to use GNU Radio"
+description: "GNU Radio has developed official, step-by-step tutorials, aimed at helping learners at all levels"
+url: "https://tutorials.gnuradio.org"
+imgurl: "imgs/learning-background.webp"

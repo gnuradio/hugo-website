@@ -1,0 +1,5 @@
+weight: -30
+title: "Install GNU Radio"
+description: "Installing GNU Radio is easy on modern Linux, Mac OS and Windows machines"
+url: "https://wiki.gnuradio.org/index.php?title=InstallingGR#Quick_Start"
+imgurl: "imgs/bench-background.webp"
