@@ -26,12 +26,6 @@
     website = "https://www.bastibl.net"
 [[officers]]
     title = ""
-    name = "Ben Hilburn"
-    email = "bhilburn@gnuradio.org"
-    twitter = "@bhilburn"
-    website = "http://hokietux.net/"
-[[officers]]
-    title = ""
     name = "Johannes Demel"
 [[officers]]
     title = "<Maintainer>"
