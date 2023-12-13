@@ -20,7 +20,7 @@ In the meantime, work on the main development branch is ongoing, with quite a fe
 VOLK - For Those Who Want to Math Faster
 ----------------------------------------
 
-Much progress was made in GNU Radio, but also in one of the GNU Radio ecosystem projects: VOLK. [VOLK](https://libvolk.org), the Vector-Optimized Library of Kernels, might not be widely known, but it's a very handy collection of hand-optimized SIMD code for common numerical vector operations; comes with microbenchmarking, test-suit, automatic dispatching to the optimal implementation. It was spun off years ago to bundle the machine-specific vector operations that where strewn across GNU Radio's code base.
+Much progress was made in GNU Radio, but also in one of the GNU Radio ecosystem projects: VOLK. [VOLK](https://libvolk.org), the Vector-Optimized Library of Kernels, might not be widely known, but it's a very handy collection of hand-optimized SIMD code for common numerical vector operations; comes with microbenchmarking, test suite, automatic dispatching to the optimal implementation. It was spun off years ago to bundle the machine-specific vector operations that were strewn across GNU Radio's code base.
 
 VOLK 3 saw the switch from GPLv3 to LGPLv3. Now we have a version 3.1.0, and I personally think that this is a release that's going to be surprisingly useful for a lot of people – whether you use the library as dynamically linked as is, or whether you include the headers you need directly in your platform-specific code.
 
