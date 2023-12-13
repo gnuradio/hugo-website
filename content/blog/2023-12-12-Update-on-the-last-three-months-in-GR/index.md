@@ -13,7 +13,7 @@ GNU Radio Releases and Code Highlights
 GNU Radio
 ---------
 
-We released 3.10.8.0 and 3.9.8.0; the latter is the last of the quarterly series of 3.9.x releases. Since 3.10 and 3.9 are mostly code-compatible, we feel confident users of 3.9 should upgrade!
+We released 3.10.8.0, and we're hoping to be on track for upcoming major packaging releases (mostly, Ubuntu's next Long Term Support release).
 
 In the meantime, work on the main development branch is ongoing, with quite a few architectural experiments, many of which find a way as non-API-breaking enhancements to developer experience in GNU Radio 3.10.x.
 
