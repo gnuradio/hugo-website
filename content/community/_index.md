@@ -13,13 +13,9 @@ The GNU Radio project can be reached
 * via Email using the GNU Radio discussion mailing list
   `discuss-gnuradio@gnu.org`, to which you can sign up
   [here](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio),
-* via Matrix on our Matrix homeserver, e.g. using
-  [chat.gnuradio.org](https://chat.gnuradio.org) 
-
-<!--, or
-* via IRC in #gnuradio on [libera.chat](https://libera.chat). Those two chat
-  rooms are "bridged", the same messages appear on both.
-//-->
+* via Matrix on our Matrix homeserver (chat.gnuradio.org), e.g. using a public
+  Matrix instance [like
+  matrix.org](https://app.element.io/#/room/#gnuradio-space:gnuradio.org).
 
 # Contributing without Writing Code
 
