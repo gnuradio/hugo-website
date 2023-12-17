@@ -30,6 +30,7 @@ params:
     volk_release: imgs/volk_release_web.svg
     pybombs_release: imgs/pybombs_release_web.svg
     hamradio: imgs/hamradio.svg
+    gr_video: imgs/gr_video_web.svg
 outputs:
   home:
     - html
