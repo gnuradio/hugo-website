@@ -1,12 +1,13 @@
 ---
 title: "GRCon 2024 - Knoxville, TN, Sept 16-20"
 author: "GRCon24 Organizers"
-date: "2024-12-16"
+date: "2023-12-16"
 categories: ["grcon"]
 aliases: ["news/grcon24-location-announcement"]
+thumbnail: "conference"
 ---
 
-We are excited to announce that GNU Radio Conference 2024 (GRCon24) will be run as an in-person event September 16*-20 at the Knoxville Convention Center in downtown Knoxville, TN.
+We are excited to announce that GNU Radio Conference 2024 (GRCon24) will be run as an in-person event September 16<sup>*</sup>-20 at the Knoxville Convention Center in downtown Knoxville, TN.
 
 GRCon24 will celebrate and showcase the substantial and remarkable progress of GNU Radio and its usage in a diverse field of applications and industries.  It is a 4 day conference (Main Track Tues-Fri)  that includes high-quality technical content and valuable networking opportunities. GRCon is a venue that highlights design, implementation, and theory that has been practically applied in a useful way. GRCon attendees come from a large variety of backgrounds, including industry, academia, government, and hobbyists.  Even though the main track will start on Tuesday Sept. 17, this year we are planning a “soft start” to the conference with various hands-on activities on Monday afternoon/evening, such as beginner tutorials and in-person help installing and getting started using GNU Radio.
 
