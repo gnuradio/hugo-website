@@ -1744,7 +1744,7 @@ fieldset[disabled] .btn-template-primary.active {
 #heading-breadcrumbs {
   background: url('../img/texture-bw.png') center center repeat;
   padding: 20px 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
@@ -3177,7 +3177,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.42857143;
   color: #555555;
 }
