@@ -2,4 +2,4 @@ weight: -100
 title: "GNU Radio Conference 2024"
 description: "September 16 - 20, 2024"
 image: conference_bg_default.jpg
-url:  "https://events.gnuradio.org/e/grcon24"
+href:  "https://events.gnuradio.org/e/grcon24"

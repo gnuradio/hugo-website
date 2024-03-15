@@ -1,5 +1,5 @@
 weight: -50
 title: "Learn how to use GNU Radio"
 description: "GNU Radio has developed official, step-by-step tutorials, aimed at helping learners at all levels"
-url: "https://tutorials.gnuradio.org"
+href: "https://tutorials.gnuradio.org"
 image: learning-background.webp
