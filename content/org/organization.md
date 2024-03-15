@@ -1,4 +1,5 @@
 +++
-type = "organization"
+type = "page"
+layout = "organization"
 title = "Leadership"
 +++

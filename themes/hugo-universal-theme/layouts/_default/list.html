@@ -25,7 +25,7 @@
 
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
                         {{ range $paginator.Pages }}
-                        <section class="post">
+                        <section class="post" style="background-color: #fff;">
                             <div class="row">
                                 <div class="col-md-4">
                                   <div class="image">

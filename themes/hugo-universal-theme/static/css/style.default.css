@@ -10,6 +10,7 @@
   --navbar-focus: #80cbd9;
 }
 
+
 .clearfix:before,
 .clearfix:after,
 .navbar:before,
@@ -2062,7 +2063,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-align: right;
 }
 #blog-listing-medium .post {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 #blog-listing-medium .post h2 {
   text-transform: uppercase;
@@ -3578,4 +3579,19 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+
+/* Marc added the stuff below */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FF6905; /* GR orange */
+  padding: 10px;
+}
+.grid-item {
+  background-color: #d8d8d8;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
 }
