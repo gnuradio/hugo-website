@@ -39,15 +39,24 @@ params:
     subtitle:
     link_url: https://wiki.gnuradio.org/index.php/Tutorials
     link_text: Check out our tutorials
-  # Start of old theme settings
+  clients:
+    enable: true
+    # All clients are defined in their own files. You can find example items at 'exampleSite/data/clients'. For more information take a look at the README.
+    title: GNU Radio is Used By
+    subtitle: Email xyz to have your organization included
+  CarouselCustomers: # used for clients section
+    items: 10 # per page
+    auto_play: true
+    slide_speed: 1000 # doesnt seem to change anything
+    pagination_speed: 1000 # animation time
   navbarBgColorClass: navbar-dark bg-dark
   secondarynavbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio
   carouselHomepage:
     enable: true
     auto_play: true
-    slide_speed: 2000
-    pagination_speed: 1000
+    slide_speed: 1000 # doesnt seem to change anything
+    pagination_speed: 1000 # animation time
   defaults:
     imgurl: imgs/fosphor.jpg
     thumbnail: imgs/gr_web.svg
