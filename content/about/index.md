@@ -1,6 +1,5 @@
 ---
 title: "About GNU Radio"
-author: "asdasd"
 ---
 
 ## What is GNU Radio?

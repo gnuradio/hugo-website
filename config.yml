@@ -77,7 +77,7 @@ menu:
       weight: 10
     - identifier: about_org
       name: Leadership
-      url: /org/organization/
+      url: /leadership/
       parent: about
       weight: 20
 #        
