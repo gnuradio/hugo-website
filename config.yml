@@ -32,6 +32,13 @@ params:
   footer:
     recent_posts:
       enable: false
+  see_more:
+    enable: true
+    image: gr_web.svg
+    title: Want to learn how to use GNU Radio?
+    subtitle:
+    link_url: https://wiki.gnuradio.org/index.php/Tutorials
+    link_text: Check out our tutorials
   # Start of old theme settings
   navbarBgColorClass: navbar-dark bg-dark
   secondarynavbarBgColorClass: navbar-dark bg-dark
