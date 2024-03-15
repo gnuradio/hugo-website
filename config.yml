@@ -35,7 +35,7 @@ params:
   see_more:
     enable: true
     image: gr_web.svg
-    title: Want to learn how to use GNU Radio?
+    title: Learn how to use GNU Radio
     subtitle:
     link_url: https://wiki.gnuradio.org/index.php/Tutorials
     link_text: Check out our tutorials
