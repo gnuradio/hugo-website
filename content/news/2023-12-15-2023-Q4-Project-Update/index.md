@@ -5,7 +5,7 @@ date: "2023-12-15"
 sponsored: "0"
 aliases: ["news/2023-Q4-update"]
 categories: ["projectcall"]
-thumbnail: "gr_video"
+banner: gr_video_web.svg
 youtube: "https://www.youtube.com/watch?v=gyGcB-xODxQ"
 ---
 

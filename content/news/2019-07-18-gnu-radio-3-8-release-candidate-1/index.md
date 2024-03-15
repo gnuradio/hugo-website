@@ -5,7 +5,7 @@ date: "2019-07-18"
 sponsored: "0"
 aliases: ["news/3.8-release-candidate"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 
 Dear GNU Radio Community,

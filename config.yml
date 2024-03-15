@@ -1,36 +1,49 @@
 baseURL: 'https://www.gnuradio.org/'
 languageCode: en-us
 title: "GNU Radio"
-theme: gnuradio-bootstrap
+#theme: gnuradio-bootstrap
+theme: hugo-universal-theme
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
 copyright: 'GNU Radio project. All rights reserved.'
 disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
-summaryLength: 20
+summaryLength: 50 # for news summary
 taxonomies:
   tag: tags
   category: categories
 preserveTaxonomyNames: true
 params:
+  # Notes
+  #  assets should never have been used for images, they go in static, according to hugo docs- The assets directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See details.
+  #  looks like we already included aliasesa in the blog/news posts, just make sure they work, so old blogs urls arent broke
+  #
+  # Start of new theme settings
+  date_format: January 2, 2006
+  disabled_logo: false
+  logo_text: GNU Radio
+  logo: gnuradio_logo_glyphs_as_paths.svg
+  logo_small: gnuradio_logo_glyphs_as_paths.svg
+  recent_posts:
+    enable: true
+    title: Recent News
+    subtitle:
+  footer:
+    recent_posts:
+      enable: false
+  # Start of old theme settings
   navbarBgColorClass: navbar-dark bg-dark
   secondarynavbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio
-  carousel:
+  carouselHomepage:
     enable: true
+    auto_play: true
+    slide_speed: 2000
+    pagination_speed: 1000
   defaults:
     imgurl: imgs/fosphor.jpg
     thumbnail: imgs/gr_web.svg
-  thumbnails:
-    default: imgs/gr_web.svg
-    gsoc: imgs/gsoc.png
-    conference: imgs/conference_web.svg
-    gr_release: imgs/gr_release_web.svg
-    volk_release: imgs/volk_release_web.svg
-    pybombs_release: imgs/pybombs_release_web.svg
-    hamradio: imgs/hamradio.svg
-    gr_video: imgs/gr_video_web.svg
 outputs:
   home:
     - html
@@ -56,17 +69,8 @@ menu:
 #        
     - identifier: articles
       name: News
-      weight: 20
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 10
-      parent: articles
-    - identifier: news
-      name: News
+      weight: 2
       url: /news/
-      weight: 20
-      parent: articles
 #
     - identifier: docs
       name: Documentation

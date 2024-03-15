@@ -5,7 +5,7 @@ date: "2017-03-27"
 
 aliases: ["news/gnu-radio-release-3-7-11-and-3-7-10-2"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 
 # GNU Radio Releases 3.7.11 and 3.7.10.2

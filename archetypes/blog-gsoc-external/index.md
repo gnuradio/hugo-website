@@ -4,7 +4,7 @@ author: "FIXME"
 date: {{ .Date }}
 externalurl: "FIXME"
 sponsored: "0"
-thumbnail: "gsoc"
+banner: gsoc.png
 draft: true
 ---
 FIXME

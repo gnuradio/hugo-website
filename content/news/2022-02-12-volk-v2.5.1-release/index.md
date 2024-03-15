@@ -4,7 +4,7 @@ author: "Johannes Demel"
 date: "2022-02-12"
 categories: ["release"]
 aliases: ["news/volk-v2.5.1-release"]
-thumbnail: "volk_release"
+banner: volk_release_web.svg
 ---
 
 [Originally published on libvolk.org](https://www.libvolk.org/release-v251.html)

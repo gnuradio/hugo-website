@@ -4,7 +4,7 @@ author: "Johannes Demel"
 date: "2023-12-05"
 categories: ["release"]
 aliases: ["news/volk-v3.1.0-release"]
-thumbnail: "volk_release"
+banner: volk_release_web.svg
 ---
 
 [Originally published on libvolk.org](https://www.libvolk.org/release-v310.html)

@@ -5,7 +5,7 @@ date: "2017-03-14"
 
 aliases: ["news/gsoc2017"]
 categories: ["gsoc"]
-thumbnail: "gsoc"
+banner: gsoc.png
 ---
 
 # Google Summer of Code &#8217;17: GNU Radio is in!

@@ -4,7 +4,7 @@ author: "Martin Braun"
 date: "2016-03-08"
 categories: ["release"]
 aliases: ["news/pybombs-2-0-1-released"]
-thumbnail: "pybombs_release"
+banner: pybombs_release_web.svg
 ---
 
 # PyBOMBS 2.0.1 Released

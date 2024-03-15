@@ -5,7 +5,7 @@ date: "2021-10-09"
 sponsored: "0"
 aliases: ["news/3.8-release"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 # Release 3.8.4.0
 

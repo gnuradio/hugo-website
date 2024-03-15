@@ -4,7 +4,7 @@ author: "Barry Duggan"
 date: "2020-11-11"
 sponsored: "0"
 categories: ["HamRadio"]
-thumbnail: "hamradio"
+banner: hamradio.svg
 summary: "For those interested in using GNU Radio in amateur radio applications, we have created an On-line video meeting: …"
 ---
 For those interested in using GNU Radio in amateur radio applications, we have created an On-line video meeting:
