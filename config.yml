@@ -132,7 +132,7 @@ menu:
       weight: 20
       parent: community
     - identifier: gsoc
-      name: "GSoC '23"
+      name: "GSoC '24"
       url: /gsoc/
       weight: 90
       parent: community
