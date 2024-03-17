@@ -1,9 +1,9 @@
 +++
-title = "Google Summer of Code 2023"
+title = "Google Summer of Code 2024"
 aliases = ["gsoc"]
 +++
 
-[Google Summer of Code](https://summerofcode.withgoogle.com/) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 10 - 22 week programming project under the guidance of mentors. GNU Radio has participated in GSoC since 2012 with a high success rate. We are currently accepting applications!
+[Google Summer of Code](https://summerofcode.withgoogle.com/) is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12 - 22 week programming project under the guidance of mentors. GNU Radio has participated in GSoC since 2012 with a high success rate. **We are accepting applications from March 18!**
 
 ## Interested?
 
@@ -16,14 +16,14 @@ aliases = ["gsoc"]
 
 
 ##### 2. Get in touch with us
-- Introduce yourself on [the mailing list](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio). 
+- Introduce yourself on [the mailing list](https://lists.gnu.org/mailman/listinfo/discuss-gnuradio).
 - Read [the ideas list](https://wiki.gnuradio.org/index.php?title=GSoCIdeas) to get a feel for what kind of work you can do at GNU Radio.
 - Read [the contributor instructions](https://wiki.gnuradio.org/index.php?title=GSoCStudentInfo) and [the rules and expectations](https://wiki.gnuradio.org/index.php?title=GSoCManifest).
-- Use GNU Radio! 
+- Use GNU Radio!
 
-##### 3. Apply (Deadline April 4 - 18:00 UTC)
+##### 3. Apply (Deadline April 2 - 18:00 UTC)
 
-- Find out what you want to do. This could be something from the ideas list, but it doesn't have to be. Get creative! 
+- Find out what you want to do. This could be something from the ideas list, but it doesn't have to be. Get creative!
 - Send us an early draft of your project proposal. This is kind of a hack, because it enables us to give you feedback on your proposal before the deadline. You can use this feedback to make your proposal even better! Just make sure you have read [the contributor instructions](https://wiki.gnuradio.org/index.php?title=GSoCStudentInfo) before submitting your proposal.
 
 - - -
