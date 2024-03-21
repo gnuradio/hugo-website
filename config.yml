@@ -43,7 +43,7 @@ params:
     title: GNU Radio is Used By
     subtitle: Email xyz to have your organization included
   CarouselCustomers: # used for clients section
-    items: 10 # per page
+    items: 6 # per page
     auto_play: true
     slide_speed: 1000 # doesnt seem to change anything
     pagination_speed: 1000 # animation time
