@@ -1,9 +1,0 @@
-
-{{ $jquery := resources.Get "js/jquery-3.7.0.slim.js" | minify | fingerprint }}
-{{ $bootstrap := resources.Get "js/bootstrap.js" | minify | fingerprint }}
-{{ $popper := resources.Get "js/popper.js" | minify | fingerprint }}
-
-<script src="{{ $jquery.RelPermalink }}"></script>
-<script src="{{ $popper.RelPermalink }}"></script>
-<script src="{{ $bootstrap.RelPermalink }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML,local/local"></script>
