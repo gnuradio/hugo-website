@@ -127,7 +127,7 @@ menu:
       weight: 53
     - identifier: events_grcon
       name: Previous GNU Radio Conferences
-      url: /grcon/
+      url: https://wiki.gnuradio.org/index.php/GNURadioConference
       parent: events
       weight: 54
 #
