@@ -9,6 +9,10 @@ disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
 summaryLength: 20
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 taxonomies:
   tag: tags
   category: categories
