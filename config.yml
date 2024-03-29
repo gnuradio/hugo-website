@@ -117,12 +117,12 @@ menu:
       weight: 51
     - identifier: events_grcon_22
       name: GNU Radio Conference 2022
-      url: /grcon/grcon22/
+      url: https://events.gnuradio.org/event/18/
       parent: events
       weight: 52
     - identifier: events_grcon_21
       name: GNU Radio Conference 2021
-      url: /grcon/grcon21/
+      url: https://events.gnuradio.org/event/8/
       parent: events
       weight: 53
     - identifier: events_grcon
