@@ -130,11 +130,6 @@ menu:
       url: /grcon/
       parent: events
       weight: 54
-    - identifier: events_other
-      name: Other events
-      url: /events/
-      parent: events
-      weight: 55
 #
     - identifier: community
       name: Community
