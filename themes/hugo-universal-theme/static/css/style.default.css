@@ -3595,3 +3595,18 @@ a.list-group-item.active > .badge,
   font-size: 20px;
   text-align: center;
 }
+
+.used-by-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.used-by-img {
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+}

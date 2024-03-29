@@ -2,7 +2,7 @@
 {{ if .Site.Params.clients.enable }}
 {{ if isset .Site.Data "clients" }}
 {{ if gt (len .Site.Data.clients) 0 }}
-<section class="bar background-gray no-mb">
+<section class="bar background-white no-mb">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -10,28 +10,24 @@
                     <h2>{{ .Site.Params.clients.title | markdownify }}</h2>
                 </div>
 
-                <p class="lead" style="text-align: center;">
+                <p class="lead" style="text-align: center; margin-bottom: 5px;">
                   {{ .Site.Params.clients.subtitle | markdownify }}
                 </p>
 
-                <ul class="owl-carousel customers"
-                    data-items="{{ default 6 .Site.Params.CarouselCustomers.items }}"
-                    data-autoplay="{{ default false .Site.Params.CarouselCustomers.auto_play }}"
-                    data-slide-speed="{{ default 2000 .Site.Params.CarouselCustomers.slide_speed }}"
-                    data-pagination-speed="{{ default 1000 .Site.Params.CarouselCustomers.pagination_speed }}">
+                <div class="used-by-list">
                     {{ range .Site.Data.clients }}
-                    <li class="item" data-slide-index="{{ .index }}" title="{{ .name }}">
+                      <div>
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                            <img class="used-by-img" src="{{ .image }}" alt="{{ .name }}" />
                           </a>
                         {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          <img class="used-by-img" src="{{ .image }}" alt="{{ .name }}" />
                         {{ end }}
-                    </li>
+                      </div>
                     {{ end }}
-                </ul>
-                <!-- /.owl-carousel -->
+                </div>
+
             </div>
         </div>
     </div>
