@@ -20,18 +20,15 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="top">
+                            
                             <div class="image" style="overflow:hidden">
+                                <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary">
                                 {{ if isset .Params "banner" }}
                                 <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" >
                                 {{ else }}
                                 <img src="{{ "gr_web.svg" | relURL }}" class="img-responsive" alt="">
                                 {{ end }}
-                            </div>
-                            <div class="bg"></div>
-                            <div class="text">
-                                <p class="buttons">
-                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
-                                </p>
+                                </a>
                             </div>
                         </div>
 

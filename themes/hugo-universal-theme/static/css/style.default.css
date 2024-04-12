@@ -322,6 +322,7 @@ ul.list-style-none {
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
   font-weight: 700;
+  font-size: 18px;
 }
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px var(--primary-accent);
@@ -370,7 +371,7 @@ ul.list-style-none {
 .navbar ul.dropdown-menu li a {
   position: relative;
   color: #999999;
-  font-size: 12px;
+  font-size: 16px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1793,6 +1794,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/fosphor.png') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  opacity: 1.0;
 }
 .bar.color-white h1,
 .bar.color-white h2,
@@ -1802,6 +1804,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.color-white h6,
 .bar.color-white p {
   color: #fff;
+  text-shadow: 0 0 5px #000, 0 0 5px #000;
 }
 .bar.padding-big {
   padding: 50px 0;
@@ -2829,6 +2832,8 @@ fieldset[disabled] .btn-template-primary.active {
   position: relative;
   min-height: 62px;
   margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid transparent;
 }
 @media (min-width: 768px) {
