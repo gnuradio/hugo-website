@@ -5,7 +5,7 @@ jobs:
       only:
         - master
     docker:
-      - image: gnuradio/hugo:latest
+      - image: hugomods/hugo:exts-0.124.1
     steps:
       - run: 'eval $(ssh-agent -s)'
       - add_ssh_keys:
