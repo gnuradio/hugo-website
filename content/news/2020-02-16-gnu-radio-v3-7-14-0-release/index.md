@@ -5,7 +5,7 @@ date: "2020-02-16"
 sponsored: "0"
 aliases: ["news/3.7.14.0-release"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 Dearest most-enduring SDR community to ever roam the galaxy,
 

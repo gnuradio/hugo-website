@@ -5,7 +5,7 @@ date: "2019-08-10"
 sponsored: "0"
 aliases: ["news/3.8-release"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 # Release 3.8.0.0
 

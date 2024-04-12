@@ -5,7 +5,7 @@ date: "2022-04-10"
 sponsored: "0"
 aliases: ["news/3.10-release"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 # Release 3.10.2.0
 

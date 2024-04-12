@@ -1,0 +1,38 @@
+{{ if isset .Site.Params "clients" }}
+{{ if .Site.Params.clients.enable }}
+{{ if isset .Site.Data "clients" }}
+{{ if gt (len .Site.Data.clients) 0 }}
+<section class="bar background-white no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center" style="margin-bottom: 15px;">
+                    <h2>{{ .Site.Params.clients.title | markdownify }}</h2>
+                </div>
+
+                <p class="lead" style="text-align: center; margin-bottom: 15px;">
+                  {{ .Site.Params.clients.subtitle | markdownify }}
+                </p>
+
+                <div class="used-by-list">
+                    {{ range .Site.Data.clients }}
+                      <div>
+                        {{ if .url }}
+                          <a href="{{ .url }}" target="_blank">
+                            <img class="used-by-img" src="{{ .image }}" alt="{{ .name }}" />
+                          </a>
+                        {{ else }}
+                          <img class="used-by-img" src="{{ .image }}" alt="{{ .name }}" />
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}

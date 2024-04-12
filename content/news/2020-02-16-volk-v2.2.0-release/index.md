@@ -4,7 +4,7 @@ author: "Johannes Demel"
 date: "2020-02-16"
 categories: ["release"]
 aliases: ["news/volk-v2.2.0-release"]
-thumbnail: "volk_release"
+banner: volk_release_web.svg
 ---
 
 Hi everyone,

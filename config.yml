@@ -1,36 +1,63 @@
 baseURL: 'https://www.gnuradio.org/'
 languageCode: en-us
 title: "GNU Radio"
-theme: gnuradio-bootstrap
+#theme: gnuradio-bootstrap
+theme: hugo-universal-theme
 description: GNU Radio Project
 permalink: 'https://www.gnuradio.org/'
-copyright: 'GNU Radio project. All rights reserved.'
 disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
-summaryLength: 20
+summaryLength: 50 # for news summary
 taxonomies:
   tag: tags
   category: categories
 preserveTaxonomyNames: true
 params:
+  # Notes
+  #  assets should never have been used for images, they go in static, according to hugo docs- The assets directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See details.
+  #  looks like we already included aliasesa in the blog/news posts, just make sure they work, so old blogs urls arent broke
+  copyright: '©2024 Radio project. All rights reserved.'
+  date_format: January 2, 2006
+  disabled_logo: false
+  logo_text: GNU Radio
+  logo: gnuradio_logo_glyphs_as_paths.svg
+  logo_small: gnuradio_logo_glyphs_as_paths.svg
+  recent_posts:
+    enable: true
+    title: Recent News
+    subtitle:
+  footer:
+    recent_posts:
+      enable: false
+  see_more:
+    enable: true
+    image: gr_web.svg
+    title: Learn how to use GNU Radio
+    subtitle:
+    link_url: https://wiki.gnuradio.org/index.php/Tutorials
+    link_text: Check out our tutorials
+  clients:
+    enable: true
+    # All clients are defined in their own files. You can find example items at 'exampleSite/data/clients'. For more information take a look at the README.
+    title: GNU Radio is Used By
+    subtitle: Email marc@gnuradio.org to have your organization included
+  CarouselCustomers: # used for clients section
+    items: 6 # per page
+    auto_play: true
+    slide_speed: 1000 # doesnt seem to change anything
+    pagination_speed: 1000 # animation time
   navbarBgColorClass: navbar-dark bg-dark
   secondarynavbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio
-  carousel:
+  carouselHomepage:
     enable: true
+    auto_play: true
+    slide_speed: 1000 # doesnt seem to change anything
+    pagination_speed: 1000 # animation time
   defaults:
     imgurl: imgs/fosphor.jpg
     thumbnail: imgs/gr_web.svg
-  thumbnails:
-    default: imgs/gr_web.svg
-    gsoc: imgs/gsoc.png
-    conference: imgs/conference_web.svg
-    gr_release: imgs/gr_release_web.svg
-    volk_release: imgs/volk_release_web.svg
-    pybombs_release: imgs/pybombs_release_web.svg
-    hamradio: imgs/hamradio.svg
-    gr_video: imgs/gr_video_web.svg
 outputs:
   home:
     - html
@@ -50,23 +77,14 @@ menu:
       weight: 10
     - identifier: about_org
       name: Leadership
-      url: /org/organization/
+      url: /leadership/
       parent: about
       weight: 20
 #        
     - identifier: articles
       name: News
-      weight: 20
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 10
-      parent: articles
-    - identifier: news
-      name: News
+      weight: 2
       url: /news/
-      weight: 20
-      parent: articles
 #
     - identifier: docs
       name: Documentation
@@ -99,24 +117,19 @@ menu:
       weight: 51
     - identifier: events_grcon_22
       name: GNU Radio Conference 2022
-      url: /grcon/grcon22/
+      url: https://events.gnuradio.org/event/18/
       parent: events
       weight: 52
     - identifier: events_grcon_21
       name: GNU Radio Conference 2021
-      url: /grcon/grcon21/
+      url: https://events.gnuradio.org/event/8/
       parent: events
       weight: 53
     - identifier: events_grcon
       name: Previous GNU Radio Conferences
-      url: /grcon/
+      url: https://wiki.gnuradio.org/index.php/GNURadioConference
       parent: events
       weight: 54
-    - identifier: events_other
-      name: Other events
-      url: /events/
-      parent: events
-      weight: 55
 #
     - identifier: community
       name: Community

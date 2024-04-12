@@ -4,7 +4,7 @@ author: "GRCon24 Organizers"
 date: "2023-12-16"
 categories: ["grcon"]
 aliases: ["news/grcon24-location-announcement"]
-thumbnail: "conference"
+banner: conference_web.svg
 ---
 
 We are excited to announce that GNU Radio Conference 2024 (GRCon24) will be run as an in-person event September 16<sup>*</sup>-20 at the Knoxville Convention Center in downtown Knoxville, TN.

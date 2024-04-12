@@ -5,7 +5,7 @@ date: "2023-10-20"
 sponsored: "0"
 aliases: ["news/3.10.8.0-release"]
 categories: ["release"]
-thumbnail: "gr_release"
+banner: gr_release_web.svg
 ---
 # Release 3.10.8.0
 

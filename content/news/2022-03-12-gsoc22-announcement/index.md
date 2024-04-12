@@ -5,7 +5,7 @@ date: "2022-03-12"
 sponsored: "0"
 categories: ["gsoc", "contribute"]
 aliases: ["news/gsoc-2022"]
-thumbnail: "gsoc"
+banner: gsoc.png
 ---
 
 Hooray! GNU Radio has once again been accepted as a mentoring organization for
