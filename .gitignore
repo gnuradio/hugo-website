@@ -4,3 +4,4 @@ resources/
 .#*
 *.swp
 old-site/
+.hugo_build.lock
