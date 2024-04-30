@@ -5,8 +5,8 @@ type: grcon/grcon19
 section: grcon/grcon19
 layout: homepage
 aliases:
-  - grcon-2019
-  - grcon19
+  - /grcon-2019
+  - /grcon19
 ---
 
 ## 9th Annual GRCon

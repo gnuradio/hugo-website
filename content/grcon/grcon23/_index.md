@@ -6,8 +6,8 @@ section: grcon/grcon23
 layout: homepage
 externalurl: https://events.gnuradio.org/e/grcon23
 aliases:
-  - grcon-2023
-  - grcon23
+  - /grcon-2023
+  - /grcon23
 ---
 
 GNU Radio Conference 23 Homepage moved to https://events.gnuradio.org/event/21/

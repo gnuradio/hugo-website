@@ -5,8 +5,8 @@ type: grcon/grcon20
 section: grcon/grcon20
 layout: homepage
 aliases:
-  - grcon-2020
-  - grcon20
+  - /grcon-2020
+  - /grcon20
 ---
 
 ## 10th Annual GNU Radio Conference

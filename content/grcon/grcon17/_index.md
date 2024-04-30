@@ -4,8 +4,8 @@ type: grcon/grcon17
 section: grcon/grcon17
 layout: homepage
 aliases:
-  - grcon-2017
-  - grcon17
+  - /grcon-2017
+  - /grcon17
 ---
 ## 7th Annual GRCon
 
