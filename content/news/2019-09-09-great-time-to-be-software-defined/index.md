@@ -3,7 +3,7 @@ title: "It’s a Great Time to Be Software Defined"
 author: "Haydn Nelson"
 date: "2019-09-09"
 sponsored: "1"
-aliases: ["blog/great-time-to-be-software-defined"]
+aliases: ["/blog/great-time-to-be-software-defined", "/news/great-time-to-be-software-defined"]
 ---
 
 It’s that time of the year when the open-source, software defined radio (SDR) community gathers for the annual GNU Radio Conference, or GRCon, for short. The ninth installment of this premier industry event is taking place September 16–20 in Huntsville, Alabama, at the Huntsville Marriot at the Space & Rocket Center, and NI is proud to serve as diamond sponsor along with its brand, Ettus Research. 

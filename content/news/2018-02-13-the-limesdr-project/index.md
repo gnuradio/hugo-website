@@ -3,7 +3,7 @@ title: "The Limesdr Project"
 author: "limemicro"
 date: "2018-02-13"
 sponsored: "0"
-aliases: ["blog/the-limesdr-project"]
+aliases: ["/blog/the-limesdr-project", "/news/the-limesdr-project"]
 ---
 
 # The LimeSDR Project

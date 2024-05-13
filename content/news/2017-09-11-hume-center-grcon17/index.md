@@ -3,7 +3,7 @@ title: "Hume Center at Grcon17"
 author: "Ben Hilburn"
 date: "2017-09-11"
 sponsored: "1"
-aliases: ["blog/hume-center-grcon17"]
+aliases: ["/blog/hume-center-grcon17", "/news/hume-center-grcon17"]
 ---
 The Hume Center is pleased to be sponsoring the 2017 GNU Radio Conference in San Diego this month. As the Hume Center is a highly active research and engineering organization in the radio signal processing space, we are heavy users of GNU Radio. We are pleased that we can support the GNU Radio community by sponsoring this event, contributing a number of talks and publications in the technical proceedings this year, open sourcing additional works on the [gr-vt Github page](https://github.com/gr-vt), and helping to organize the 2017 conference and technical proceedings. Talks given by Virginia Tech and the Hume Center and by alumni and Virginia Tech industry startups at the conference this year will focus on a wide range of exciting work in applying GNU Radio and signal processing methods to numerous applications.
 

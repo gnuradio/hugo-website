@@ -3,7 +3,7 @@ title: "Announcing Technical Proceedings for GRCon"
 author: "Ben Hilburn"
 date: "2016-05-03"
 sponsored: "0"
-aliases: ["blog/announcing-technical-proceedings-for-grcon"]
+aliases: ["/blog/announcing-technical-proceedings-for-grcon", "/news/announcing-technical-proceedings-for-grcon"]
 ---
 
 # Announcing Technical Proceedings for GRCon

@@ -3,7 +3,7 @@ title: "GNU Radio - SDR framework for the future"
 author: "Josh Morman"
 date: "2020-07-09"
 sponsored: "0"
-aliases: ["blog/darpa-workshops"]
+aliases: ["/blog/darpa-workshops", "/news/darpa-workshops"]
 ---
 
 

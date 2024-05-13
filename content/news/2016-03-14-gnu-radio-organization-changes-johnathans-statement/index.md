@@ -3,7 +3,7 @@ title: "GNU Radio Organization Changes Johnathans Statement"
 author: "GNU Radio"
 date: "2016-03-14"
 sponsored: "0"
-aliases: ["blog/gnu-radio-organization-changes-johnathans-statement"]
+aliases: ["/blog/gnu-radio-organization-changes-johnathans-statement", "/news/gnu-radio-organization-changes-johnathans-statement"]
 ---
 
 # GNU Radio Organization Changes: Johnathan&#8217;s Statement

@@ -3,7 +3,7 @@ title: "Goodbye Slack: GNU Radio is moving into the Matrix"
 author: "Martin Braun"
 date: "2020-04-27"
 sponsored: "0"
-aliases: ["blog/moving-to-the-matrix"]
+aliases: ["/blog/moving-to-the-matrix", "/news/moving-to-the-matrix"]
 ---
 
 With the growth of a project there come changes. For GNU Radio, a big change is

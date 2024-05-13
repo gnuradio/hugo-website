@@ -3,7 +3,7 @@ title: "Tracking Rockets Gnss SDR"
 author: "Philip Hahn"
 date: "2017-03-21"
 sponsored: "0"
-aliases: ["blog/tracking-rockets-gnss-sdr"]
+aliases: ["/blog/tracking-rockets-gnss-sdr", "/news/tracking-rockets-gnss-sdr"]
 ---
 
 # Tracking Rockets with GNSS-SDR

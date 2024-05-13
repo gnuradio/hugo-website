@@ -3,7 +3,7 @@ title: "GNU Radio Conference 2017 Proceedings Live"
 author: "Tim O'Shea"
 date: "2017-09-11"
 sponsored: "0"
-aliases: ["blog/gnu-radio-conference-2017-proceedings-live"]
+aliases: ["/blog/gnu-radio-conference-2017-proceedings-live", "/news/gnu-radio-conference-2017-proceedings-live"]
 ---
 
 # GNU Radio Conference 2017 Proceedings Live

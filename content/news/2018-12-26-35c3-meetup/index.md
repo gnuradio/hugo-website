@@ -3,7 +3,7 @@ title: "GNU Radio Developers & Users Meetup at 35c3"
 author: "Marcus Müller"
 date: "2018-12-26"
 sponsored: "0"
-aliases: ["blog/devs_and_users_meetup_at_35c3"]
+aliases: ["/blog/devs_and_users_meetup_at_35c3", "/news/devs_and_users_meetup_at_35c3"]
 ---
 # GNU Radio Users and Developers Meetup at 35c3
 

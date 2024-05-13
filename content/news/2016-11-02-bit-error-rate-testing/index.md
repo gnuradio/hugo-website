@@ -3,7 +3,7 @@ title: "Bit Error Rate Testing"
 author: "Tim O'Shea"
 date: "2016-11-02"
 sponsored: "0"
-aliases: ["blog/bit-error-rate-testing"]
+aliases: ["/blog/bit-error-rate-testing", "/news/bit-error-rate-testing"]
 ---
 
 # Bit Error Rate Testing

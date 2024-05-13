@@ -3,7 +3,7 @@ title: "GRCon 2016 Wireless Hacking Challenge"
 author: "Balint Seeber"
 date: "2016-09-01"
 sponsored: "0"
-aliases: ["blog/grcon-2016-wireless-hacking-challenge"]
+aliases: ["/blog/grcon-2016-wireless-hacking-challenge", "/news/grcon-2016-wireless-hacking-challenge"]
 banner: conference_web.svg
 ---
 

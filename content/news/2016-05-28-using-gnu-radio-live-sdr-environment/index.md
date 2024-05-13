@@ -3,7 +3,7 @@ title: "Using the GNU Radio Live SDR Environment"
 author: "Johnathan Corgan"
 date: "2016-05-28"
 sponsored: "0"
-aliases: ["blog/using-gnu-radio-live-sdr-environment"]
+aliases: ["/blog/using-gnu-radio-live-sdr-environment", "/news/using-gnu-radio-live-sdr-environment"]
 ---
 
 # Using the GNU Radio Live SDR Environment

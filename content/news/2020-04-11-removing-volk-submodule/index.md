@@ -3,7 +3,7 @@ title: "The Path to 3.9: Removing the VOLK submodule"
 author: "Martin Braun"
 date: "2020-04-11"
 sponsored: "0"
-aliases: ["blog/removing-volk-submodule"]
+aliases: ["/blog/removing-volk-submodule", "/news/removing-volk-submodule"]
 ---
 
 As we continue to work on the next major release of GNU Radio (version 3.9), we
