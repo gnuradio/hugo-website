@@ -3,7 +3,7 @@ title: "Further Evolving GNU Radio 4.0"
 author: "Josh Morman"
 date: "2022-12-03"
 categories: ["gr4"]
-aliases: ["news/gr4-modernization"]
+aliases: ["/news/gr4-modernization"]
 ---
 
 tl;dr - There is a [proposal](20221122_GNU_Radio_low_level_API_refactoring-2.pdf) on the table to further modernize the 4.0 codebase which can potentially bring some big performance benefits but may also carry some significant changes to the underlying implementation

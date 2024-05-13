@@ -3,7 +3,7 @@ title: "VOLK v2.3.0 release"
 author: "Johannes Demel"
 date: "2020-05-09"
 categories: ["release"]
-aliases: ["news/volk-v2.3.0-release"]
+aliases: ["/news/volk-v2.3.0-release"]
 banner: volk_release_web.svg
 ---
 [Originally published on libvolk.org](https://www.libvolk.org/category/news.html)

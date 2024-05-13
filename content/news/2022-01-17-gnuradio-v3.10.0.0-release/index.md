@@ -3,7 +3,7 @@ title: "GNU Radio 3.10.0.0"
 author: "Josh Morman"
 date: "2022-01-17"
 sponsored: "0"
-aliases: ["news/3.10-release"]
+aliases: ["/news/3.10-release"]
 categories: ["release"]
 banner: gr_release_web.svg
 ---

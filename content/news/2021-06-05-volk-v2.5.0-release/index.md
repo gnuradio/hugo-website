@@ -3,7 +3,7 @@ title: "VOLK v2.5.0 release"
 author: "Johannes Demel"
 date: "2021-06-05"
 categories: ["release"]
-aliases: ["news/volk-v2.5.0-release"]
+aliases: ["/news/volk-v2.5.0-release"]
 banner: volk_release_web.svg
 ---
 

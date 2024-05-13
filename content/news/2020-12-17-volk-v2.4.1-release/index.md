@@ -3,7 +3,7 @@ title: "VOLK v2.4.1 release"
 author: "Johannes Demel"
 date: "2020-12-17"
 categories: ["release"]
-aliases: ["news/volk-v2.4.1-release"]
+aliases: ["/news/volk-v2.4.1-release"]
 banner: volk_release_web.svg
 ---
 

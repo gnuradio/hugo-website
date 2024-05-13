@@ -2,7 +2,7 @@
 title: "GSoC 2018: GNU Radio is in!"
 author: "Felix Wunsch"
 date: "2018-03-05"
-aliases: ["news/gsoc-2018"]
+aliases: ["/news/gsoc-2018"]
 categories: ["gsoc"]
 banner: gsoc.png
 ---

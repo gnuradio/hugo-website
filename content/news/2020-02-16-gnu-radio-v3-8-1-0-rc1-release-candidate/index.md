@@ -3,7 +3,7 @@ title: "Release Candidate GNU Radio 3.8.1.0-rc1"
 author: "Marcus Müller"
 date: "2020-02-16"
 sponsored: "0"
-aliases: ["news/3.8.1.0-rc1"]
+aliases: ["/news/3.8.1.0-rc1"]
 categories: ["release"]
 banner: gr_release_web.svg
 ---

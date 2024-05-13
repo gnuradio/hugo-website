@@ -4,7 +4,7 @@ author: "Marcus Müller"
 date: "2022-03-12"
 sponsored: "0"
 categories: ["gsoc", "contribute"]
-aliases: ["news/gsoc-2022"]
+aliases: ["/news/gsoc-2022"]
 banner: gsoc.png
 ---
 

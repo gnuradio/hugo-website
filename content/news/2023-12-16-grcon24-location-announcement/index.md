@@ -3,7 +3,7 @@ title: "GRCon 2024 - Knoxville, TN, Sept 16-20"
 author: "GRCon24 Organizers"
 date: "2023-12-16"
 categories: ["grcon"]
-aliases: ["news/grcon24-location-announcement"]
+aliases: ["/news/grcon24-location-announcement"]
 banner: conference_web.svg
 ---
 

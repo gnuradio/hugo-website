@@ -3,7 +3,7 @@ title: "GNU Radio 3.8.0.0-rc1 Release candidate"
 author: "Marcus Müller"
 date: "2019-07-18"
 sponsored: "0"
-aliases: ["news/3.8-release-candidate"]
+aliases: ["/news/3.8-release-candidate"]
 categories: ["release"]
 banner: gr_release_web.svg
 ---

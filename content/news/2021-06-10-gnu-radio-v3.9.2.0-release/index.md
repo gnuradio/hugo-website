@@ -3,7 +3,7 @@ title: "GNU Radio 3.9.2.0"
 author: "Jeff Long"
 date: "2021-06-10"
 sponsored: "0"
-aliases: ["news/3.9-release"]
+aliases: ["/news/3.9-release"]
 categories: ["release"]
 banner: gr_release_web.svg
 ---
