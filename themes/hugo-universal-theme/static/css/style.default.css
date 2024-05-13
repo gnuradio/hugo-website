@@ -2974,6 +2974,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .navbar-nav {
   margin: 10.5px -15px;
+  padding-top: 10px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -3002,8 +3003,8 @@ fieldset[disabled] .btn-template-primary.active {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
@@ -3182,7 +3183,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
 }
