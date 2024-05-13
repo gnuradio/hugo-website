@@ -3,7 +3,7 @@ title: "Elemental Building Blocks: Filtering time-series data"
 author: "Marcus Müller"
 date: "2016-05-24"
 sponsored: "0"
-aliases: ["blog/filtering-time-series-data__elemental-building-blocks"]
+aliases: ["/blog/filtering-time-series-data__elemental-building-blocks", "/news/filtering-time-series-data__elemental-building-blocks"]
 ---
 
 # Elemental Building Blocks: Filtering time-series data

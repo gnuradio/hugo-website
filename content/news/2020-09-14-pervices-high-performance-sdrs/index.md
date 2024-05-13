@@ -3,7 +3,7 @@ title: "The Power & Evolution of High Performance SDRs"
 author: "Per Vices"
 date: "2020-09-14"
 sponsored: "1"
-aliases: ["blog/pervices-high-performance-sdrs"]
+aliases: ["/blog/pervices-high-performance-sdrs", "/news/pervices-high-performance-sdrs"]
 ---
 
 The Power & Evolution of High Performance SDRs

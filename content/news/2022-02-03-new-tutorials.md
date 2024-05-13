@@ -3,7 +3,7 @@ title: "New Set of Beginner Level Tutorials"
 author: "Marc Lichtman"
 date: "2022-02-03"
 sponsored: "0"
-aliases: ["blog/new-tutorials"]
+aliases: ["/blog/new-tutorials", "/news/new-tutorials"]
 ---
 
 We are pleased to announce a new set of beginner-level tutorials, as well as a new tutorials landing page, [you can check them out here](https://wiki.gnuradio.org/index.php?title=Tutorials)

@@ -3,7 +3,7 @@ title: "What a Difference 10 Years Makes"
 author: "NI"
 date: "2020-09-14"
 sponsored: "1"
-aliases: ["blog/ni-what-a-difference"]
+aliases: ["/blog/ni-what-a-difference", "/news/ni-what-a-difference"]
 ---
 
 ## 10 Years of GNU Radio Conference

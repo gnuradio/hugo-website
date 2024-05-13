@@ -3,7 +3,7 @@ title: "Summer of Code 2016: Wrapping it up"
 author: "Martin Braun"
 date: "2016-08-30"
 sponsored: "0"
-aliases: ["blog/summer-of-code-2016-wrapping-it-up"]
+aliases: ["/blog/summer-of-code-2016-wrapping-it-up", "/news/summer-of-code-2016-wrapping-it-up"]
 ---
 
 # Summer of Code 2016: Wrapping it up

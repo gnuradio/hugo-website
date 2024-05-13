@@ -3,7 +3,7 @@ title: "PMTs are dead...Long live PMTs"
 author: "John Sallay"
 date: "2023-01-28"
 categories: ["pmt", "gr4"]
-aliases: ["blog/gr4-modernization"]
+aliases: ["/blog/gr4-modernization", "/news/gr4-modernization"]
 ---
 
 A few years back I was working on a pair of gnuradio blocks.  The first one would produce a

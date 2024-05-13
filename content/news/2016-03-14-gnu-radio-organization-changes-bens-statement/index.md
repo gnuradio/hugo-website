@@ -3,7 +3,7 @@ title: "GNU Radio Organization Changes Bens Statement"
 author: "GNU Radio"
 date: "2016-03-14"
 sponsored: "0"
-aliases: ["blog/gnu-radio-organization-changes-bens-statement"]
+aliases: ["/blog/gnu-radio-organization-changes-bens-statement", "/news/gnu-radio-organization-changes-bens-statement"]
 ---
 
 # GNU Radio Organization Changes: Ben&#8217;s Statement

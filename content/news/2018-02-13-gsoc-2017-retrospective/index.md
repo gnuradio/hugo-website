@@ -3,7 +3,7 @@ title: "GSoC 2017 Retrospective"
 author: "Martin Braun"
 date: "2018-02-13"
 sponsored: "0"
-aliases: ["blog/gsoc-2017-retrospective"]
+aliases: ["/blog/gsoc-2017-retrospective", "/news/gsoc-2017-retrospective"]
 banner: gsoc.png
 ---
 

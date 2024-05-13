@@ -3,7 +3,7 @@ title: "Behind the Veil: A Peek at GNU Radio’s Buffer Architecture"
 author: "Marcus Müller"
 date: "2017-01-05"
 sponsored: "0"
-aliases: ["blog/buffers"]
+aliases: ["/blog/buffers", "/news/buffers"]
 ---
 GNU Radio's job is making it easy to write awesome signal processing applications – and offering a block-based approach to accomplish that. Which, of course, means that there needs to be a high-throughput, low-overhead interface between blocks to exchange data:
 

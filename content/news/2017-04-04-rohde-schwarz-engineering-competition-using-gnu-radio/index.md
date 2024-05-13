@@ -3,7 +3,7 @@ title: "Rohde Schwarz Engineering Competition Using GNU Radio"
 author: "Ben Hilburn"
 date: "2017-04-04"
 sponsored: "0"
-aliases: ["blog/rohde-schwarz-engineering-competition-using-gnu-radio"]
+aliases: ["/blog/rohde-schwarz-engineering-competition-using-gnu-radio", "/news/rohde-schwarz-engineering-competition-using-gnu-radio"]
 ---
 
 ## Rohde &#038; Schwarz Engineering Competition using GNU Radio

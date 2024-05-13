@@ -3,7 +3,7 @@ title: "GNU Radio Challenge 21 Feb 2018"
 author: "Ben Hilburn"
 date: "2018-02-21"
 sponsored: "0"
-aliases: ["blog/gnu-radio-challenge-21-feb-2018"]
+aliases: ["/blog/gnu-radio-challenge-21-feb-2018", "/news/gnu-radio-challenge-21-feb-2018"]
 ---
 At 1222 EST on 21 Feb 2018, we posted a new signals challenge! There are *three* different challenges hidden in this signal capture, and the solution to each is a text message. One is on the easier side, and the two others are more advanced. If you believe you have found a solution, DM the answer to [@gnuradio on Twitter](https://twitter.com/gnuradio) or e-mail [bhilburn@gnuradio.org](mailto:bhilburn@gnuradio.org)
 

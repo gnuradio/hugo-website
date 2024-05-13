@@ -3,7 +3,7 @@ title: "FreeSRP – A New USB Software-Defined Radio"
 author: "Lukas Lao Beyer"
 date: "2016-09-30"
 sponsored: "0"
-aliases: ["blog/freesrp-new-usb-software-defined-radio"]
+aliases: ["/blog/freesrp-new-usb-software-defined-radio", "/news/freesrp-new-usb-software-defined-radio"]
 ---
 
 # FreeSRP – A New USB Software-Defined Radio

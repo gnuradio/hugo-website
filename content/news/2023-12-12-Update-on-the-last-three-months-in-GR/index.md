@@ -2,7 +2,7 @@
 title: "Update on the Last Three Months in GNU Radio"
 author: "Marcus Müller"
 date: "2023-12-12"
-aliases: ["blog/update-on-2023-September-to-December"]
+aliases: ["/blog/update-on-2023-September-to-December", "/news/update-on-2023-September-to-December"]
 ---
 
 We tried to establish a bit of a newsletter. Here's what I've written down about what I think a wider audience would want to know *after* GRCon'23

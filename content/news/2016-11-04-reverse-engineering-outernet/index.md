@@ -3,7 +3,7 @@ title: "Reverse Engineering Outernet"
 author: "Daniel Estévez"
 date: "2016-11-04"
 sponsored: "0"
-aliases: ["blog/reverse-engineering-outernet"]
+aliases: ["/blog/reverse-engineering-outernet", "/news/reverse-engineering-outernet"]
 ---
 
 # Reverse-Engineering Outernet

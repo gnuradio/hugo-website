@@ -3,7 +3,7 @@ title: "GNU Radio Conference 2021 - Call for Participation"
 author: "GRCon21 Committee"
 date: "2021-01-11"
 sponsored: "0"
-aliases: ["blog/grcon2021-cfp"]
+aliases: ["/blog/grcon2021-cfp", "/news/grcon2021-cfp"]
 ---
 
 We are gearing up for GNU Radio Conference 2021, which will be held September 20-24, 2021.

@@ -3,7 +3,7 @@ title: "Fosdem 18 Meeting New Old Friends"
 author: "Martin Braun"
 date: "2018-02-13"
 sponsored: "0"
-aliases: ["blog/fosdem-18-meeting-new-old-friends"]
+aliases: ["/blog/fosdem-18-meeting-new-old-friends", "/news/fosdem-18-meeting-new-old-friends"]
 ---
 
 # FOSDEM &#8217;18: Meeting new and old friends

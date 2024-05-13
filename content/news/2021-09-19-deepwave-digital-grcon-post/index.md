@@ -3,7 +3,7 @@ title: "Deepwave Digital at GRCon21"
 author: "Deepwave Digital"
 date: "2021-09-19"
 sponsored: "1"
-aliases: ["blog/deepwave-digital-grcon21"]
+aliases: ["/blog/deepwave-digital-grcon21", "/news/deepwave-digital-grcon21"]
 ---
 
 Deepwave Digital is pleased to be a first-time sponsor of the GNU Radio Conference. As software radio technology evolves into new applications and capabilities, Deepwave Digital brings the parallel processing power of Graphical Processing Units (GPUs) our own Artificial Intelligence Radio Transceiver (AIR-T), and a small form factor integrated Software Defined Radio (SDR). We've all been witness to the astonishing speed at which the fields of machine learning and artificial intelligence have developed.  

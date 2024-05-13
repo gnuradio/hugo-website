@@ -3,7 +3,7 @@ title: "PyBOMBS ? The What, the How and the Why"
 author: "Martin Braun"
 date: "2016-06-19"
 sponsored: "0"
-aliases: ["blog/pybombs-the-what-the-how-and-the-why"]
+aliases: ["/blog/pybombs-the-what-the-how-and-the-why", "/news/pybombs-the-what-the-how-and-the-why"]
 ---
 
 # PyBOMBS ? The What, the How and the Why

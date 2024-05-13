@@ -4,7 +4,7 @@ author: "Swapnil Negi"
 date: "2018-07-21"
 externalurl: "https://grmodtool.wordpress.com/2018/07/21/week-10-mock-gui/"
 sponsored: "0"
-aliases: ["blog/gsoc-2018-gr-modtool-week-10---mock-gui"]
+aliases: ["/blog/gsoc-2018-gr-modtool-week-10---mock-gui", "/news/gsoc-2018-gr-modtool-week-10---mock-gui"]
 banner: gsoc.png
 tags: ["gsoc"]
 ---

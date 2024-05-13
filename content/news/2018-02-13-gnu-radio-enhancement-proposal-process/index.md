@@ -3,7 +3,7 @@ title: "GNU Radio Enhancement Proposal Process"
 author: "Martin Braun"
 date: "2018-02-13"
 sponsored: "0"
-aliases: ["blog/gnu-radio-enhancement-proposal-process"]
+aliases: ["/blog/gnu-radio-enhancement-proposal-process", "/news/gnu-radio-enhancement-proposal-process"]
 ---
 
 # The GNU Radio Enhancement Proposal Process
