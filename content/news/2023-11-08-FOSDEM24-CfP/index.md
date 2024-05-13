@@ -4,7 +4,7 @@ author: "Marcus Müller"
 date: "2023-11-08"
 sponsored: "0"
 categories: ["conference", "meetup"]
-aliases: ["news/fosdem-2024"]
+aliases: ["/news/fosdem-2024"]
 ---
 
 # Software Defined Radio & Amateur Radio Devroom at FOSDEM &#8217;24 (3. & 4. February 2024)

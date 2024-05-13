@@ -3,7 +3,7 @@ title: "2024 European GNU Radio Days, August 27 to 31"
 author: "EU GR Days Organizers"
 date: "2024-04-26"
 categories: ["conferences"]
-aliases: ["news/eugrdays24-announcement"]
+aliases: ["/news/eugrdays24-announcement"]
 banner: conference_web.svg
 ---
 ### Announcing the 2024 European GNU Radio Days at FAIR, Darmstadt, Germany

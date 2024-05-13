@@ -3,7 +3,7 @@ title: "GRCon 2022 - Washington DC, Sept 26-30"
 author: "GRCon22 Organizers"
 date: "2022-02-14"
 categories: ["grcon"]
-aliases: ["news/grcon22-location-announcement"]
+aliases: ["/news/grcon22-location-announcement"]
 ---
 
 We are excited to announce that we are planning for GRCon 2022 to be run as an in-person event September 26-30 at the [Capital Hilton](https://book.passkey.com/go/GNU2022) in Washington DC.  If you know you will be planning to come, you are encouraged to go ahead and book your room here:

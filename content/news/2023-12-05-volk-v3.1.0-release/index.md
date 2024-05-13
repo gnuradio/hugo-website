@@ -3,7 +3,7 @@ title: "VOLK v3.1.0 release"
 author: "Johannes Demel"
 date: "2023-12-05"
 categories: ["release"]
-aliases: ["news/volk-v3.1.0-release"]
+aliases: ["/news/volk-v3.1.0-release"]
 banner: volk_release_web.svg
 ---
 

@@ -4,7 +4,7 @@ author: "GRCon23 Organizers"
 date: "2023-04-15"
 categories: ["grcon"]
 banner: conference_web.svg
-aliases: ["news/grcon23-registration", "news/where-to-buy-grcon23-tickets"]
+aliases: ["/news/grcon23-registration", "news/where-to-buy-grcon23-tickets"]
 ---
 <h4 class="row">Dear GNU Radio community,</h4>
 

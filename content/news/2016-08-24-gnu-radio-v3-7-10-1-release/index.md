@@ -3,7 +3,7 @@ title: "GNU Radio v3.7.10.1 Release"
 author: "Nathan West"
 date: "2016-08-24"
 categories: ["gsoc"]
-aliases: ["news/gnu-radio-v3-7-10-1-release"]
+aliases: ["/news/gnu-radio-v3-7-10-1-release"]
 ---
 
 # GNU Radio v3.7.10.1 Release

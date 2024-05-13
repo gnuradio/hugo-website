@@ -3,7 +3,7 @@ title: "GNU Radio Project Update 2023 Q4"
 author: "Josh Morman"
 date: "2023-12-15"
 sponsored: "0"
-aliases: ["news/2023-Q4-update"]
+aliases: ["/news/2023-Q4-update"]
 categories: ["projectcall"]
 banner: gr_video_web.svg
 youtube: "https://www.youtube.com/watch?v=gyGcB-xODxQ"

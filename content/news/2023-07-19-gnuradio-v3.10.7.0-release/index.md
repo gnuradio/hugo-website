@@ -3,7 +3,7 @@ title: "GNU Radio 3.10.7.0"
 author: "Marcus Müller"
 date: "2023-07-19"
 sponsored: "0"
-aliases: ["news/3.10.7.0-release"]
+aliases: ["/news/3.10.7.0-release"]
 categories: ["release"]
 banner: gr_release_web.svg
 ---

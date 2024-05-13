@@ -3,7 +3,7 @@ title: "Google Summer of Code ’17: GNU Radio is in!"
 author: "Marcus Müller"
 date: "2017-03-14"
 
-aliases: ["news/gsoc2017"]
+aliases: ["/news/gsoc2017"]
 categories: ["gsoc"]
 banner: gsoc.png
 ---

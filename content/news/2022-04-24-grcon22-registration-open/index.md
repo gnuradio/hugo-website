@@ -4,7 +4,7 @@ author: "GRCon22 Organizers"
 date: "2022-04-24"
 categories: ["grcon"]
 banner: conference_web.svg
-aliases: ["news/grcon22-registration", "news/where-to-buy-grcon22-tickets"]
+aliases: ["/news/grcon22-registration", "news/where-to-buy-grcon22-tickets"]
 ---
 <h4 class="row">Dear GNU Radio community,</h4>
 
