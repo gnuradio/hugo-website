@@ -152,7 +152,7 @@ menu:
 #
     - identifier: donate
       name: Donate
-      url: https://donorbox.org/gnuradio
+      url: https://gift.idonate.com/seti/GNURadio
       weight: 100
   grcon/grcon17:
     - identifier: grcon17
