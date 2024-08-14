@@ -92,7 +92,7 @@ GNU Radio's financial organisation happens through the [SETI
 Institute](https://www.seti.org), which in the US is a 501(c)(3) charity (that
 means your donations might be tax deductible). If you want to:
 
-## [Donate](https://donorbox.org/gnuradio)
+## [Donate](https://gift.idonate.com/seti/GNURadio)
 
 Donations help pay infrastructure bills, give us financial stability allowing us
 to plan GRCon more robustly, and pay for the small things such as stickers.
