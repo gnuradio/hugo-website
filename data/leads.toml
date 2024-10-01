@@ -1,12 +1,7 @@
 [[officers]]
     title = "<President>"
     name = "Josh Morman"
-    twitter = "@_mormj"
-[[officers]]
-    title = "<Vice President>"
-    name = "Martin Braun"
-    email = "mbraun@gnuradio.org"
-    twitter = "@braun_noise"        
+    twitter = "@_mormj"   
 [[officers]]
     title = "<Vice President>"
     name = "Marc Lichtman"
@@ -14,6 +9,11 @@
 [[officers]]
     title = "<SETI PI>"
     name = "Derek Kozel"
+[[officers]]
+    title = ""
+    name = "Martin Braun"
+    email = "mbraun@gnuradio.org"
+    twitter = "@braun_noise"     
 [[officers]]
     title = ""
     name = "Andrej Rode"
@@ -56,6 +56,9 @@
 [[officers]]
     title = ""
     name = "John Sallay"
+[[officers]]
+    title = ""
+    name = "Seth Hitefield"
 
 [[tech]]
     title = "GNU Radio Maintainer (3.X)"
