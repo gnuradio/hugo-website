@@ -2,10 +2,16 @@
     title = "<President>"
     name = "Josh Morman"
     twitter = "@_mormj"   
+    email = "jmorman@gnuradio.org"
 [[officers]]
     title = "<Vice President>"
     name = "Marc Lichtman"
     website = "https://www.pysdr.org"
+[[officers]]
+    title = "<VP/Architect>"
+    name = "Marcus Müller"
+    email = "mmueller@gnuradio.org"
+    twitter = "@dEnergy_dTime"    
 [[officers]]
     title = "<SETI PI>"
     name = "Derek Kozel"
@@ -30,11 +36,7 @@
 [[officers]]
     title = "<Maintainer>"
     name = "Jeff Long"
-[[officers]]
-    title = "<Architect>"
-    name = "Marcus Müller"
-    email = "mmueller@gnuradio.org"
-    twitter = "@dEnergy_dTime"
+
 [[officers]]
     title = ""
     name = "Nate Temple"
