@@ -104,7 +104,12 @@ menu:
 #
     - identifier: events
       name: Events
-      weight: 49
+      weight: 48
+    - identifier: events_grcon_25
+      name: GNU Radio Conference 2025
+      url: https://events.gnuradio.org/e/grcon25
+      parent: events
+      weight: 49      
     - identifier: events_grcon_24
       name: GNU Radio Conference 2024
       url: https://events.gnuradio.org/e/grcon24
