@@ -13,8 +13,9 @@ our 555 current blocks, 214 of them do not have an Example Flowgraph!
 
 Look at the [Pages with no Example
 Flowgraph](https://wiki.gnuradio.org/index.php?title=Category:Pages_with_no_Example_Flowgraph)
-the [Stub Docs](https://wiki.gnuradio.org/index.php?title=Category:Stub_Docs)
-categories for the lists.
+and the [Stub
+Docs](https://wiki.gnuradio.org/index.php?title=Category:Stub_Docs) categories
+for the lists.
 
 So, we are appealing to you to help supply those flowgraphs. There are three sources which come to mind:
 
