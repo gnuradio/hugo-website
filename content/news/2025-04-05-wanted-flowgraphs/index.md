@@ -11,7 +11,7 @@ pages](https://wiki.gnuradio.org/index.php?title=Category:Block_Docs) is having
 an Example Flowgraph to show how that block can be used. In a recent review of
 our 555 current blocks, 214 of them do not have an Example Flowgraph!
 
-We've written a [guide on *How to Add an Example Flowgraph*], and would appreciate if you could try it out!
+We've written a [guide on *How to Add an Example Flowgraph*](https://wiki.gnuradio.org/index.php?title=How_to_Add_an_Example_Flowgraph_to_a_Block_Doc), and would appreciate if you could try it out!
 
 Look at the [Pages with no Example
 Flowgraph](https://wiki.gnuradio.org/index.php?title=Category:Pages_with_no_Example_Flowgraph)
