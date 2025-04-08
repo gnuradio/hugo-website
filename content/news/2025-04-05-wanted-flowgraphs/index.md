@@ -11,6 +11,8 @@ pages](https://wiki.gnuradio.org/index.php?title=Category:Block_Docs) is having
 an Example Flowgraph to show how that block can be used. In a recent review of
 our 555 current blocks, 214 of them do not have an Example Flowgraph!
 
+We've written a [guide on *How to Add an Example Flowgraph*], and would appreciate if you could try it out!
+
 Look at the [Pages with no Example
 Flowgraph](https://wiki.gnuradio.org/index.php?title=Category:Pages_with_no_Example_Flowgraph)
 and the [Stub
@@ -25,4 +27,4 @@ So, we are appealing to you to help supply those flowgraphs. There are three sou
 
 If you have any questions on how you work with our documentation, you're most
 welcome to contact our documentation team on
-[#docs:gnuradio.org!](https://matrix.to/#/#docs:gnuradio.org)!
+[#docs:gnuradio.org](https://matrix.to/#/#docs:gnuradio.org)!
