@@ -6,6 +6,10 @@
         "base_url": "https://vector.im"
     },
     "org.matrix.msc3575.proxy": {
-      "url": "https://gnuradio.ems.host"
+        "url": "https://gnuradio.ems.host"
+    },
+    "org.matrix.msc2965.authentication": {
+        "account": "https://chat.gnuradio.org/account/account",
+        "issuer": "https://chat.gnuradio.org/account/"
     }
 }
