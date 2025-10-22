@@ -1,0 +1,119 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "GNU Radio",
+    "email": "board@gnuradio.org",
+    "description": "Free and Open Source software-defined radio ecosystem, allowing radio signal processing on any modern computer.",
+    "webpageUrl": {
+      "url": "https://www.gnuradio.org"
+    }
+  },
+  "projects": [
+    {
+      "guid": "gnuradio",
+      "name": "GNU Radio",
+      "description": "Software-defined radio signal processing framework, providing data marshalling, and a large library of existing blocks for signal processing steps in data flowgraphs.",
+      "webpageUrl": {
+        "url": "https://gnuradio.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/gnuradio/gnuradio",
+        "wellKnown": "https://github.com/gnuradio/gnuradio/blob/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["spdx:GPL-3.0-or-later"],
+      "tags": [
+        "data",
+        "data-science",
+        "developer-tools",
+        "development",
+        "science",
+        "scientific-computing"
+      ]
+    },
+    {
+      "guid": "volk",
+      "name": "Vector-Optimized Library of Kernels",
+      "description": "VOLK provides uniform C and C++ abstractions for hand-optimized SIMD kernels for common numerical tasks with vector data.",
+      "webpageUrl": {
+        "url": "https://www.libvolk.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/gnuradio/volk",
+        "wellKnown": "https://github.com/gnuradio/volk/blob/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["spdx:LGPL-3.0-or-later"],
+      "tags": ["data", "development", "science", "scientific-computing"]
+    },
+    {
+      "guid": "sigmf",
+      "name": "SigMF: the Signal Metadata Format",
+      "description": "SigMF is a commonly used format in which RF recordings can be interoperably exchanged.",
+      "webpageUrl": {
+        "url": "https://sigmf.org"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/sigmf/SigMF",
+        "wellKnown": "https://github.com/sigmf/SigMF/blob/.well-known/funding-manifest-urls"
+      },
+      "licenses": ["spdx:CC-BY-SA-4.0"],
+      "tags": ["data", "machine-learning", "science", "networking"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "seti-idonate",
+        "type": "payment-provider",
+        "address": "https://gift.idonate.com/seti/GNURadio",
+        "description": "Donation through the SETI Institute's infrastructure"
+      },
+      {
+        "guid": "gnuradio-bank",
+        "type": "bank",
+        "address": "board@gnuradio.org",
+        "description": "Contact the board for bank account information to use for donations"
+      },
+      {
+        "guid": "tickets",
+        "type": "other",
+        "address": "https://tickets.gnuradio.org",
+        "description": "Support GNU Radio by buying a supporter ticket for the annual GNU Radio conferences"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "single-donation",
+        "status": "active",
+        "name": "One-time donation",
+        "description": "Donate to GNU Radio!",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["seti-idonate", "gnuradio-bank"]
+      },
+      {
+        "guid": "monthly-donation",
+        "status": "active",
+        "name": "One-time donation",
+        "description": "Donate to GNU Radio on a monthly basis",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["seti-idonate"]
+      },
+      {
+        "guid": "ticket-sales",
+        "status": "active",
+        "name": "Supporter Tickets",
+        "description": "GNU Radio organizes the annual GNU Radio conference. Support GNU Radio by buying patron-level attendance tickets or by paying as much as you'd like for the live video stream",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["tickets"]
+      }
+    ],
+    "history": []
+  }
+}
