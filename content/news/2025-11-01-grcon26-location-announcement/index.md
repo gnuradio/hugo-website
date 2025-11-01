@@ -1,7 +1,7 @@
 ---
 title: "GRCon 2026 - Raleigh, NC, Sept 21-24"
 author: "GRCon26 Organizers"
-date: "2025-10-31"
+date: "2025-11-01"
 categories: ["grcon"]
 aliases: ["/news/grcon26-location-announcement"]
 banner: conference_web.svg
@@ -30,7 +30,7 @@ GRCon is where **theory meets practice**: a place to highlight real-world design
 
 Preliminary event details for participants and attendees are now available on the [**official GRCon26 website**](https://events.gnuradio.org/e/grcon26/).
 
-The **Call for Participation** will open in the spring - so start thinking about the exciting projects, research, or applications you’d like to share this year!  
+The **Call for Participation** will open in the Spring - so start thinking about the exciting projects, research, or applications you’d like to share this year!  
 
 You can also **pre-register today** at [**tickets.gnuradio.org/grcon26**](https://tickets.gnuradio.org/grcon26/) to receive important updates and announcements.
 
