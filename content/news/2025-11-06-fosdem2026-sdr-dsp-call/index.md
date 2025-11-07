@@ -23,7 +23,7 @@ We are seeking contributions discussing **free and open-source software (FOSS)**
 We also welcome presentations on **open-hardware designs** - especially those leveraging **FPGAs**, **GPUs**, or other accelerators - using FOSS tools. Demonstrations of how RF-grade oscilloscopes can function as discontinuous-stream SDR receivers are also encouraged.
 
 🗓 **Proposal deadline:** November 15, 2025  
-💻 **Submit via:** [https://pretalx.fosdem.org](https://pretalx.fosdem.org)
+💻 **Submit via:** [FOSDEM Pretalx](https://pretalx.fosdem.org/fosdem-2026/cfp)
 
 Join us in Brussels to share your work and advance the state of open SDR and DSP!
 
