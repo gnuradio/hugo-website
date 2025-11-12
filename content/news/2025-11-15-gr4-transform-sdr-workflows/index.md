@@ -93,7 +93,7 @@ A shared foundation means that models and outputs from machine-learning systems 
 GR4 extends the traditional polymorphic-type (PMT) system into a **tensor-aware, metadata-rich data model** - a natural fit for modern AI and ML workflows in **PyTorch, TensorFlow, and ONNX**.  
 
 In GR4, signal data can be represented as multidimensional tensors with defined shape, data type, and rank, while carrying associated context such as time, frequency, and other metadata.  
-This makes every dataset inherently **training- and inference-ready**, without additional preprocessing or manual annotation.  The Tensor can be used both in message passing and streaming blocks.  This facilitates matrix based Signal Processing applications like beam-forming in addition to AI.
+This makes every dataset inherently **training- and inference-ready**, without additional preprocessing or manual annotation.  The Tensor can be used both in message passing and streaming blocks.  This facilitates matrix-based Signal Processing applications like beam-forming in addition to AI.
 
 
 ---
