@@ -28,7 +28,7 @@ GRCon is where **theory meets practice**: a place to highlight real-world design
 
 ## Participate and Present
 
-Preliminary event details for participants and attendees are now available on the [**official GRCon26 website**](https://events.gnuradio.org/e/grcon26/).
+Preliminary event details for participants and attendees are now available on the [**official GRCon26 website**](https://events.gnuradio.org/e/grcon26).
 
 The **Call for Participation** will open in the Spring - so start thinking about the exciting projects, research, or applications you’d like to share this year!  
 
