@@ -1,0 +1,4 @@
+Contact: mailto:security@gnuradio.org
+Expires: 2027-01-25
+Preferred-Languages: en
+Canonical: https://gnuradio.org/.well-known/security.txt
