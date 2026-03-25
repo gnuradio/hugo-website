@@ -82,13 +82,18 @@ At the same time, the developer workflow is intentionally simple. A block can of
 For example, a simple gain block:
 
 ```cpp
-template <typename T>
-struct Multiply {
-    T k;
-    auto processOne(T in) {
-        return in * k;
-    }
-};
+template<typename T>
+  struct MultiplyConst : gr::Block<MultiplyConst<T>> {
+      PortIn<T> in;
+      PortOut<T> out;
+      T k = static_cast<T>(1);
+
+      GR_MAKE_REFLECTABLE(MultiplyConst, in, out, k);
+
+      [[nodiscard]] constexpr T processOne(T x) const noexcept {
+          return x * k;
+      }
+  };
 ```
 
 That’s it—no manual buffer management, no scheduler interaction, and no complex inheritance hierarchy. 
