@@ -10,4 +10,4 @@ aliases:
   - /grcon26
 ---
 
-GNU Radio Conference 26 Homepage moved to https://events.gnuradio.org/e/grcon26/
+GNU Radio Conference 26 Homepage moved to https://events.gnuradio.org/e/grcon26
