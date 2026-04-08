@@ -11,3 +11,11 @@
 .box-simple {
   min-height: 230px;
 }
+:link {
+  color: LinkText;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 25%, transparent);
+}
+:visited {
+  color: VisitedText;
+}

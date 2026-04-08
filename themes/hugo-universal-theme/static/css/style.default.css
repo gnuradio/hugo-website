@@ -370,7 +370,7 @@ ul.list-style-none {
 }
 .navbar ul.dropdown-menu li a {
   position: relative;
-  color: #999999;
+  color: #303030;
   font-size: 16px;
   display: block;
   -webkit-transition: all 0.2s ease-out;
@@ -1654,9 +1654,6 @@ fieldset[disabled] .btn-template-primary.active {
   color: #555555;
   font-weight: 800;
   letter-spacing: 0.08em;
-}
-.box-image-text .content p {
-  color: #999999;
 }
 .box-image-text:hover .bg {
   opacity: 0.7;
@@ -3101,7 +3098,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #555555;
+  color: #303030;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -3189,7 +3186,6 @@ body {
 }
 a {
   color: var(--primary-accent);
-  text-decoration: none;
 }
 a:hover,
 a:focus {
