@@ -25,9 +25,9 @@
                                 <p style="line-height: 1.4;">
                                     {{ range .Site.Data.leads.officers }}
                                     {{ .name }} <b>{{ .title }}</b>&nbsp;
-                                    {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/twitter_icon.png"></a>{{ end }}
-                                    {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/website_icon.webp"></a>{{ end }}
-                                    {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/email_icon.png"></a>{{ end }}
+                                    {{ if isset . "twitter"}}<a href="https://twitter.com/{{ .twitter }}" target="_blank"><img width="18" src="/twitter_icon.png" alt="twitter icon"></a>{{ end }}
+                                    {{ if isset . "website"}}<a href="{{ .website }}" target="_blank"><img width="30" src="/website_icon.webp" alt="website icon"></a>{{ end }}
+                                    {{ if isset . "email"}}<a href="mailto:{{ .email }}"><img width="25" src="/email_icon.png" alt="Email icon"></a>{{ end }}
                                     <br>
                                     {{ end }}
                                 </p>
@@ -47,15 +47,25 @@
                             </p>
                         </div>
                         <div class="grid-item">
-                            <h1>GRC</h1>
+                            <h1>Subsytem Leads</h1>
                             <div style="text-align: left;">
+                                <h2>GNU Radio Companion</h2>
                                 <p style="line-height: 1.4;">
-                                Lead:<br>
-                                Håkon Vågsether - grc@gnuradio.org<br><br>
-                                Members:<br>
-                                Derek Kozel<br>
-                                </div>
+                                    Lead:&nbsp;Håkon Vågsether
+                                    &nbsp;<a href="mailto:grc@gnuradio.org"><img width="25" src="/email_icon.png" alt="email icon" /></a>
+                                    <br>
+                                        Member:&nbsp;
+                                        Derek Kozel
                                 </p>
+                                <h2>gr-iio</h2>
+                                <p style="line-height: 1.4;">
+                                    Lead:&nbsp;Henning Paul
+                                </p>
+                                <h2>gr-uhd</h2>
+                                <p style="line-height: 1.4;">
+                                    Lead:&nbsp;Martin Braun
+                                </p>
+                            </div>
                         </div>
                         <div class="grid-item">
                             <h1>Documentation</h1>
