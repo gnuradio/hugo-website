@@ -13,6 +13,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "70:19:81:46:7b:d3:c9:76:71:b9:87:f6:ff:59:9e:b2"
+            - "SHA256:9ZsNInrnnpiA4M/b2GC1+0dhrqk2oiLOQBfLHCzvIHk"
       - run: 'mkdir -p ~/.ssh'
       - run: 'chmod 700 ~/.ssh'
       - run: 'echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts'
