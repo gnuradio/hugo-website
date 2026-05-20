@@ -11,3 +11,22 @@
 .box-simple {
   min-height: 230px;
 }
+
+a {
+    color: #ff6905;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e55f00; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b34c00;
+}
+
+a:active {
+    color: #cc5500;
+}
