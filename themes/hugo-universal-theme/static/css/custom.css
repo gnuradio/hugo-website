@@ -7,7 +7,13 @@
   max-height: 190px;
   margin: auto;
 }
+.box-image-text p {
+  text-align: justify;
+}
 
+.box-image-text h4 {
+  text-align: left;
+}
 .box-simple {
   min-height: 230px;
 }
