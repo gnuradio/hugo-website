@@ -16,6 +16,6 @@ We're proud to be able to mentor **three** students this year, which are, in alp
 
 We're very excited that we have these topics worked on - they target long-lived improvements to the ecosystem.
 
+Sadly, we could not get enough "slots" within the GSoC project to fit each of the great proposals we've gotten! We feel honored by the amount of attention GNU Radio has garnered this year!
+
 So, please do reach out [on chat](https://app.element.io/#/room/#gnuradio-community:gnuradio.org) to ask plenty about the projects! You'll find regular updates on the blogs linked above.
-
-
