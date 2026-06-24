@@ -1,5 +1,5 @@
 ---
-title: "GSoC 2026: Coding stated"
+title: "GSoC 2026: Coding started"
 date: 2026-05-26T16:02:06+02:00
 author: "Marcus Müller"
 categories: ["GSoC",]
