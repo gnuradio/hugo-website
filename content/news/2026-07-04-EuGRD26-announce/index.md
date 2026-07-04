@@ -23,6 +23,6 @@ Other topics of interest include, but are not limited to:
 *   Open-source radio ecosystems
 *   Rapid prototyping, testbeds and experimental platforms
 
-See <a href="https://gnuradiodays.sciencesconf.org/resource/page/id/8">the call for contributions</a>.
+See [the call for contributions](https://gnuradiodays.sciencesconf.org/resource/page/id/8).
 
-<img src="https://gnuradiodays.sciencesconf.org/data/header/banner_websafe.png">
+![Banner](https://gnuradiodays.sciencesconf.org/data/header/banner_websafe.png)
