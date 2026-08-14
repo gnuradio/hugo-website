@@ -144,9 +144,9 @@ menu:
       url: https://github.com/gnuradio/gnuradio
       weight: 20
       parent: community
-    - identifier: gsoc
-      name: "GSoC '24"
-      url: /gsoc/
+    - identifier: CoC
+      name: Code Of Conduct
+      url: /CoC/
       weight: 90
       parent: community
 #
