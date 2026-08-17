@@ -8,7 +8,7 @@ banner: "GR4-logo-embedded.svg"
 
 **GNU Radio 4.0 RC1: A New Foundation for High-Performance Signal Processing**
 
-GNU Radio 4.0 has reached its first release candidate (RC1)—a major milestone that signals the transition from active development to **near-production readiness**.  See the [tag](https://github.com/fair-acc/gnuradio4/releases/tag/4.0.0-RC1) for all the details.
+GNU Radio 4.0 has reached its first release candidate (RC1)—a major milestone that signals the transition from active development to **near-production readiness**.
 
 At this stage, the core architecture is stable, the execution model is well-defined, and the API is no longer expected to undergo major breaking changes. Developers can begin building against GR4 today with confidence that their work will carry forward into the final release.
 
@@ -141,10 +141,6 @@ This makes SIMD a **first-class concern across the entire signal chain**, not ju
 
 ![SimdFFTResults](SimdFFTResults.png)
 
-Try out the new FFT blocks on your machine and see how your benchmarks compare.
-
-Reference: https://github.com/fair-acc/gnuradio4/pull/671
-
 ---
 
 ### Explicit graph lifecycle and runtime control
@@ -233,21 +229,6 @@ This aligns with GR4’s broader direction: a **cohesive signal processing envir
 There are even console plotting tools included in the designer to keep dependencies minimal!
 
 ![FilterDesign](FilterDesign.png)
-
-
-Reference: https://github.com/fair-acc/gnuradio4/pull/218
-
----
-
-### macOS and Windows support (seeking contributors)
-
-macOS ARM64 support has recently made strong progress, with builds now passing tests.  Windows has been supported for some time.
-
-To reach full production readiness, each new build platform needs a dedicated maintainer to track issues, maintain CI stability, and drive platform polish.
-
-Contributors interested in helping push macOS and Windows support forward are encouraged to get involved.
-
-Reference: https://github.com/fair-acc/gnuradio4/pull/725
 
 ---
 
@@ -346,7 +327,7 @@ Areas where contributions are especially impactful:
 - Documentation and examples  
 
 For more info:
-* Repository: https://github.com/gnuradio/gnuradio4 (synced to tagged releases from https://github.com/fair-acc/gnuradio4)
+* Repository: https://github.com/gnuradio/gnuradio4
 * Join the conversation on https://chat.gnuradio.org
 * Email us architecture@gnuradio.org with any questions or comments - tell us about your use case and results!!!
 
@@ -367,7 +348,3 @@ GNU Radio 4 represents a turning point:
 - A **foundation for building programmable, composable DSP systems**  
 
 GR4 is not just an evolution of GNU Radio—it is a rethinking of how signal processing systems are designed, optimized, and deployed.
-
-
-
-
