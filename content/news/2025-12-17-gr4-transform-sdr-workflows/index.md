@@ -112,10 +112,10 @@ GR4 development has been humming along the past year.  Recent milestones include
 
 - **Permissively Licensed Core (MIT)** - build on top of GR4 with complete freedom.  Preserve copyleft character in module contributions
 - **Custom user-defined schedulers**  
-- **Low-latency execution (< 10 µs)** across multi-block chains [PR#603](https://github.com/fair-acc/gnuradio4/pull/603)
+- **Low-latency execution (< 10 µs)** across multi-block chains
 - **Runtime message-passing API** (enabling GUIs and dynamic reconfiguration)  
-- **MIT-licensed SIMD FFT** (as fast or faster than FFTW) [PR#671](https://github.com/fair-acc/gnuradio4/pull/671)
-- **Feedback Loop Support for Cyclic Directed Graphs** [PR#654](https://github.com/fair-acc/gnuradio4/pull/654)
+- **MIT-licensed SIMD FFT** (as fast or faster than FFTW)
+- **Feedback Loop Support for Cyclic Directed Graphs**
 - **Proof-of-concepts:** Windows builds, SYCL integration for GPUs/FPGAs, ONNX ML integration, and Tensor support <-- lots of room to get involved!
 
 ---
@@ -132,9 +132,6 @@ Community contributions can have immediate impact:
 
 The best place to contribute is the [gr4-incubator](https://github.com/gnuradio/gr4-incubator) repo.  The bar is lower than pulling 
 functionality in-tree, but we hope this is a good place to collect useful blocks that can be hardened as they work their way into the officially supported repos.
-
-Another good resource is [this tutorial](https://github.com/mormj/gr4-block-tutorial).  It steps through some of the basic 
-constructs of GR4.
 
 Join the **Architecture Working Group** to follow progress and shape priorities.  
 Meetings are held most **fourth Thursdays at 12 PM ET** - details on [chat.gnuradio.org](https://chat.gnuradio.org) (#architecture) or [groups.io/g/gnuradio-scheduler](https://groups.io/g/gnuradio-scheduler) <-- join this mailing list to get updated meeting invites!
