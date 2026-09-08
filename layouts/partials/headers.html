@@ -3,6 +3,7 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{ $title_plain := .Title | markdownify | plainify }}
+{{ if and .IsHome .Site.Params.homeTitle }}{{ $title_plain = .Site.Params.homeTitle }}{{ end }}
 <title>{{ $title_plain }}</title>
 <meta name="author" content="{{ .Param "author" }}" />
 {{ $keywords := .Site.Params.defaultKeywords | default (slice "" | first 0) }}
@@ -14,14 +15,76 @@
 {{ $description_plain := default .Site.Params.defaultDescription .Description | markdownify | plainify }}
 <meta name="description" content="{{ $description_plain }}">
 
+<!-- Canonical + social cards. None of these existed before; the homepage had no
+     canonical, no OpenGraph and no Twitter card at all. -->
+<link rel="canonical" href="{{ .Permalink }}">
+{{ $og_image := absURL (default "fosphor.jpg" .Site.Params.ogImage) }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ $title_plain }}">
+<meta property="og:description" content="{{ $description_plain }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title_plain }}">
+<meta name="twitter:description" content="{{ $description_plain }}">
+<meta name="twitter:image" content="{{ $og_image }}">
+{{ with .Site.Params.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
+
+{{ if .IsHome }}
+<!-- Organization + WebSite structured data (homepage only), plus a SoftwareApplication
+     node for the browser-based editor when params.related_app is enabled. -->
+{{ $org_id := printf "%s#organization" .Site.BaseURL }}
+{{ $graph := slice
+     (dict
+       "@type" "Organization"
+       "@id" $org_id
+       "name" .Site.Title
+       "url" .Site.BaseURL
+       "logo" (absURL .Site.Params.logo)
+       "sameAs" (slice
+         "https://github.com/gnuradio"
+         "https://fosstodon.org/@gnuradio"
+         "https://twitter.com/gnuradio"
+         "https://www.linkedin.com/groups/1852751"
+         "https://www.youtube.com/c/GNURadioProject"))
+     (dict
+       "@type" "WebSite"
+       "@id" (printf "%s#website" .Site.BaseURL)
+       "name" .Site.Title
+       "url" .Site.BaseURL
+       "description" $description_plain
+       "publisher" (dict "@id" $org_id)) }}
+{{ with .Site.Params.related_app }}
+{{ if .enable }}
+{{ $graph = $graph | append (dict
+     "@type" "SoftwareApplication"
+     "@id" (printf "%s#software" .url)
+     "name" .name
+     "url" .url
+     "description" .description
+     "applicationCategory" .category
+     "operatingSystem" .operating_system
+     "browserRequirements" .browser_requirements
+     "isAccessibleForFree" true
+     "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
+     "publisher" (dict "@id" $org_id)) }}
+{{ end }}
+{{ end }}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
+
 {{ hugo.Generator }}
 
 <!-- Font -->
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
 
-<!-- Bootstrap and Font Awesome CSS -->
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+<!-- Bootstrap CSS. Font Awesome is self-hosted below (css/fontawesome-all.css, v6.2.1):
+     the use.fontawesome.com CDN sends neither CORP nor CORS headers, so it is blocked
+     outright under Cross-Origin-Embedder-Policy: require-corp. -->
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- CSS animations  -->

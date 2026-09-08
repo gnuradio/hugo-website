@@ -14,13 +14,15 @@
 
         {{ partial "nav.html" . }}
 
-        {{ partial "carousel.html" . }}
+        <h1 class="sr-only">{{ default .Site.Title .Site.Params.homeTitle }}</h1>
+
+        {{ partial "conference.html" . }}
 
         {{ partial "features.html" . }}
 
         {{ partial "testimonials.html" . }}
 
-        {{ partial "see_more.html" . }}
+        {{ partial "try_in_browser.html" . }}
 
         {{ partial "recent_posts.html" . }}
 

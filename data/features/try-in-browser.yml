@@ -1,0 +1,5 @@
+weight: 40
+name: Try in Browser
+description: Build and run GNU Radio flowgraphs online with GNU Radio World -- no install needed
+icon: fas fa-circle-play
+url: https://gnuradioworld.com/

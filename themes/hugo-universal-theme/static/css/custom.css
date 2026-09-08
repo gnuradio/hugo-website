@@ -25,3 +25,64 @@
 :visited {
   color: VisitedText;
 }
+
+/* Static conference hero -- replaces the old owl "home-carousel".
+   Mirrors the former carousel slide: cover image, dark inset vignette, white text. */
+.conference-hero {
+  position: relative;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset;
+}
+.conference-hero .container {
+  width: 100%;
+}
+.conference-hero h2,
+.conference-hero .lead {
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+.conference-hero h2 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 46px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+@media (max-width: 991px) {
+  .conference-hero h2 {
+    font-size: 36px;
+  }
+}
+
+/* The icon row sits directly above the "Try GNU Radio in your Browser" embed,
+   so collapse its trailing space: the .bar bottom padding, the .box-simple
+   bottom margin, and the 230px min-height that pads out these short boxes. */
+.bar.features-row {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.bar.features-row .box-simple {
+  min-height: 0;
+  margin-bottom: 0;
+}
+/* Below 992px the col-md-4 boxes stack, so they need spacing between them again. */
+@media (max-width: 991px) {
+  .bar.features-row .box-simple {
+    margin-bottom: 30px;
+  }
+  .bar.features-row [class*="col-"]:last-child .box-simple {
+    margin-bottom: 0;
+  }
+}
+/* News follows the embed directly -- trim its leading space to match. */
+.bar.recent-posts-row {
+  padding-top: 20px;
+}
+.bar.recent-posts-row .heading {
+  margin-bottom: 20px;
+}

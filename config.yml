@@ -9,6 +9,16 @@ disablePathToLower: true
 enableRobotsTXT: true
 assetDir: assets/
 summaryLength: 50 # for news summary
+# Cross-origin isolation for the gnuradioworld.com embed on the homepage (it needs
+# SharedArrayBuffer). Applies to `hugo server` only -- production headers are set on
+# the web server serving /www/live. Scoped to the homepage: applying COEP site-wide
+# blocks the cross-origin images used by a few news posts.
+server:
+  headers:
+    - for: /
+      values:
+        Cross-Origin-Opener-Policy: same-origin
+        Cross-Origin-Embedder-Policy: require-corp
 taxonomies:
   tag: tags
   category: categories
@@ -18,6 +28,14 @@ params:
   #  assets should never have been used for images, they go in static, according to hugo docs- The assets directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See details.
   #  looks like we already included aliasesa in the blog/news posts, just make sure they work, so old blogs urls arent broke
   copyright: '©2024 Radio project. All rights reserved.'
+  # SEO. defaultDescription was previously unset, which emitted an empty
+  # <meta name="description"> on every page of the site.
+  defaultDescription: >-
+    GNU Radio is a free and open source software development toolkit for building
+    software radios and signal processing systems. Run it on your desktop, or try
+    GNU Radio flowgraphs in your browser with GNU Radio World.
+  homeTitle: GNU Radio - Free & Open Source Software Radio
+  ogImage: fosphor.jpg # 1800x702; a purpose-built 1200x630 would be better
   date_format: January 2, 2006
   disabled_logo: false
   logo_text: GNU Radio
@@ -30,13 +48,34 @@ params:
   footer:
     recent_posts:
       enable: false
-  see_more:
+  # Static replacement for the old home carousel.
+  conference:
     enable: true
-    image: gr_web.svg
-    title: Learn how to use GNU Radio
+    title: GNU Radio Conference 2026
+    subtitle: September 21 - 24, 2026 - Raleigh, NC
+    image: conference_bg_default.jpg
+    link_url: https://events.gnuradio.org/e/grcon26
+    link_text: Conference details
+  # Horizontal icon row; entries live in data/features/
+  features:
+    enable: true
+    cols: 4
+  # Structured data only -- rendered into the homepage JSON-LD @graph, no visual output.
+  related_app:
+    enable: true
+    name: GNU Radio World
+    url: 'https://gnuradioworld.com/'
+    description: >-
+      Build and run GNU Radio flowgraphs in your browser. A GRC-style SDR editor with
+      hundreds of DSP blocks, live QT GUI plots and RTL-SDR support. Nothing to install.
+    category: DeveloperApplication
+    operating_system: Any (runs in a web browser)
+    browser_requirements: Requires a browser with WebAssembly and SharedArrayBuffer support
+  try_in_browser:
+    enable: true
+    title: Try GNU Radio in your Browser!
     subtitle:
-    link_url: https://wiki.gnuradio.org/index.php/Tutorials
-    link_text: Check out our tutorials
+    url: 'https://gnuradioworld.com/?embed=1&click_to_load=1'
   clients:
     enable: false
     # All clients are defined in their own files. You can find example items at 'exampleSite/data/clients'. For more information take a look at the README.
@@ -50,18 +89,12 @@ params:
   navbarBgColorClass: navbar-dark bg-dark
   secondarynavbarBgColorClass: navbar-dark bg-dark
   twitter: gnuradio
-  carouselHomepage:
-    enable: true
-    auto_play: true
-    slide_speed: 1000 # doesnt seem to change anything
-    pagination_speed: 1000 # animation time
   defaults:
     imgurl: imgs/fosphor.jpg
     thumbnail: imgs/gr_web.svg
 outputs:
   home:
     - html
-    - amp
   section:
     - html
     - rss
@@ -100,6 +133,11 @@ menu:
     - name: Block Documentation
       url: https://wiki.gnuradio.org/index.php?title=Category:Block_Docs
       weight: 30
+      parent: docs
+    - identifier: try_in_browser
+      name: Try in Browser
+      url: https://gnuradioworld.com/
+      weight: 40
       parent: docs
 #
     - identifier: events
