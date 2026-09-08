@@ -70,7 +70,7 @@
   min-height: 0;
   margin-bottom: 0;
 }
-/* Below 992px the col-md-4 boxes stack, so they need spacing between them again. */
+/* Below 992px the Bootstrap columns stack, so they need spacing between them again. */
 @media (max-width: 991px) {
   .bar.features-row .box-simple {
     margin-bottom: 30px;
