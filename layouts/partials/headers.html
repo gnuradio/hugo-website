@@ -25,11 +25,6 @@
 <meta property="og:description" content="{{ $description_plain }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $og_image }}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ $title_plain }}">
-<meta name="twitter:description" content="{{ $description_plain }}">
-<meta name="twitter:image" content="{{ $og_image }}">
-{{ with .Site.Params.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
 
 {{ if .IsHome }}
 <!-- Organization + WebSite structured data (homepage only), plus a SoftwareApplication

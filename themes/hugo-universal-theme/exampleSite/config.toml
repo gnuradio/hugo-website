@@ -375,12 +375,6 @@ pluralizelisttitles = false
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
     weight = 5
     name = "Email"
     url = "mailto:hello@universal.com"
