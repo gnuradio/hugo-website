@@ -1,0 +1,22 @@
+{{ if isset .Site.Params "conference" }}
+{{ if .Site.Params.conference.enable }}
+{{ $c := .Site.Params.conference }}
+<section class="conference-hero" style="background-image: url('{{ $c.image | relURL }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>{{ $c.title | markdownify }}</h2>
+                {{ with $c.subtitle }}
+                <p class="lead">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with $c.link_url }}
+                <p>
+                    <a href="{{ . }}" target="_blank" class="btn btn-template-main btn-lg">{{ default "Learn more" $c.link_text | markdownify }}</a>
+                </p>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

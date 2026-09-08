@@ -1,0 +1,31 @@
+{{ if isset .Site.Params "try_in_browser" }}
+{{ if .Site.Params.try_in_browser.enable }}
+{{ $t := .Site.Params.try_in_browser }}
+<section class="bar background-white no-mb" style="padding:0;">
+    <div class="container">
+
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="position:relative;">
+                        <iframe src="{{ $t.url }}" allow="cross-origin-isolated" style="width:100%; height:600px; border:0; display:block;" allowfullscreen title="{{ $t.title }}"></iframe>
+                        <!-- heading overlaps the top of the iframe; pointer-events:none keeps the embed clickable -->
+                        <div class="text-center" style="position:absolute; top:0; left:0; right:0; pointer-events:none; padding:45px 15px 40px;">
+                            <h2 style="margin:0; color:#fff; text-shadow:0 2px 6px rgba(0,0,0,0.8);">{{ $t.title | markdownify }}</h2>
+                            {{ with $t.subtitle }}
+                            <p class="lead" style="margin:10px 0 0; color:#fff; text-shadow:0 2px 6px rgba(0,0,0,0.8);">{{ . | markdownify }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}

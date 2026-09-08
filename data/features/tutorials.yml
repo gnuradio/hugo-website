@@ -1,0 +1,5 @@
+weight: 10
+name: Tutorials
+description: Official step-by-step tutorials, aimed at learners at all levels
+icon: fas fa-graduation-cap
+url: https://tutorials.gnuradio.org

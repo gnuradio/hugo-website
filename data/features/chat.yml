@@ -1,0 +1,5 @@
+weight: 30
+name: Chat
+description: Join the community on Matrix to ask questions and get help
+icon: fas fa-comments
+url: https://chat.gnuradio.org

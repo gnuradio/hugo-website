@@ -2,7 +2,7 @@
 {{ if .Site.Params.features.enable }}
 {{ if isset .Site.Data "features" }}
 {{ if gt (len .Site.Data.features) 0 }}
-<section class="bar background-white">
+<section class="bar background-white features-row">
     <div class="container">
         {{ $elements := default 3 .Site.Params.features.cols }}
         {{ $features := sort .Site.Data.features "weight" }}
@@ -32,7 +32,7 @@
                             {{ with $element.url }}
                             </a>
                             {{ end }}
-                            <h3>{{ $element.name | markdownify }}</h3>
+                            <h3>{{ with $element.url }}<a href="{{ . }}">{{ end }}{{ $element.name | markdownify }}{{ with $element.url }}</a>{{ end }}</h3>
                             <p>{{ $element.description | markdownify }}</p>
                         </div>
                     </div>
