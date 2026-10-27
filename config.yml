@@ -27,7 +27,7 @@ params:
   # Notes
   #  assets should never have been used for images, they go in static, according to hugo docs- The assets directory contains global resources typically passed through an asset pipeline. This includes resources such as images, CSS, Sass, JavaScript, and TypeScript. See details.
   #  looks like we already included aliasesa in the blog/news posts, just make sure they work, so old blogs urls arent broke
-  copyright: '©2024 Radio project. All rights reserved.'
+  copyright: 'Copyright LF Charities, Inc.'
   # SEO. defaultDescription was previously unset, which emitted an empty
   # <meta name="description"> on every page of the site.
   defaultDescription: >-
